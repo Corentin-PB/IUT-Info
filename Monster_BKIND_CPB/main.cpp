@@ -31,7 +31,8 @@ main(int argc, char* argv[])
     Sprite sprites;
     int niveauCourant = 1;
     Niveau n;
-    initNiveaux(n);
+    initVariables();
+    initNiveaux(n,niveauCourant);
     initRect(lectureFen,0,0,320,568);
     initBouton(boutonPlay,100,265,95,95);
     initBouton(boutonQuitter,195,345,50,50);
@@ -43,6 +44,7 @@ main(int argc, char* argv[])
     initRect(sprites.lecture_Left,0,163,41,38);
     initRect(sprites.lecture_Up,43,124,42,38);
     initRect(sprites.lecture_Down,0,124,42,37);
+    initRect(sprites.lecture_Rien,0,0,0,0);
 
     // Création de la fenêtre de jeu
     SDL_Init(SDL_INIT_EVERYTHING);
@@ -59,6 +61,7 @@ main(int argc, char* argv[])
         // Affichage de l'écran sur la fenêtre
         SDL_FillRect(screen,&screen->clip_rect,
                      SDL_MapRGB(screen->format,255,255,255));
+        initNiveaux(n,niveauCourant);
 
         Affichage(menuPrin, menuJeu, menu, screen, fondJeu, lectureFen,sprites, n, niveauCourant);
 

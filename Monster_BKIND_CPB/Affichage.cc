@@ -21,7 +21,7 @@ void Affichage(bool menuPrin, bool menuJeu, SDL_Surface *menu, SDL_Surface *scre
         switch (niveauCourant) {
         case 1:
         {
-
+            //showMonster(20,228,);
         } break;
         case 2:
         {

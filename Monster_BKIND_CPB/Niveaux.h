@@ -10,7 +10,7 @@
 
 using namespace std;
 
-void initNiveaux(Niveau &n);
+void initNiveaux(Niveau &n, int niv);
 
 /*
 ////////////////////////////////////////////////

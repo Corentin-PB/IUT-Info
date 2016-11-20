@@ -21,12 +21,10 @@ enum enumMonster {
     MORT
 };
 
-struct Bouton {
+struct Monster {
+    enumMonster typeMonster;
     int x;
     int y;
-    int w;
-    int h;
-    SDL_Rect lecture;
 };
 
 struct Sprite {
@@ -39,18 +37,23 @@ struct Sprite {
     SDL_Rect lecture_Up;
     SDL_Rect lecture_Right;
     SDL_Rect lecture_Left;
+    SDL_Rect lecture_Rien;
 };
 
-struct Monster {
-    enumMonster typeMonster;
+struct Bouton {
     int x;
     int y;
+    int w;
+    int h;
+    SDL_Rect lecture;
 };
 
 struct Obstacle {
     int x;
     int y;
 };
+
+void initVariables();
 
 struct Niveau {
     array <Monster,NB_MAX> tabMonster;

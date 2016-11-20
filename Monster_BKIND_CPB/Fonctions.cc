@@ -175,9 +175,6 @@ showObstacle(int x, int y, SDL_Surface* source,
     Monst Monster;
     Monster.x=x;
     Monster.y=y;
-    Monster.w=w;
-    Monster.h=h;
-    return m;
 }*/
 
 /*// -- Collision ----------------------

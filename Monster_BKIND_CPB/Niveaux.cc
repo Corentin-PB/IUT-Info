@@ -7,11 +7,9 @@
 
 using namespace std;
 
-void initNiveaux(Niveau &n)
+void initNiveaux(Niveau &n, int niv)
 {
     int nbNiveaux=10;
-    for (int niv = 1; niv <nbNiveaux; niv++)
-    {
         switch (niv) {
         case 1:
         {
@@ -23,5 +21,4 @@ void initNiveaux(Niveau &n)
 
         } break;
         }
-    }
 }
