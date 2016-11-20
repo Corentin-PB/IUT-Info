@@ -22,6 +22,7 @@ void applySurface(int x, int y, SDL_Surface* source, SDL_Surface* destination, S
 void showMessageScreen(string message,int x,int y,TTF_Font *font,int fontSize,SDL_Color textColor,SDL_Surface* &screen);
 void showMonster(int x, int y, SDL_Surface* source, SDL_Surface* destination, SDL_Rect* clip);
 void showObstacle(int x, int y, SDL_Surface* source, SDL_Surface* destination, SDL_Rect* clip);
+void initMonster(Monster &monster, int x, int y, enumMonster typeMonster);
 
 
 #endif // FONCTIONS_H

@@ -170,12 +170,12 @@ showObstacle(int x, int y, SDL_Surface* source,
     SDL_BlitSurface( source, clip, destination, &offset );
 }
 
-/*Monst initMonster(int a, int b, int c, int d)
+void initMonster(Monster &monster, int x, int y, enumMonster typeMonster)
 {
-    Monst Monster;
-    Monster.x=x;
-    Monster.y=y;
-}*/
+    monster.x=x;
+    monster.y=y;
+    monster.typeMonster = typeMonster;
+}
 
 /*// -- Collision ----------------------
 // Fonction permettant de gérer les collisions

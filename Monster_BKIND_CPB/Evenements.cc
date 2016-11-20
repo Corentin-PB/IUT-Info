@@ -4,7 +4,6 @@
 #include <cstdlib>
 
 #include "Evenements.h"
-#include "Structures.h"
 
 using namespace std;
 

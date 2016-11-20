@@ -53,11 +53,11 @@ struct Obstacle {
     int y;
 };
 
-void initVariables();
-
 struct Niveau {
     array <Monster,NB_MAX> tabMonster;
     int nbMonsterSleep;
 };
+
+void initVariables(Niveau &n, int &niveauCourant, SDL_Rect &lectureFen, Bouton &boutonPlay, Bouton &boutonQuitter, Sprite &sprites);
 
 #endif // STRUCTURES_H
