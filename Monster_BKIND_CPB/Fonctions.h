@@ -23,6 +23,10 @@ void showMessageScreen(string message,int x,int y,TTF_Font *font,int fontSize,SD
 void showMonster(int x, int y, SDL_Surface* source, SDL_Surface* destination, SDL_Rect* clip);
 void showObstacle(int x, int y, SDL_Surface* source, SDL_Surface* destination, SDL_Rect* clip);
 void initMonster(Monster &monster, int x, int y, enumMonster typeMonster);
+void initNiveaux(Niveau &n, int niv);
+Monster initMonster(int x, int y, enumMonster typeMonster);
+bool collision(Monster b ,Monster x);
+void moveMonster(Monster &m, int &direction, Niveau n, SDL_Surface *screen, int indice);
 
 
 #endif // FONCTIONS_H

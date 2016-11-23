@@ -7,9 +7,9 @@
 
 using namespace std;
 
-void Evenements(SDL_Event &event, Bouton &boutonPlay, Bouton &boutonQuitter, bool &quit, bool &menuPrin, bool &menuJeu)
+void Evenements(SDL_Event &event, Bouton &boutonPlay, Bouton &boutonQuitter, bool &quit, bool &menuPrin, bool &menuJeu, Niveau &n, int temp1, int temp2, int &direction, SDL_Surface *screen)
 {
-// Gestion des événements
+    // Gestion des événements
     while(SDL_PollEvent(&event))
         if(event.type==SDL_QUIT)
             quit=true;
@@ -35,6 +35,51 @@ void Evenements(SDL_Event &event, Bouton &boutonPlay, Bouton &boutonQuitter, boo
             if (event.type == SDL_MOUSEBUTTONDOWN)
             {
                 quit = true;
+            }
+        }
+    }
+    if (menuJeu)
+    {
+        bool survol, bloque = false;
+        //Déplacement d'un monstre
+        if (event.type == SDL_MOUSEBUTTONDOWN)
+        {
+            for (int i = 0; i < n.nbMonster; i++)
+            {
+                if (n.tabMonster[i].typeMonster == VIVANT)
+                {
+                    if ( x >= n.tabMonster[i].x-10 && x <= n.tabMonster[i].x+62 && y >= n.tabMonster[i].y-10 && y <= n.tabMonster[i].y+64)
+                    {
+                        survol = true;
+                    } else {
+                        survol = false;
+                    }
+                    if (survol) {
+                        temp1=x;
+                        temp2=y;
+                        SDL_WaitEvent(&event);
+                        SDL_GetMouseState(&x,&y);
+                        if (x > temp1) {
+                            bloque = true;
+                            direction = 1;
+                            moveMonster(n.tabMonster[i], direction, n, screen, i);
+                        } else if (x < temp1 && !bloque) {
+                            bloque = true;
+                            direction = 3;
+                            moveMonster(n.tabMonster[i], direction, n, screen, i);
+                        }
+                        if (y > temp2 && !bloque)
+                        {
+                            bloque=true;
+                            direction = 2;
+                            moveMonster(n.tabMonster[i], direction, n, screen, i);
+                        } else if (y < temp2 && !bloque) {
+                            bloque=true;
+                            direction = 4;
+                            moveMonster(n.tabMonster[0], direction, n, screen, i);
+                        }
+                    }
+                }
             }
         }
     }

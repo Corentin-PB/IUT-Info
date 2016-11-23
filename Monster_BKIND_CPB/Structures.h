@@ -17,14 +17,22 @@ const int NB_MAX = 45;
 
 enum enumMonster {
     VIVANT,
-    DORMEUR,
-    MORT
+    DORMEUR
 };
 
 struct Monster {
     enumMonster typeMonster;
     int x;
     int y;
+    int w;
+    int h;
+};
+
+struct Obstacle {
+    int x;
+    int y;
+    int w;
+    int h;
 };
 
 struct Sprite {
@@ -48,16 +56,11 @@ struct Bouton {
     SDL_Rect lecture;
 };
 
-struct Obstacle {
-    int x;
-    int y;
-};
-
 struct Niveau {
     array <Monster,NB_MAX> tabMonster;
-    int nbMonsterSleep;
+    array <Obstacle,NB_MAX> tabObstacle;
+    int nbMonster;
+    int nbObstacle;
 };
-
-void initVariables(Niveau &n, int &niveauCourant, SDL_Rect &lectureFen, Bouton &boutonPlay, Bouton &boutonQuitter, Sprite &sprites);
 
 #endif // STRUCTURES_H

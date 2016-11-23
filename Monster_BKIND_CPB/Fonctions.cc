@@ -142,17 +142,17 @@ loadImageWithColorKey(string filename, int r, int g, int b)
             //Map the color key
             Uint32 colorkey = SDL_MapRGB( optimizedImage->format, r, g, b );
 
-             //Set all pixels of color R 0, G 0xFF, B 0xFF to be transparent
+            //Set all pixels of color R 0, G 0xFF, B 0xFF to be transparent
             SDL_SetColorKey( optimizedImage, SDL_SRCCOLORKEY, colorkey );
         }
-     }
+    }
     //Return the optimized image
     return optimizedImage;
 }
 
 void
 showMonster(int x, int y, SDL_Surface* source,
-             SDL_Surface* destination, SDL_Rect* clip)
+            SDL_Surface* destination, SDL_Rect* clip)
 {
     SDL_Rect offset;
     offset.x = x;
@@ -170,86 +170,89 @@ showObstacle(int x, int y, SDL_Surface* source,
     SDL_BlitSurface( source, clip, destination, &offset );
 }
 
-void initMonster(Monster &monster, int x, int y, enumMonster typeMonster)
-{
-    monster.x=x;
-    monster.y=y;
-    monster.typeMonster = typeMonster;
+Monster initMonster(int x, int y, enumMonster typeMonster) {
+    Monster m;
+    m.x=x;
+    m.y=y;
+    m.w=54;
+    m.h=52;
+    m.typeMonster=typeMonster;
+    return m;
 }
 
-/*// -- Collision ----------------------
-// Fonction permettant de gérer les collisions
-// de la balle et des autres objets rencontrés
-// sur le chemin de la balle (direction opposée
-// en cas de collision.
-// ----------------------------------------------
-bool
-collision(SDL_Rect b ,Objet x)
+void initNiveaux(Niveau &n, int niv)
 {
-    int leftBall, leftPx;
-    int rightBall, rightPx;
-    int topBall, topPx;
-    int bottomBall, bottomPx;
-
-    leftBall = b.x;
-    rightBall = b.x + b.w;
-    topBall = b.y;
-    bottomBall = b.y + b.h;
-
-    leftPx = x.x;
-    rightPx = x.x + x.w;
-    topPx = x.y;
-    bottomPx = x.y + x.h;
-
-    if(bottomBall <= topPx)
-        return false;
-    if(topBall >= bottomPx)
-        return false;
-    if(rightBall <= leftPx)
-        return false;
-    if(leftBall >= rightPx)
-        return false;
-
-    return true;
-}*/
-
-
-/*// -- moveBall ----------------------
-// Fonction permettant de définir les mouvements
-// de la balle quand elle se déplace et quand elle
-// rencontre un obstacle.
-// ----------------------------------------------
-void
-moveBall(ball &b, Objet player1, Objet player2)
-{
-    SDL_Rect tmp;
-
-    b.x+=b.mvt_x;
-
-    tmp.x=b.x-TAILLE/2;
-    tmp.y=b.y-TAILLE/2;
-    tmp.h=TAILLE;
-    tmp.w=TAILLE;
-
-    // Correction Mouvement Horizontal
-    if((b.x+TAILLE/2>SCREEN_WIDTH) || (b.x-TAILLE/2<0) || collision(tmp,player1) || collision(tmp,player2))
+    int nbNiveaux=10;
+    switch (niv) {
+    case 1:
     {
-        b.x-=b.mvt_x;
-        b.mvt_x*=-1;
-    }
-
-
-    b.y+=b.mvt_y;
-
-    tmp.x=b.x-TAILLE/2;
-    tmp.y=b.y-TAILLE/2;
-
-    // Correction Mouvement Vertical
-    if((b.y+TAILLE/2>SCREEN_HEIGHT) || (b.y-TAILLE/2<25) || collision(tmp,player1) || collision(tmp,player2))
+        n.tabMonster[0] = initMonster(75,83,VIVANT);
+        n.tabMonster[1] = initMonster(249,295,DORMEUR);
+        n.nbMonster = 2;
+    } break;
+    case 2:
     {
-        b.y-=b.mvt_y;
-        b.mvt_y*=-1;
+
+    } break;
     }
-}*/
+}
+
+void moveMonster(Monster &m, int &direction, Niveau n, SDL_Surface *screen, int indice) {
+    bool rencontre =false,rencontreBas = false, rencontreHaut = false, rencontreDroite = false, rencontreGauche = false, noMove = false;
+    while (!rencontre)
+    {
+        switch (direction)
+        {
+        case 1:
+        {
+            if (m.x != 249 && !rencontreDroite) {
+            m.x+=1;
+            } else {
+                rencontre=true;
+            }
+        } break;
+        case 2:
+        {
+            if (m.y != 454 && !rencontreBas) {
+            m.y+=1;
+            } else {
+                rencontre=true;
+            }
+        } break;
+        case 3:
+        {
+            if (m.x != 17 && !rencontreGauche) {
+            m.x-=1;
+            } else {
+                rencontre=true;
+            }
+        } break;
+        case 4:
+        {
+            if (m.y != 30 && !rencontreHaut) {
+            m.y-=1;
+            } else {
+                rencontre=true;
+            }
+        } break;
+        }
+        for (int i = 0; i < n.nbMonster; i++)
+        {
+            if (indice != i)
+            {
+                if (m.y+53 == n.tabMonster[i].y && m.x == n.tabMonster[i].x)
+                {
+                    rencontreBas=true;
+                } else if (m.y == n.tabMonster[i].y+53 && m.x == n.tabMonster[i].x) {
+                    rencontreHaut=true;
+                } else if (m.x+58 == n.tabMonster[i].x && m.y == n.tabMonster[i].y) {
+                    rencontreDroite=true;
+                } else if (m.x == n.tabMonster[i].x+58 && m.y == n.tabMonster[i].y) {
+                    rencontreGauche=true;
+                }
+            }
+        }
+    }
+}
 
 

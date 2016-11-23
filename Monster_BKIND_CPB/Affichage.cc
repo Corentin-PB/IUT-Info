@@ -21,25 +21,17 @@ void Affichage(bool menuPrin, bool menuJeu, SDL_Surface *menu, SDL_Surface *scre
         switch (niveauCourant) {
         case 1:
         {
-            //showMonster(20,228,);
+            showMonster(n.tabMonster[0].x,n.tabMonster[0].y,sprites.source,screen,&sprites.lecture_Monster);
+            showMonster(n.tabMonster[1].x,n.tabMonster[1].y,sprites.source,screen,&sprites.lecture_MonsterSleep);
         } break;
         case 2:
         {
 
         } break;
         }
-        //defaut: x20 y36
+        //defaut: x17 y30
         //x +=58
-        //y +=48
-        //
-        //-9y MonsterSleep
-        //+5x Monster
-        //-3x -16y Biblio
-        //-3x -16y Glace
-        //+4x +4y Up
-        //+4x +4y Down
-        //+4x +4y Left
-        //+4x +4y Right
+        //y +=53
     }
 }
 

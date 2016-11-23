@@ -23,15 +23,27 @@ main(int argc, char* argv[])
 {
     // INITIALITATIONS VARIABLES / FONTS / MENUS / OBJETS
     bool quit = false, menuPrin = true, menuJeu = false;
-    SDL_Event event;
     SDL_Surface *screen, *menu, *fondJeu;
+    SDL_Event event;
     SDL_Rect lectureFen;
     Bouton boutonPlay;
     Bouton boutonQuitter;
     Sprite sprites;
-    int niveauCourant;
+    int niveauCourant = 1, temp1, temp2, direction;
     Niveau n;
-    //initVariables(n, niveauCourant, lectureFen, boutonPlay, boutonQuitter, sprites);
+    initNiveaux(n,niveauCourant);
+    initRect(lectureFen,0,0,320,568);
+    initBouton(boutonPlay,100,265,95,95);
+    initBouton(boutonQuitter,195,345,50,50);
+    initRect(sprites.lecture_MonsterSleep,54,0,54,52);
+    initRect(sprites.lecture_Monster,0,52,54,52);
+    initRect(sprites.lecture_Biblio,54,52,54,52);
+    initRect(sprites.lecture_Glace,0,0,54,52);
+    initRect(sprites.lecture_Right,0,156,54,52);
+    initRect(sprites.lecture_Left,54,156,54,52);
+    initRect(sprites.lecture_Up,54,104,54,52);
+    initRect(sprites.lecture_Down,0,104,54,52);
+    initRect(sprites.lecture_Rien,0,0,0,0);
 
     // Création de la fenêtre de jeu
     SDL_Init(SDL_INIT_EVERYTHING);
@@ -48,11 +60,10 @@ main(int argc, char* argv[])
         // Affichage de l'écran sur la fenêtre
         SDL_FillRect(screen,&screen->clip_rect,
                      SDL_MapRGB(screen->format,255,255,255));
-        initNiveaux(n,niveauCourant);
 
         Affichage(menuPrin, menuJeu, menu, screen, fondJeu, lectureFen,sprites, n, niveauCourant);
 
-        Evenements(event, boutonPlay, boutonQuitter, quit, menuPrin, menuJeu);
+        Evenements(event, boutonPlay, boutonQuitter, quit, menuPrin, menuJeu, n, temp1, temp2, direction, screen);
 
         SDL_Flip(screen);
     }
