@@ -201,6 +201,23 @@ void moveMonster(Monster &m, int &direction, Niveau n, SDL_Surface *screen, int 
     bool rencontre =false,rencontreBas = false, rencontreHaut = false, rencontreDroite = false, rencontreGauche = false, noMove = false;
     while (!rencontre)
     {
+        for (int i = 0; i < n.nbMonster; i++)
+        {
+            if (indice != i)
+            {
+                if (m.y+53 == n.tabMonster[i].y && m.x == n.tabMonster[i].x)
+                {
+                    rencontreBas=true;
+                } else if (m.y == n.tabMonster[i].y+53 && m.x == n.tabMonster[i].x) {
+                    rencontreHaut=true;
+                } else if (m.x+58 == n.tabMonster[i].x && m.y == n.tabMonster[i].y) {
+                    rencontreDroite=true;
+                } else if (m.x == n.tabMonster[i].x+58 && m.y == n.tabMonster[i].y) {
+                    rencontreGauche=true;
+                }
+            }
+        }
+
         switch (direction)
         {
         case 1:
@@ -235,22 +252,6 @@ void moveMonster(Monster &m, int &direction, Niveau n, SDL_Surface *screen, int 
                 rencontre=true;
             }
         } break;
-        }
-        for (int i = 0; i < n.nbMonster; i++)
-        {
-            if (indice != i)
-            {
-                if (m.y+53 == n.tabMonster[i].y && m.x == n.tabMonster[i].x)
-                {
-                    rencontreBas=true;
-                } else if (m.y == n.tabMonster[i].y+53 && m.x == n.tabMonster[i].x) {
-                    rencontreHaut=true;
-                } else if (m.x+58 == n.tabMonster[i].x && m.y == n.tabMonster[i].y) {
-                    rencontreDroite=true;
-                } else if (m.x == n.tabMonster[i].x+58 && m.y == n.tabMonster[i].y) {
-                    rencontreGauche=true;
-                }
-            }
         }
     }
 }
