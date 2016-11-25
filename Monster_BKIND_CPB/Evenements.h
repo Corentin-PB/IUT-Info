@@ -10,6 +10,6 @@
 
 using namespace std;
 
-void Evenements(SDL_Event &event, Bouton &boutonPlay, Bouton &boutonQuitter, bool &quit, bool &menuPrin, bool &menuJeu, Niveau &n, int temp1, int temp2, int &direction, SDL_Surface *screen);
+void Evenements(SDL_Event &event, Bouton &boutonPlay, Bouton &boutonQuitter, bool &quit, bool &menuPrin, bool &menuJeu, Niveau &n, int &direction, SDL_Surface *screen);
 
 #endif // EVENEMENTS_H

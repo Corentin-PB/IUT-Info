@@ -7,7 +7,7 @@
 
 using namespace std;
 
-void Evenements(SDL_Event &event, Bouton &boutonPlay, Bouton &boutonQuitter, bool &quit, bool &menuPrin, bool &menuJeu, Niveau &n, int temp1, int temp2, int &direction, SDL_Surface *screen)
+void Evenements(SDL_Event &event, Bouton &boutonPlay, Bouton &boutonQuitter, bool &quit, bool &menuPrin, bool &menuJeu, Niveau &n, int &direction, SDL_Surface *screen)
 {
     // Gestion des événements
     while(SDL_PollEvent(&event))
@@ -40,41 +40,51 @@ void Evenements(SDL_Event &event, Bouton &boutonPlay, Bouton &boutonQuitter, boo
     }
     if (menuJeu)
     {
-        bool survol, bloque = false;
+        bool survol;
         Uint8 *keystates = SDL_GetKeyState( NULL );
         //Déplacement d'un monstre
         for (int i = 0; i < n.nbMonster; i++)
         {
             if (n.tabMonster[i].typeMonster == VIVANT)
             {
-                if ( x >= n.tabMonster[i].x && x <= n.tabMonster[i].x+52 && y >= n.tabMonster[i].y && y <= n.tabMonster[i].y+52)
+                if ( x >= n.tabMonster[i].x && x <= n.tabMonster[i].x+54 && y >= n.tabMonster[i].y && y <= n.tabMonster[i].y+52)
                 {
                     survol = true;
                 } else {
                     survol = false;
                 }
                 if (survol) {
-                    SDL_WaitEvent;
                     if(keystates[SDLK_RIGHT])
                     {
-                        bloque = true;
                         direction = 1;
                         moveMonster(n.tabMonster[i], direction, n, screen, i);
                     } else if(keystates[SDLK_LEFT])
                     {
-                        bloque = true;
                         direction = 3;
                         moveMonster(n.tabMonster[i], direction, n, screen, i);
                     } else if(keystates[SDLK_DOWN])
                     {
-                        bloque=true;
                         direction = 2;
                         moveMonster(n.tabMonster[i], direction, n, screen, i);
                     } else if(keystates[SDLK_UP]) {
-                        bloque=true;
                         direction = 4;
                         moveMonster(n.tabMonster[0], direction, n, screen, i);
                     }
+                }
+            }
+        }
+        for (int i = 0; i < n.nbMonster; i++)
+        {
+            for (int j = 0; j < n.nbMonster; j++)
+            {
+                if (n.tabMonster[i].x+54 == n.tabMonster[j].x) {
+                    n.tabMonster[j].typeMonster=VIVANT;
+                } else if (n.tabMonster[i].x == n.tabMonster[j].x+54) {
+                    n.tabMonster[j].typeMonster=VIVANT;
+                } else if (n.tabMonster[i].y+53 == n.tabMonster[j].y) {
+                    n.tabMonster[j].typeMonster=VIVANT;
+                } else if (n.tabMonster[i].y == n.tabMonster[j].y+53) {
+                    n.tabMonster[j].typeMonster=VIVANT;
                 }
             }
         }

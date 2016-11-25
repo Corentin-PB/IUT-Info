@@ -15,19 +15,6 @@ const int SCREEN_HEIGHT=568;
 const int SCREEN_BPP=32;
 const int NB_MAX = 45;
 
-enum enumMonster {
-    VIVANT,
-    DORMEUR
-};
-
-struct Monster {
-    enumMonster typeMonster;
-    int x;
-    int y;
-    int w;
-    int h;
-};
-
 struct Obstacle {
     int x;
     int y;
@@ -54,6 +41,21 @@ struct Bouton {
     int w;
     int h;
     SDL_Rect lecture;
+};
+
+enum enumMonster {
+    VIVANT,
+    DORMEUR,
+    MORT
+};
+
+struct Monster {
+    enumMonster typeMonster;
+    int x;
+    int y;
+    int w;
+    int h;
+
 };
 
 struct Niveau {

@@ -19,7 +19,7 @@ using namespace std;
 TTF_Font *fonts;
 
 int
-main(int argc, char* argv[])
+main()
 {
     // INITIALITATIONS VARIABLES / FONTS / MENUS / OBJETS
     bool quit = false, menuPrin = true, menuJeu = false;
@@ -29,7 +29,7 @@ main(int argc, char* argv[])
     Bouton boutonPlay;
     Bouton boutonQuitter;
     Sprite sprites;
-    int niveauCourant = 1, temp1, temp2, direction;
+    int niveauCourant = 1, direction;
     Niveau n;
     initNiveaux(n,niveauCourant);
     initRect(lectureFen,0,0,320,568);
@@ -63,7 +63,7 @@ main(int argc, char* argv[])
 
         Affichage(menuPrin, menuJeu, menu, screen, fondJeu, lectureFen,sprites, n, niveauCourant);
 
-        Evenements(event, boutonPlay, boutonQuitter, quit, menuPrin, menuJeu, n, temp1, temp2, direction, screen);
+        Evenements(event, boutonPlay, boutonQuitter, quit, menuPrin, menuJeu, n, direction, screen);
 
         SDL_Flip(screen);
     }

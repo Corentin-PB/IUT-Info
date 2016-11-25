@@ -14,15 +14,18 @@ void Affichage(bool menuPrin, bool menuJeu, SDL_Surface *menu, SDL_Surface *scre
     {
         applySurface(0,0,menu,screen,&lectureFen);
     }
-
     if (menuJeu)
     {
         applySurface(0,0,fondJeu,screen,&lectureFen);
+        SDL_Rect typeMonstre;
         switch (niveauCourant) {
         case 1:
         {
-            showMonster(n.tabMonster[0].x,n.tabMonster[0].y,sprites.source,screen,&sprites.lecture_Monster);
-            showMonster(n.tabMonster[1].x,n.tabMonster[1].y,sprites.source,screen,&sprites.lecture_MonsterSleep);
+            typeMonstre=initTypeMonstre(n.tabMonster[0],sprites);
+            showMonster(n.tabMonster[0].x,n.tabMonster[0].y,sprites.source,screen,&typeMonstre);
+            typeMonstre=initTypeMonstre(n.tabMonster[1],sprites);
+            showMonster(n.tabMonster[1].x,n.tabMonster[1].y,sprites.source,screen,&typeMonstre);
+            showObstacle(n.tabObstacle[0].x,n.tabObstacle[0].y,sprites.source,screen,&sprites.lecture_Biblio);
         } break;
         case 2:
         {

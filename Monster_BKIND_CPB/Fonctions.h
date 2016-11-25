@@ -25,6 +25,8 @@ void showObstacle(int x, int y, SDL_Surface* source, SDL_Surface* destination, S
 void initMonster(Monster &monster, int x, int y, enumMonster typeMonster);
 void initNiveaux(Niveau &n, int niv);
 Monster initMonster(int x, int y, enumMonster typeMonster);
+SDL_Rect initTypeMonstre(Monster m, Sprite sprites);
+void initObstacle (Obstacle &o, int x, int y);
 bool collision(Monster b ,Monster x);
 void moveMonster(Monster &m, int &direction, Niveau n, SDL_Surface *screen, int indice);
 

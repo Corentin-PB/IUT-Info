@@ -180,6 +180,25 @@ Monster initMonster(int x, int y, enumMonster typeMonster) {
     return m;
 }
 
+void initObstacle (Obstacle &o, int x, int y) {
+    o.x=x;
+    o.y=y;
+    o.w=54;
+    o.h=52;
+}
+
+SDL_Rect initTypeMonstre(Monster m, Sprite sprites) {
+    SDL_Rect lecture;
+    if (m.typeMonster==VIVANT) {
+        lecture=sprites.lecture_Monster;
+    } else if (m.typeMonster==DORMEUR) {
+        lecture=sprites.lecture_MonsterSleep;
+    } else if (m.typeMonster==MORT) {
+        lecture=sprites.lecture_Rien;
+    }
+    return lecture;
+}
+
 void initNiveaux(Niveau &n, int niv)
 {
     int nbNiveaux=10;
@@ -189,6 +208,8 @@ void initNiveaux(Niveau &n, int niv)
         n.tabMonster[0] = initMonster(75,83,VIVANT);
         n.tabMonster[1] = initMonster(249,295,DORMEUR);
         n.nbMonster = 2;
+        initObstacle(n.tabObstacle[0],75,348);
+        n.nbObstacle =1;
     } break;
     case 2:
     {
@@ -198,7 +219,7 @@ void initNiveaux(Niveau &n, int niv)
 }
 
 void moveMonster(Monster &m, int &direction, Niveau n, SDL_Surface *screen, int indice) {
-    bool rencontre =false,rencontreBas = false, rencontreHaut = false, rencontreDroite = false, rencontreGauche = false, noMove = false;
+    bool rencontre =false,rencontreBas = false, rencontreHaut = false, rencontreDroite = false, rencontreGauche = false;
     while (!rencontre)
     {
         for (int i = 0; i < n.nbMonster; i++)
@@ -215,6 +236,20 @@ void moveMonster(Monster &m, int &direction, Niveau n, SDL_Surface *screen, int 
                 } else if (m.x == n.tabMonster[i].x+58 && m.y == n.tabMonster[i].y) {
                     rencontreGauche=true;
                 }
+            }
+        }
+
+        for (int i = 0; i < n.nbObstacle; i++)
+        {
+            if (m.y+53 == n.tabObstacle[i].y && m.x == n.tabObstacle[i].x)
+            {
+                rencontreBas=true;
+            } else if (m.y == n.tabObstacle[i].y+53 && m.x == n.tabObstacle[i].x) {
+                rencontreHaut=true;
+            } else if (m.x+58 == n.tabObstacle[i].x && m.y == n.tabObstacle[i].y) {
+                rencontreDroite=true;
+            } else if (m.x == n.tabObstacle[i].x+58 && m.y == n.tabObstacle[i].y) {
+                rencontreGauche=true;
             }
         }
 
