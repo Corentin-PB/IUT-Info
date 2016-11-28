@@ -68,7 +68,7 @@ void Evenements(SDL_Event &event, Bouton &boutonPlay, Bouton &boutonQuitter, boo
                         moveMonster(n.tabMonster[i], direction, n, screen, i);
                     } else if(keystates[SDLK_UP]) {
                         direction = 4;
-                        moveMonster(n.tabMonster[0], direction, n, screen, i);
+                        moveMonster(n.tabMonster[i], direction, n, screen, i);
                     }
                 }
             }
