@@ -72,6 +72,7 @@ main()
     SDL_FreeSurface(screen);
     SDL_FreeSurface(menu);
     SDL_FreeSurface(fondJeu);
+    SDL_FreeSurface(sprites.source);
     SDL_Quit();
     return EXIT_SUCCESS;
 }

@@ -206,7 +206,7 @@ void initNiveaux(Niveau &n, int niv)
     case 1:
     {
         n.tabMonster[0] = initMonster(75,83,VIVANT);
-        n.tabMonster[1] = initMonster(249,295,DORMEUR);
+        n.tabMonster[1] = initMonster(17,295,DORMEUR);
         n.nbMonster = 2;
         initObstacle(n.tabObstacle[0],75,348);
         n.nbObstacle =1;
@@ -290,5 +290,4 @@ void moveMonster(Monster &m, int &direction, Niveau n, SDL_Surface *screen, int 
         }
     }
 }
-
 

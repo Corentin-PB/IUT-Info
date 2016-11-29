@@ -77,13 +77,13 @@ void Evenements(SDL_Event &event, Bouton &boutonPlay, Bouton &boutonQuitter, boo
         {
             for (int j = 0; j < n.nbMonster; j++)
             {
-                if (n.tabMonster[i].x+54 == n.tabMonster[j].x) {
+                if (n.tabMonster[i].x+58 == n.tabMonster[j].x && n.tabMonster[i].y == n.tabMonster[j].y) {
                     n.tabMonster[j].typeMonster=VIVANT;
-                } else if (n.tabMonster[i].x == n.tabMonster[j].x+54) {
+                } else if (n.tabMonster[i].x == n.tabMonster[j].x+58 && n.tabMonster[i].y == n.tabMonster[j].y) {
                     n.tabMonster[j].typeMonster=VIVANT;
-                } else if (n.tabMonster[i].y+53 == n.tabMonster[j].y) {
+                } else if (n.tabMonster[i].y+53 == n.tabMonster[j].y && n.tabMonster[i].x == n.tabMonster[j].x) {
                     n.tabMonster[j].typeMonster=VIVANT;
-                } else if (n.tabMonster[i].y == n.tabMonster[j].y+53) {
+                } else if (n.tabMonster[i].y == n.tabMonster[j].y+53 && n.tabMonster[i].x == n.tabMonster[j].x) {
                     n.tabMonster[j].typeMonster=VIVANT;
                 }
             }
