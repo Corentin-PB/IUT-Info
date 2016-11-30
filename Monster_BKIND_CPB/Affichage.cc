@@ -21,11 +21,15 @@ void Affichage(bool menuPrin, bool menuJeu, SDL_Surface *menu, SDL_Surface *scre
         switch (niveauCourant) {
         case 1:
         {
+            showObstacle(n.tabObstacle[0].x,n.tabObstacle[0].y,sprites.source,screen,&sprites.lecture_Biblio);
+            showObstacle(n.tabObstacle[1].x,n.tabObstacle[1].y,sprites.source,screen,&sprites.lecture_Glace);
+            showObstacle(n.tabObstacle[2].x,n.tabObstacle[2].y,sprites.source,screen,&sprites.lecture_Up);
             typeMonstre=initTypeMonstre(n.tabMonster[0],sprites);
             showMonster(n.tabMonster[0].x,n.tabMonster[0].y,sprites.source,screen,&typeMonstre);
             typeMonstre=initTypeMonstre(n.tabMonster[1],sprites);
             showMonster(n.tabMonster[1].x,n.tabMonster[1].y,sprites.source,screen,&typeMonstre);
-            showObstacle(n.tabObstacle[0].x,n.tabObstacle[0].y,sprites.source,screen,&sprites.lecture_Biblio);
+            typeMonstre=initTypeMonstre(n.tabMonster[2],sprites);
+            showMonster(n.tabMonster[2].x,n.tabMonster[2].y,sprites.source,screen,&typeMonstre);
         } break;
         case 2:
         {

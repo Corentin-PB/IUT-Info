@@ -40,7 +40,7 @@ void Evenements(SDL_Event &event, Bouton &boutonPlay, Bouton &boutonQuitter, boo
     }
     if (menuJeu)
     {
-        bool survol;
+        bool survol, down = false, right = false, left = false, up = false;
         Uint8 *keystates = SDL_GetKeyState( NULL );
         //Déplacement d'un monstre
         for (int i = 0; i < n.nbMonster; i++)

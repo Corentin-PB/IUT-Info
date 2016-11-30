@@ -180,11 +180,12 @@ Monster initMonster(int x, int y, enumMonster typeMonster) {
     return m;
 }
 
-void initObstacle (Obstacle &o, int x, int y) {
+void initObstacle (Obstacle &o, int x, int y, enumObstacle typeObstacle) {
     o.x=x;
     o.y=y;
     o.w=54;
     o.h=52;
+    o.typeObstacle = typeObstacle;
 }
 
 SDL_Rect initTypeMonstre(Monster m, Sprite sprites) {
@@ -207,9 +208,12 @@ void initNiveaux(Niveau &n, int niv)
     {
         n.tabMonster[0] = initMonster(75,83,VIVANT);
         n.tabMonster[1] = initMonster(17,295,DORMEUR);
-        n.nbMonster = 2;
-        initObstacle(n.tabObstacle[0],75,348);
-        n.nbObstacle =1;
+        n.tabMonster[2] = initMonster(249,295,DORMEUR);
+        n.nbMonster = 3;
+        initObstacle(n.tabObstacle[0],75,348,BIBLIO);
+        initObstacle(n.tabObstacle[1],249,30,GLACE);
+        initObstacle(n.tabObstacle[2],133,83,UP);
+        n.nbObstacle =3;
     } break;
     case 2:
     {
@@ -219,7 +223,7 @@ void initNiveaux(Niveau &n, int niv)
 }
 
 void moveMonster(Monster &m, int &direction, Niveau n, SDL_Surface *screen, int indice) {
-    bool rencontre =false,rencontreBas = false, rencontreHaut = false, rencontreDroite = false, rencontreGauche = false;
+    bool rencontre =false,rencontreBas = false, rencontreHaut = false, rencontreDroite = false, rencontreGauche = false, down = false, up = false, right = false, left = false;
     while (!rencontre)
     {
         for (int i = 0; i < n.nbMonster; i++)
@@ -241,15 +245,33 @@ void moveMonster(Monster &m, int &direction, Niveau n, SDL_Surface *screen, int 
 
         for (int i = 0; i < n.nbObstacle; i++)
         {
-            if (m.y+53 == n.tabObstacle[i].y && m.x == n.tabObstacle[i].x)
+            if (n.tabObstacle[i].typeObstacle != DOWN && n.tabObstacle[i].typeObstacle != UP && n.tabObstacle[i].typeObstacle != RIGHT && n.tabObstacle[i].typeObstacle != LEFT)
             {
-                rencontreBas=true;
-            } else if (m.y == n.tabObstacle[i].y+53 && m.x == n.tabObstacle[i].x) {
-                rencontreHaut=true;
-            } else if (m.x+58 == n.tabObstacle[i].x && m.y == n.tabObstacle[i].y) {
-                rencontreDroite=true;
-            } else if (m.x == n.tabObstacle[i].x+58 && m.y == n.tabObstacle[i].y) {
-                rencontreGauche=true;
+                if (m.y+53 == n.tabObstacle[i].y && m.x == n.tabObstacle[i].x) {
+                    rencontreBas=true;
+                } else if (m.y == n.tabObstacle[i].y+53 && m.x == n.tabObstacle[i].x) {
+                    rencontreHaut=true;
+                } else if (m.x+58 == n.tabObstacle[i].x && m.y == n.tabObstacle[i].y) {
+                    rencontreDroite=true;
+                } else if (m.x == n.tabObstacle[i].x+58 && m.y == n.tabObstacle[i].y) {
+                    rencontreGauche=true;
+                }
+            } else {
+                if (m.y == n.tabObstacle[i].y && m.x == n.tabObstacle[i].x) {
+                    if (n.tabObstacle[i].typeObstacle == DOWN) {
+                        direction = 2;
+                    } else if (n.tabObstacle[i].typeObstacle == UP) {
+                        direction = 4;
+                    } else if (n.tabObstacle[i].typeObstacle == RIGHT) {
+                        direction = 1;
+                    } else if (n.tabObstacle[i].typeObstacle == LEFT) {
+                        direction = 3;
+                    }
+                    rencontreDroite = false;
+                    rencontreGauche = false;
+                    rencontreHaut = false;
+                    rencontreBas = false;
+                }
             }
         }
 
@@ -258,7 +280,7 @@ void moveMonster(Monster &m, int &direction, Niveau n, SDL_Surface *screen, int 
         case 1:
         {
             if (m.x != 249 && !rencontreDroite) {
-            m.x+=1;
+                m.x+=1;
             } else {
                 rencontre=true;
             }

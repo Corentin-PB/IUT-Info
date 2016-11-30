@@ -15,7 +15,17 @@ const int SCREEN_HEIGHT=568;
 const int SCREEN_BPP=32;
 const int NB_MAX = 45;
 
+enum enumObstacle {
+    UP,
+    DOWN,
+    RIGHT,
+    LEFT,
+    GLACE,
+    BIBLIO
+};
+
 struct Obstacle {
+    enumObstacle typeObstacle;
     int x;
     int y;
     int w;
