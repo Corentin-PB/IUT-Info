@@ -22,16 +22,18 @@ int
 main()
 {
     // INITIALITATIONS VARIABLES / FONTS / MENUS / OBJETS
-    bool quit = false, menuPrin = true, menuJeu = false;
-    SDL_Surface *screen, *menu, *fondJeu;
+    bool quit = false, menuPrin = true, menuJeu = false, nivTermine = false, jeuTermine = false;
+    SDL_Surface *screen, *menu, *fondJeu, *nivTerm, *jeuTerm;
     SDL_Event event;
     SDL_Rect lectureFen;
     Bouton boutonPlay;
     Bouton boutonQuitter;
+    Bouton boutonRestart;
     Sprite sprites;
     int niveauCourant = 1, direction;
     Niveau n;
     initNiveaux(n,niveauCourant);
+    initBouton(boutonRestart,70,507,55,55);
     initRect(lectureFen,0,0,320,568);
     initBouton(boutonPlay,100,265,95,95);
     initBouton(boutonQuitter,195,345,50,50);
@@ -54,6 +56,8 @@ main()
     menu=load_image("menu.bmp");
     fondJeu=load_image("background.bmp");
     sprites.source=loadImageWithColorKey("sprite.bmp",255,255,255);
+    nivTerm=load_image("winSprite.bmp");
+    jeuTerm=load_image("winEndSprite.bmp");
 
     while(!quit)
     {
@@ -61,9 +65,9 @@ main()
         SDL_FillRect(screen,&screen->clip_rect,
                      SDL_MapRGB(screen->format,255,255,255));
 
-        Affichage(menuPrin, menuJeu, menu, screen, fondJeu, lectureFen,sprites, n, niveauCourant);
+        Affichage(quit ,menuPrin, menuJeu, menu, screen, fondJeu, nivTerm, lectureFen,sprites, n, niveauCourant, nivTermine, event, jeuTerm, jeuTermine);
 
-        Evenements(event, boutonPlay, boutonQuitter, quit, menuPrin, menuJeu, n, direction, screen);
+        Evenements(event, boutonPlay, boutonQuitter, boutonRestart, quit, menuPrin, menuJeu, n, direction, screen, nivTermine, niveauCourant, jeuTermine);
 
         SDL_Flip(screen);
     }
@@ -73,6 +77,8 @@ main()
     SDL_FreeSurface(menu);
     SDL_FreeSurface(fondJeu);
     SDL_FreeSurface(sprites.source);
+    SDL_FreeSurface(nivTerm);
+    SDL_FreeSurface(jeuTerm);
     SDL_Quit();
     return EXIT_SUCCESS;
 }

@@ -202,9 +202,18 @@ SDL_Rect initTypeMonstre(Monster m, Sprite sprites) {
 
 void initNiveaux(Niveau &n, int niv)
 {
-    int nbNiveaux=10;
+    n.nbNiveau=2;
     switch (niv) {
     case 1:
+    {
+        n.tabMonster[0] = initMonster(75,83,VIVANT);
+        n.tabMonster[1] = initMonster(17,295,DORMEUR);
+        n.tabMonster[2] = initMonster(249,295,DORMEUR);
+        n.nbMonster = 3;
+        initObstacle(n.tabObstacle[0],75,348,BIBLIO);
+        n.nbObstacle =3;
+    } break;
+    case 2:
     {
         n.tabMonster[0] = initMonster(75,83,VIVANT);
         n.tabMonster[1] = initMonster(17,295,DORMEUR);
@@ -214,10 +223,6 @@ void initNiveaux(Niveau &n, int niv)
         initObstacle(n.tabObstacle[1],249,30,GLACE);
         initObstacle(n.tabObstacle[2],133,83,UP);
         n.nbObstacle =3;
-    } break;
-    case 2:
-    {
-
     } break;
     }
 }
@@ -279,7 +284,7 @@ void moveMonster(Monster &m, int &direction, Niveau n, SDL_Surface *screen, int 
         {
         case 1:
         {
-            if (m.x != 249 && !rencontreDroite) {
+            if (m.x != 350 && !rencontreDroite) {
                 m.x+=1;
             } else {
                 rencontre=true;
@@ -287,7 +292,7 @@ void moveMonster(Monster &m, int &direction, Niveau n, SDL_Surface *screen, int 
         } break;
         case 2:
         {
-            if (m.y != 454 && !rencontreBas) {
+            if (m.y != 600 && !rencontreBas) {
             m.y+=1;
             } else {
                 rencontre=true;
@@ -295,7 +300,7 @@ void moveMonster(Monster &m, int &direction, Niveau n, SDL_Surface *screen, int 
         } break;
         case 3:
         {
-            if (m.x != 17 && !rencontreGauche) {
+            if (m.x != -60 && !rencontreGauche) {
             m.x-=1;
             } else {
                 rencontre=true;
@@ -303,7 +308,7 @@ void moveMonster(Monster &m, int &direction, Niveau n, SDL_Surface *screen, int 
         } break;
         case 4:
         {
-            if (m.y != 30 && !rencontreHaut) {
+            if (m.y != -90 && !rencontreHaut) {
             m.y-=1;
             } else {
                 rencontre=true;

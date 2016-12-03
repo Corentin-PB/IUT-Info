@@ -7,7 +7,7 @@
 
 using namespace std;
 
-void Evenements(SDL_Event &event, Bouton &boutonPlay, Bouton &boutonQuitter, bool &quit, bool &menuPrin, bool &menuJeu, Niveau &n, int &direction, SDL_Surface *screen)
+void Evenements(SDL_Event &event, Bouton &boutonPlay, Bouton &boutonQuitter, Bouton &boutonRestart, bool &quit, bool &menuPrin, bool &menuJeu, Niveau &n, int &direction, SDL_Surface *screen, bool &nivTermine,  int &niveauCourant, bool &jeuTermine)
 {
     // Gestion des événements
     while(SDL_PollEvent(&event))
@@ -87,6 +87,25 @@ void Evenements(SDL_Event &event, Bouton &boutonPlay, Bouton &boutonQuitter, boo
                     n.tabMonster[j].typeMonster=VIVANT;
                 }
             }
+        }
+        for (int i = 0; i < n.nbMonster; i++)
+        {
+            if (n.tabMonster[i].typeMonster != VIVANT)
+            {
+                nivTermine = false;
+            } else {
+                nivTermine = true;
+            }
+        }
+        if (x >= boutonRestart.x && x <= boutonRestart.x+52 && y >= boutonRestart.y && y <= boutonRestart.y+52)
+        {
+            if (event.type == SDL_MOUSEBUTTONDOWN)
+            {
+                initNiveaux(n,niveauCourant);
+            }
+        }
+        if (niveauCourant > n.nbNiveau) {
+            jeuTermine = true;
         }
     }
 }

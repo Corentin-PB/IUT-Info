@@ -73,6 +73,7 @@ struct Niveau {
     array <Obstacle,NB_MAX> tabObstacle;
     int nbMonster;
     int nbObstacle;
+    int nbNiveau;
 };
 
 #endif // STRUCTURES_H
