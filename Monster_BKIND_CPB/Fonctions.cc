@@ -221,14 +221,14 @@ void initNiveaux(Niveau &n, int niv)
         n.nbMonster = 3;
         initObstacle(n.tabObstacle[0],75,348,BIBLIO);
         initObstacle(n.tabObstacle[1],249,30,GLACE);
-        initObstacle(n.tabObstacle[2],133,83,UP);
+        initObstacle(n.tabObstacle[2],75,30,RIGHT);
         n.nbObstacle =3;
     } break;
     }
 }
 
-void moveMonster(Monster &m, int &direction, Niveau n, SDL_Surface *screen, int indice) {
-    bool rencontre =false,rencontreBas = false, rencontreHaut = false, rencontreDroite = false, rencontreGauche = false, down = false, up = false, right = false, left = false;
+void moveMonster(Monster &m, int &direction, Niveau &n, SDL_Surface *screen, int indice, int &niveauCourant) {
+    bool rencontre =false,rencontreBas = false, rencontreHaut = false, rencontreDroite = false, rencontreGauche = false;
     while (!rencontre)
     {
         for (int i = 0; i < n.nbMonster; i++)
@@ -254,12 +254,32 @@ void moveMonster(Monster &m, int &direction, Niveau n, SDL_Surface *screen, int 
             {
                 if (m.y+53 == n.tabObstacle[i].y && m.x == n.tabObstacle[i].x) {
                     rencontreBas=true;
+                    if (n.tabObstacle[i].typeObstacle == GLACE) {
+                        n.tabObstacle[i].x=-100;
+                        n.tabObstacle[i].y=-100;
+                        SDL_Flip(screen);
+                    }
                 } else if (m.y == n.tabObstacle[i].y+53 && m.x == n.tabObstacle[i].x) {
                     rencontreHaut=true;
+                    if (n.tabObstacle[i].typeObstacle == GLACE) {
+                        n.tabObstacle[i].x=-100;
+                        n.tabObstacle[i].y=-100;
+                        SDL_Flip(screen);
+                    }
                 } else if (m.x+58 == n.tabObstacle[i].x && m.y == n.tabObstacle[i].y) {
                     rencontreDroite=true;
+                    if (n.tabObstacle[i].typeObstacle == GLACE) {
+                        n.tabObstacle[i].x=-100;
+                        n.tabObstacle[i].y=-100;
+                        SDL_Flip(screen);
+                    }
                 } else if (m.x == n.tabObstacle[i].x+58 && m.y == n.tabObstacle[i].y) {
                     rencontreGauche=true;
+                    if (n.tabObstacle[i].typeObstacle == GLACE) {
+                        n.tabObstacle[i].x=-100;
+                        n.tabObstacle[i].y=-100;
+                        SDL_Flip(screen);
+                    }
                 }
             } else {
                 if (m.y == n.tabObstacle[i].y && m.x == n.tabObstacle[i].x) {
@@ -286,6 +306,10 @@ void moveMonster(Monster &m, int &direction, Niveau n, SDL_Surface *screen, int 
         {
             if (m.x != 350 && !rencontreDroite) {
                 m.x+=1;
+                SDL_Flip(screen);
+            } else if (m.x == 350) {
+                initNiveaux(n,niveauCourant);
+                rencontre=true;
             } else {
                 rencontre=true;
             }
@@ -293,7 +317,11 @@ void moveMonster(Monster &m, int &direction, Niveau n, SDL_Surface *screen, int 
         case 2:
         {
             if (m.y != 600 && !rencontreBas) {
-            m.y+=1;
+                m.y+=1;
+                SDL_Flip(screen);
+            } else if (m.y == 600) {
+                initNiveaux(n,niveauCourant);
+                rencontre=true;
             } else {
                 rencontre=true;
             }
@@ -301,7 +329,11 @@ void moveMonster(Monster &m, int &direction, Niveau n, SDL_Surface *screen, int 
         case 3:
         {
             if (m.x != -60 && !rencontreGauche) {
-            m.x-=1;
+                m.x-=1;
+                SDL_Flip(screen);
+            } else if (m.x == -60) {
+                initNiveaux(n,niveauCourant);
+                rencontre=true;
             } else {
                 rencontre=true;
             }
@@ -309,7 +341,11 @@ void moveMonster(Monster &m, int &direction, Niveau n, SDL_Surface *screen, int 
         case 4:
         {
             if (m.y != -90 && !rencontreHaut) {
-            m.y-=1;
+                m.y-=1;
+                SDL_Flip(screen);
+            } else if (m.y == -90) {
+                initNiveaux(n,niveauCourant);
+                rencontre=true;
             } else {
                 rencontre=true;
             }

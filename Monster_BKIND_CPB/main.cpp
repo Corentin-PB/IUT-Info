@@ -41,8 +41,8 @@ main()
     initRect(sprites.lecture_Monster,0,52,54,52);
     initRect(sprites.lecture_Biblio,54,52,54,52);
     initRect(sprites.lecture_Glace,0,0,54,52);
-    initRect(sprites.lecture_Right,0,156,54,52);
-    initRect(sprites.lecture_Left,54,156,54,52);
+    initRect(sprites.lecture_Right,54,156,54,52);
+    initRect(sprites.lecture_Left,0,156,54,52);
     initRect(sprites.lecture_Up,54,104,54,52);
     initRect(sprites.lecture_Down,0,104,54,52);
     initRect(sprites.lecture_Rien,0,0,0,0);

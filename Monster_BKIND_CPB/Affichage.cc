@@ -17,44 +17,26 @@ void Affichage(bool &quit, bool menuPrin, bool menuJeu, SDL_Surface *menu, SDL_S
     if (menuJeu)
     {
         if (nivTermine) {
-            bool continuer = true;
-            while (continuer)
-            {
-                if (SDL_PollEvent(&event))
-                {
-                    switch(event.type)
-                    {
-                    case SDL_KEYDOWN:
-                    {
-                        continuer = false;
-                    }
-                    }
+                if (jeuTermine) {
+
+                    applySurface(0,0,jeuTerm,screen,&lectureFen);
+                    SDL_Flip(screen);
+                    SDL_Delay(1500);
+                    SDL_FreeSurface(screen);
+                    SDL_FreeSurface(menu);
+                    SDL_FreeSurface(fondJeu);
+                    SDL_FreeSurface(sprites.source);
+                    SDL_FreeSurface(nivTerm);
+                    SDL_FreeSurface(jeuTerm);
+                    SDL_Quit();
+                } else {
+                    applySurface(0,0,nivTerm,screen,&lectureFen);
+                    SDL_Flip(screen);
+                    SDL_Delay(1000);
                 }
-                applySurface(0,0,nivTerm,screen,&lectureFen);
-                SDL_Flip(screen);
-            }
             niveauCourant++;
             initNiveaux(n,niveauCourant);
             nivTermine = false;
-        }
-        if (jeuTermine) {
-            bool continuer = true;
-            while (continuer)
-            {
-                if (SDL_PollEvent(&event))
-                {
-                    switch(event.type)
-                    {
-                    case SDL_KEYDOWN:
-                    {
-                        continuer = false;
-                    }
-                    }
-                }
-                applySurface(0,0,jeuTerm,screen,&lectureFen);
-                SDL_Flip(screen);
-            }
-            quit = true;
         }
         applySurface(0,0,fondJeu,screen,&lectureFen);
         SDL_Rect typeMonstre;
@@ -73,7 +55,7 @@ void Affichage(bool &quit, bool menuPrin, bool menuJeu, SDL_Surface *menu, SDL_S
         {
             showObstacle(n.tabObstacle[0].x,n.tabObstacle[0].y,sprites.source,screen,&sprites.lecture_Biblio);
             showObstacle(n.tabObstacle[1].x,n.tabObstacle[1].y,sprites.source,screen,&sprites.lecture_Glace);
-            showObstacle(n.tabObstacle[2].x,n.tabObstacle[2].y,sprites.source,screen,&sprites.lecture_Up);
+            showObstacle(n.tabObstacle[2].x,n.tabObstacle[2].y,sprites.source,screen,&sprites.lecture_Right);
             typeMonstre=initTypeMonstre(n.tabMonster[0],sprites);
             showMonster(n.tabMonster[0].x,n.tabMonster[0].y,sprites.source,screen,&typeMonstre);
             typeMonstre=initTypeMonstre(n.tabMonster[1],sprites);
@@ -89,4 +71,3 @@ void Affichage(bool &quit, bool menuPrin, bool menuJeu, SDL_Surface *menu, SDL_S
 }
 
 using namespace std;
-
