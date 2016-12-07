@@ -7,7 +7,7 @@
 
 using namespace std;
 
-void Evenements(SDL_Event &event, Bouton &boutonPlay, Bouton &boutonQuitter, Bouton &boutonRestart, bool &quit, bool &menuPrin, bool &menuJeu, Niveau &n, int &direction, SDL_Surface *screen, bool &nivTermine,  int &niveauCourant, bool &jeuTermine)
+void Evenements(SDL_Event &event, Bouton &boutonPlay, Bouton &boutonQuitter, Bouton &boutonRestart, bool &quit, bool &menuPrin, bool &menuJeu, Niveau &n, int &direction, SDL_Surface *screen, bool &nivTermine,  int &niveauCourant, bool &jeuTermine, Sprite sprites)
 {
     // Gestion des événements
     while(SDL_PollEvent(&event))
@@ -58,18 +58,18 @@ void Evenements(SDL_Event &event, Bouton &boutonPlay, Bouton &boutonQuitter, Bou
                     if(keystates[SDLK_RIGHT])
                     {
                         direction = 1;
-                        moveMonster(n.tabMonster[i], direction, n, screen, i, niveauCourant);
+                        moveMonster(n.tabMonster[i], direction, n, screen, i, niveauCourant, sprites);
                     } else if(keystates[SDLK_LEFT])
                     {
                         direction = 3;
-                        moveMonster(n.tabMonster[i], direction, n, screen, i, niveauCourant);
+                        moveMonster(n.tabMonster[i], direction, n, screen, i, niveauCourant, sprites);
                     } else if(keystates[SDLK_DOWN])
                     {
                         direction = 2;
-                        moveMonster(n.tabMonster[i], direction, n, screen, i, niveauCourant);
+                        moveMonster(n.tabMonster[i], direction, n, screen, i, niveauCourant, sprites);
                     } else if(keystates[SDLK_UP]) {
                         direction = 4;
-                        moveMonster(n.tabMonster[i], direction, n, screen, i, niveauCourant);
+                        moveMonster(n.tabMonster[i], direction, n, screen, i, niveauCourant, sprites);
                     }
                 }
             }

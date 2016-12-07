@@ -67,7 +67,7 @@ main()
 
         Affichage(quit ,menuPrin, menuJeu, menu, screen, fondJeu, nivTerm, lectureFen,sprites, n, niveauCourant, nivTermine, event, jeuTerm, jeuTermine);
 
-        Evenements(event, boutonPlay, boutonQuitter, boutonRestart, quit, menuPrin, menuJeu, n, direction, screen, nivTermine, niveauCourant, jeuTermine);
+        Evenements(event, boutonPlay, boutonQuitter, boutonRestart, quit, menuPrin, menuJeu, n, direction, screen, nivTermine, niveauCourant, jeuTermine, sprites);
 
         SDL_Flip(screen);
     }

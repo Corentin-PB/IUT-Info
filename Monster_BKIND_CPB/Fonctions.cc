@@ -227,7 +227,7 @@ void initNiveaux(Niveau &n, int niv)
     }
 }
 
-void moveMonster(Monster &m, int &direction, Niveau &n, SDL_Surface *screen, int indice, int &niveauCourant) {
+void moveMonster(Monster &m, int &direction, Niveau &n, SDL_Surface *screen, int indice, int &niveauCourant, Sprite sprites) {
     bool rencontre =false,rencontreBas = false, rencontreHaut = false, rencontreDroite = false, rencontreGauche = false;
     while (!rencontre)
     {
@@ -299,14 +299,19 @@ void moveMonster(Monster &m, int &direction, Niveau &n, SDL_Surface *screen, int
                 }
             }
         }
-
+        SDL_Rect typeMonstre;
+        typeMonstre=initTypeMonstre(n.tabMonster[indice],sprites);
         switch (direction)
         {
         case 1:
         {
             if (m.x != 350 && !rencontreDroite) {
-                m.x+=1;
+                n.tabMonster[indice].x+=1;
+                showMonster(n.tabMonster[indice].x,n.tabMonster[indice].y,sprites.source,screen,&typeMonstre);
                 SDL_Flip(screen);
+                SDL_Delay(2);
+                initRect(typeMonstre,0,0,0,0);
+                showMonster(n.tabMonster[indice].x,n.tabMonster[indice].y,sprites.source,screen,&typeMonstre);
             } else if (m.x == 350) {
                 initNiveaux(n,niveauCourant);
                 rencontre=true;
@@ -317,8 +322,12 @@ void moveMonster(Monster &m, int &direction, Niveau &n, SDL_Surface *screen, int
         case 2:
         {
             if (m.y != 600 && !rencontreBas) {
-                m.y+=1;
+                n.tabMonster[indice].y+=1;
+                showMonster(n.tabMonster[indice].x,n.tabMonster[indice].y,sprites.source,screen,&typeMonstre);
                 SDL_Flip(screen);
+                SDL_Delay(2);
+                initRect(typeMonstre,0,0,0,0);
+                showMonster(n.tabMonster[indice].x,n.tabMonster[indice].y,sprites.source,screen,&typeMonstre);
             } else if (m.y == 600) {
                 initNiveaux(n,niveauCourant);
                 rencontre=true;
@@ -329,8 +338,12 @@ void moveMonster(Monster &m, int &direction, Niveau &n, SDL_Surface *screen, int
         case 3:
         {
             if (m.x != -60 && !rencontreGauche) {
-                m.x-=1;
+                n.tabMonster[indice].x-=1;
+                showMonster(n.tabMonster[indice].x,n.tabMonster[indice].y,sprites.source,screen,&typeMonstre);
                 SDL_Flip(screen);
+                SDL_Delay(2);
+                initRect(typeMonstre,0,0,0,0);
+                showMonster(n.tabMonster[indice].x,n.tabMonster[indice].y,sprites.source,screen,&typeMonstre);
             } else if (m.x == -60) {
                 initNiveaux(n,niveauCourant);
                 rencontre=true;
@@ -341,8 +354,12 @@ void moveMonster(Monster &m, int &direction, Niveau &n, SDL_Surface *screen, int
         case 4:
         {
             if (m.y != -90 && !rencontreHaut) {
-                m.y-=1;
+                n.tabMonster[indice].y-=1;
+                showMonster(n.tabMonster[indice].x,n.tabMonster[indice].y,sprites.source,screen,&typeMonstre);
                 SDL_Flip(screen);
+                SDL_Delay(2);
+                initRect(typeMonstre,0,0,0,0);
+                showMonster(n.tabMonster[indice].x,n.tabMonster[indice].y,sprites.source,screen,&typeMonstre);
             } else if (m.y == -90) {
                 initNiveaux(n,niveauCourant);
                 rencontre=true;
@@ -353,4 +370,3 @@ void moveMonster(Monster &m, int &direction, Niveau &n, SDL_Surface *screen, int
         }
     }
 }
-
