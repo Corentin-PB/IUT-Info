@@ -7,22 +7,20 @@
 #include <sstream>
 #include <ctime>
 
-#include "Fonctions.h"
-#include "Structures.h"
 #include "Evenements.h"
 #include "Affichage.h"
-#include "Niveaux.h"
+#include "Initialisation.h"
 
 using namespace std;
 
 //Initialisation d'une police de caractère sans paramètres (pour le moment)
 TTF_Font *fonts;
 
-int
-main()
+int main()
 {
-    // INITIALITATIONS VARIABLES / FONTS / MENUS / OBJETS
+    // Initialisation des variables de base nécessaires au programme pour fonctionner
     bool quit = false, menuPrin = true, menuJeu = false, nivTermine = false, jeuTermine = false;
+    int niveauCourant = 1, direction;
     SDL_Surface *screen, *menu, *fondJeu, *nivTerm, *jeuTerm;
     SDL_Event event;
     SDL_Rect lectureFen;
@@ -30,22 +28,10 @@ main()
     Bouton boutonQuitter;
     Bouton boutonRestart;
     Sprite sprites;
-    int niveauCourant = 1, direction;
     Niveau n;
-    initNiveaux(n,niveauCourant);
-    initBouton(boutonRestart,70,507,55,55);
-    initRect(lectureFen,0,0,320,568);
-    initBouton(boutonPlay,100,265,95,95);
-    initBouton(boutonQuitter,195,345,50,50);
-    initRect(sprites.lecture_MonsterSleep,54,0,54,52);
-    initRect(sprites.lecture_Monster,0,52,54,52);
-    initRect(sprites.lecture_Biblio,54,52,54,52);
-    initRect(sprites.lecture_Glace,0,0,54,52);
-    initRect(sprites.lecture_Right,54,156,54,52);
-    initRect(sprites.lecture_Left,0,156,54,52);
-    initRect(sprites.lecture_Up,54,104,54,52);
-    initRect(sprites.lecture_Down,0,104,54,52);
-    initRect(sprites.lecture_Rien,0,0,0,0);
+
+    //Affecte les valeurs aux variables créées
+    initJeu(n, niveauCourant, boutonRestart, boutonPlay, boutonQuitter, lectureFen, sprites);
 
     // Création de la fenêtre de jeu
     SDL_Init(SDL_INIT_EVERYTHING);
@@ -65,14 +51,17 @@ main()
         SDL_FillRect(screen,&screen->clip_rect,
                      SDL_MapRGB(screen->format,255,255,255));
 
-        Affichage(quit ,menuPrin, menuJeu, menu, screen, fondJeu, nivTerm, lectureFen,sprites, n, niveauCourant, nivTermine, event, jeuTerm, jeuTermine);
+        // Affichage de l'ensemble des objets du programme
+        Affichage(menuPrin, menuJeu, niveauCourant, nivTermine, jeuTermine, menu, screen, fondJeu, nivTerm, lectureFen, jeuTerm, sprites, n);
 
-        Evenements(event, boutonPlay, boutonQuitter, boutonRestart, quit, menuPrin, menuJeu, n, direction, screen, nivTermine, niveauCourant, jeuTermine, sprites);
+        // Gestion de tous les événements du programme
+        Evenements(event, boutonPlay, boutonQuitter, boutonRestart, screen, n, sprites, quit, menuPrin, menuJeu, nivTermine, jeuTermine, niveauCourant, direction);
 
+        // Rafraîchissement de l'écran
         SDL_Flip(screen);
     }
 
-    // LIBERATION DES SURFACES
+    // Libération des surfaces et sortie du programme
     SDL_FreeSurface(screen);
     SDL_FreeSurface(menu);
     SDL_FreeSurface(fondJeu);

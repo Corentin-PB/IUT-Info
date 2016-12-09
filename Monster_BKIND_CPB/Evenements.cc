@@ -7,7 +7,26 @@
 
 using namespace std;
 
-void Evenements(SDL_Event &event, Bouton &boutonPlay, Bouton &boutonQuitter, Bouton &boutonRestart, bool &quit, bool &menuPrin, bool &menuJeu, Niveau &n, int &direction, SDL_Surface *screen, bool &nivTermine,  int &niveauCourant, bool &jeuTermine, Sprite sprites)
+/****************** Nom de la fonction **********************
+* Evenements                                                *
+******************** Auteur , Dates *************************
+* Nom/Date : Multiples auteurs                              *
+********************* Description ***************************
+* Gère tous les événements du programme, allant de la       *
+* souris, au clavier en passant par la vérification des     *
+* conditions de victoire du joueur ou encore le changement  *
+* d'état des monstres ou des éléments du jeu                *
+*********************** Entrées *****************************
+* Les différentes surfaces à tester, plusieurs booléens de  *
+* tests à renvoyer à d'autres fonctions et les variables    *
+* relatives aux niveaux (et bien sûr la variable event)     *
+*********************** Sorties *****************************
+* Renvoie en paramètre la variable event, les différentes   *
+* surfaces en cas de modification, les booléens de test     *
+* et les niveaux qui peuvent aussi être modifiés            *
+************************************************************/
+void Evenements(SDL_Event &event, Bouton &boutonPlay, Bouton &boutonQuitter, Bouton &boutonRestart, SDL_Surface *screen, Niveau &n, Sprite sprites,
+                bool &quit, bool &menuPrin, bool &menuJeu, bool &nivTermine, bool &jeuTermine,  int &niveauCourant, int &direction)
 {
     // Gestion des événements
     while(SDL_PollEvent(&event))
