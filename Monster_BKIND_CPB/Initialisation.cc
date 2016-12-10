@@ -148,10 +148,15 @@ SDL_Rect initTypeMonstre(Monster m, Sprite sprites) {
 *********************** Sorties *****************************
 * Renvoie le type de monstre en SDL_Rect                    *
 ************************************************************/
-void initJeu(Niveau &n, int &niveauCourant, Bouton &boutonRestart, Bouton &boutonPlay, Bouton &boutonQuitter, SDL_Rect &lectureFen, Sprite &sprites) {
+void initJeu(Niveau &n, int &niveauCourant, Bouton &boutonRestart, Bouton &boutonPlay, Bouton &boutonQuitter, Bouton &boutonParam, Bouton &boutonRetour, SDL_Rect &lectureFen, Sprite &sprites, SDL_Rect &lecturePlay, SDL_Rect &lectureParam, SDL_Rect &lectureQuitter) {
     initNiveaux(n,niveauCourant);
+    initBouton(boutonParam,60,470,40,40);
     initBouton(boutonRestart,70,507,55,55);
+    initBouton(boutonRetour,135,12,61,71);
     initRect(lectureFen,0,0,320,568);
+    initRect(lecturePlay,0,0,250,248);
+    initRect(lectureParam,0,0,105,121);
+    initRect(lectureQuitter,0,0,73,70);
     initBouton(boutonPlay,100,265,95,95);
     initBouton(boutonQuitter,195,345,50,50);
     initRect(sprites.lecture_MonsterSleep,54,0,54,52);

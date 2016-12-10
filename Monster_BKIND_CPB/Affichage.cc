@@ -244,12 +244,17 @@ showObstacle(int x, int y, SDL_Surface* source,
 * Renvoie en paramètre certains booléens modifiés et        *
 * le niveau                                                 *
 ************************************************************/
-void Affichage(bool menuPrin, bool menuJeu, int &niveauCourant, bool &nivTermine, bool jeuTermine,
-               SDL_Surface *menu, SDL_Surface *screen, SDL_Surface *fondJeu, SDL_Surface *nivTerm, SDL_Rect lectureFen, SDL_Surface *jeuTerm, Sprite sprites, Niveau &n)
+void Affichage(bool menuPrin, bool menuJeu, bool menuTuto, int &niveauCourant, bool &nivTermine, bool jeuTermine,
+               SDL_Surface *menu, SDL_Surface *screen, SDL_Surface *fondJeu, SDL_Surface *tuto, SDL_Surface *nivTerm, SDL_Rect lectureFen, SDL_Surface *jeuTerm, Sprite sprites, Niveau &n, Bouton boutonQuitter, SDL_Surface *boutonQuitterDefaut, SDL_Rect lectureQuitter)
 {
     if (menuPrin)
     {
         applySurface(0,0,menu,screen,&lectureFen);
+        applySurface(boutonQuitter.x-2,boutonQuitter.y+3,boutonQuitterDefaut,screen,&lectureQuitter);
+    }
+    if (menuTuto)
+    {
+        applySurface(0,0,tuto,screen,&lectureFen);
     }
     if (menuJeu)
     {
@@ -319,7 +324,7 @@ void Affichage(bool menuPrin, bool menuJeu, int &niveauCourant, bool &nivTermine
             showMonster(n.tabMonster[2].x,n.tabMonster[2].y,sprites.source,screen,&typeMonstre);
             typeMonstre=initTypeMonstre(n.tabMonster[3],sprites);
             showMonster(n.tabMonster[3].x,n.tabMonster[3].y,sprites.source,screen,&typeMonstre);
-            typeMonstre=initTypeMonstre(n.tabMonster[2],sprites);
+            typeMonstre=initTypeMonstre(n.tabMonster[4],sprites);
             showMonster(n.tabMonster[4].x,n.tabMonster[4].y,sprites.source,screen,&typeMonstre);
 
         } break;

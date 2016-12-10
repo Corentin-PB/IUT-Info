@@ -51,6 +51,7 @@ struct Bouton {
     int w;
     int h;
     SDL_Rect lecture;
+    SDL_Surface *source;
 };
 
 enum enumMonster {
@@ -82,6 +83,6 @@ Monster initMonster(int x, int y, enumMonster typeMonster);
 void initBouton(Bouton &b, int x, int y, int w, int h);
 void initRect(SDL_Rect &Rect, int a, int b, int c, int d);
 void initNiveaux(Niveau &n, int niv);
-void initJeu(Niveau &n, int &niveauCourant, Bouton &boutonRestart, Bouton &boutonPlay, Bouton &boutonQuitter, SDL_Rect &lectureFen, Sprite &sprites);
+void initJeu(Niveau &n, int &niveauCourant, Bouton &boutonRestart, Bouton &boutonPlay, Bouton &boutonQuitter, Bouton &boutonParam, Bouton &boutonRetour, SDL_Rect &lectureFen, Sprite &sprites, SDL_Rect &lecturePlay, SDL_Rect &lectureParam, SDL_Rect &lectureQuitter);
 
 #endif // INITIALISATION_H

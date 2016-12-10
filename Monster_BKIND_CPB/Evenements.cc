@@ -25,8 +25,8 @@ using namespace std;
 * surfaces en cas de modification, les booléens de test     *
 * et les niveaux qui peuvent aussi être modifiés            *
 ************************************************************/
-void Evenements(SDL_Event &event, Bouton &boutonPlay, Bouton &boutonQuitter, Bouton &boutonRestart, SDL_Surface *screen, Niveau &n, Sprite sprites,
-                bool &quit, bool &menuPrin, bool &menuJeu, bool &nivTermine, bool &jeuTermine,  int &niveauCourant, int &direction)
+void Evenements(SDL_Event &event, Bouton &boutonPlay, Bouton &boutonQuitter, Bouton &boutonRestart, Bouton &boutonParam, Bouton &boutonRetour, SDL_Surface *screen, Niveau &n, Sprite sprites, SDL_Rect &lecturePlay, SDL_Rect lectureQuitter, SDL_Rect lectureParam,
+                bool &quit, bool &menuPrin, bool &menuJeu, bool &menuTuto, bool &nivTermine, bool &jeuTermine,  int &niveauCourant, int &direction)
 {
     // Gestion des événements
     while(SDL_PollEvent(&event))
@@ -40,8 +40,9 @@ void Evenements(SDL_Event &event, Bouton &boutonPlay, Bouton &boutonQuitter, Bou
     if (menuPrin)
     {
         // Bouton 'Jouer'
-        if (x >= boutonPlay.x && x <= boutonPlay.x+95 && y >= boutonPlay.y && y <= boutonPlay.y+95)
+        if (x >= boutonPlay.x && x <= boutonPlay.x+110 && y >= boutonPlay.y && y <= boutonPlay.y+110)
         {
+            applySurface(boutonPlay.x-11,boutonPlay.y-13,boutonPlay.source,screen, &lecturePlay);
             if (event.type == SDL_MOUSEBUTTONDOWN)
             {
                 menuPrin = false;
@@ -49,11 +50,34 @@ void Evenements(SDL_Event &event, Bouton &boutonPlay, Bouton &boutonQuitter, Bou
             }
         }
         // Bouton 'Quitter'
-        if (x >= boutonQuitter.x && x <= boutonQuitter.x+50 && y >= boutonQuitter.y && y <= boutonQuitter.y+50)
+        if (x >= boutonQuitter.x && x <= boutonQuitter.x+70 && y >= boutonQuitter.y && y <= boutonQuitter.y+60)
         {
+            applySurface(boutonQuitter.x-2,boutonQuitter.y+3,boutonQuitter.source,screen,&lectureQuitter);
             if (event.type == SDL_MOUSEBUTTONDOWN)
             {
                 quit = true;
+            }
+        }
+        // Bouton 'Param'
+        if (x >= boutonParam.x && x <=boutonParam.x+60 && y >= boutonParam.y && y <= boutonParam.y+60)
+        {
+            applySurface(boutonParam.x,boutonParam.y,boutonParam.source,screen,&lectureParam);
+            if (event.type == SDL_MOUSEBUTTONDOWN)
+            {
+                menuTuto = true;
+                menuPrin = false;
+            }
+        }
+    }
+    if (menuTuto)
+    {
+        if (x >= boutonRetour.x && x <= boutonRetour.x+60 && y >= boutonRetour.y && y <= boutonRetour.y+60)
+        {
+            applySurface(boutonRetour.x,boutonRetour.y,boutonRetour.source,screen,&lectureParam);
+            if (event.type == SDL_MOUSEBUTTONDOWN)
+            {
+                menuTuto = false;
+                menuPrin = true;
             }
         }
     }
