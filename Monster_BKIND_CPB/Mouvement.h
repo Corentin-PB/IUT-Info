@@ -10,6 +10,6 @@
 
 using namespace std;
 
-void moveMonster(Monster &m, int &direction, Niveau &n, SDL_Surface *screen, int indice, int &niveauCourant, Sprite &sprites);
+void moveMonster(Monster &m, int &direction, Niveau &n, SDL_Surface *screen, SDL_Surface *fondJeu, int indice, int &niveauCourant, Sprite &sprites);
 
 #endif // MOUVEMENT_H

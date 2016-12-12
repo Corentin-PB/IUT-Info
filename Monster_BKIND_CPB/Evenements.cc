@@ -25,7 +25,7 @@ using namespace std;
 * surfaces en cas de modification, les booléens de test     *
 * et les niveaux qui peuvent aussi être modifiés            *
 ************************************************************/
-void Evenements(SDL_Event &event, Bouton &boutonPlay, Bouton &boutonQuitter, Bouton &boutonRestart, Bouton &boutonParam, Bouton &boutonRetour, SDL_Surface *screen, Niveau &n, Sprite sprites, SDL_Rect &lecturePlay, SDL_Rect lectureQuitter, SDL_Rect lectureParam,
+void Evenements(SDL_Event &event, Bouton &boutonPlay, Bouton &boutonQuitter, Bouton &boutonRestart, Bouton &boutonParam, Bouton &boutonRetour, SDL_Surface *screen, SDL_Surface *fondJeu, Niveau &n, Sprite sprites, SDL_Rect &lecturePlay, SDL_Rect lectureQuitter, SDL_Rect lectureParam,
                 bool &quit, bool &menuPrin, bool &menuJeu, bool &menuTuto, bool &nivTermine, bool &jeuTermine,  int &niveauCourant, int &direction)
 {
     // Gestion des événements
@@ -71,6 +71,7 @@ void Evenements(SDL_Event &event, Bouton &boutonPlay, Bouton &boutonQuitter, Bou
     }
     if (menuTuto)
     {
+        // Bouton 'Retour' (menu du tutoriel)
         if (x >= boutonRetour.x && x <= boutonRetour.x+60 && y >= boutonRetour.y && y <= boutonRetour.y+60)
         {
             applySurface(boutonRetour.x,boutonRetour.y,boutonRetour.source,screen,&lectureParam);
@@ -86,7 +87,8 @@ void Evenements(SDL_Event &event, Bouton &boutonPlay, Bouton &boutonQuitter, Bou
         bool survol, trouve = false;
         int z = 0;
         Uint8 *keystates = SDL_GetKeyState( NULL );
-        //Déplacement d'un monstre
+
+        //Déplacement d'un monstre (fait appel à la fonction présente dans le fichier Mouvement.cc tout en indiquant la direction du déplacement)
         for (int i = 0; i < n.nbMonster; i++)
         {
             if (n.tabMonster[i].typeMonster == VIVANT)
@@ -101,22 +103,24 @@ void Evenements(SDL_Event &event, Bouton &boutonPlay, Bouton &boutonQuitter, Bou
                     if(keystates[SDLK_RIGHT])
                     {
                         direction = 1;
-                        moveMonster(n.tabMonster[i], direction, n, screen, i, niveauCourant, sprites);
+                        moveMonster(n.tabMonster[i], direction, n, screen, fondJeu, i, niveauCourant, sprites);
                     } else if(keystates[SDLK_LEFT])
                     {
                         direction = 3;
-                        moveMonster(n.tabMonster[i], direction, n, screen, i, niveauCourant, sprites);
+                        moveMonster(n.tabMonster[i], direction, n, screen, fondJeu, i, niveauCourant, sprites);
                     } else if(keystates[SDLK_DOWN])
                     {
                         direction = 2;
-                        moveMonster(n.tabMonster[i], direction, n, screen, i, niveauCourant, sprites);
+                        moveMonster(n.tabMonster[i], direction, n, screen, fondJeu, i, niveauCourant, sprites);
                     } else if(keystates[SDLK_UP]) {
                         direction = 4;
-                        moveMonster(n.tabMonster[i], direction, n, screen, i, niveauCourant, sprites);
+                        moveMonster(n.tabMonster[i], direction, n, screen, fondJeu, i, niveauCourant, sprites);
                     }
                 }
             }
         }
+
+        // Met à jour le type du monstre (si un monstre dormeur rencontre un vivant)
         for (int i = 0; i < n.nbMonster; i++)
         {
             for (int j = 0; j < n.nbMonster; j++)
@@ -132,6 +136,17 @@ void Evenements(SDL_Event &event, Bouton &boutonPlay, Bouton &boutonQuitter, Bou
                 }
             }
         }
+
+        // Bouton 'Restart' (Réinitialisation du niveau)
+        if (x >= boutonRestart.x && x <= boutonRestart.x+52 && y >= boutonRestart.y && y <= boutonRestart.y+52)
+        {
+            if (event.type == SDL_MOUSEBUTTONDOWN)
+            {
+                initNiveaux(n,niveauCourant);
+            }
+        }
+
+        // Vérification du type de tout les monstres afin de vérifier si le niveau est terminé
         nivTermine = true;
         while (z < n.nbMonster && trouve == false) {
             if (n.tabMonster[z].typeMonster == DORMEUR)
@@ -141,13 +156,8 @@ void Evenements(SDL_Event &event, Bouton &boutonPlay, Bouton &boutonQuitter, Bou
             }
             z++;
         }
-        if (x >= boutonRestart.x && x <= boutonRestart.x+52 && y >= boutonRestart.y && y <= boutonRestart.y+52)
-        {
-            if (event.type == SDL_MOUSEBUTTONDOWN)
-            {
-                initNiveaux(n,niveauCourant);
-            }
-        }
+
+        // Vérification du niveau courant pour savoir si la fin du jeu est atteinte
         if (niveauCourant == n.nbNiveau) {
             jeuTermine = true;
         }

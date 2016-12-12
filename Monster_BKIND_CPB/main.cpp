@@ -64,7 +64,7 @@ int main()
         Affichage(menuPrin, menuJeu, menuTuto, niveauCourant, nivTermine, jeuTermine, menu, screen, fondJeu, tuto, nivTerm, lectureFen, jeuTerm, sprites, n, boutonQuitter, boutonQuitterDefaut, lectureQuitter);
 
         // Gestion de tous les événements du programme
-        Evenements(event, boutonPlay, boutonQuitter, boutonRestart, boutonParam, boutonRetour, screen, n, sprites, lecturePlay, lectureQuitter, lectureParam, quit, menuPrin, menuJeu, menuTuto, nivTermine, jeuTermine, niveauCourant, direction);
+        Evenements(event, boutonPlay, boutonQuitter, boutonRestart, boutonParam, boutonRetour, screen, fondJeu, n, sprites, lecturePlay, lectureQuitter, lectureParam, quit, menuPrin, menuJeu, menuTuto, nivTermine, jeuTermine, niveauCourant, direction);
 
         // Rafraîchissement de l'écran
         SDL_Flip(screen);

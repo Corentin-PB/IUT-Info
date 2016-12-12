@@ -247,20 +247,30 @@ showObstacle(int x, int y, SDL_Surface* source,
 void Affichage(bool menuPrin, bool menuJeu, bool menuTuto, int &niveauCourant, bool &nivTermine, bool jeuTermine,
                SDL_Surface *menu, SDL_Surface *screen, SDL_Surface *fondJeu, SDL_Surface *tuto, SDL_Surface *nivTerm, SDL_Rect lectureFen, SDL_Surface *jeuTerm, Sprite sprites, Niveau &n, Bouton boutonQuitter, SDL_Surface *boutonQuitterDefaut, SDL_Rect lectureQuitter)
 {
+    //Affichage du menu principal
     if (menuPrin)
     {
         applySurface(0,0,menu,screen,&lectureFen);
         applySurface(boutonQuitter.x-2,boutonQuitter.y+3,boutonQuitterDefaut,screen,&lectureQuitter);
     }
+
+    //Affichage du menu du tutoriel
     if (menuTuto)
     {
         applySurface(0,0,tuto,screen,&lectureFen);
     }
+
+//    //Affichage du menu de l'éditeur de niveau
+//    if (menuEditeur)
+//    {
+
+//    }
+
+    //Affichage du menu du jeu
     if (menuJeu)
     {
         if (nivTermine) {
             if (jeuTermine) {
-
                 applySurface(0,0,jeuTerm,screen,&lectureFen);
                 SDL_Flip(screen);
                 SDL_Delay(1500);
@@ -281,51 +291,45 @@ void Affichage(bool menuPrin, bool menuJeu, bool menuTuto, int &niveauCourant, b
             nivTermine = false;
         }
         applySurface(0,0,fondJeu,screen,&lectureFen);
+
+        // Ce SDL_Rect typeMonstre permet de mettre à jour le type du monstre (dormeur, vivant, etc...) afin que l'affichage corresponde au statut du monstre
         SDL_Rect typeMonstre;
+
+        // Affichage des monstres et obstacle en fonction du niveau
         switch (niveauCourant) {
         case 1:
         {
             showObstacle(n.tabObstacle[0].x,n.tabObstacle[0].y,sprites.source,screen,&sprites.lecture_Biblio);
-            typeMonstre=initTypeMonstre(n.tabMonster[0],sprites);
-            showMonster(n.tabMonster[0].x,n.tabMonster[0].y,sprites.source,screen,&typeMonstre);
-            typeMonstre=initTypeMonstre(n.tabMonster[1],sprites);
-            showMonster(n.tabMonster[1].x,n.tabMonster[1].y,sprites.source,screen,&typeMonstre);
-            typeMonstre=initTypeMonstre(n.tabMonster[2],sprites);
-            showMonster(n.tabMonster[2].x,n.tabMonster[2].y,sprites.source,screen,&typeMonstre);
+            for (int i = 0; i < n.nbMonster; i++) {
+                typeMonstre=initTypeMonstre(n.tabMonster[i],sprites);
+                showMonster(n.tabMonster[i].x,n.tabMonster[i].y,sprites.source,screen,&typeMonstre);
+            }
         } break;
         case 2:
         {
             showObstacle(n.tabObstacle[0].x,n.tabObstacle[0].y,sprites.source,screen,&sprites.lecture_Biblio);
             showObstacle(n.tabObstacle[1].x,n.tabObstacle[1].y,sprites.source,screen,&sprites.lecture_Biblio);
             showObstacle(n.tabObstacle[2].x,n.tabObstacle[2].y,sprites.source,screen,&sprites.lecture_Down);
-            typeMonstre=initTypeMonstre(n.tabMonster[0],sprites);
-            showMonster(n.tabMonster[0].x,n.tabMonster[0].y,sprites.source,screen,&typeMonstre);
-            typeMonstre=initTypeMonstre(n.tabMonster[1],sprites);
-            showMonster(n.tabMonster[1].x,n.tabMonster[1].y,sprites.source,screen,&typeMonstre);
-            typeMonstre=initTypeMonstre(n.tabMonster[2],sprites);
-            showMonster(n.tabMonster[2].x,n.tabMonster[2].y,sprites.source,screen,&typeMonstre);
+            for (int i = 0; i < n.nbMonster; i++) {
+                typeMonstre=initTypeMonstre(n.tabMonster[i],sprites);
+                showMonster(n.tabMonster[i].x,n.tabMonster[i].y,sprites.source,screen,&typeMonstre);
+            }
         } break;
         case 3:
         {
-            showObstacle(n.tabObstacle[4].x,n.tabObstacle[4].y,sprites.source,screen,&sprites.lecture_Glace);
+            showObstacle(n.tabObstacle[0].x,n.tabObstacle[0].y,sprites.source,screen,&sprites.lecture_Biblio);
             showObstacle(n.tabObstacle[1].x,n.tabObstacle[1].y,sprites.source,screen,&sprites.lecture_Down);
             showObstacle(n.tabObstacle[2].x,n.tabObstacle[2].y,sprites.source,screen,&sprites.lecture_Right);
             showObstacle(n.tabObstacle[3].x,n.tabObstacle[3].y,sprites.source,screen,&sprites.lecture_Up);
-            showObstacle(n.tabObstacle[0].x,n.tabObstacle[0].y,sprites.source,screen,&sprites.lecture_Biblio);
+            showObstacle(n.tabObstacle[4].x,n.tabObstacle[4].y,sprites.source,screen,&sprites.lecture_Glace);
             showObstacle(n.tabObstacle[5].x,n.tabObstacle[5].y,sprites.source,screen,&sprites.lecture_Biblio);
             showObstacle(n.tabObstacle[6].x,n.tabObstacle[6].y,sprites.source,screen,&sprites.lecture_Biblio);
             showObstacle(n.tabObstacle[7].x,n.tabObstacle[7].y,sprites.source,screen,&sprites.lecture_Biblio);
             showObstacle(n.tabObstacle[0].x,n.tabObstacle[0].y,sprites.source,screen,&sprites.lecture_Biblio);
-            typeMonstre=initTypeMonstre(n.tabMonster[0],sprites);
-            showMonster(n.tabMonster[0].x,n.tabMonster[0].y,sprites.source,screen,&typeMonstre);
-            typeMonstre=initTypeMonstre(n.tabMonster[1],sprites);
-            showMonster(n.tabMonster[1].x,n.tabMonster[1].y,sprites.source,screen,&typeMonstre);
-            typeMonstre=initTypeMonstre(n.tabMonster[2],sprites);
-            showMonster(n.tabMonster[2].x,n.tabMonster[2].y,sprites.source,screen,&typeMonstre);
-            typeMonstre=initTypeMonstre(n.tabMonster[3],sprites);
-            showMonster(n.tabMonster[3].x,n.tabMonster[3].y,sprites.source,screen,&typeMonstre);
-            typeMonstre=initTypeMonstre(n.tabMonster[4],sprites);
-            showMonster(n.tabMonster[4].x,n.tabMonster[4].y,sprites.source,screen,&typeMonstre);
+            for (int i = 0; i < n.nbMonster; i++) {
+                typeMonstre=initTypeMonstre(n.tabMonster[i],sprites);
+                showMonster(n.tabMonster[i].x,n.tabMonster[i].y,sprites.source,screen,&typeMonstre);
+            }
 
         } break;
         }

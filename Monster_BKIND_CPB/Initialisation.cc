@@ -167,5 +167,5 @@ void initJeu(Niveau &n, int &niveauCourant, Bouton &boutonRestart, Bouton &bouto
     initRect(sprites.lecture_Left,0,156,54,52);
     initRect(sprites.lecture_Up,54,104,54,52);
     initRect(sprites.lecture_Down,0,104,54,52);
-    initRect(sprites.lecture_Rien,0,208,54,262);
+    initRect(sprites.lecture_Rien,0,208,54,52);
 }
