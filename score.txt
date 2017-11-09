@@ -1,0 +1,3 @@
+Niveau 1 = 2
+Niveau 2 = 2
+Niveau 3 = 5
