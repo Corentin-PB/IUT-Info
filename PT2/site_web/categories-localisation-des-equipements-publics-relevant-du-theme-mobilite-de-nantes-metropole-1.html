@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+	<link rel="stylesheet" type="text/css" href="style.css">	
+
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	
+	<script>
+	  // declaration des cartes
+      var map;
+
+	  // la fenetre qui s'ouvre quand on passe la souris sur un point
+	  var infowindow = new google.maps.InfoWindow();
+
+	  // fonction d'initialisation
+      function initialize() {
+        var mapOptions = {
+          zoom: 6,
+          center: {lat:  46.55, lng: 2.4},
+          mapTypeId: google.maps.MapTypeId.TERRAIN
+        };
+        map = new google.maps.Map(document.getElementById('map-categorie'),
+          mapOptions);
+	    // initialisation des cartes et chargement des donnees
+	            map.data.loadGeoJson('json/localisation-des-equipements-publics-relevant-du-theme-mobilite-de-nantes-metropole-1.json');
+
+	    
+	    // fonction de style
+	    var setColorStyleFn = function(feature) {
+	      return {icon: feature.getProperty('icon')};
+	    };
+	    // style des cartes, et listener pour la fenetre qui s'ouvre quand on passe la souris sur un point
+	    map.data.setStyle(setColorStyleFn);
+	    map.data.addListener('mouseover', function(event) {
+          infowindow.setContent(event.feature.getProperty('description'));
+          infowindow.setPosition(event.latLng);
+          infowindow.setOptions({pixelOffset: new google.maps.Size(0,-34)});
+          infowindow.open(map);
+        });
+        google.maps.event.addListener(map, 'click', function() {
+          infowindow.close(); // un clic sur la carte ferme les infowindows
+        });
+	  } // end initialize
+
+      // appel de la fonction d'initialisation une fois la page chargee
+      google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+	<meta charset="UTF-8">
+  </head>
+
+  <body>
+    <h1>mobilité public</h1>
+
+	<p><a href="./index.php">Page principale</a></p>
+	
+    <h2>Carte</h2>
+    <div id="map-categorie" class="map-canvas"></div>
+
+    <h2>Liste des points</h2>
+	<table>
+      <tr><td>-1.5623381759623001</td><td>47.210870827100301</td><td>Parking Médiathèque                                                                               </td></tr>
+      <tr><td>-1.59435499316903</td><td>47.197202245403901</td><td>Gare de Nantes Chantenay                                                                            </td></tr>
+      <tr><td>-1.5449843341157199</td><td>47.216689040172902</td><td>Parking Gare Nord                                                                                   </td></tr>
+      <tr><td>-1.54205106482655</td><td>47.217491112988498</td><td>Gare de Nantes -accès nord                                                                         </td></tr>
+      <tr><td>-1.5516367391695001</td><td>47.227968476642701</td><td>Gare Fluviale Bateaux Nantais                                                                       </td></tr>
+      <tr><td>-1.55400463227177</td><td>47.216662619964303</td><td>Parking Decré-Bouffay                                                                              </td></tr>
+      <tr><td>-1.56257181621741</td><td>47.214310210506802</td><td>Parking Graslin                                                                                     </td></tr>
+      <tr><td>-1.55825001902681</td><td>47.217842894839798</td><td>Parking Tour Bretagne                                                                               </td></tr>
+      <tr><td>-1.55276077185068</td><td>47.212740250147398</td><td>Gare Routière Baco Eurolines                                                                       </td></tr>
+      <tr><td>-1.5577132196905099</td><td>47.213120285802397</td><td>Parking Commerce                                                                                    </td></tr>
+      <tr><td>-1.54155846026517</td><td>47.216448854427</td><td>Gare de Nantes -accès sud                                                                          </td></tr>
+      <tr><td>-1.5629364180805301</td><td>47.217093604857901</td><td>Parking Aristide Briand                                                                             </td></tr>
+      <tr><td>-1.5439712771668399</td><td>47.212901670902298</td><td>Parking Cité des Congrès                                                                          </td></tr>
+      <tr><td>-1.5410368284639799</td><td>47.216149635954402</td><td>Parking Gare Sud 1                                                                                  </td></tr>
+      <tr><td>-1.55835729990237</td><td>47.220255981046797</td><td>Parking Talensac                                                                                    </td></tr>
+      <tr><td>-1.5529031043792401</td><td>47.251735253868802</td><td>P+R tramway Recteur Schmitt 1                                                                       </td></tr>
+      <tr><td>-1.5739813913417799</td><td>47.205400782347702</td><td>Capitainerie du Port Atlantique Nantes Saint Nazaire                                                </td></tr>
+      <tr><td>-1.5747113547278799</td><td>47.205511114895302</td><td>Port Autonome de Nantes Saint Nazaire                                                               </td></tr>
+      <tr><td>-1.5537245980108401</td><td>47.225203577314801</td><td>Port de l'Erdre                                                                                     </td></tr>
+      <tr><td>-1.5408989995220099</td><td>47.212528607285599</td><td>Service Maritime et Navigation Ecluse Saint Félix                                                  </td></tr>
+      <tr><td>-1.6603128412802299</td><td>47.204083239044301</td><td>Gare de Basse-Indre / Saint-Herblain                                                                </td></tr>
+      <tr><td>-1.60178206983725</td><td>47.157519148192797</td><td>Aéroport Nantes Atlantique                                                                         </td></tr>
+      <tr><td>-1.6736104347138701</td><td>47.197459130930397</td><td>Bacs de Loire entre Basse-Indre et Indret                                                           </td></tr>
+      <tr><td>-1.6811035882018499</td><td>47.1380452446435</td><td>Gare de Bouaye                                                                                      </td></tr>
+      <tr><td>-1.7235993999189201</td><td>47.221944187514701</td><td>Gare de Couëron                                                                                    </td></tr>
+      <tr><td>-1.75212411426107</td><td>47.205946244377799</td><td>Bacs de Loire entre Couëron et Le Pellerin                                                         </td></tr>
+      <tr><td>-1.5493921054275499</td><td>47.193331595479002</td><td>Gare de Rezé Pont-Rousseau                                                                         </td></tr>
+      <tr><td>-1.4409638607144699</td><td>47.265120118465298</td><td>Gare de Thouaré-sur-Loire                                                                          </td></tr>
+      <tr><td>-1.38930347898703</td><td>47.293008169788898</td><td>Gare de Mauves-sur-Loire                                                                            </td></tr>
+      <tr><td>-1.4780319485592499</td><td>47.186143479464299</td><td>Gare de Vertou                                                                                      </td></tr>
+      <tr><td>-1.57837788591499</td><td>47.195577299885798</td><td>Port de Trentemoult                                                                                 </td></tr>
+      <tr><td>-1.7299592237938299</td><td>47.209125688498403</td><td>Port de Couëron                                                                                    </td></tr>
+      <tr><td>-1.62163336178234</td><td>47.2186961365515</td><td>P+R tramway Frachon                                                                                 </td></tr>
+      <tr><td>-1.5845119807914101</td><td>47.262502093615502</td><td>P+R tramway Le Cardo                                                                                </td></tr>
+      <tr><td>-1.63948414305523</td><td>47.221706200870003</td><td>P+R tramway François Mitterrand                                                                    </td></tr>
+      <tr><td>-1.5524703846475401</td><td>47.252027701738598</td><td>P+R tramway Recteur Schmitt 2                                                                       </td></tr>
+      <tr><td>-1.5266809543080699</td><td>47.2594951760586</td><td>P+R tramway La Beaujoire                                                                            </td></tr>
+      <tr><td>-1.5514394505457401</td><td>47.190033752099502</td><td>P+R tramway 8 Mai                                                                                   </td></tr>
+      <tr><td>-1.57109558940531</td><td>47.183292745883897</td><td>P+R tramway Trocardière                                                                            </td></tr>
+      <tr><td>-1.57499790750312</td><td>47.263950926010097</td><td>P+R tramway René Cassin                                                                            </td></tr>
+      <tr><td>-1.5414483988965499</td><td>47.197213293203497</td><td>P+R tramway Pirmil                                                                                  </td></tr>
+      <tr><td>-1.5410477469437001</td><td>47.196098946737401</td><td>P+R tramway Goudy                                                                                   </td></tr>
+      <tr><td>-1.4961857897961699</td><td>47.190622842092203</td><td>P+R TER Frêne Rond                                                                                 </td></tr>
+      <tr><td>-1.4791618545830101</td><td>47.186402376370502</td><td>P+R TER Gare de Vertou Nord                                                                         </td></tr>
+      <tr><td>-1.4785719721857999</td><td>47.185683019737802</td><td>P+R TER Gare de Vertou Sud                                                                          </td></tr>
+      <tr><td>-1.59344052396589</td><td>47.240532662020698</td><td>P+R tramway Plaisance                                                                               </td></tr>
+      <tr><td>-1.4958313646506001</td><td>47.190616348109501</td><td>Gare de St-Sébastien Frêne Rond                                                                   </td></tr>
+      <tr><td>-1.55843872950464</td><td>47.211179655323299</td><td>Parking Gloriette 1                                                                                 </td></tr>
+      <tr><td>-1.55198311230427</td><td>47.211057086029903</td><td>Parking Hôtel Dieu                                                                                 </td></tr>
+      <tr><td>-1.55160425745185</td><td>47.213150980027301</td><td>Parking Baco-LU 2 côté CHU                                                                        </td></tr>
+      <tr><td>-1.51299644307533</td><td>47.208229054565201</td><td>P+R TER Gare des Pas Enchantés                                                                     </td></tr>
+      <tr><td>-1.5111130635138501</td><td>47.207008774038499</td><td>Gare de St-Sébastien Pas Enchantés                                                                </td></tr>
+      <tr><td>-1.5478504496852701</td><td>47.216989960979298</td><td>Parking Château                                                                                    </td></tr>
+      <tr><td>-1.5392563112869999</td><td>47.214915340625701</td><td>Parking Gare Sud 3                                                                                  </td></tr>
+      <tr><td>-1.72363750160792</td><td>47.2217771934083</td><td>P+R TER Gare de Couëron                                                                            </td></tr>
+      <tr><td>-1.59339969648243</td><td>47.176672451111003</td><td>P+R tramway Neustrie 2                                                                              </td></tr>
+      <tr><td>-1.5777839320635501</td><td>47.195252511278902</td><td>P+R navibus Trentemoult-Roquios                                                                     </td></tr>
+      <tr><td>-1.66103809646199</td><td>47.204157974131903</td><td>P+R TER Gare de Basse-Indre Sud                                                                     </td></tr>
+      <tr><td>-1.59309648041537</td><td>47.175453234250902</td><td>P+R tramway Neustrie 1                                                                              </td></tr>
+      <tr><td>-1.4413893536783</td><td>47.264711990884798</td><td>P+R TER de Thouaré-sur_Loire                                                                       </td></tr>
+      <tr><td>-1.3889048866860001</td><td>47.293258333932897</td><td>P+R TER Gare de Mauves-sur-Loire                                                                    </td></tr>
+      <tr><td>-1.6825754365936201</td><td>47.138322368680299</td><td>P+R TER Gare de Bouaye                                                                              </td></tr>
+      <tr><td>-1.58068768637466</td><td>47.191964989509501</td><td>P+R navibus Trentemoult-Dépôt                                                                     </td></tr>
+      <tr><td>-1.60283874722482</td><td>47.2478235218625</td><td>P+R tramway Morlière Paquelais                                                                     </td></tr>
+      <tr><td>-1.6030494667625901</td><td>47.246776647706497</td><td>P+R tramway Orvault Morlière                                                                       </td></tr>
+      <tr><td>-1.5873437488368001</td><td>47.238413521397099</td><td>P+R tramway Beauséjour                                                                             </td></tr>
+      <tr><td>-1.5413433758428801</td><td>47.214234036616297</td><td>Parking Gare Sud 2                                                                                  </td></tr>
+      <tr><td>-1.54267513884661</td><td>47.215202123295597</td><td>Parking Gare Sud 2 limité 1h                                                                       </td></tr>
+      <tr><td>-1.50516017764927</td><td>47.180175295986899</td><td>P+R busway Porte de Vertou                                                                          </td></tr>
+      <tr><td>-1.5333336232472901</td><td>47.200139039269203</td><td>P+R busway Gréneraie                                                                               </td></tr>
+      <tr><td>-1.5213374773700299</td><td>47.185974212047597</td><td>P+R busway Bourdonnières 1                                                                         </td></tr>
+      <tr><td>-1.5115107556291101</td><td>47.189457522152097</td><td>P+R busway Chapeau Verni                                                                            </td></tr>
+      <tr><td>-1.5482825337663799</td><td>47.192501022904899</td><td>P+R TER Gare de Pont-Rousseau                                                                       </td></tr>
+      <tr><td>-1.5982002251551299</td><td>47.248975246611501</td><td>P+R tramway Bignon                                                                                  </td></tr>
+      <tr><td>-1.5576936925635501</td><td>47.222360416101701</td><td>Parking Bellamy                                                                                     </td></tr>
+      <tr><td>-1.5572502339924199</td><td>47.209361971599897</td><td>Parking CHU 1                                                                                       </td></tr>
+      <tr><td>-1.5510561683261099</td><td>47.220813351072103</td><td>Parking Cathédrale                                                                                 </td></tr>
+      <tr><td>-1.5106742003706599</td><td>47.185169023526299</td><td>P+R busway Maraîchers                                                                              </td></tr>
+      <tr><td>-1.5540709075493899</td><td>47.220276344270196</td><td>1 Station Abonnement Préfecture                                                                    </td></tr>
+      <tr><td>-1.55354426853678</td><td>47.218564001564502</td><td>2 Station Accueil Hôtel de Ville                                                                   </td></tr>
+      <tr><td>-1.55161756498412</td><td>47.216532854728001</td><td>3 Station Accueil Strasbourg                                                                        </td></tr>
+      <tr><td>-1.5544258471072101</td><td>47.216646871200297</td><td>4 Station Accueil Moulin                                                                            </td></tr>
+      <tr><td>-1.55677730034727</td><td>47.218838091503699</td><td>5 Station Accueil Brossard                                                                          </td></tr>
+      <tr><td>-1.5569536605999901</td><td>47.217604415335003</td><td>6 Station Abonnement Place du Cirque                                                                </td></tr>
+      <tr><td>-1.5561003799955999</td><td>47.215409629938499</td><td>7 Station Accueil Barillerie                                                                        </td></tr>
+      <tr><td>-1.55713447812337</td><td>47.216210446263098</td><td>8 Station Abonnement Boucherie                                                                      </td></tr>
+      <tr><td>-1.5590604289729999</td><td>47.215834906918303</td><td>9 Station Accueil Guépin                                                                           </td></tr>
+      <tr><td>-1.56071869453248</td><td>47.215588626949902</td><td>11 Station Accueil Calvaire                                                                         </td></tr>
+      <tr><td>-1.5639635668283201</td><td>47.215158134429899</td><td>12 Station Abonnement et Bonus Place Delorme                                                        </td></tr>
+      <tr><td>-1.55918288617231</td><td>47.216796210998801</td><td>13 Station Abonnement et Bonus Bretagne Sud                                                         </td></tr>
+      <tr><td>-1.56300550348212</td><td>47.217196287643297</td><td>15 Station Accueil Place Aristide Briand                                                            </td></tr>
+      <tr><td>-1.5634947333767499</td><td>47.219028032543299</td><td>16 Station Accueil Place Edouard Normand                                                            </td></tr>
+      <tr><td>-1.56158876841816</td><td>47.219225442241999</td><td>17 Station Accueil Sainte Elisabeth                                                                 </td></tr>
+      <tr><td>-1.56332698114374</td><td>47.221440878007201</td><td>18 Station Abonnement et Bonus Place Viarme                                                         </td></tr>
+      <tr><td>-1.55892890964265</td><td>47.219835952651998</td><td>19 Station Accueil Saint Similien                                                                   </td></tr>
+      <tr><td>-1.55724358606304</td><td>47.222911795406397</td><td>20 Station Abonnement Bellamy                                                                       </td></tr>
+      <tr><td>-1.5564947717984501</td><td>47.221154818393998</td><td>21 Station Accueil Marché de Talensac Sud                                                          </td></tr>
+      <tr><td>-1.55558297927192</td><td>47.220379047481501</td><td>22 Station Accueil Moquechien                                                                       </td></tr>
+      <tr><td>-1.54242264341268</td><td>47.2271569726</td><td>23 Station Accueil Buat                                                                             </td></tr>
+      <tr><td>-1.5537369635610001</td><td>47.224524408815199</td><td>24 Station Accueil Versailles                                                                       </td></tr>
+      <tr><td>-1.53010845738847</td><td>47.223612648875502</td><td>25 Station Abonnement Dalby                                                                         </td></tr>
+      <tr><td>-1.56926720618524</td><td>47.217940185225402</td><td>27 Station Accueil Guist'hau Nord                                                                   </td></tr>
+      <tr><td>-1.56702335731262</td><td>47.216839445305098</td><td>26 Station Abonnement et Bonus Guist'hau Sud                                                        </td></tr>
+      <tr><td>-1.56761075012927</td><td>47.214459027951101</td><td>28 Station Accueil Place de l'Edit de Nantes                                                        </td></tr>
+      <tr><td>-1.5552885084063699</td><td>47.213461578790401</td><td>29 Station Accueil Duguay Trouin                                                                    </td></tr>
+      <tr><td>-1.5573807226382199</td><td>47.213145029425597</td><td>30 Station Abonnement Commerce                                                                      </td></tr>
+      <tr><td>-1.55910527758924</td><td>47.212094380848598</td><td>31 Station Accueil Bourse                                                                           </td></tr>
+      <tr><td>-1.55027785651826</td><td>47.219342309250997</td><td>32 Station Accueil Place Foch                                                                       </td></tr>
+      <tr><td>-1.56319280951069</td><td>47.213546045638402</td><td>33 Station Accueil Racine                                                                           </td></tr>
+      <tr><td>-1.5618418449525</td><td>47.2109126549257</td><td>34 Station Abonnement Médiathèque                                                                 </td></tr>
+      <tr><td>-1.5655166609459099</td><td>47.212157257031002</td><td>35 Station Abonnement Jean V                                                                        </td></tr>
+      <tr><td>-1.5666743136651</td><td>47.210705238574</td><td>36 Station Accueil Alger                                                                            </td></tr>
+      <tr><td>-1.55688248342545</td><td>47.211472898917599</td><td>37 Station Accueil Feydeau                                                                          </td></tr>
+      <tr><td>-1.55313666650746</td><td>47.212090423456601</td><td>38 Station Abonnement Place Ricordeau                                                               </td></tr>
+      <tr><td>-1.5552484142630001</td><td>47.209365456061903</td><td>39 Station Accueil Quai Moncousu                                                                    </td></tr>
+      <tr><td>-1.5504304749082001</td><td>47.208815874651997</td><td>40 Station Accueil Madeleine                                                                        </td></tr>
+      <tr><td>-1.5697481026573099</td><td>47.2083082123361</td><td>41 Station Accueil Chantiers Navals                                                                 </td></tr>
+      <tr><td>-1.57262953237793</td><td>47.206609081175301</td><td>42 Station Abonnement Gare Maritime                                                                 </td></tr>
+      <tr><td>-1.5648258061509499</td><td>47.206930260547502</td><td>43 Station Abonnement Machines de l'Ile                                                             </td></tr>
+      <tr><td>-1.56124245373142</td><td>47.208363178205602</td><td>44 Station Accueil Palais de Justice                                                                </td></tr>
+      <tr><td>-1.55888284017234</td><td>47.204784819206203</td><td>45 Station Accueil Prairie au Duc                                                                   </td></tr>
+      <tr><td>-1.5552068436339701</td><td>47.205338010494103</td><td>46 Station Accueil Place de la République                                                          </td></tr>
+      <tr><td>-1.5481798505470601</td><td>47.207035364629</td><td>47 Station Abonnement Martyrs Nantais                                                               </td></tr>
+      <tr><td>-1.55186817651381</td><td>47.217516769715999</td><td>48 Station Abonnement Verdun                                                                        </td></tr>
+      <tr><td>-1.5470772207902801</td><td>47.2165287485861</td><td>49 Station Accueil Duchesse Anne                                                                    </td></tr>
+      <tr><td>-1.55027600234498</td><td>47.215135932323598</td><td>50 Station Abonnement Château                                                                      </td></tr>
+      <tr><td>-1.5487689375189799</td><td>47.2143388426474</td><td>52 Station Accueil Baco                                                                             </td></tr>
+      <tr><td>-1.54995935107843</td><td>47.211749426576503</td><td>53 Station Accueil Olivettes                                                                        </td></tr>
+      <tr><td>-1.54502748383111</td><td>47.213168554028499</td><td>54 Station Abonnement Cité Internationale des Congrès                                             </td></tr>
+      <tr><td>-1.5442482633924299</td><td>47.210683975483299</td><td>55 Station Accueil Magellan                                                                         </td></tr>
+      <tr><td>-1.54181497476041</td><td>47.2068622585847</td><td>56 Station Accueil Vincent Gâche                                                                   </td></tr>
+      <tr><td>-1.5376006539959499</td><td>47.205407014436602</td><td>57 Station Abonnement Gaëtan Rondeau                                                               </td></tr>
+      <tr><td>-1.53599916068622</td><td>47.2084771961567</td><td>58 Station Accueil Palais des Sports                                                                </td></tr>
+      <tr><td>-1.5397482405407401</td><td>47.213923278665398</td><td>59 Station Accueil Stade Saupin                                                                     </td></tr>
+      <tr><td>-1.54286596091712</td><td>47.2159307421474</td><td>60 Station Abonnement Gare Sud                                                                      </td></tr>
+      <tr><td>-1.5459242111778499</td><td>47.215602785014198</td><td>61 Station Accueil LU Lieu Unique                                                                   </td></tr>
+      <tr><td>-1.5422409684020899</td><td>47.218141404614201</td><td>62 Station Abonnement Gare Nord                                                                     </td></tr>
+      <tr><td>-1.54475253537978</td><td>47.219865151415298</td><td>63 Station Accueil Jardins des Plantes                                                              </td></tr>
+      <tr><td>-1.54717172480906</td><td>47.221798394807202</td><td>64 Station Abonnement et Bonus Saint Clément                                                       </td></tr>
+      <tr><td>-1.5516848391931</td><td>47.222598818465798</td><td>65 Station Accueil Cours Sully                                                                      </td></tr>
+      <tr><td>-1.54801802179078</td><td>47.2254413947716</td><td>66 Station Accueil Chanzy                                                                           </td></tr>
+      <tr><td>-1.5521661391296599</td><td>47.227786338160797</td><td>67 Station Accueil Place Waldeck Rousseau                                                           </td></tr>
+      <tr><td>-1.5452163209585501</td><td>47.224095495505097</td><td>68 Station Accueil Livet                                                                            </td></tr>
+      <tr><td>-1.5358653501978401</td><td>47.219227699299303</td><td>69 Station Accueil Manufacture                                                                      </td></tr>
+      <tr><td>-1.55906934287743</td><td>47.2219103419541</td><td>71 Station Abonnement et Bonus Marché de Talensac nord                                             </td></tr>
+      <tr><td>-1.5705071778526301</td><td>47.220883766721201</td><td>73 Station Accueil Sarradin                                                                         </td></tr>
+      <tr><td>-1.5750060819267799</td><td>47.214371684292502</td><td>74 Station Accueil Canclaux                                                                         </td></tr>
+      <tr><td>-1.5713989984012799</td><td>47.212365614394997</td><td>75 Station Accueil Lamoricière                                                                     </td></tr>
+      <tr><td>-1.57058928666779</td><td>47.209442040964099</td><td>76 Station Accueil Place René Bouhier                                                              </td></tr>
+      <tr><td>-1.5575512596696599</td><td>47.207616902001703</td><td>77 Station Accueil Ecole d'Architecture                                                             </td></tr>
+      <tr><td>-1.54056873329161</td><td>47.208460378395401</td><td>78 Station Accueil De Gaulle                                                                        </td></tr>
+      <tr><td>-1.5365201487772799</td><td>47.213203895146101</td><td>79 Station Accueil Malakoff                                                                         </td></tr>
+      <tr><td>-1.6180083496394599</td><td>47.245904569813497</td><td>P+R tramway Marcel Paul                                                                             </td></tr>
+      <tr><td>-1.57947203525665</td><td>47.181994835047902</td><td>P+R tramway Grande Ouche                                                                            </td></tr>
+      <tr><td>-1.52298286719509</td><td>47.186401501745003</td><td>P+R busway Bourdonnières 2                                                                         </td></tr>
+      <tr><td>-1.57139236049388</td><td>47.2236164437223</td><td>87 Station Accueil Anatole-France                                                                   </td></tr>
+      <tr><td>-1.5675204718229101</td><td>47.225482261833797</td><td>86 Station Accueil Hauts Pavés                                                                     </td></tr>
+      <tr><td>-1.5771267654188601</td><td>47.211489622114001</td><td>88 Station Accueil Mellinet                                                                         </td></tr>
+      <tr><td>-1.5787150966141701</td><td>47.207444063946603</td><td>89 Station Accueil Saint-Aignan                                                                     </td></tr>
+      <tr><td>-1.55156732506795</td><td>47.204014359992797</td><td>80 Station Accueil Victor Hugo                                                                      </td></tr>
+      <tr><td>-1.5454970266621799</td><td>47.200991774640599</td><td>81 Station Abonnement Mangin                                                                        </td></tr>
+      <tr><td>-1.53313636292619</td><td>47.206768584698303</td><td>82 Station Accueil Sébilleau                                                                       </td></tr>
+      <tr><td>-1.5301614134947501</td><td>47.208217819463002</td><td>83 Station Abonnement Millerand                                                                     </td></tr>
+      <tr><td>-1.5259512754811599</td><td>47.210753237185102</td><td>84 Station Accueil Région                                                                          </td></tr>
+      <tr><td>-1.5434787508444301</td><td>47.217264732216897</td><td>Parking Courte Durée Gare Nord                                                                     </td></tr>
+      <tr><td>-1.5627277923637199</td><td>47.205900622064497</td><td>Parking Les Machines                                                                                </td></tr>
+      <tr><td>-1.5601556114894499</td><td>47.226531595571302</td><td>85 Station Accueil et Bonus Bel Air                                                                 </td></tr>
+      <tr><td>-1.53422912101255</td><td>47.216343586847699</td><td>10 Station Accueil Picasso                                                                          </td></tr>
+      <tr><td>-1.53007250061588</td><td>47.214391469976299</td><td>51 Station Abonnement Tabarly                                                                       </td></tr>
+      <tr><td>-1.5379338952819499</td><td>47.215103366318303</td><td>Parking Gare Sud 4                                                                                  </td></tr>
+      <tr><td>-1.56601698077602</td><td>47.233091703755903</td><td>92 Station Abonnement Rond Point de Rennes                                                          </td></tr>
+      <tr><td>-1.57205389018402</td><td>47.229637540584697</td><td>91 Station Abonnement Rond Point de Vannes                                                          </td></tr>
+      <tr><td>-1.57658356660229</td><td>47.224321586199899</td><td>90 Station Abonnement Procé                                                                        </td></tr>
+      <tr><td>-1.54900545446362</td><td>47.193149276695401</td><td>102 Station Abonnement Gare de Pont Rousseau                                                        </td></tr>
+      <tr><td>-1.54145063364339</td><td>47.196629488228901</td><td>101 Station Abonnement Pirmil                                                                       </td></tr>
+      <tr><td>-1.5365896288790599</td><td>47.195859160598502</td><td>99 Station Accueil Saint-Jacques                                                                    </td></tr>
+      <tr><td>-1.5346071537874</td><td>47.1999707101929</td><td>100 Station Abonnement Gréneraie                                                                   </td></tr>
+      <tr><td>-1.54947343741177</td><td>47.235344800187598</td><td>96 Station Abonnement Tortière                                                                     </td></tr>
+      <tr><td>-1.5563887020485501</td><td>47.235083706675503</td><td>95 Station Abonnement Michelet                                                                      </td></tr>
+      <tr><td>-1.5563809863550699</td><td>47.243262644076601</td><td>94 Station Abonnement Petit Port                                                                    </td></tr>
+      <tr><td>-1.5553383498054001</td><td>47.246323288345401</td><td>93 Station Abonnement Facultés                                                                     </td></tr>
+      <tr><td>-1.5404024174377999</td><td>47.229128762669099</td><td>97 Station Accueil Saint-Donatien                                                                   </td></tr>
+      <tr><td>-1.5509330648644399</td><td>47.189148532490499</td><td>98 Station Abonnement Huit Mai                                                                      </td></tr>
+      <tr><td>-1.60539271713277</td><td>47.174392110639502</td><td>Aire de covoiturage Piano'cktail                                                                    </td></tr>
+      <tr><td>-1.751615681513</td><td>47.205843305836801</td><td>Aire de covoiturage Le Paradis                                                                      </td></tr>
+      <tr><td>-1.73553587146421</td><td>47.211491147473602</td><td>Aire de covoiturage Le Vélodrôme                                                                  </td></tr>
+      <tr><td>-1.6824712295212501</td><td>47.155885783979599</td><td>Aire de covoiturage Les Ormeaux                                                                     </td></tr>
+      <tr><td>-1.6759732987008</td><td>47.183308256845898</td><td>Aire de covoiturage Georges Brassens                                                                </td></tr>
+      <tr><td>-1.4545741556611</td><td>47.198136414852101</td><td>Aire de covoiturage La Herdrie                                                                      </td></tr>
+      <tr><td>-1.5039410584835</td><td>47.210388937340497</td><td>Aire de covoiturage Pas Enchantés                                                                  </td></tr>
+      <tr><td>-1.4894498293360801</td><td>47.190931195993898</td><td>Aire de covoiturage Les 3 Brasseurs                                                                 </td></tr>
+      <tr><td>-1.4738172226667601</td><td>47.294827601066203</td><td>Aire de covoiturage La Charmelière                                                                 </td></tr>
+      <tr><td>-1.39840430261237</td><td>47.300226061437399</td><td>Aire de covoiturage La Croix de Mauves                                                              </td></tr>
+      <tr><td>-1.5596335431814301</td><td>47.217489907388298</td><td>Station Bretagne                                                                                    </td></tr>
+      <tr><td>-1.5572278643058901</td><td>47.219405343852102</td><td>Station 50 Otages                                                                                   </td></tr>
+      <tr><td>-1.5540738335827899</td><td>47.2176490515034</td><td>Station Hôtel de Ville                                                                             </td></tr>
+      <tr><td>-1.56254319041665</td><td>47.2172612842459</td><td>Station Aristide Briand                                                                             </td></tr>
+      <tr><td>-1.5571650749703501</td><td>47.2118924383634</td><td>Station Commerce                                                                                    </td></tr>
+      <tr><td>-1.55242193688866</td><td>47.212132014548096</td><td>Station Baco                                                                                        </td></tr>
+      <tr><td>-1.5462052128841499</td><td>47.212503005783702</td><td>Station CIO                                                                                         </td></tr>
+      <tr><td>-1.5445283160896299</td><td>47.213240934700003</td><td>Station Cité des Congrès                                                                          </td></tr>
+      <tr><td>-1.54185994912442</td><td>47.214906933424402</td><td>Station Gare SNCF Sud                                                                               </td></tr>
+      <tr><td>-1.53624925513081</td><td>47.219032236242398</td><td>Station Manufacture                                                                                 </td></tr>
+      <tr><td>-1.5352900931381299</td><td>47.234456154176698</td><td>Station Rond Point de Paris                                                                         </td></tr>
+      <tr><td>-1.5566864713034201</td><td>47.206501348027402</td><td>Station Ecole d'Architecture                                                                        </td></tr>
+      <tr><td>-1.5451806396332699</td><td>47.2012759690694</td><td>Station Mangin                                                                                      </td></tr>
+      <tr><td>-1.5683301930205999</td><td>47.209131576299697</td><td>Station Chantiers Navals                                                                            </td></tr>
+      <tr><td>-1.5878712566764499</td><td>47.206516834052799</td><td>Station Mairie de Chantenay                                                                         </td></tr>
+      <tr><td>-1.5873916558135299</td><td>47.214077429886999</td><td>Station Zola                                                                                        </td></tr>
+      <tr><td>-1.5772187064865499</td><td>47.232345438093098</td><td>Station Sainte Thérèse                                                                            </td></tr>
+      <tr><td>-1.54717075568781</td><td>47.216502449778702</td><td>Station Duchesse Anne                                                                               </td></tr>
+      <tr><td>-1.55276994885937</td><td>47.212675541777401</td><td>Gare Routière Baco Lila                                                                            </td></tr>
+      <tr><td>-1.54267335074876</td><td>47.196392343560802</td><td>Gare Routière Pirmil Lila                                                                          </td></tr>
+      <tr><td>-1.5868606071557101</td><td>47.238079501607501</td><td>Gare Routière Beauséjour Lila                                                                     </td></tr>
+      <tr><td>-1.58415510201614</td><td>47.2617996203739</td><td>Gare Routière Cardo Lila                                                                           </td></tr>
+      <tr><td>-1.5214318859415501</td><td>47.248021162972897</td><td>Gare Routière Haluchère Lila                                                                      </td></tr>
+      <tr><td>-1.56886475459008</td><td>47.206117764978799</td><td>103 Station Mobile                                                                                  </td></tr>
+      <tr><td>-1.5748272514646</td><td>47.214171224129402</td><td>Station Canclaux                                                                                    </td></tr>
+      <tr><td>-1.5689156095572701</td><td>47.208289319523303</td><td>Parking Chantiers Navals                                                                            </td></tr>
+      <tr><td>-1.56028436884679</td><td>47.210273687105399</td><td>Parking Gloriette 2                                                                                 </td></tr>
+      <tr><td>-1.56822710791259</td><td>47.259323673024298</td><td>P+R tramway Santos Dumont                                                                           </td></tr>
+      <tr><td>-1.56192014921017</td><td>47.228614123537596</td><td>72 Station Accueil Félibien Gué-Moreau                                                            </td></tr>
+      <tr><td>-1.5463839705034801</td><td>47.274442225944703</td><td>Aire de covoiturage La Métaierie Rouge                                                             </td></tr>
+      <tr><td>-1.62624641113902</td><td>47.225723924891099</td><td>Aire de covoiturage Norauto Atlantis                                                                </td></tr>
+      <tr><td>-1.5098321508064401</td><td>47.257877909845497</td><td>Aire de covoiturage Carrefour Beaujoire                                                             </td></tr>
+      <tr><td>-1.5331366541122899</td><td>47.254363274444401</td><td>P+R tramway Ranzay                                                                                  </td></tr>
+      <tr><td>-1.5228311737223501</td><td>47.248450344229099</td><td>P+R tram-train Haluchère 1                                                                         </td></tr>
+      <tr><td>-1.5489888284489699</td><td>47.214332421127601</td><td>Parking Baco-LU 1 côté gare                                                                       </td></tr>
+      <tr><td>-1.55558569228364</td><td>47.226783599264003</td><td>Station Quai de Versailles                                                                          </td></tr>
+      <tr><td>-1.5946348497279501</td><td>47.1975346063468</td><td>P+R TER / chronobus Gare de Chantenay                                                               </td></tr>
+      <tr><td>-1.5916498733464299</td><td>47.177345253151799</td><td>P+R tramway Neustrie 3                                                                              </td></tr>
+      <tr><td>-1.5184745954479</td><td>47.2810941460666</td><td>P+R chronobus Chantrerie - Grandes Ecoles                                                           </td></tr>
+      <tr><td>-1.47497405146538</td><td>47.2531977445948</td><td>P+R chronobus Planchonnais                                                                          </td></tr>
+      <tr><td>-1.4390200591526301</td><td>47.266120643512501</td><td>P+R TER/chronobus La Noë                                                                           </td></tr>
+      <tr><td>-1.4460446943901899</td><td>47.273294197164702</td><td>P+R chronobus Pré Poulain                                                                          </td></tr>
+      <tr><td>-1.7271012730315201</td><td>47.136702832751702</td><td>Aire de covoiturage de la Mairie de Saint-Léger-Les-Vignes                                         </td></tr>
+      <tr><td>-1.6215724055526399</td><td>47.218479715902703</td><td>Aire de covoiturage Frachon                                                                         </td></tr>
+      <tr><td>-1.4750740804873499</td><td>47.252980990253199</td><td>Aire de covoiturage de la Planchonnais                                                              </td></tr>
+      <tr><td>-1.54433295436521</td><td>47.204970464725797</td><td>Parking Les Fonderies                                                                               </td></tr>
+      <tr><td>-1.5525587835210399</td><td>47.2140752998708</td><td>Parking Feydeau                                                                                     </td></tr>
+      <tr><td>-1.5462247687512201</td><td>47.259596557758599</td><td>P+R tram-train Babinière                                                                           </td></tr>
+      <tr><td>-1.54559364953307</td><td>47.259555742936797</td><td>Gare tram-train Babinière                                                                          </td></tr>
+      <tr><td>-1.54771562542556</td><td>47.297801541289203</td><td>P+R tram-train La Chapelle-sur-Erdre Centre Est                                                     </td></tr>
+      <tr><td>-1.5480802032686301</td><td>47.297486022649103</td><td>Gare tram-train La Chapelle-Centre                                                                  </td></tr>
+      <tr><td>-1.5410491905766399</td><td>47.308388800260403</td><td>P+R tram-train La Chapelle-Aulnay Est                                                               </td></tr>
+      <tr><td>-1.5415112318920301</td><td>47.308681123116401</td><td>Gare tram-train La Chapelle-Aulnay                                                                  </td></tr>
+      <tr><td>-1.5443440981459999</td><td>47.283114749889897</td><td>P+R tram-train La Chapelle Erdre Active                                                             </td></tr>
+      <tr><td>-1.54452233078279</td><td>47.282849727096398</td><td>Gare tram-train Erdre-Active                                                                        </td></tr>
+      <tr><td>-1.54876772911246</td><td>47.296876197038799</td><td>P+R tram-train La Chapelle-sur-Erdre Centre Ouest                                                   </td></tr>
+      <tr><td>-1.5436774216499201</td><td>47.307930786102901</td><td>P+R tram-train La Chapelle-Aulnay Ouest                                                             </td></tr>
+      <tr><td>-1.6605882938885601</td><td>47.204373631837399</td><td>P+R TER Gare de Basse-Indre Nord                                                                    </td></tr>
+      <tr><td>-1.5185723704904901</td><td>47.147016506233101</td><td>P+R chronobus Papillons                                                                             </td></tr>
+      <tr><td>-1.5429373019339501</td><td>47.215485208909897</td><td>70 Station Accueil Gare Sud 2                                                                       </td></tr>
+      <tr><td>-1.54052829088581</td><td>47.228935299112003</td><td>Station Saint-Donatien                                                                              </td></tr>
+      <tr><td>-1.54017656001374</td><td>47.207440044976899</td><td>Station Tripode                                                                                     </td></tr>
+      <tr><td>-1.5712884213134799</td><td>47.224452563014303</td><td>Station Sourdille                                                                                   </td></tr>
+      <tr><td>-1.5663199130604499</td><td>47.232904736193198</td><td>Station Rond-Point Rennes                                                                           </td></tr>
+      <tr><td>-1.5434648962261499</td><td>47.195798174605301</td><td>Pirmil (consigne)                                                                                   </td></tr>
+      <tr><td>-1.5487523292488401</td><td>47.192545527788099</td><td>Pont Rousseau (collectif sécurisé)                                                                </td></tr>
+      <tr><td>-1.5518442081649499</td><td>47.189224966930901</td><td>8 Mai (collectif abrité)                                                                           </td></tr>
+      <tr><td>-1.57029190539333</td><td>47.183377288903301</td><td>Trocardière (consigne)                                                                             </td></tr>
+      <tr><td>-1.57958857608825</td><td>47.181722373695401</td><td>Grande ouche (consigne)                                                                             </td></tr>
+      <tr><td>-1.59310087276357</td><td>47.176812618867302</td><td>Neustrie (consigne)                                                                                 </td></tr>
+      <tr><td>-1.5331075822223199</td><td>47.199672065098603</td><td>Gréneraie (collectif abrité)                                                                      </td></tr>
+      <tr><td>-1.5331726450449701</td><td>47.199740312897703</td><td>Gréneraie (collectif sécurisé)                                                                   </td></tr>
+      <tr><td>-1.52540142790408</td><td>47.190211357636898</td><td>Mauvoisins (consigne)                                                                               </td></tr>
+      <tr><td>-1.52140876908587</td><td>47.186547353291203</td><td>Bourdonnières (consignes)                                                                          </td></tr>
+      <tr><td>-1.5053047692691599</td><td>47.180631073283699</td><td>Porte de Vertou (consigne)                                                                          </td></tr>
+      <tr><td>-1.5112538842536001</td><td>47.206903018495296</td><td>Pas Enchantés (collectif abrité)                                                                  </td></tr>
+      <tr><td>-1.51055928386024</td><td>47.206644660038897</td><td>Pas enchantés abrité (collectif abrité)                                                          </td></tr>
+      <tr><td>-1.4960398366032801</td><td>47.190304181426598</td><td>Frêne Rond (collectif sécurisé)                                                                  </td></tr>
+      <tr><td>-1.4958874408862199</td><td>47.190364280659502</td><td>Frêne Rond (collectif abrité)                                                                     </td></tr>
+      <tr><td>-1.47798363700849</td><td>47.186277564304397</td><td>Gare de Vertou (collectif abrité)                                                                  </td></tr>
+      <tr><td>-1.47801423897547</td><td>47.185848563300198</td><td>Gare de Vertou (collectif sécurisé)                                                               </td></tr>
+      <tr><td>-1.5418676200194501</td><td>47.2161546501301</td><td>Gare Sud (collectif abrité)                                                                        </td></tr>
+      <tr><td>-1.5416712699061601</td><td>47.216185034324297</td><td>Gare Sud (collectif sécurisé)                                                                     </td></tr>
+      <tr><td>-1.5434439666031901</td><td>47.2173064334307</td><td>Gare nord (collectif abrité)                                                                       </td></tr>
+      <tr><td>-1.5256631791106401</td><td>47.259187277673</td><td>Beaujoire (consigne)                                                                                </td></tr>
+      <tr><td>-1.38964150683711</td><td>47.293009507513403</td><td>Gare de Mauves (consigne)                                                                           </td></tr>
+      <tr><td>-1.55248886690146</td><td>47.252061754362799</td><td>Recteur Schmitt (consigne)                                                                          </td></tr>
+      <tr><td>-1.5920230802473001</td><td>47.261880870934299</td><td>Grand Val (consigne)                                                                                </td></tr>
+      <tr><td>-1.6027890348548599</td><td>47.2477519931616</td><td>Morlière Paquelais (consigne)                                                                      </td></tr>
+      <tr><td>-1.6175805007514601</td><td>47.245695865038201</td><td>Marcel Paul (collectif abrité)                                                                     </td></tr>
+      <tr><td>-1.5978903457391</td><td>47.248956095229403</td><td>Bignon (consigne)                                                                                   </td></tr>
+      <tr><td>-1.59305566366749</td><td>47.240871198567298</td><td>Plaisance (collectif abrité)                                                                       </td></tr>
+      <tr><td>-1.6142614951031</td><td>47.217939794327499</td><td>Neruda (consigne)                                                                                   </td></tr>
+      <tr><td>-1.6392459539576201</td><td>47.222004179606301</td><td>Mitterrand (consigne)                                                                               </td></tr>
+      <tr><td>-1.4917513467782599</td><td>47.296766258261997</td><td>Place du vieux cimetiere (consigne)                                                                 </td></tr>
+      <tr><td>-1.5728204352285899</td><td>47.199897656581498</td><td>Hangar à bananes (consigne)                                                                        </td></tr>
+      <tr><td>-1.54289738351578</td><td>47.196434968989998</td><td>Pirmil (collectif sécurisé)                                                                       </td></tr>
+      <tr><td>-1.54258773105948</td><td>47.196591213775903</td><td>Pirmil (collectif abrité)                                                                          </td></tr>
+      <tr><td>-1.5106947981432</td><td>47.185049357792401</td><td>Maraicher (consigne)                                                                                </td></tr>
+      <tr><td>-1.47124094524049</td><td>47.168887571531997</td><td>Vertou gare routière (consigne)                                                                    </td></tr>
+      <tr><td>-1.5441475708527801</td><td>47.178261321472398</td><td>3 Moulins (consigne)                                                                                </td></tr>
+      <tr><td>-1.5311924606849301</td><td>47.148577159753998</td><td>Place de la Mairie (consigne)                                                                       </td></tr>
+      <tr><td>-1.5626784033024399</td><td>47.184239422596299</td><td>Diderot (consigne)                                                                                  </td></tr>
+      <tr><td>-1.4407738737368001</td><td>47.265075184060997</td><td>Gare de Thouaré (collectif abrité)                                                                </td></tr>
+      <tr><td>-1.5232949671231699</td><td>47.249930182166501</td><td>Haluchère (collectif sécurisé)                                                                   </td></tr>
+      <tr><td>-1.5235173361721199</td><td>47.249323804320802</td><td>Haluchère (collectif abrité)                                                                      </td></tr>
+      <tr><td>-1.53010640990383</td><td>47.253022310153597</td><td>Ranzay (collectif sécurisé)                                                                       </td></tr>
+      <tr><td>-1.5457044367928601</td><td>47.259120956493298</td><td>Babinière (collectif sécurisé)                                                                   </td></tr>
+      <tr><td>-1.5752533489534299</td><td>47.264131047030901</td><td>René Cassin (consigne)                                                                             </td></tr>
+      <tr><td>-1.57648890806529</td><td>47.253158840210297</td><td>Bout des Pavés (consigne)                                                                          </td></tr>
+      <tr><td>-1.57694786773576</td><td>47.248748744274799</td><td>Pont du Cens (consigne)                                                                             </td></tr>
+      <tr><td>-1.6236261202879301</td><td>47.2709528330289</td><td>Place Eglise (consigne)                                                                             </td></tr>
+      <tr><td>-1.67954132186688</td><td>47.264301304578296</td><td>Sautron terminus (consigne)                                                                         </td></tr>
+      <tr><td>-1.46662847481612</td><td>47.216582608676397</td><td>Rue du Grignon (consigne)                                                                           </td></tr>
+      <tr><td>-1.7591476563066399</td><td>47.201690620431897</td><td>Le Pellerin terminus ligne express (consigne)                                                       </td></tr>
+      <tr><td>-1.6001928619692201</td><td>47.266684153785299</td><td>Bois Raguenet (consigne)                                                                            </td></tr>
+      <tr><td>-1.5186464904927901</td><td>47.227262395996902</td><td>Mairie Doulon (consigne)                                                                            </td></tr>
+      <tr><td>-1.5288590080619899</td><td>47.194051616925798</td><td>Clos Toreau (consigne)                                                                              </td></tr>
+      <tr><td>-1.5156740661341901</td><td>47.231937178679701</td><td>Landreau (consigne)                                                                                 </td></tr>
+      <tr><td>-1.56817518277345</td><td>47.259340922309399</td><td>Santos Dumont (consigne)                                                                            </td></tr>
+      <tr><td>-1.5171373123187299</td><td>47.189464007684798</td><td>Joliverie (consigne)                                                                                </td></tr>
+      <tr><td>-1.5943206444437099</td><td>47.1974776824377</td><td>Gare de Chantenay (consigne)                                                                        </td></tr>
+      <tr><td>-1.59590574852204</td><td>47.209379306020701</td><td>Croix bonneau (sécurisé)                                                                          </td></tr>
+      <tr><td>-1.58893567488989</td><td>47.209638893615796</td><td>Egalité (sécurisé)                                                                               </td></tr>
+      <tr><td>-1.48057265753418</td><td>47.1648832031388</td><td>Grammoire (consigne)                                                                                </td></tr>
+      <tr><td>-1.6238173488341401</td><td>47.175388198894403</td><td>Croix Jeannette (consigne)                                                                          </td></tr>
+      <tr><td>-1.5861921703979101</td><td>47.181039862405697</td><td>Les Couets (consigne)                                                                               </td></tr>
+      <tr><td>-1.59874322411545</td><td>47.213069834031501</td><td>Durantière piscine (consigne)                                                                      </td></tr>
+      <tr><td>-1.6892154448274099</td><td>47.188439420138899</td><td>La Montagne Pompiers (consigne)                                                                     </td></tr>
+      <tr><td>-1.48624898868314</td><td>47.1654311212652</td><td>Route des Sorinières (consigne)                                                                    </td></tr>
+      <tr><td>-1.58630587536017</td><td>47.213967844989497</td><td>Zola (consigne)                                                                                     </td></tr>
+      <tr><td>-1.4849481562014699</td><td>47.2501416083484</td><td>Sainte Luce De Gaulle (consigne)                                                                    </td></tr>
+      <tr><td>-1.5929976388712499</td><td>47.1768261386391</td><td>Neustrie (consigne)                                                                                 </td></tr>
+      <tr><td>-1.63953075892652</td><td>47.222000841541103</td><td>Mitterrand (consigne)                                                                               </td></tr>
+      <tr><td>-1.3896532743654899</td><td>47.293030201076903</td><td>Gare de Mauves (consigne)                                                                           </td></tr>
+      <tr><td>-1.5112960626276299</td><td>47.189347335877002</td><td>Chapeau vernis (consigne)                                                                           </td></tr>
+      <tr><td>-1.5875971384072001</td><td>47.238586568346101</td><td>Beausejour (consigne)                                                                               </td></tr>
+      <tr><td>-1.5567462861965</td><td>47.230946259265799</td><td>St Félix (consigne)                                                                                </td></tr>
+      <tr><td>-1.5567933114807699</td><td>47.234739677264997</td><td>Michelet (consigne)                                                                                 </td></tr>
+      <tr><td>-1.4693748230813199</td><td>47.164771145228102</td><td>Piscine (consigne)                                                                                  </td></tr>
+      <tr><td>-1.5422205209320501</td><td>47.165370765273003</td><td>Ragon (consigne)                                                                                    </td></tr>
+      <tr><td>-1.47486330373227</td><td>47.2532938084695</td><td>Papotière (consigne)                                                                               </td></tr>
+      <tr><td>-1.46604870833721</td><td>47.257046897160599</td><td>La Minais (consigne)                                                                                </td></tr>
+      <tr><td>-1.5029354693669099</td><td>47.235238561169503</td><td>Place du Vieux Doulon (consigne)                                                                    </td></tr>
+      <tr><td>-1.5943298425406001</td><td>47.197676695081398</td><td>Gare de Chantenay (consigne)                                                                        </td></tr>
+      <tr><td>-1.7250565487023399</td><td>47.195661229456697</td><td>Rue du Prieuré (consigne)                                                                          </td></tr>
+      <tr><td>-1.5229932279689899</td><td>47.157188381458297</td><td>Maillardière (consigne)                                                                            </td></tr>
+      <tr><td>-1.51891022584835</td><td>47.1467213882786</td><td>Papillon (consigne)                                                                                 </td></tr>
+      <tr><td>-1.51786707198478</td><td>47.282259066599501</td><td>La Chantrerie (abrité)                                                                             </td></tr>
+      <tr><td>-1.5176730479949401</td><td>47.282119642473397</td><td>La Chantrerie (sécurisé)                                                                          </td></tr>
+      <tr><td>-1.6813021065871401</td><td>47.138199822996299</td><td>Gare Bouaye (abri plus sécurisé)                                                                  </td></tr>
+      <tr><td>-1.6601473188485401</td><td>47.204234900055901</td><td>Gare de Basse Indre (consigne)                                                                      </td></tr>
+      <tr><td>-1.5727164645104199</td><td>47.206271975140403</td><td>Gare maritime (consigne)                                                                            </td></tr>
+      <tr><td>-1.54387627842632</td><td>47.217073557385298</td><td>Gare nord parking (sécurisé)                                                                      </td></tr>
+      <tr><td>-1.54391839978149</td><td>47.217138519186399</td><td>Gare nord parking (abrité)                                                                         </td></tr>
+      <tr><td>-1.7120707556171599</td><td>47.191334973315499</td><td>Saint Jean de Boiseau (consigne)                                                                    </td></tr>
+      <tr><td>-1.5160908395955199</td><td>47.237987368893698</td><td>Souillarderie (consigne)                                                                            </td></tr>
+      <tr><td>-1.57599666234132</td><td>47.253182203824203</td><td>Bout des Pavés (consigne)                                                                          </td></tr>
+      <tr><td>-1.54879737366258</td><td>47.193131524737197</td><td>Pont Rousseau (consigne)                                                                            </td></tr>
+      <tr><td>-1.6002296182984601</td><td>47.2131821023372</td><td>Durantière (consigne)                                                                              </td></tr>
+      <tr><td>-1.72697210155762</td><td>47.212054989161103</td><td>Coueron Even (consigne)                                                                             </td></tr>
+      <tr><td>-1.5781126371669401</td><td>47.195258817761598</td><td>Trentmoult Roquios (collectif abrité)                                                              </td></tr>
+      <tr><td>-1.6202838660534999</td><td>47.218891627526098</td><td>Frachon (collectif abrité)                                                                         </td></tr>
+      <tr><td>-1.61402386984358</td><td>47.217858407968002</td><td>Neruda (collectif abrité)                                                                          </td></tr>
+      <tr><td>-1.6603354195329101</td><td>47.204288275378197</td><td>Gare de Basse Indre (collectif abrité)                                                             </td></tr>
+      <tr><td>-1.68120547935829</td><td>47.138189324215801</td><td>Gare de Bouaye (collectif abrité)                                                                  </td></tr>
+      <tr><td>-1.72352737769722</td><td>47.221782603418703</td><td>Gare de Coueron (collectif abrité)                                                                 </td></tr>
+      <tr><td>-1.4411217755947401</td><td>47.264990123960999</td><td>Gare de Thouaré (collectif abrité)                                                                </td></tr>
+      <tr><td>-1.4780419508681599</td><td>47.185862956777001</td><td>Gare de Vertou (collectif abrité)                                                                  </td></tr>
+      <tr><td>-1.51061578215125</td><td>47.206673126351902</td><td>Pas enchantés abrité (collectif abrité)                                                          </td></tr>
+      <tr><td>-1.54079167962344</td><td>47.1956815426243</td><td>Goudy (collectif abrité)                                                                           </td></tr>
+      <tr><td>-1.59460859492635</td><td>47.197283304093602</td><td>Gare de Chantenay (collectif abrité)                                                               </td></tr>
+      <tr><td>-1.53799063632782</td><td>47.215096505351902</td><td>Gare sud 4 (collectif sécurisé)                                                                   </td></tr>
+      <tr><td>-1.5844043709767901</td><td>47.262391454336502</td><td>Le Cardo (collectif sécurisé)                                                                     </td></tr>
+      <tr><td>-1.63953854745182</td><td>47.221943737126999</td><td>Mitterrand (collectif sécurisé)                                                                   </td></tr>
+      <tr><td>-1.54408370542533</td><td>47.213644636561497</td><td>Cité des Congrès (collectif sécurisé)                                                           </td></tr>
+      <tr><td>-1.55780980234499</td><td>47.213319496289699</td><td>Commerce (collectif sécurisé)                                                                     </td></tr>
+      <tr><td>-1.55423648573523</td><td>47.216666052728499</td><td>Decré / Bouffay (collectif sécurisé)                                                             </td></tr>
+      <tr><td>-1.5512637971487899</td><td>47.2210180982701</td><td>Foch Cathédrale (collectif sécurisé)                                                             </td></tr>
+      <tr><td>-1.5622963433986301</td><td>47.214597030106198</td><td>Graslin (collectif sécurisé)                                                                      </td></tr>
+      <tr><td>-1.56258620817132</td><td>47.205825791527303</td><td>Machines (collectif sécurisé)                                                                     </td></tr>
+      <tr><td>-1.5623075615220601</td><td>47.2108425003292</td><td>Médiathèque (collectif sécurisé)                                                                </td></tr>
+      <tr><td>-1.5576933168857701</td><td>47.219902739176099</td><td>Talensac (collectif sécurisé)                                                                     </td></tr>
+      <tr><td>-1.55831595116776</td><td>47.217804279512798</td><td>Bretagne (collectif sécurisé)                                                                     </td></tr>
+      <tr><td>-1.5232502882801899</td><td>47.249899433892899</td><td>Haluchère (collectif abrité)                                                                      </td></tr>
+      <tr><td>-1.52349198770571</td><td>47.249293309856903</td><td>Haluchère (collectif asécurisé)                                                                  </td></tr>
+      <tr><td>-1.53019927103207</td><td>47.253066211511097</td><td>Ranzay (collectif abrité)                                                                          </td></tr>
+      <tr><td>-1.6175244770896999</td><td>47.245770022602301</td><td>Marcel Paul (collectif sécurisé)                                                                  </td></tr>
+      <tr><td>-1.59312665701531</td><td>47.177082943489602</td><td>Neustrie (appui-vélo)                                                                              </td></tr>
+      <tr><td>-1.5865089094778</td><td>47.238068049421599</td><td>Beauséjour (appui-vélo)                                                                           </td></tr>
+      <tr><td>-1.54191715193937</td><td>47.1617797634634</td><td>Corbinerie (consigne)                                                                               </td></tr>
+      <tr><td>-1.52097760737545</td><td>47.147780778229901</td><td>Rouet (consigne)                                                                                    </td></tr>
+      <tr><td>-1.7229320838703499</td><td>47.169436637406399</td><td>Rue des prés (consigne)                                                                            </td></tr>
+      <tr><td>-1.6063661224747099</td><td>47.222206130227796</td><td>Saint Herblain (consigne)                                                                           </td></tr>
+      <tr><td>-1.5526947054328</td><td>47.213890217221</td><td>Neptune (collectif sécurisé)                                                                      </td></tr>
+      <tr><td>-1.5579201758517001</td><td>47.213221375383903</td><td>Locations vélos Commerce                                                                           </td></tr>
+      <tr><td>-1.5441127818731499</td><td>47.216955172743702</td><td>Locations vélos Gare Nord                                                                          </td></tr>
+      <tr><td>-1.5225927294191699</td><td>47.249041136936803</td><td>Gare tram-train Haluchère-Batignolles                                                              </td></tr>
+      <tr><td>-1.5249751956000299</td><td>47.250230059784499</td><td>P+R tram-train Haluchère 2                                                                         </td></tr>
+      <tr><td>-1.4949532756716399</td><td>47.246903862863</td><td>P+R chronobus Bois des Anses                                                                        </td></tr>
+      <tr><td>-1.4838652986220799</td><td>47.288152863742802</td><td>Moulin Boiseau (consigne)                                                                           </td></tr>
+      <tr><td>-1.48519147433257</td><td>47.304086977793503</td><td>Rue de Chateaubriand (consigne)                                                                     </td></tr>
+      <tr><td>-1.55141569040084</td><td>47.248322775578401</td><td>Ecole centrale / Sup de co (consigne)                                                               </td></tr>
+      <tr><td>-1.53388785803026</td><td>47.242540487466798</td><td>Combattants d'Indochine (consigne)                                                                  </td></tr>
+      <tr><td>-1.5328621185084299</td><td>47.244833679144499</td><td>Keren (consigne)                                                                                    </td></tr>
+      <tr><td>-1.5163001846191699</td><td>47.267680958199598</td><td>Embellie (consigne)                                                                                 </td></tr>
+      <tr><td>-1.5842684367137601</td><td>47.262136317152802</td><td>Le Cardo (consigne)                                                                                 </td></tr>
+      <tr><td>-1.5731298121641499</td><td>47.261591606489397</td><td>Chêne des Anglais (consigne)                                                                       </td></tr>
+      <tr><td>-1.6079575144678699</td><td>47.214290387409697</td><td>Tertre  (abri collectif)                                                                            </td></tr>
+      <tr><td>-1.5629941498756501</td><td>47.221443580743703</td><td>Viarme/Talensac (consigne)                                                                          </td></tr>
+      <tr><td>-1.51990689935172</td><td>47.224035417842202</td><td>Bd. Doulon (consigne)                                                                               </td></tr>
+      <tr><td>-1.5725927184063799</td><td>47.207337459562503</td><td>Gare Maritime (consigne)                                                                            </td></tr>
+      <tr><td>-1.57105494638846</td><td>47.2030346687676</td><td>Terminus C5 (consigne)                                                                              </td></tr>
+      <tr><td>-1.5658569367441699</td><td>47.204061328910001</td><td>Prairie au Duc (consigne)                                                                           </td></tr>
+      <tr><td>-1.5543433441151999</td><td>47.205604497158902</td><td>République (consigne)                                                                              </td></tr>
+      <tr><td>-1.5536263768253999</td><td>47.204624798791698</td><td>Gustave Roch (consigne)                                                                             </td></tr>
+      <tr><td>-1.53325746313532</td><td>47.206655717268099</td><td>Conservatoire (consigne)                                                                            </td></tr>
+      <tr><td>-1.52705222903656</td><td>47.209569245857303</td><td>Pompidou (consigne)                                                                                 </td></tr>
+      <tr><td>-1.5447910402459399</td><td>47.283316687389402</td><td>Gare Erdre Active (abri collectif sécurisé)                                                       </td></tr>
+      <tr><td>-1.5479966866331101</td><td>47.297276909085497</td><td>Gare Chapelle Centre (abri collectif sécurisé)                                                    </td></tr>
+      <tr><td>-1.5435850175265799</td><td>47.3061824898911</td><td>Gare Chapelle Aulnay (abri collectif sécurisé)                                                    </td></tr>
+      <tr><td>-1.6967031767220999</td><td>47.191951994529397</td><td>Chat qui guette (consigne)                                                                          </td></tr>
+      <tr><td>-1.56423877233188</td><td>47.213761403369702</td><td>Station Ladmirault                                                                                  </td></tr>
+      <tr><td>-1.5614484361038601</td><td>47.220874295869201</td><td>Station Viarme                                                                                      </td></tr>
+      <tr><td>-1.51585135578417</td><td>47.220255844287799</td><td>P+R Chronobus Prairie de Mauves                                                                     </td></tr>
+      <tr><td>-1.5808023319940401</td><td>47.203872934444803</td><td>Station Sainte Anne                                                                                 </td></tr>
+      <tr><td>-1.55509166043531</td><td>47.205102588224101</td><td>Station République                                                                                 </td></tr>
+      <tr><td>-1.5567546855643499</td><td>47.221298345725302</td><td>Station Talensac                                                                                    </td></tr>
+      <tr><td>-1.54723195160433</td><td>47.2212820798647</td><td>Station Saint Clement                                                                               </td></tr>
+      <tr><td>-1.56923615633877</td><td>47.214286961904797</td><td>Station Gigant                                                                                      </td></tr>
+      <tr><td>-1.57193743729686</td><td>47.207489924407497</td><td>Station Maille Brezé                                                                               </td></tr>
+      <tr><td>-1.5715037062319599</td><td>47.212309733995099</td><td>Station Lamoricière                                                                                </td></tr>
+      <tr><td>-1.5589445950040699</td><td>47.212187718469998</td><td>Station La Bourse                                                                                   </td></tr>
+      <tr><td>-1.4521887535664899</td><td>47.220095373548197</td><td>Aire de covoiturage Ile Chaland                                                                     </td></tr>
+      <tr><td>-1.4950847486666301</td><td>47.247070076719801</td><td>Aire de covoiturage Bois des Anses                                                                  </td></tr>
+      <tr><td>-1.51637273497636</td><td>47.220141778650103</td><td>Prairie de Mauves (consigne)                                                                        </td></tr>
+      <tr><td>-1.7392289781163699</td><td>47.213534466628502</td><td>Océan (consigne)                                                                                   </td></tr>
+      <tr><td>-1.61848016100407</td><td>47.124547436625903</td><td>Champ de Foire (consigne)                                                                           </td></tr>
+      <tr><td>-1.6169500646653701</td><td>47.2305164911809</td><td>Hermeland (consigne)                                                                                </td></tr>
+      <tr><td>-1.60828187602942</td><td>47.245522980137899</td><td>Angevinière (consigne)                                                                             </td></tr>
+      <tr><td>-1.6370783533675799</td><td>47.274982057690401</td><td>Chapelle des Anges (consigne)                                                                       </td></tr>
+      <tr><td>-1.5602617434775701</td><td>47.3061939001201</td><td>Chapelle sur Erdre (consigne)                                                                       </td></tr>
+      <tr><td>-1.57789557873385</td><td>47.194928880340598</td><td>Quai Surcouf (consigne)                                                                             </td></tr>
+      <tr><td>-1.5595181922386301</td><td>47.184476852531603</td><td>François Mitterrand (consigne)                                                                     </td></tr>
+      <tr><td>-1.4722223131213601</td><td>47.189732556934203</td><td>Piscine (consigne)                                                                                  </td></tr>
+      <tr><td>-1.4755437753353999</td><td>47.215300484528797</td><td>Grignon (consigne)                                                                                  </td></tr>
+      <tr><td>-1.4955590932229601</td><td>47.246768003503902</td><td>Métro (consigne)                                                                                   </td></tr>
+      <tr><td>-1.6277954417451199</td><td>47.163078749061903</td><td>Aire de covoiturage La Ville au Denis                                                               </td></tr>
+      <tr><td>-1.5529138870413699</td><td>47.208890253019</td><td>Parking CHU 2                                                                                       </td></tr>
+      <tr><td>-1.56111806795314</td><td>47.215764987415398</td><td>Station Calvaire                                                                                    </td></tr>
+      <tr><td>-1.5584243306954899</td><td>47.2161075134917</td><td>Station Arche Sèche                                                                                </td></tr>
+      <tr><td>-1.6798381159507501</td><td>47.143553658774699</td><td>Aire de covoiturage Super U de Bouaye                                                               </td></tr>
+
+	</table>
+
+  </body>
+
+</html>

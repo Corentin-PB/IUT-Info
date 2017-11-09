@@ -1,0 +1,593 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Mairie centrale"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5537421449558899,47.218703684205202,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Mairie centrale"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5537421449558899,47.218703684205202,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Médiathèque Jacques Demy"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.56209573371648,47.211062858281302,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Médiathèque Jacques Demy"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.56209573371648,47.211062858281302,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Médiathèque Jacques Demy"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.56209573371648,47.211062858281302,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Pharmacie de Paris"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55775173962693,47.214398135117101,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Pharmacie du Théâtre"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5617985920906201,47.213153493873399,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Pharmacie du Pilori"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5527864643127101,47.216286083685603,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Muséum d'Histoire Naturelle"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.56502534069262,47.212810135304998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Pharmacie Saint Nicolas,"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55874650914908,47.2157155472174,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Pharmacie de la Cathédrale"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55103216649778,47.218705042009603,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Pharmacie des Lauriers"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.60604184098012,47.204001542737501,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Le Planétarium"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5775241333385199,47.202244535687697,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Le Planétarium"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5775241333385199,47.202244535687697,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Le Planétarium"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5775241333385199,47.202244535687697,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Plaine de jeux des Bernadières"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6147541896194599,47.200991981780497,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Stade Espérance St Yves de Nantes"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.61124986032484,47.201859686004703,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Pharmacie Zola"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.58517837696622,47.213999637932602,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Complexe sportif de la Durantière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.60527130828514,47.213998763960198,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Plaine de jeux des Dervallières"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.59130209590487,47.225932550989398,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Marché de Talensac"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55797564403486,47.221289798427598,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Marché de Talensac"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55797564403486,47.221289798427598,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Maison de l'Erdre"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5542480383941399,47.226207282255999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Pharmacie Devenyns"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.52765381590718,47.214231201341804,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Chapelle de l'Oratoire"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54858696084694,47.2190756970979,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Complexe sportif Mangin Beaulieu"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54236575181672,47.204559153868502,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Palais de sport de Beaulieu"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5367642481264301,47.209521126499503,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Médiathèque Luce Courville"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5739597946388599,47.261819897705799,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Médiathèque Luce Courville"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5739597946388599,47.261819897705799,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Médiathèque Luce Courville"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5739597946388599,47.261819897705799,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Salle festive Nantes Nord"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5808427794845801,47.263666946704603,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Plaine de jeux des Basses landes"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5872746989609201,47.267654557145498,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Stade de l'Amande"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.57417999383924,47.262478935455398,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Complexe sportif Saint Joseph de Porterie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.51680168082364,47.272065218179698,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Salle festive Nantes Erdre"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.53131689304087,47.254124840921897,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Stade Joseph Geoffroy le vivier"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5334198233718901,47.240409284067603,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Plaine de jeux de l'Eraudière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5353763760243799,47.247341762285899,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Médiathèque Floresca Guépin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.51276882457303,47.240866285387803,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Médiathèque Floresca Guépin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.51276882457303,47.240866285387803,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Médiathèque Floresca Guépin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.51276882457303,47.240866285387803,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Médiathèque Floresca Guépin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.51276882457303,47.240866285387803,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Centre  sportif du Croissant"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.52286331267299,47.235052890124102,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Pharmacie de la Bottière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5189299196532899,47.240291197727402,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Pharmacie Boudrot"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5029633043519399,47.235257898934499,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Plaine de jeux de la Noè Lambert"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.52746369698488,47.2306386879226,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Stade Jean-Jacques Audubon  Audubon"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.50387300163076,47.239640783262203,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Stade Pin Sec"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.52005502790642,47.2419558163148,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Stade du RACC"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5002614855129299,47.231880336792898,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Plaine de jeux de Sèvres"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5312448693956799,47.185091077842998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Musée Jules Verne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5774115758882501,47.201608863647301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Musée Jules Verne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5774115758882501,47.201608863647301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Musée Jules Verne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5774115758882501,47.201608863647301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"CCAS de Nantes"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5584579343929199,47.219742344323699,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Espace Cosmopolis"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5626991689799701,47.214447039865298,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Espace Cosmopolis"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5626991689799701,47.214447039865298,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Conservatoire de Nantes"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5327556060154599,47.207458133614097,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Conservatoire de Nantes"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5327556060154599,47.207458133614097,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Conservatoire de Nantes"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5327556060154599,47.207458133614097,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Conservatoire de Nantes"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5327556060154599,47.207458133614097,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"pharmacie Quancard ( Breil )"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.58784444066793,47.228725369411102,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"pharmacie Santos Dumont (Petite Sensive )"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5668478390367,47.259547876081299,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Jardin des plantes"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5440409981068399,47.220922090004599,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Parc du Grand Blottereau"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5124113665574199,47.228178995650701,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Salles municipales La Manu"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.53537753320436,47.219403053717002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Mairie Annexe des Dervalières"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.59742809004464,47.223471917919099,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Mairie Annexe des Dervalières"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.59742809004464,47.223471917919099,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Mairie Annexe des Dervalières"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.59742809004464,47.223471917919099,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Plaine de Jeux Durantière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6002959536833301,47.212493498205802,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"LC CLUB Hangar à Banane"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5728549657314199,47.201286167517303,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Piscine Léo Lagrange"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5600533398213801,47.209879972337198,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Piscine Jules Verne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.51745529394017,47.248275250488597,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Piscine Dervallières"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5920295018588499,47.227375903823997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Piscine Petite Amazonie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5317220105222,47.216382445465797,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Piscine Durantière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.59874337804225,47.212771695217,0]}}
+]}

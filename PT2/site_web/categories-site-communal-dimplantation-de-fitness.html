@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+	<link rel="stylesheet" type="text/css" href="style.css">	
+
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	
+	<script>
+	  // declaration des cartes
+      var map;
+
+	  // la fenetre qui s'ouvre quand on passe la souris sur un point
+	  var infowindow = new google.maps.InfoWindow();
+
+	  // fonction d'initialisation
+      function initialize() {
+        var mapOptions = {
+          zoom: 6,
+          center: {lat:  46.55, lng: 2.4},
+          mapTypeId: google.maps.MapTypeId.TERRAIN
+        };
+        map = new google.maps.Map(document.getElementById('map-categorie'),
+          mapOptions);
+	    // initialisation des cartes et chargement des donnees
+	            map.data.loadGeoJson('json/site-communal-dimplantation-de-fitness.json');
+
+	    
+	    // fonction de style
+	    var setColorStyleFn = function(feature) {
+	      return {icon: feature.getProperty('icon')};
+	    };
+	    // style des cartes, et listener pour la fenetre qui s'ouvre quand on passe la souris sur un point
+	    map.data.setStyle(setColorStyleFn);
+	    map.data.addListener('mouseover', function(event) {
+          infowindow.setContent(event.feature.getProperty('description'));
+          infowindow.setPosition(event.latLng);
+          infowindow.setOptions({pixelOffset: new google.maps.Size(0,-34)});
+          infowindow.open(map);
+        });
+        google.maps.event.addListener(map, 'click', function() {
+          infowindow.close(); // un clic sur la carte ferme les infowindows
+        });
+	  } // end initialize
+
+      // appel de la fonction d'initialisation une fois la page chargee
+      google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+	<meta charset="UTF-8">
+  </head>
+
+  <body>
+    <h1>module de fitness</h1>
+
+	<p><a href="./index.php">Page principale</a></p>
+	
+    <h2>Carte</h2>
+    <div id="map-categorie" class="map-canvas"></div>
+
+    <h2>Liste des points</h2>
+	<table>
+      <tr><td>1.4306769985300001</td><td>43.604944997300002</td><td>CARDIO TRAINING                                                                                     </td></tr>
+      <tr><td>1.42721700041</td><td>43.605750001600001</td><td>STRETCHING                                                                                          </td></tr>
+      <tr><td>1.4259509959400001</td><td>43.605588001400001</td><td>MUSCULATION                                                                                         </td></tr>
+      <tr><td>1.4400509965699999</td><td>43.589089997599999</td><td>CARDIO TRAINING                                                                                     </td></tr>
+      <tr><td>1.47719999606</td><td>43.621499999000001</td><td>MUSCULATION                                                                                         </td></tr>
+      <tr><td>1.47959999748</td><td>43.622299999699997</td><td>STRETCHING                                                                                          </td></tr>
+      <tr><td>1.4801000019899999</td><td>43.622399999999999</td><td>STRETCHING                                                                                          </td></tr>
+      <tr><td>1.42205600244</td><td>43.606021003000002</td><td>PMR                                                                                                 </td></tr>
+      <tr><td>1.44014000263</td><td>43.588984001100002</td><td>PMR                                                                                                 </td></tr>
+      <tr><td>1.4392230026199999</td><td>43.587467999700003</td><td>CARDIO TRAINING                                                                                     </td></tr>
+      <tr><td>1.43916299796</td><td>43.584734000700003</td><td>PMR                                                                                                 </td></tr>
+      <tr><td>1.4779000013500001</td><td>43.620500002299998</td><td>STRETCHING                                                                                          </td></tr>
+      <tr><td>1.43892700211</td><td>43.584463999</td><td>CARDIO TRAINING                                                                                     </td></tr>
+      <tr><td>1.4371960018200001</td><td>43.580280998699997</td><td>STRETCHING                                                                                          </td></tr>
+      <tr><td>1.43066299715</td><td>43.604958002899998</td><td>CARDIO TRAINING                                                                                     </td></tr>
+      <tr><td>1.4300539960100001</td><td>43.605120004299998</td><td>MUSCULATION                                                                                         </td></tr>
+      <tr><td>1.4269290022600001</td><td>43.605650001299999</td><td>PMR                                                                                                 </td></tr>
+      <tr><td>1.425927999</td><td>43.606050003699998</td><td>MUSCULATION                                                                                         </td></tr>
+      <tr><td>1.43913399839</td><td>43.587538000400002</td><td>CARDIO TRAINING                                                                                     </td></tr>
+      <tr><td>1.4389940028599999</td><td>43.583341998500003</td><td>STRETCHING                                                                                          </td></tr>
+      <tr><td>1.4390960017500001</td><td>43.583149000399999</td><td>MUSCULATION                                                                                         </td></tr>
+      <tr><td>1.4369829994900001</td><td>43.5802990014</td><td>CARDIO TRAINING                                                                                     </td></tr>
+      <tr><td>1.43606299949</td><td>43.577835999999998</td><td>STRETCHING                                                                                          </td></tr>
+      <tr><td>1.47860000047</td><td>43.621900000300002</td><td>CARDIO TRAINING                                                                                     </td></tr>
+      <tr><td>1.4786000041</td><td>43.621800000900002</td><td>CARDIO TRAINING                                                                                     </td></tr>
+      <tr><td>1.43019199633</td><td>43.605130001299997</td><td>STRETCHING                                                                                          </td></tr>
+      <tr><td>1.42604900181</td><td>43.606015000799999</td><td>CARDIO TRAINING                                                                                     </td></tr>
+      <tr><td>1.42207299794</td><td>43.605903998700001</td><td>STRETCHING                                                                                          </td></tr>
+      <tr><td>1.4393299980400001</td><td>43.584847997899999</td><td>STRETCHING                                                                                          </td></tr>
+      <tr><td>1.4360350035</td><td>43.577928999800001</td><td>PMR                                                                                                 </td></tr>
+
+	</table>
+
+  </body>
+
+</html>

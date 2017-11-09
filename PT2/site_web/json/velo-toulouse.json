@@ -1,0 +1,2257 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"VERDIER - GRAND ROND"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.452653988,43.5968525384,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"OZENNE - NAZARETH"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4471290911700001,43.596285789600003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"BRIENNE -  MANUFACTURE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4324174166100001,43.605413351800003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"SEJOURNE - CATALANS"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.42802279233,43.605642925799998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"DUPORTAL -  LASCROSSES"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4350229746900001,43.610209293200001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PLACE SCHUMAN"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.44934651476,43.609572055500003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"STRASBOURG - JAURES"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4482291524999999,43.606291715300003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"SAINT LAZARE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4460878230900001,43.609596054199997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"CARNOT  - PERI"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4493972480699999,43.605168388499997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"NAZARETH -  LANGUEDOC"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4453865756499999,43.595228904700001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PLACE INT ST CYPRIEN DARRE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4314033284900001,43.5981319833,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PLACE INT SAINT CYPRIEN"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4316173509500001,43.597780777600001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"JAURES  -  STALINGRAD"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4530070198,43.608896190700001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"BONREPOS"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.45275602503,43.610469414999997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"CONCORDE -  PRINTEMPS"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4464126267699999,43.613434995799999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"ESP COMPANS CAFFARELLI"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.43666783605,43.611056867899997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PLACE DU FER A CHEVAL"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4339100837700001,43.592643569800003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"CROIX DE PIERRE - DEODAT DE SEVERAC"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4283605565499999,43.5854539121,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"SEBASTOPOL -  RITAY"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4288301698700001,43.612293092500003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"ST MICHEL - STE CATHERINE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4452934200900001,43.590593997399999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"BRUNHES FONTAINES"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4203478302000001,43.601048057200003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"BARRIERE DE LOMBEZ"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4184399275999999,43.595502125099998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"URSS RECOLLETS"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.44859626286,43.582916433800001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"URSS ST THOMAS D AQUIN"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4491600192,43.580883899500002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"THEATRE JULES JULIEN"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4524801409999999,43.5732974533,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"RANGUEIL BEDOUCE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4548462284400001,43.576642628199998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"METRO BOURGES MAUNOURY"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.45228507178,43.639867049000003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"CASSAING PLANA"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4736208229600001,43.616950373000002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PLACE SOUPETARD"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.47754712628,43.612229851199999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"MICHOUN LIPPMAN"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.46929476642,43.627241716900002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"ROUBICHOU ARLES"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.465605434,43.627195342999997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"MURET LAFAGE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.42755810868,43.584293242100003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"LAROUSSE RIEUX"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.45896112629,43.597323044500001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PLACE DE L ORMEAU"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4836291237599999,43.579037597499998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PL ROGER ARNAUD"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.46318435937,43.586858024199998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"CHRIST ROI"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.48194817912,43.583354906499999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"FIRMIS"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.48294081417,43.586088818299999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"LE DORMEUR LA TERRASSE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.48776554506,43.583478729600003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"LAFILAIRE DELTOUR"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4734540058000001,43.596227671100003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"NARBONNE MIROUSE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.45634916182,43.569206209400001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"LOUIN RAYNAL"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4514969129299999,43.628099574399997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"BUTTE HERBETTES"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.47308252568,43.579337000000002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"JOB BLAGNAC"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4083882642700001,43.617008874699998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"BOUQUETINS ROSTAND"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4485459655999999,43.641005358400001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"LOMBEZ HIPPODROME"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4102831821199999,43.593992366899997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"BELIN E.N.A.C."},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.47817624524,43.564984891800002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"MAIRIE CROIX DAURADE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.46502966619,43.638304064000003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"CHÃTEAU DE L'HERS"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4835837535600001,43.600705854600001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PLACE SAUVEGRAIN"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.37784158961,43.589890722200003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"ANCELY"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.3969881688800001,43.6193313144,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"ESPAGNO"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.40137704456,43.6136241552,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"LAFAYETTE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4452839319399999,43.604880312299997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PLACE SAINT ETIENNE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.44931801794,43.600077862500001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PLACE DE LA DAURADE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.44032777397,43.601868123899997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"LAGANNE - TEINTURIERS"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4362371038999999,43.596667393300002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"LASCROSSES -  LECLERC"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.43201717284,43.609236039499997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PLACE ANATOLE FRANCE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4384013905599999,43.606305259899997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"MUSEE ST RAYMOND"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.44130600071,43.607603863599998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"LOIS"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4422810293799999,43.605135772600001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"BARRIERE DE PARIS"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.43402945572,43.6270624418,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"DEMOISELLES - MISTRAL"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4533260536299999,43.5906437919,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PLACE SAINT PIERRE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.43608294055,43.603494862399998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PLACE ESQUIROL"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4449026898799999,43.600373180699997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"HERACLES - BEARNAIS"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4286028686000001,43.608009933600002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"CHAPOU"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4196129267199999,43.609978595400001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"BRIENNE  -  PASSERELLE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.42386267123,43.608426117400001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PERI -  MERCADIER"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.45491047378,43.606204022299998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"BILLIERES  -  CHAMPETRE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4287124096699999,43.597515092000002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"BILLIERES - POSTE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4262199585099999,43.596914999600003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"ECOLE BONNEFOY"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.45426742664,43.616959759300002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"EGLISE BONNEFOY"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.45680421491,43.619012740499997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"MINIMES - MARCHE AU COCHONS"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4356190825799999,43.620708164200003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"METZ  - REMPART ST ETIENNE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.45072441423,43.6009101191,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"COLLIGNON"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4441064803400001,43.616565070500002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"ITALIE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4548627844599999,43.580283258500003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"AVIONS LIBELLULES"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4601361685800001,43.576865802,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"BONNEFOY LEMAITRE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.45872172854,43.623101365399997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"BOURGES MAUNOURY MELAT"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4526780554100001,43.636920633999999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"MAUNOURY PISAN"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.44819976768,43.628574110000002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"BAILLAUD BRUNAUD"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.46548404809,43.617446206799997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PLANA GARNIER"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4799563823799999,43.609253387000003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"SAINT EXUPERIY ECOLE COURREGE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.47585362468,43.581673903999999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"COTTAGES RIEUX"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.47500668606,43.5858785191,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"LEYGUE RIEUX"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.46509048329,43.594054347300002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PUJOL CHAUBET"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.46731232253,43.600710076699997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"CASTRES ACHIARY"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.47355743948,43.600840087400002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"METRO PHARMACIE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4644474838399999,43.5680384319,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"METRO UPS"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.46303076979,43.560737787400001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"TOEC ABBE LEMIRE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.40375645134,43.597313149999998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"LAUNAGUET AUDIBERT"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.43899830073,43.636359899600002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PORT SAINT SAUVEUR"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4566037724800001,43.596403203000001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"BELIN SUP AERO"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.47526886928,43.566478298600003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"BELIN C.N.R.S."},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.48095852125,43.562290355599998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"NARBONNE IUFM"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4652650094699999,43.557233486299999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PLACE RICHÃ"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4326403724500001,43.647493560900003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"VAN DYCK"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4402455196699999,43.640627992900001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"NIEL"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.44674751243,43.578736236300003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"BORDELONGUE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.41334822234,43.568028059299998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"LAFOURGUETTE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.41039892853,43.565004972499999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PLACE DES PRADETTES"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.3887837991600001,43.581450945500002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"IZAR"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.39260607288,43.579157186700002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PLACE JEAN BAYLET"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.3987146019500001,43.584442277800001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"TRENTIN"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4278275147499999,43.624003956199999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"MONUMENT AUX COMBATTANTS"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4520803044499999,43.601306975599996,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PLACE ROUAIX"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4454725045700001,43.599522623600002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"POMME"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4455080837300001,43.6032696527,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"JARDIN ROYAL"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.45092834302,43.596457083700002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"FEUGA"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.44314720707,43.592660827300001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"HOTEL DE POLICE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4329137092599999,43.6149887523,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"LECLERC -  BARCELONE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4307206327599999,43.606875548399998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"LASCROSSES -  PLACE ARNAUD BERNARD"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.43807348918,43.611262301700002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PISCINE LEO LAGRANGE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4542531647500001,43.607447758200003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"CHAINE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4394480895199999,43.6086864874,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"SALENQUES"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4394624173199999,43.607390029800001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PLACE SAINT JULIEN"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.43693343207,43.608698169299998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"ARCOLE -  BALANCE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4396673313299999,43.611569320100003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"SAINT SERNIN  -  MERLY"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4426935083000001,43.609048523200002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"MINIMES -  PASSERELLE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4428779308999999,43.615286770499999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PONT DES DEMOISELLES"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4598495052,43.587638784799999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"SAINT SERNIN -  GATIEN ARNOULT"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4410996710799999,43.609040785300003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"ESPACE SAINT GEORGES"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4481293501200001,43.603214502199997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"CARNOT ROLAND"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4517269910899999,43.602921600800002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PALAIS NIEL"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.45165488883,43.5978399233,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"GARONNETTE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4409627994400001,43.594361051100002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PARGAMINIERES"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4404250849,43.604602778199997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"FITTE -  CUGNAUX"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.43254537051,43.595139434099998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PLACE LANGE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.43413355696,43.601047479999998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"SABATIER - PORT ST SAUVEUR"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.45560757524,43.596622710200002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"COLOMBETTE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.45371722347,43.604567225300002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"ROQUELAINE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.44845740685,43.612646452699998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"CONCORDE -  ARCOLE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.44362084123,43.610682125499999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"EMBOUCHURE -  HAEDENS"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4302432324400001,43.613458966499998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"MAISON D'ARRET ST MICHEL"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4474339169799999,43.585756808600003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"BD MONTPLAISIR -  CANAL"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.45792809523,43.592444168900002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"ST MICHEL -  NOTRE DAME"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4464431014800001,43.588182255,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PLACE DU BUSCA"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4506527457,43.588626373399997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PLACE RUSSEL -  BRANLY"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4530155514800001,43.585421489200002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"DEMOISELLES - BEGUE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4559510073599999,43.589709243599998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"SAINTE LUCIE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4299912457299999,43.593515109400002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"SUISSE LAUSANNE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4216112947499999,43.615972638599999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"THEATRE DES MAZADES"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4384823949100001,43.624133322399999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"RECOLLETS"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4433421346099999,43.583763298900003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"JULES JULIEN DEVIC"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4502609178500001,43.578605699199997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"BILA"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4587742474100001,43.626586534799998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"RPT POINT LAFFORGUE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4611041031200001,43.642871978599999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"CHAUBET"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.48174849528,43.605961534800002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"BARRIERE DE BAYONNE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.42016702494,43.597995235100001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"DESBALS MONT DORE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4157068132199999,43.584576423999998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"ST SIMON PRADO"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.40955573438,43.587777109000001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"LOMBEZ PETITE VITESSE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4150828224000001,43.594888486000002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"ALBI PELET"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.46647604377,43.6410709325,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"CRETES CHAUMIERES"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.46545891348,43.615217795900001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"TABAR UNIVERSITE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4021370412800001,43.574571157999998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"IUT RANGUEIL"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.46269876701,43.571490458699998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"CROIX DAURADE BIBLIOTHEQUE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4642670117800001,43.635584409700002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"ESPAGNE CHARPENTIER"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4242382687299999,43.575108624400002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"GONIN"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4839225676000001,43.573919749399998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"TOURAINE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.41398810205,43.573694396599997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"WAGNER"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4141476126500001,43.606562148800002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PLACE CAMPAN"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4064153122800001,43.583777903799998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"DAURIAC - ESCANDE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4560813392900001,43.601630927800002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"CARNOT - LABEDA"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4501536875700001,43.604079118199998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"JARDIN RAYMOND VI"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.42946748826,43.599893310600002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"VALADE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4373141329400001,43.605078255700001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"MERLY -  ARCOLE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4430845027600001,43.610396812600001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"CARNOT -  TROIS JOURNEES"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.44952828209,43.604678101799998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PLACE DES CARMES"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4452779308299999,43.597417560099998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"STRASBOURG  -  BAYARD"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4466662428899999,43.607858389599997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"FITTE - TEINTURIERS"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4321437395900001,43.596314757400002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"FITTE - VARSI"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4293713557600001,43.599676052200003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"MUSEUM"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4488220949599999,43.594306254000003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"REPUBLIQUE - PLACE OLIVIER"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4350500532199999,43.598564457400002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"ST AUBIN  - CAMICHEL"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4544483988800001,43.602702066900001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PERIGORD"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.44465392586,43.607436200999999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"LOIS -  ESQUILE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.44135064802,43.606136315299999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PRINTEMPS - INGRES"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.44353763512,43.614596526699998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"CHALETS"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.44133703624,43.613150784799998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"SEMARD -  GARE ROUTIERE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.45148809233,43.613876862300003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"POIDS DE L'HUILE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.44540497476,43.604184329600002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"COURS DILLON"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4350626278700001,43.593259984399999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"DUPORTAL - CANAL DE BRIENNE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.43449255914,43.605618670200002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"MINIMES - BAQUE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4344504286799999,43.622974452199998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"MURET -  BARTHERE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4321935166299999,43.589945436699999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"SAINTE URSULE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4420322344800001,43.602722991,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"FONTAINES MILHES"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4148430158800001,43.602001131400002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"EMILE MALE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4186301058199999,43.591719098600002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"DEODAT DE SEVERAC"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.42458262997,43.587872562599998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"METRO FONTAINE LESTANG"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.41790377355,43.587347250000001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"DESBALS SAINTONGE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.41363575465,43.5816721765,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"GOUNOD GARROS"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4250129089500001,43.613895946,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"SANG DE SERP DAGNAUX"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4283637420999999,43.615602620899999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"CURIE NEGRENEYS"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4431190973600001,43.624622267200003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"RAISIN"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4485815417000001,43.615396549300002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"HOTEL DE REGION"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4417611102300001,43.589929029499999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"METRO SAOUZELONG"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4600145174300001,43.579766765999999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"BEDOUCE CANAL DU MIDI"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.46242017597,43.581572471599998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"BOURGES MAUNOURY SEGLA"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.45073775469,43.633218049600003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"GUESDE TRENTE SIX  PONTS"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4453059472400001,43.592964432199999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"DELTOUR RIEUX"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.47001711416,43.591489426099997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"POTEZ SAINT EXUPERY"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4808318034600001,43.579748890099999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PETIT PRINCE SAINT EXUPERY"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.47006075478,43.583543325900003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"LIMAYRAC DARASSE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.48008857927,43.5911810295,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"METRO ARGOULETS"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.47593975583,43.623824127699997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PUCCINI BLAGNAC"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4112108996099999,43.614565692200003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"AMOUROUX SAINTE AUGUSTINE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4619430959799999,43.627665056700003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"METRO RANGUEIL"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4624092455,43.574176588900002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"ALBI AVRANCHES"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4631526071100001,43.632693012399997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"METRO LA VACHE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.43545887848,43.633489619000002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"LESPINET HERBETTES"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.46949669045,43.576977533099999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"ETATS UNIS FERRY"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.431748883,43.632722248199997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"WAGNER BRUNHES"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4200805836599999,43.603818915399998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"JOLIMONT"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.46176460065,43.614314225400001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"RAIMBAUD COLETTE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.43754039946,43.633754863,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"BELIN ONERA"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4734068783900001,43.570210815599999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"NEGRENEYS"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.44399694176,43.626860827400002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"CUGNAUX GRAVETTE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.42442781976,43.593200576800001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"MINIMES - SAINTE FAMILLE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.43671552912,43.618347629699997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"DUCLOS"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4337959573300001,43.644959953700003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"BORDEROUGE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4562360860900001,43.642548413299998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"VASSEUR"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4728332149600001,43.635437605100002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"CHARBONNIÃRE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4485524006299999,43.573907892299999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"SELLIER"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4400758196300001,43.576930476900003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"BAYLAC"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.39719406403,43.608504263999997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"ARÃNES ROMAINES"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.3970673093799999,43.614199950100002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"QUAI DE TOUNIS"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.44039891999,43.599045096799998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"CAPTAINERIE PORT  - ST SAUVEUR"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.45588906944,43.594616623900002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PLACE DUPUY"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.45479063777,43.600176100900001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"CHATEAU D EAU"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4366927417899999,43.598463086300001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"HOTEL DE DEPARTEMENT"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4350552616400001,43.615260020000001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"SEJOURNE  -  AMIDONNIERS"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4282472077999999,43.6056547178,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"RAYMOND IV"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4514134896299999,43.6123826201,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PLACE DE DAMLOUP"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4528355992999999,43.605819069299997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"BERALDI"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4436046596200001,43.608609811100003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"DUPORTAL -  CITE ADMINISTRATIVE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.43476567048,43.608573608,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PLACE VICTOR HUGO"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4464886477000001,43.605767420699998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"STRASBOURG  - SARDANE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4477401398400001,43.6064117811,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PLACE DU SALIN"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.44399954168,43.594774989699999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"DALBADE - DE GORSSE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4429118117099999,43.597989923999997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PLACE JEANNE D'ARC"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4469533597199999,43.609663391600002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"SEBASTOPOL - LASCROSSES"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4304012911599999,43.6095901686,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"MEDIATHEQUE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.45528002548,43.609835701000002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"BARCELONE - PONT JUMEAUX"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.42043916063,43.610312891900001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"JAURES -  BACHELIER"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4517112729399999,43.607481509000003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"BILLIERES -  PATTE D OIE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4243042745800001,43.596711556800003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"SERRES -  ARNAUD BERNARD"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4382551321299999,43.612625209299999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"MUSEUM  -  DUMERIL"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.44907945571,43.592326121200003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"MISTRAL -  FLEURANCE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4530424939,43.593531204000001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"COUTELIERS -  METZ"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4414007259299999,43.5995803749,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"SERRES -  CABANEL"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.43804326825,43.614227788500003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"THEATRE GARONNE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4255371289000001,43.602317841400001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"CHAUSSAS DAUDET"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4291741517700001,43.619702153699997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"METRO EMPALOT"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4419477974099999,43.579557986799998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"LAPUJADE FLANDRES"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4546790161600001,43.624106811600001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"LEDUC"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.45679944042,43.611324672499997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"GENERAL COMPANS"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.45804987003,43.606841286700003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"PLACE DE LA ROSERAIE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4687286795200001,43.619311659499999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"DESBALS BACHAGA BOUALAM"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4108948752499999,43.579246689400001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"MURET BOUTINON"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4254605982499999,43.581529243600002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"OUSTALOUS"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4239929017699999,43.577302925799998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"ST SIMON QUATORZE JUILLET"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.41520209839,43.590018136399998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"GOUJON PUJOL"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4580158356599999,43.601835742200002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"CASERNE PERIGNON"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.46404891278,43.600301200499999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"BAROUX DARASSE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4788863535000001,43.589550848499997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"ARGOULETS HOUDON"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.47404258891,43.622761901799997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"AMOUROUX SAINT TROPEZ"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4665472108199999,43.629773716300001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"VAUQUELIN"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4066635857000001,43.5764436949,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"FONTAINES CASSELARDIT"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4072646066600001,43.604161942399998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"NARBONNE SAHUQUE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.45866363266,43.566519470199999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"RANGUEIL TRIPODE B"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4677836153599999,43.567354390699997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"RENAN VITRY"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4438358337099999,43.6357875478,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"GRANDE BRETAGNE BADIOU"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.41509868694,43.599839621699999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"CURIE CAMPISTRON"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.43967698797,43.625623443599999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"ETATS UNIS  CHARLAS"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.43234645774,43.6305222262,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"CESR"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4757812522,43.563076672400001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"ELLA MAILLART - ROQUEMAUREL"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.41021964502,43.596029107500001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"11-nov-18"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4145535444899999,43.593053554599997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"BERNIES POSTE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.41453821964,43.6115437375,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"CAMBARD"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4762803711500001,43.629151389999997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"ROTONDE"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4839754223799999,43.596435752200001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"GALLIENI"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.41948032089,43.573990726600002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"ZAMENHOF"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.37726572028,43.585441801000002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"MARIN"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.37979179959,43.581467832500003,0]}}
+]}

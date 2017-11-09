@@ -1,0 +1,769 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Armand Faulat 1"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.613455391671063,44.846333450757001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Claveau"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.543447701590002,44.879522878187103,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Le Jardin de l'Eau Vive"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56275703563449597,44.8310835971023,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Magendie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57518407999156396,44.8334543745651,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Carreire"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.60918478902858897,44.823849637573602,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Pitchoun Gambetta"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58135798996501398,44.841294766455299,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Pitchoun Caudéran"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.60504410267777098,44.849978437058503,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Ornano"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.597625407422127,44.831527390843704,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"LAEP APEEF -  La Maison des enfants"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57638218530736596,44.833118044376597,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil APEEF Maison des enfants"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57650620540645103,44.833128336748302,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil La maison soleil"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55213432941527296,44.841542183620497,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil des Douves 2"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56356881993701402,44.829910369122601,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"La parentèle"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58918325787119796,44.837403232916898,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Grand Parc 2"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58347780919691905,44.858926088698098,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Relais Assistance Maternelle Bordeaux centre (RAM)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58686745094825798,44.844415264864203,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Arc en ciel"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57326356136284895,44.874761065911102,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Haussmann"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57348371778934104,44.864166372235502,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Gaspard Philippe"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.566661075573347,44.833578636529303,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Relais Assistante Maternelle Bordeaux Bastide (RAM)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56131739057073005,44.845013262143198,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Coucou"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.60214131312921104,44.833510780042602,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Manon Cormier"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.59373848158173104,44.829969114840601,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil La Coccinelle"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.63551474295432198,44.860156458343603,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil - L'escale des bambins"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58512711195757505,44.831069394189299,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Nuage bleu"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56967733141213195,44.863971570801603,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Armand Faulat 2"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.61346214076402295,44.846216218475597,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Crèche familiale Bordeaux Nord"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57304509725074404,44.874442402217497,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Argentiers"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57031176133268502,44.839564951280103,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Canaillous Lafitteau"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55366512247689403,44.8246116053298,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Crèche familiale Caudéran"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.61349966116373,44.846458386326802,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Malbec-Nansouty"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57158199366833695,44.8205514852391,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Albert Barraud"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58681868333319398,44.844452515700702,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Benauge 1"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.54366657623349501,44.8461565181819,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Canaillous-Brascassat"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55657859032093204,44.814948942518697,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Babilou Mirassou 1"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56696523646835395,44.821594998794403,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Cité administrative"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.60505545116118697,44.842648410066602,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Grand Parc 1"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58377401111376603,44.859026665156897,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil des Chartrons 1"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56587375297224896,44.862367569083403,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Les petits bouchons"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57714670039857796,44.836918359005402,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil George V"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58499065494986702,44.822788715151098,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Relais Assistante Maternelle Bordeaux maritime (RAM)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57489232790794398,44.860603107660701,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Barreyre 1"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57047429110838799,44.856345164569902,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil - APEEF - le Jardin de l'eau vive"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56275703563449597,44.8310835971023,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Bordeaux Saint Bruno"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.59110007090730499,44.838698358292604,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil La souris verte"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57218636371920695,44.8558969270766,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Saint Augustin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.608255136014903,44.832535813872703,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"APEEF - Association petite Enfance, Enfance et Famille"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55222970072113098,44.841935995146898,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Crèche familiale Bordeaux centre"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58758870809742803,44.832249888676003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Pitchoun Bastide - Centre petite enfance"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55391938051430101,44.842578111182902,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Crèche familiale Grand Parc"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58362272926673997,44.859039488556199,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil des Douves 1"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56325882565554197,44.829783076791301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Antenne du Relais Assistante Maternelle"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.61365357319081404,44.846247353958802,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Babilou - ile aux oiseaux"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.584749233548152,44.838118115887603,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Quai des Bambins"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.62858215686260799,44.8443527930635,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Babilou Mirassou 2"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56696523646835395,44.821594998794403,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"LAEP APEEF - La Maison Soleil"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55212080121517604,44.841524512723801,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Ptit Bout'chou"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58895822426316702,44.846235338902403,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Villa Pia"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58308900307393197,44.825249985377503,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Pitchoun les 4 saisons"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58681576766737198,44.8522504985567,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Benauge 2"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.54367390751759304,44.846048283338703,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil les calins d'orme"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.59439674249826002,44.850340239299697,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Micro crèche Alema George Mendel"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.593525160188627,44.842334939657597,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Le jardin d'Hortense"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55636776680260902,44.846000297506698,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Sainte Colombe 1"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56970355640765702,44.837512949179199,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Canaillous Armagnac"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55070032614895004,44.822509633973397,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Alema les Sablières"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57549931345359595,44.825867081804702,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Les chartrons 2"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56614823809125903,44.862163963569401,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Carle Vernet 2"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.54944324954026202,44.8180371550079,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Lucilann"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.61606354436590505,44.8414222465629,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Pain d'épices"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.59388993678325797,44.8231817773015,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Micro crèche Lucilann"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.62882709446912399,44.864845675420298,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"La maison de Nolan"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55102424403059203,44.823304437522403,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Ludothèque Interlude Bastide"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56102293212943199,44.844873604194902,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil MSA Brin d'éveil"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57412156573777695,44.848461127211699,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil La Berge du lac 1"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57231197927042998,44.880698870154497,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Sainte Colombe 2"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.569920784601189,44.837522840522197,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil La berge du lac 2"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57208809174904596,44.880631892571103,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Barreyre 2"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57041503591071097,44.856301521406998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Carle Vernet 1"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.54958894799762403,44.818020088522701,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Bordeaux Alema Paul Bert"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57489260635752704,44.836688947101301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Jean Marquaux"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57899617188796604,44.824103489235398,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Détrois - D3 La maison bleue"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.60998653255945001,44.841200709943301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Charles Perrens"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.60118561737268805,44.822408373908097,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"LAEP - L'Oasis"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57427308055696902,44.874546989757398,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"LAEP - A petit pas - APPE-AGEP"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57465205070423198,44.860626703946302,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Centre Papillon"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57515681263351504,44.860212463189299,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"LAEP APEEF"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.61515717738034903,44.855454125907102,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil - Tourni'quai"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56086179569844596,44.843760604162298,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Micro creche Zazzen Rivière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58849176087899202,44.853807973266498,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Cadet Rousselle"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56809984169365002,44.837131345375496,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"La Bastide  Micro crèche Bilbo'Quai"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56086179569844596,44.843760604162298,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Ludothèque Interlude Chantecrit"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56271483941922795,44.862419480400099,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Ludothèque Interlude du lac"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57092927194274601,44.879378634690802,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Les enfants d'Osiris"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.59384544262892403,44.846203163880503,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Mille couleurs"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58953220155924002,44.846425019479,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Docteur Christiane Larralde"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.59700693780715997,44.828988760856099,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/daycare.png",
+  "description":"Multi accueil Éden Art"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58864322351167497,44.833331248627601,0]}}
+]}

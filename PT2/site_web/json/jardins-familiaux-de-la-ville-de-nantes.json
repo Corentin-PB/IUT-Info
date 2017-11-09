@@ -1,0 +1,305 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Asso  Les jardins de la Roche"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5234414902209501,47.2194390174894,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Asso  Les jardins de la Cressonnière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5630940977061401,47.2565927290361,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Asso. Des petits jardins du Lait de Mai"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5481177365620999,47.212126761111698,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Confédération Syndicale des Familles"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.58786484344719,47.229065648842102,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Asso.Jardins Familiaux Nantais"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5857635645879899,47.228175421167599,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Asso les Jardins des Collines"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5164583688436899,47.242058834349201,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Asso. Jardins de la Marrière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5230917066574601,47.235147460220396,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Asso.la crapaudine"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5299645230415699,47.191118307050502,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"ECOS"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.52862142777457,47.195788247032802,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Asso.Jardins Familiaux Nantais"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5205271391658299,47.255618654976701,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Les Idéelles"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.52439613841858,47.2160658560964,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Les Escartons"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5426474832292101,47.194677133285602,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"PAPOTAGER"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.56292365129831,47.2109178835222,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"KENTELOU AN NOZ"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5658554394258399,47.217418655760298,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Asso.Jardins Familiaux Nantais"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.49076498693019,47.245736469755499,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Les potagers des Oblates"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5859858364546799,47.200707776437199,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Asso  Les jardins des bruyeres"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5765190053387299,47.267498125386403,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"INTERFERENCES -16 watts"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5482412668591501,47.203605408301101,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"CA POUSSE EN AMONT"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5253731601295499,47.209730458947398,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Senteurs Gourmandes du Jamet"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6061083285243101,47.207225934706599,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Asso.Jardins Familiaux Nantais"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.53292618840642,47.221854464567699,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"CSC La Haluchère"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5124895066816499,47.247083384165201,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":""},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5993209062718099,47.226434848633403,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":""},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.59402433638019,47.228095306559702,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Asso. Jardins de la Fournilière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5889593975263401,47.212537479885,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Asso.Jardins Familiaux Nantais"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.60087770314206,47.218997313864101,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Asso.Jardins Familiaux Nantais"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5987712348810299,47.202195353334197,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Asso. Nature & Jardins Nantes Nord"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.57164946642059,47.271787609793499,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Asso. Mille et un jardins"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5208408036444201,47.228702444088,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Asso.Jardins Familiaux Nantais"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.59654089683538,47.229398432215802,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Asso. Les Jardins des Eglantiers"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5735679032974199,47.266447630677298,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Asso.Jardins Familiaux Nantais"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.52402318387499,47.254038528016203,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Asso . Loire & Jardins"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.50911365979517,47.2205751821284,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Asso.Jardins Familiaux Nantais"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.61293860413442,47.203788959542699,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Asso.Jardins du Vertais"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5469466608434299,47.202081605368598,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Asso.Jardins Familiaux Nantais"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.49939897422361,47.2446375693427,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Asso Les Jardins de l'Amande"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.57701678864409,47.262638602017198,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Asso.Jardins Familiaux Nantais"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5388431285553701,47.242025912164799,0]}}
+]}

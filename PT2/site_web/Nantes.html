@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+	<link rel="stylesheet" type="text/css" href="style.css">	
+
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	
+	<script>
+	  // declaration des cartes
+      var map;
+
+	  // la fenetre qui s'ouvre quand on passe la souris sur un point
+	  var infowindow = new google.maps.InfoWindow();
+
+	  // fonction d'initialisation
+      function initialize() {
+        var mapOptions = {
+          zoom: 6,
+          center: {lat:  46.55, lng: 2.4},
+          mapTypeId: google.maps.MapTypeId.TERRAIN
+        };
+
+	    // initialisation des cartes et chargement des donnees
+	            map_625 = new google.maps.Map(document.getElementById('map-625'), mapOptions);
+        map_625.data.loadGeoJson('json/abris-velos-de-nantes-metropole.json');
+        map_625.data.loadGeoJson('json/defibrillateurs-de-la-ville-de-nantes.json');
+        map_625.data.loadGeoJson('json/jardins-familiaux-de-la-ville-de-nantes.json');
+        map_625.data.loadGeoJson('json/localisation-des-equipements-publics-relevant-du-theme-mobilite-de-nantes-metropole-1.json');
+        map_625.data.loadGeoJson('json/localisation-des-equipements-publics-relevant-du-theme-sports-loisirs-de-nantes-metropole.json');
+        map_625.data.loadGeoJson('json/localisation-et-caracteristiques-des-parcs-et-jardins-de-nantes.json');
+        map_625.data.loadGeoJson('json/toilettes-publiques-de-nantes-metropole.json');
+
+	    
+	    // fonction de style
+	    var setColorStyleFn = function(feature) {
+	      return {icon: feature.getProperty('icon')};
+	    };
+	    // style des cartes, et listener pour la fenetre qui s'ouvre quand on passe la souris sur un point
+	            map_625.data.setStyle(setColorStyleFn);
+        map_625.data.addListener('mouseover', function(event) {
+          infowindow.setContent(event.feature.getProperty('description'));
+          infowindow.setPosition(event.latLng);
+          infowindow.setOptions({pixelOffset: new google.maps.Size(0,-34)});
+          infowindow.open(map_625);
+        });
+        google.maps.event.addListener(map_625, 'click', function() {
+          infowindow.close(); // un clic sur la carte ferme les infowindows
+        });
+
+	  } // end initialize
+
+      // appel de la fonction d'initialisation une fois la page chargee
+      google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+	<meta charset="UTF-8">
+  </head>
+
+  <body>
+    <h1>Nantes</h1>
+
+	<p><a href="./index.php">Page principale</a></p>
+	
+    
+<h2>Nantes</h2>
+<div id="map-625" class="map-canvas"></div>
+
+
+    <h2>Catégories de Nantes</h2>
+	<ul>
+	  <li><img src="images/icones/parking_bicycle-2.png"/> <a href="categories-abris-velos-de-nantes-metropole.html">Mobiliers urbain : Abris vélos</a>
+<li><img src="images/icones/daycare.png"/> <a href="categories-defibrillateurs-de-la-ville-de-nantes.html">Equipements médicaux : Défibrilateurs</a>
+<li><img src="images/icones/tree.png"/> <a href="categories-jardins-familiaux-de-la-ville-de-nantes.html">jardins familiaux</a>
+<li><img src="images/icones/themepark.png"/> <a href="categories-localisation-des-equipements-publics-relevant-du-theme-mobilite-de-nantes-metropole-1.html">mobilité public</a>
+<li><img src="images/icones/themepark.png"/> <a href="categories-localisation-des-equipements-publics-relevant-du-theme-sports-loisirs-de-nantes-metropole.html">public sport</a>
+<li><img src="images/icones/tree.png"/> <a href="categories-localisation-et-caracteristiques-des-parcs-et-jardins-de-nantes.html">les parcs et jardins</a>
+<li><img src="images/icones/toilets.png"/> <a href="categories-toilettes-publiques-de-nantes-metropole.html">les toilettes publiques</a>
+
+	</ul>
+
+  </body>
+
+</html>

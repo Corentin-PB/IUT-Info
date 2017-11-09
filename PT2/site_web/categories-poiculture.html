@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+	<link rel="stylesheet" type="text/css" href="style.css">	
+
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	
+	<script>
+	  // declaration des cartes
+      var map;
+
+	  // la fenetre qui s'ouvre quand on passe la souris sur un point
+	  var infowindow = new google.maps.InfoWindow();
+
+	  // fonction d'initialisation
+      function initialize() {
+        var mapOptions = {
+          zoom: 6,
+          center: {lat:  46.55, lng: 2.4},
+          mapTypeId: google.maps.MapTypeId.TERRAIN
+        };
+        map = new google.maps.Map(document.getElementById('map-categorie'),
+          mapOptions);
+	    // initialisation des cartes et chargement des donnees
+	            map.data.loadGeoJson('json/poiculture.json');
+
+	    
+	    // fonction de style
+	    var setColorStyleFn = function(feature) {
+	      return {icon: feature.getProperty('icon')};
+	    };
+	    // style des cartes, et listener pour la fenetre qui s'ouvre quand on passe la souris sur un point
+	    map.data.setStyle(setColorStyleFn);
+	    map.data.addListener('mouseover', function(event) {
+          infowindow.setContent(event.feature.getProperty('description'));
+          infowindow.setPosition(event.latLng);
+          infowindow.setOptions({pixelOffset: new google.maps.Size(0,-34)});
+          infowindow.open(map);
+        });
+        google.maps.event.addListener(map, 'click', function() {
+          infowindow.close(); // un clic sur la carte ferme les infowindows
+        });
+	  } // end initialize
+
+      // appel de la fonction d'initialisation une fois la page chargee
+      google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+	<meta charset="UTF-8">
+  </head>
+
+  <body>
+    <h1>Etablissements culturels</h1>
+
+	<p><a href="./index.php">Page principale</a></p>
+	
+    <h2>Carte</h2>
+    <div id="map-categorie" class="map-canvas"></div>
+
+    <h2>Liste des points</h2>
+	<table>
+      <tr><td>-0.57996033094377997</td><td>44.838898803286</td><td>Musée des Arts Décoratifs                                                                         </td></tr>
+      <tr><td>-0.56978822248841099</td><td>44.841000817473201</td><td>Musée national des Douanes                                                                         </td></tr>
+      <tr><td>-0.57217654150993402</td><td>44.848567557232897</td><td>Entrepôt Lainé - CAPC Musée d'art contemporain                                                   </td></tr>
+      <tr><td>-0.55843397687699403</td><td>44.870396758751902</td><td>Base sous-marine                                                                                    </td></tr>
+      <tr><td>-0.58191502922231797</td><td>44.838759443202903</td><td>Galerie des Beaux-Arts                                                                              </td></tr>
+      <tr><td>-0.57765997263873903</td><td>44.838704669916503</td><td>Centre Jean Moulin                                                                                  </td></tr>
+      <tr><td>-0.60191653046052496</td><td>44.820459750705297</td><td>Relais-lecture Lire à Tauzin                                                                       </td></tr>
+      <tr><td>-0.55444384721595297</td><td>44.861654277578097</td><td>FRAC d'aquitaine                                                                                    </td></tr>
+      <tr><td>-0.58112122812966804</td><td>44.838068116225301</td><td>Musée des Beaux Arts                                                                               </td></tr>
+      <tr><td>-0.57487511328249896</td><td>44.8358933739582</td><td>Musée Goupil                                                                                       </td></tr>
+      <tr><td>-0.55062544584723905</td><td>44.821379784079298</td><td>Bibliothèque Flora Tristan                                                                         </td></tr>
+      <tr><td>-0.57469962232493299</td><td>44.835672679475501</td><td>Musée d'Aquitaine                                                                                  </td></tr>
+      <tr><td>-0.58014188430362001</td><td>44.848384972731601</td><td>Muséum d'Histoire naturelle - Hôtel de Lisleferme                                                 </td></tr>
+      <tr><td>-0.599436738123866</td><td>44.852507119792897</td><td>Bibliothèque mobile - Parc bordelais                                                               </td></tr>
+      <tr><td>-0.56698405272645302</td><td>44.830905196304997</td><td>Bibliothèque Capucins - St Michel                                                                  </td></tr>
+      <tr><td>-0.57212636238355197</td><td>44.820303671366197</td><td>Bibliothèque mobile - Place Nansouty                                                               </td></tr>
+      <tr><td>-0.57414367302580005</td><td>44.851794611837299</td><td>Bibliothèque mobile - Place Paul Doumer                                                            </td></tr>
+      <tr><td>-0.57294607989018198</td><td>44.8737245426519</td><td>Bibliothèque de Bordeaux Lac                                                                       </td></tr>
+      <tr><td>-0.58018851227785095</td><td>44.848050630781898</td><td>Bibliothèque du Jardin Public                                                                      </td></tr>
+      <tr><td>-0.60762531119998098</td><td>44.840676286744703</td><td>Bibliothèque mobile - Avenue Bel Air                                                               </td></tr>
+      <tr><td>-0.56734652636219995</td><td>44.8629609175212</td><td>Bibliothèque mobile - Cours Saint Louis                                                            </td></tr>
+      <tr><td>-0.62313173481506201</td><td>44.857935801508397</td><td>Bibliothèque mobile - Marché Stéhelin                                                            </td></tr>
+      <tr><td>-0.54217149755146599</td><td>44.843294338388098</td><td>Bibliothèque de la Bastide                                                                         </td></tr>
+      <tr><td>-0.57419884834155299</td><td>44.843672274326003</td><td>Office du Tourisme de Bordeaux                                                                      </td></tr>
+      <tr><td>-0.54622145240889697</td><td>44.871818204559503</td><td>Bibliothèque de Bacalan                                                                            </td></tr>
+      <tr><td>-0.58397455694001099</td><td>44.857812649048398</td><td>Bibliothèque du Grand Parc                                                                         </td></tr>
+      <tr><td>-0.58680748810257599</td><td>44.835358208795398</td><td>Bibliothèque Centrale de Mériadeck                                                                </td></tr>
+      <tr><td>-0.55691687154491099</td><td>44.825124564638699</td><td>Office de Tourisme - Gare St Jean                                                                   </td></tr>
+      <tr><td>-0.56102304568635597</td><td>44.841570318513597</td><td>Bibliothèque mobile - Rue Serr                                                                     </td></tr>
+      <tr><td>-0.56946064654718398</td><td>44.854542736176597</td><td>Musée du vin et du négoce de Bordeaux                                                             </td></tr>
+      <tr><td>-0.57642341795493302</td><td>44.842085500052903</td><td>Comité départemental de tourisme de la Gironde                                                    </td></tr>
+      <tr><td>-0.57947883673845102</td><td>44.849050014276798</td><td>Muséum d'Histoire naturelle - Pavillon administratif                                               </td></tr>
+      <tr><td>-0.61460814758061399</td><td>44.851121514193601</td><td>Bibliothèque mobile - Place des Martyrs de la Resistance                                           </td></tr>
+      <tr><td>-0.57084667244518505</td><td>44.849825599235302</td><td>Comité régional du tourisme Aquitaine                                                             </td></tr>
+      <tr><td>-0.61137734911347996</td><td>44.832811423949799</td><td>Bibliothèque Jean de La Ville de Mirmont                                                           </td></tr>
+
+	</table>
+
+  </body>
+
+</html>

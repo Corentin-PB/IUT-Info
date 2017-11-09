@@ -1,0 +1,4017 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Piscine Durantière - Nantes"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5987246849786501,47.212756571104997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Piscine Dervallières - Nantes"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.59218618244518,47.227539715795302,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Piscine Léo Lagrange Ile Gloriette - Nantes"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5600661354310299,47.209857833206499,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Club Léo Lagrange Nantes Aviron"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5438899368230501,47.245733451259497,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Golf Nantes Erdre"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.57977559307076,47.2692656930341,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Base d'Aviron Universitaire"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55129581053572,47.236556381804903,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plaine de Jeux de la Beaujoire"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.53365378581846,47.263993054528903,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade La Halvêque"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.51861361543117,47.253863455688297,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade Joseph Geoffroy La Saint-Pierre"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5328453490571701,47.239734960728001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade Batignolles"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.52669752937696,47.245272895184698,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plateau Sportif du Port Boyer"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5383314439883999,47.239667383290502,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Espace de Proximité La Grande Noue"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.52203929092366,47.236872688160702,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Espace Sportif de Proximité du Clos Toreau"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5264712238628599,47.195916194495602,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade de la Gilarderie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5208204818423301,47.188383252732301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade des Bourdonnières"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5196002709432701,47.184801876414298,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plaine de Jeux du Petit Port"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5637200105434099,47.248334882679998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade Launay Violette"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5573412374870199,47.249089832546602,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade Procé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5803796983899301,47.224492870133297,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade Annexe de Procé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5803084859143,47.221905256987299,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plaine de Jeux Bernardière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.61578032556758,47.202263552387699,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade Bois de la Musse Espérance St-Yves"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.61194218184324,47.201641861332199,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plaine de Jeux Lycée Albert Camus"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.61000448546101,47.203030129374,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade La Mellinet-Audrain"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.59280872537732,47.220062689523097,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade Pascal-Laporte"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.58210919594525,47.229221007633498,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase du Club Athlétic Nantais"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.58463937662557,47.212167491761598,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Agenêts"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.53111131447497,47.227216709554703,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Chantenay"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5947876142158901,47.198644649810198,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Piscine Jules Verne Haluchère - Nantes"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.51748108230335,47.248251332038102,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade Jean Jacques Audubon"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.50438306254425,47.240171029535098,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plaine de Jeux Jonelière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54361455419714,47.261444100163402,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plaine de Jeux de la Mainguais"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4909378276142,47.279165523367801,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plaine de Jeux l'Eraudière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5353443496558701,47.2479389858742,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Equipement Sportif de Proximité La Halvêque"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.51848979699111,47.254168051342802,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plaine de Jeux Marrière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5287141535615101,47.236696693151202,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plaine de Jeux Sévres"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5316535182812601,47.1846104468124,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plaine de jeux Gaston Turpin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5407156269076301,47.224397183052702,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade Etoile du Cens"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5747452777233999,47.255501567701003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade l'Amande"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5733371330974799,47.262490842556602,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade Michel Lecointre Beaulieu"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.53281900853191,47.209675350334003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade Pin Sec"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5201696337809001,47.242648370723003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Cercle d'Aviron de Nantes"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5472936544111999,47.233981218756,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Base Nautique de la Jonelière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.53949512370314,47.257981289921297,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plaine de Jeux Grand Blottereau"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.50964696317175,47.225440671245501,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade de la Roche"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5197462247447899,47.219267017127898,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Patinoire Olympique du Petit Port"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55555103389616,47.242786099791303,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plaine de Jeux Géraudière Santos Dumont"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5682539154209201,47.260411863374998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Hippodrome du Petit Port"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.56316761933513,47.246203014932902,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade des Dervallières"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5925994156914201,47.2264093976016,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade Racing Athlétic Club Cheminots"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4999870358613301,47.232863880198401,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase RACC"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.50037475669311,47.231944206212198,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade Mangin Beaulieu"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5410088172821399,47.205051553485603,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Circuits Rustiques d'Activités Plein Air - Blottereau"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.50893453793683,47.225938270913801,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Terrain de tennis Bourgeonnière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5546389944477299,47.253229371101703,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Base Nautique Port Durand S.N.S.M."},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5382189641922099,47.252503377348603,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Centre Sportif José Arribas"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5414766558903601,47.260672338584698,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Amicale Don Bosco"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5364861468979101,47.246083830988297,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Centre Sportif l'Angevinière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.60978483501323,47.247105793594898,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Le Hérault"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.59992582425841,47.235057948968098,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Joli Mai"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6008832939483,47.242707413864999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade Calvaires"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6498932522163801,47.2150249072251,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Bernardière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6160163793685101,47.206323365469501,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Espace Multisport Ernest Renan"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6125140102790401,47.2150709214297,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Piscine Ernest Renan - St Herblain"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6135806654445499,47.215419875884301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Sensive"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6122506212955099,47.210653661827102,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Centre Sportif du Vigneau"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.62222094024926,47.2179570960269,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase du Bourg"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.65323604713288,47.210746403378998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Piscine Bourgonnière  - St Herblain"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.65677255323662,47.207785243533799,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Changetterie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6511152608945801,47.215168276446803,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Complexe Sportif Roger-Piccaud"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6100777686460801,47.2518860610327,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade du Verger"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.59134696816738,47.250043521643903,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Emile Gibier"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5955240559064201,47.2542766664819,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Complexe de la Ferrière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.59197970160573,47.246157821333,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Le Bois Raguenet"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5961971384645,47.270360767606398,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade de la Bugallière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.63172618061595,47.260078129357602,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase de La Bugallière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.63172494291619,47.262118910885398,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Complexe Sportif de la Frebaudière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.62565544930331,47.273209857768101,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade de Gagné"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6297076507114101,47.283179234589298,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Ouche Quinet"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4999201880599999,47.192658785274098,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase du Petit Anjou"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5017449964623999,47.2067361689816,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Profondine"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4890329841084999,47.195930684030003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Savarières"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.48756395474289,47.209437035228397,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Complexe Sportif de La Martellière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5268367540368399,47.198080590438998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade de la Profondine"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4878616852217199,47.1947852992256,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade des Gripots"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4835223798767101,47.194588433184698,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase du Douet"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.52081100676749,47.191412971511099,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Ensemble Sportif  de l'Orvasserie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6337854369218101,47.205457013899199,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Les Écuries du Clos - Village du cheval"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6291818282216599,47.167039190497697,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Piscine municipale - Bouguenais"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6212962986588499,47.171742960848,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade Football Félix Guyot"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.67079315636277,47.201286519481499,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Practice de golf"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.49257395344305,47.213172136489199,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Centre Equestre Ile Pinette"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.50685768063897,47.211188591206103,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade René Massé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.50056167624582,47.211370442229402,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade Maurice Thollé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.50375232534838,47.211271474064901,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Circuits Rustiques d'Activites Plein Air des Gripots"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4851677777661301,47.1937733642716,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Circuits Rustiques d'Activites en Plein Air de l'Ile Forget"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5124112865842301,47.211228073537598,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade de la Ligue Atlantique de Football"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4957648243528301,47.212680072829698,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade de la Croix Jeannette"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6228281637648201,47.172456197681797,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Parcours sportif de la Ville-au-Denis"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6239799174476801,47.158019840541897,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Salle du Fougan-de-Mer"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.57897799892288,47.183223973952401,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade de Beauvoir"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6309405594036599,47.181338462823298,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade des Landes"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.58662907238535,47.1756170441002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plateau d'évolution Cité de Beauvoir"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.62828964796547,47.179004161506597,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Centre Sportif du Val de Chézine"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.61838202891687,47.240904806218197,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plaine de Jeux La Bergerie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6333863858186199,47.238694249990999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Haute-Indre"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6478993182919,47.195129523746502,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Golf Miniature"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.67143790880919,47.196950766681503,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Basse-Indre"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.66931281917631,47.2008208726484,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Gigant"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5710414266968,47.213069738357603,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Complexe Sportif de Saint Joseph de Porterie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5183083417821099,47.272090636317103,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Noë Lambert"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.52715800803948,47.230800063303903,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Parc d'Attractions des Naudières"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.69670558494988,47.2682760901519,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade Julien Micheau"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.7255254070563999,47.1728202523257,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Brains"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.7221065596152101,47.168319934031302,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Club nautique de Port Jean"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.52400721179044,47.303153108161901,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Centre Sportif du Moulin Boiseau"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4818566700487501,47.284336383332501,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Centre sportif Jean Gauvrit"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4874311720500999,47.295826083548,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Piscine Daniel Gilard - Carquefou"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.49260361219881,47.302491179702798,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Complexe sportif de la Tournière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4699926487648101,47.318583422567301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade de la Frémondière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.7170855440783701,47.210487014211402,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade Donatien et Suzanne Hauray"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.7194611716960899,47.212041939626502,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Centre Sportif Paul Langevin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.7200004079245099,47.214405596114602,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Piscine Baptiste Lefèvre - Couëron"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.7203929977591601,47.213864375675399,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Complexe Sportif Léo-Lagrange"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.68423886292367,47.2207410736832,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Bowling EuroBowl"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4860637634407301,47.189582458066603,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Golf de l'Epinay"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.48894815586082,47.287780342613701,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Pierre Moisan"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.68430936585207,47.216331690672099,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Jules Boullery"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.7275881021075601,47.214537250231501,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Patinoire Olympique Rezé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5729261472647,47.182371820933596,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Centre Sportif René Gaudin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.73884756734602,47.212265146798501,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Vélodrome Marcel-de-la-Provôté"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.7368906288991,47.2115055172575,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Centre Equestre de la Hillière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4225562840010799,47.2853531096737,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Centre Equestre Ferme de la Chauffetière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.7801671315777701,47.202733474168497,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Salle omnisports - Gymnase intercommunal"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.75867046958166,47.195695996630498,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade Municipal Le Pellerin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.76061423481004,47.196177732069899,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Centre Equestre de la Pirouette"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.7065950580576501,47.2437449092645,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Centre Equestre Poney Club"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.51644264715241,47.149885937582397,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade de Massigné"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55725415859161,47.2988927790405,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade de la Haute Gournière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5444019374584701,47.268003346556199,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade de rugby Robert Mesnard"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5596052533087299,47.3036283754249,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Halle des sports Bernard Corneau"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5508421866106601,47.267657194124098,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade de football municipal La Montagne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6745670922931,47.182745258080402,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Complexe Sportif Les Genets"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.72513264303311,47.192082171731002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade Saint Jean de Boiseau"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.71022499843855,47.1877658275626,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Centre Sportif de Bellestre"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.69458100821657,47.1496505324574,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Centre Sportif Les Ormeaux"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6822663231064701,47.155148903020198,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Salle Omnisports"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.73260456982872,47.134037573798402,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade de Football Marcel Lejay"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.67548286181971,47.181166226702999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Halle de sport La Pavelle"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6351141907511,47.124218701986997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Salle polyvalente"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6325891488623701,47.123773035481797,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade Municipal des Loquets"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.3937219728816901,47.292895200758601,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Armand Jolaine"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.39001752893399,47.293365884144499,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Marc Jaffret"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.48292958826837,47.248900747517197,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Hippodrome du Portillon"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4702859062032001,47.153807224700401,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Complexe Sportif Sèvre et Maine"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4665017603452,47.164811926873398,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade de Vertou Centre"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4723961276886199,47.165808420877802,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Piscine municipale - Vertou"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.46996117459646,47.164908839672997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade Vincent et Robert Girard"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.49234523360176,47.1847635199967,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade Loreau"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.48558414099214,47.159123634280697,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase  Eric Tabarly"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4904787067537699,47.258538248275102,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Centre Sportif Philippe Porcher"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4621911395020399,47.245167879344301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Centre Equestre (CERVAL)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4554902932085201,47.2557045303056,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade municipal"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4813988532474101,47.253669842148497,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Complexe sportif du Patisseau"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.47940132531115,47.245394463819402,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plateau sportif de la Reinetière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.49054823768047,47.2589533862309,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Base Nautique de Port Barbe"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54003681983312,47.264614107884398,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Base nautique de l'ANCRE - La Grimaudière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5370732372525999,47.293760381692103,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Centre Equestre de la Gascherie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5382836982007899,47.2972906511825,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Centre Equestre de la Noue Verrière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.57123346471296,47.276833138129803,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Centre Equestre de la Vaillantière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5807960985918299,47.341344517417902,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Site naturel de loisirs de la Roche Ballue"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.65323044926348,47.183967878811202,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Base Nautique Canöé Kayak Vertou"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4778650831874101,47.161924200066203,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase de Goulaine"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.46394887294369,47.217936733326503,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade Henri Michel"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.46875691160205,47.217831617745098,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Henri Michel"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4680126450214199,47.216916190808497,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade de Rugby des Rouleaux"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4679696208523101,47.202856234020899,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Saint Exupéry"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.68208699209713,47.183956168427301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Complexe ancien stade Les Sorinières"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5220484391971401,47.146098088227802,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Club Nautique de la Martinière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.79331782394207,47.206982831701602,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Parc des Sports"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4536947025054201,47.261570532928197,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade Philippe Porcher"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4613223171473699,47.245817472219898,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Complexe sportif de la Robinière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5312200343070099,47.163663947040099,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade Léo Lagrange"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5694293191042401,47.181864995541197,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Piscine municipale Victor-Jara - Rezé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5687572847370601,47.183020586909102,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Lysiane et Michel Liberge"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5587292778792701,47.178140772256903,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Cercle Saint Paul"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5476242991379601,47.185694949542899,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Château Nord"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55761005300458,47.185424945756999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Lucien Cavalin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5594340891510201,47.180510797470099,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Cités Unies COSEC"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5691145073320401,47.183632569293998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase du Chêne Creux"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5466585886491899,47.173792696169599,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase E. Cretual"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54863252978591,47.178422586817199,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Foyer AEPR"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5506939900727501,47.186745913297898,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Jean Perrin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.56021694457925,47.183277005352799,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Julien Douillard"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5430742353342199,47.185850516918102,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Ouche Dinier"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.53696348110384,47.176226291714798,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Yvonne et Alexandre Plancher"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.57064522845569,47.190039740392002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Roger Salengro"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5495168410679001,47.184110948755901,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Jean-Pierre Morel"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.46711916996356,47.164914745607099,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase 2"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4672910389304199,47.1643410306174,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade Sèvre et Maine"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4655576536502799,47.163829331363097,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Roller-Skatepark - Les Sorinières"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5180645057914299,47.151591304678597,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Raymond Durand"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.49772048555354,47.183702552838099,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade Raymond Durand"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4988362258085299,47.182575254709903,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Piscine des Thébaudières - Vertou"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4459204893995301,47.156394632042897,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Salle Sèvre et Maine"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4672216212209199,47.163287313849203,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Complexe Sportif"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6765164919651401,47.265941420437997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Joël Dubois"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6220346010185001,47.170732458997001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Joachim Marnier"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5231167400240999,47.1484770051065,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Mini Auto Club Nantais"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54281104096611,47.257656005473002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Skatepark Le Hangar - Nantes"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.51303380175172,47.219622055725601,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Sully"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54988607605579,47.223176732287797,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Courts de Tennis Robinière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5296646218601599,47.162749295035297,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Boulodrome Robinière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.53045499402347,47.165152705485099,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Skatepark - Rezé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.57189318372349,47.180645555237597,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Rezé Tennis Club - Halles de la Trocardière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5679119813604001,47.181193894903402,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Espace Sport Canin Bouguenais"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5699706836541301,47.1602373880865,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plateau sportif du Fougan-de-Mer"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.57953925266013,47.183220838449799,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Salle des Bélians"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.60547145313346,47.1729765475935,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Terrain stabilisé de la Croix Jeannette"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6204902892795501,47.171186984947802,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Terrains de Tennis de la Gagnerie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6188956821998399,47.170068654964801,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Terrain de tir à l'arc de la Gagnerie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.61804709117255,47.170368015288197,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Centre de tennis Arthur Ashe"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.59180917746448,47.176639337408098,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase de la Baronnais"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.59302228346367,47.176229567163404,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase de la Neustrie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5921990676745099,47.175882322273999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Salle des Mousquetaires"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5927673773588999,47.1757333241693,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plateau d'évolution de la Neustrie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5911284482011401,47.175391018069703,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade Pierre de Coubertin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5918103807230199,47.174988472819201,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Salle de Tennis de Table Vertou"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.47325814337337,47.1652856313396,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Terrain de Pétanque du Parc de la Sèvre"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.47981291545655,47.165830201305397,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Terrain de Tir à l'Arc Vertou"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.49907317912865,47.183339951557301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Piste de Bi-cross Ile Forget"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5169476191906399,47.209388656043302,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Tennis de l'Ouche Catin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5019944845511799,47.1925737586485,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Complexe Sportif Saint Sébastien"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.49951203283728,47.209361707033999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Skatepark Jouandière - Carquefou"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4901658616862301,47.292160972469901,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Alella"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.48272657049156,47.283476054155301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Salle du Tremplin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4819778113677,47.281659953679799,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Salle de Tennis"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4641483452963799,47.217495601504702,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase La Herdrie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4521164100380699,47.198136998796301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade La Herdrie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4518438765204,47.197060698453697,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase de Mazaire"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5583652816759299,47.296980840745597,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Complexe sportif de La Coutancière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55849488739076,47.306280542142702,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Complexe sportif Buisson de la Grolle"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.53853292487801,47.289715376793303,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Piste d'athlétisme"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.68227255927785,47.1543009732966,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Salle Léo Lagrange"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.68346552493436,47.219563383459104,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Paul Langevin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.7212723900612701,47.214030147673299,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Piste Bi-cross Couëron"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.70294117334378,47.212310186846103,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Boulodrome Indre"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6719939069782499,47.197316315329601,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Salle de sport"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.3904484426300501,47.293590625065399,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Centre Stévin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.63451043548246,47.2594508036441,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Tennis Orvault"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5815643845638101,47.257164547028403,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plateau Multisports"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.59694048733103,47.263231868325903,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Tennis Roger Picaud"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.61156164440896,47.252933050899799,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Piscine Roger Picaud - Orvault"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.61012134345654,47.251124918662001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Complexe Sports Loisirs Francis Lespinet"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.67655751897517,47.182749252407497,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Courts de Tennis"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.76158045857492,47.196190030195702,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Terrain de pétanque"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.75932744212281,47.196074491203497,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Tennis Saint Aignan de Grand Lieu"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.63772247513102,47.120719396384203,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade Jean Bertin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6316612001436099,47.124226769720302,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plaine de Jeux de la Rive"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.73297467088365,47.133430497723097,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Marcel Le Bonniec"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.49018590950255,47.2582512018069,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Jules Léauté"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5250525944848301,47.147588596402301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Salle de Judo Les Sorinières"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5229674188572599,47.148218561622102,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Complexe de loisirs Louis Barta"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.51904656373622,47.150010156029602,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Motocross Christian Bageot"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.64003404395561,47.198098764127899,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Tir à l'Arc Saint Herblain"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6204894226531801,47.215773137101202,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Salle de Tennis de Table du Haut Vigneau"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5215401792340599,47.159688631078701,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade Georges Tougeron"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.69313170407814,47.1498081053604,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Espace Multisport Sillon"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6105478303718199,47.246360741490001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Piscine Petite Amazonie - Nantes"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5317100587432999,47.216392663842399,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Skatepark Ricordeau - Nantes"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55351435609301,47.212307440788699,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Terrain Multisport Monteil"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5486942734715701,47.213201100097002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Boulodrome Noë Lambert"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.52528828389541,47.230971683226102,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Complexe sportif des Echalonnières"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4662823302900401,47.176281148573601,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plateau sportif Les Echalonnières"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.46967483894057,47.175924394687797,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Salle omnisports des Echalonnières"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.47063261253475,47.176751419124898,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Centre Equestre La Gourmette"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.71206542059429,47.277505695115799,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase CEPA"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5513494228590801,47.212296003736597,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Espace Spotif des Courtils"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.59266498071941,47.200644828654802,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Espace Sportif des Martyrs Irlandais"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.61048376514402,47.207718143476299,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Espace Sportif Terrain A. Fournier"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.60070048031775,47.204610915961801,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Espace Sportif Terrain du Petit Verger"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.60361198834223,47.207384850610502,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Espace Sportif ZAC Montplaisir"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.60892584696039,47.199891507105299,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade Raymond Baumard - Centre Hebertiste"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5822774212436801,47.221306931140496,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Espace Sportif Meissonier"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.59247267037624,47.224746343571198,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Salle de Musculation du Jamet - Bellevue"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6030286420075499,47.210340023940802,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Espace Sportif Malakoff"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5207793798543601,47.216206493177502,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Espace Sportif Noe Mitrie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.52634402218328,47.227954133296599,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Espace Sportif Moutonnerie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5336494639276901,47.220911611503901,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Terrain multisports Sébilleau"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5316355140000599,47.205254951556903,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Bonne Garde"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5369173966535401,47.192965706917803,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Emile Morice"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5514927475804201,47.206459346983202,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Gravaud"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.57752951962898,47.203863625707598,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Centre Sportif Mangin Beaulieu"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5428113959507399,47.204869028070497,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Gobelets Ripossière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.52936590210597,47.191065992008298,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Raphaël Lebel"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.51222501260675,47.2282590704611,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Doulon"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.51029286158558,47.237238310363203,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Centre Sportif Croissant"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.52250611892111,47.2351002409264,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Malakoff 4"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.52857641995758,47.214695364997603,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Albert Camus"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6109029278331299,47.203571220195897,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase La Halvêque"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.51723434629303,47.253735540174702,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Urbain Le Verrier"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5215062832178501,47.241523594467999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase des Marsauderies"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5294678837946301,47.242520591395198,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Chantenaysienne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.59051123448175,47.206925445275402,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Jean Zay Bellevue"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.60741124990384,47.208291072120701,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Jamet"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6038825260168801,47.210427834992103,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Complexe Sportif de la Durantière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.60509557209857,47.214125468928898,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Pierre de Coubertin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5936678993111899,47.2305298815958,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Jean Ogé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5957376502537099,47.226192964106403,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Complexe Sportif Dervallières"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5918260694891799,47.225961173814802,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Longchamp"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5777651306726801,47.240941788404399,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Bout des Landes"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5764239154162401,47.263785658836198,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Géraudière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5675850917752401,47.2613899375134,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Le Baut"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5628647623385701,47.254688797586397,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase  Barboire"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5551249940102401,47.252265738513799,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase du Port Boyer"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.53826191612352,47.240776097617399,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Palais des Sports Beaulieu"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5367720694193701,47.209525096819398,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Gaston Turpin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54107241363304,47.2236630243329,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase du Coudray"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54372092947929,47.2327235683155,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Léo Lagrange"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55964752075255,47.20999754084,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Joêl Paon"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.56398900131605,47.224341921187801,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase La Similienne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5628896219584201,47.223966059043804,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase V. Hugo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55798634041585,47.223444046917002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Armand Coidelle"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.56139305853245,47.216404271621499,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Sévigné"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5670618606168401,47.215727142987099,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Leloup Bouhier"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5734859854520999,47.210048507336602,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Gaston Serpette"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.57598246882318,47.227230320527802,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase du Breil Malville"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.58358465931778,47.229142567454701,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Centre Sportif et Culturel La Laëtitia"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5800023215603001,47.2318280425404,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase de la Mellinet"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5803339931200699,47.202717675415002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase ASPTT Appert"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.579919327956,47.214053707420902,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase ASTA"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.52010465635145,47.228285142919098,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase ASPTT de Longchamp"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5797215238920399,47.235391342112997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Salle Saint Donatien"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5432864092104599,47.230280169118998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade Marcel Saupin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.53864710450033,47.212811134927797,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade de la Beaujoire Louis Fonteneau"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.52470397906934,47.256018824337502,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plaine de Jeux Colinière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5100433909461799,47.235367061292401,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plaine de Jeux Basses Landes"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.58770491033286,47.269104437311903,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Vélodrome Stade Petit Breton"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6004686967686601,47.213878648692102,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plaine de Jeux Durantière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6003703118216199,47.211773815621299,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Piscine Petit Port - Nantes"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5544608975630601,47.242843421845798,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Boulodrome du Breil"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.58148771094116,47.231420091776897,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Skatepark Schuman - Nantes"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5727031517998,47.241643552185799,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Base Nautique de l'UNA"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5512961797376501,47.236708853438103,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stand de Tir des Jamonières"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5408070583219999,47.257097782338398,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plateau Sportif Winnipeg"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.57826013212345,47.259529701216401,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plateau Sportif André Chénier"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.56724591076149,47.253373326297499,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plateau Sportif de la Géraudière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5676747523283501,47.258481052181999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"UFR STAPS"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5553137607007601,47.251689514325498,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Equipement Sportif des Quatre Jeudis"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.52053450198753,47.2662235402302,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Espace Sportif Louis Pergaud"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.51982819492898,47.268068713089598,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Espace Sportif Ecole du Linot"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5285551638079,47.2682287243193,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plaine de Jeux du Lycée de la Colinière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.51229825260666,47.235416199563403,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Halle de Tennis de la Marrière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.52784818256959,47.2368185757269,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Equipement Sportif Marché de la Marrière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5325272623831701,47.234157824906397,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade René Chevalier"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5051183545599001,47.239935244659002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Equipement Sportif du Square A. Fresnel"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5226656598961399,47.242695645397603,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Complexe sportif de la Noë Lambert"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5258631232986599,47.230054738175802,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Salle de Boxe Bottière Nantes Est"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.52102580886387,47.240674496897299,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Equipement Sportif de la Haluchère"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5122799131178499,47.247459519324202,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Boulodrome du Bèle"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.51301291030959,47.259881843984203,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Bowling de l'Erdre"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.50361701293574,47.301824836005103,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Terrain multisports Millerand"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.53037444889631,47.209110261629597,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Espace Sportif Le Souchais"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.50241580552544,47.303961537897599,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Espace Sportif Louis Le Nain"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.59817455093445,47.225816279734097,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Bottière Chênaie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.51413692175225,47.237434063416003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stadium Métropolitain Pierre Quinon"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5555768256890501,47.248873422185198,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Port-au-Blé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5528708005485301,47.190252044537601,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Arthur-Dugast"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5443874396766599,47.165479701187799,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Espace Multisport Solvardière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.64176082507584,47.216699500995603,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Espace Multisport Censive"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6115880954925199,47.2104096584847,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Espace Multisport Crémetterie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.60905162935041,47.215451784302999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Tennis"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.73271134771113,47.134534554037501,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Court de Tennis"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.66875796124264,47.200961761503301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Cercle Nautique d'Indre"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.66910329129323,47.196070043854199,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Skatepark - Brains"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.71740328001877,47.171727973295603,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Aire de jeux multisports Brains"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.7174134872371301,47.1715714181572,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Karaté"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5226345940555499,47.148051833968402,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Aire multisports"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.52301319853266,47.157498536424697,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Aire multisports"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.53387347807476,47.148858594161801,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Centre equestre Poney Club"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54402353337293,47.144896947915399,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Centre aquatique So.Pool"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4734169189370701,47.189583722382501,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Salle omnisport de Bellestre"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.69634341849071,47.149840841961797,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Court de Tennis"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6926206048408501,47.150635340513297,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Skatepark - Bouaye"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6802964431057701,47.1546780883818,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Salle de sport de la Belle Etoile"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.45322268077049,47.260932282871998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Salle de Tennis du Guette Loup"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.45519991438981,47.262554889217803,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Salle Omnisport"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4560830507437801,47.263195289025603,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Court de Tennis"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4678157472067701,47.218532934201903,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stades de Football"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.46645497803417,47.218460390894002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Dojo Goulainais"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4674895111250501,47.216794307123301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Boulodrome"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4680711596290299,47.216619931956501,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Skatepark - Basse-Goulaine"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.46573542845903,47.217875658281201,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Terrain multisport"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4657807215055101,47.217631263400101,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Boulodrome"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.63771789549553,47.1203301600343,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Skatepark - St-Aignan"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6372830000767,47.121160359900699,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Terrain de Basket"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6371984164958799,47.121000245275297,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Tir à l'Arc"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.7099801739162901,47.186294274252802,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Skatepark - La Montagne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6868503338309899,47.186997597229002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Skatepark - Vertou"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4661835324072301,47.163205322919403,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Terrain de Tennis"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.46673883456256,47.1639364142099,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Terrain de Tennis"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4982833575474499,47.183257535808501,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Entente Tennis Vertou"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.46318253916213,47.178537327027499,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Salle spécifique de gymnastique"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4671354674047301,47.165239070876503,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Terrain de Pétanque des Reigners"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4644503506231199,47.1376168981039,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Skatepark - Vertou"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4650612269699099,47.137740018998997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Salle Antarès"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.67944111191122,47.266208767174099,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Salle de Tennis Centaure"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6788642584901501,47.2669270963193,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Salle de Pétanque Electra"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6781119842212899,47.265882124727099,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Salle de Tennis Cassiopée"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6792350804817899,47.266647481286903,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Salle Omnisport Delta"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6778722237383099,47.266164291382999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Salle Omnisport Bellatrix"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.67874386609388,47.266037577980399,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Terrains de tennis"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6784190584645899,47.266512310487101,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Terrains de pétanque"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6779236096743599,47.267012615919903,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Skatepark - Sautron"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.67980908258144,47.2662524329902,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Tennis Country Club"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.7043806673428099,47.244588343803599,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Centre équestre Poney-Club"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.7045512212479399,47.2460107847443,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Boulodrome"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.68393059268241,47.219316300576502,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Tennis"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.73813547120881,47.211715263944399,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade René Gaudin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.7368820187365599,47.212469299478698,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Skatepark Romain Douillard - Couëron"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.73831246720018,47.212189124208997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"City Stade"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6834647648968899,47.214044239017902,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Eersel"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4830005017521,47.285573909122697,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Piste de bicross"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4813821087255801,47.2814486517006,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Terrain de Pétanque"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.48128079092291,47.282227710860901,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Tennis"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.48341346932704,47.284435182268403,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stand de Tir"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.47070687781425,47.318243226480597,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Sport Nautique de l'Ouest"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5264152489955101,47.301405742284501,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Color'ado"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.49269654987027,47.302925259448799,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase Pré-Gauchet"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.53530393844997,47.217128810849402,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Boulodrome"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.62505307890939,47.274346152420001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Tennis Frébaudière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.62560460051723,47.274402243431503,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Skatepark - Orvault"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.62611737840092,47.274417689682302,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Bike-Park"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6295972962060301,47.281875747302301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Boulodrome"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5983966005253001,47.254077017241798,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Skatepark - La Chapelle-sur-Erdre"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5557863871242399,47.296078994646301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Piste d'athlétisme"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55717877351555,47.2981980314539,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Boulodrome de Massigné"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5590017209638301,47.299140493553203,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Courts de Tennis du Gesvres"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55164077434728,47.267252004277701,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Terrain multisports de Gesvres"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5512937731218199,47.266994579336298,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plateau sportif Gesvres"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5510211970947001,47.266836240653099,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Poney-club de Port-Barbe"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5424368096337699,47.2647855333542,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Swing-Golf de Port-Barbe"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54072241592381,47.2635553088015,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Halle des Sports de Mazaire"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5578479787725801,47.296366211006799,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Salle de Gymnastique Jacques Canzillon"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55853957466216,47.296640274236701,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Salles Duruy et Petipa"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6217682482645299,47.171065696192898,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Salle des Samouraïs"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6218647740513501,47.171322599190901,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Skatepark - Bouguenais"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.59066517061956,47.174852247097,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Terrain de boules de Beauvoir"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.62643250012879,47.179111397586603,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Terrain multisports de la Pierre Blanche"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6253652831215899,47.166781620901503,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Skatepark - Bouguenais"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6298593988431,47.177808349996802,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Espace René Cassin - salle Gilles de la Bourdonnaye"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.7621102991375901,47.194253911792302,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Espace René Cassin - salle Cécile Nowak"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.7617534836978199,47.194179677296901,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Terrain de basket"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.7584786438705799,47.195954228462703,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Terrain Multisports"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.75819683229684,47.195804982588598,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Amicale Laïque du Pellerin Tir Sportif"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.7590287648952601,47.200727477550998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Skatepark - Le Pellerin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.7501086342735801,47.201945428743798,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Terrain multisports"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5130686844250101,47.210394893443201,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Courts de Tennis"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.3909254439348699,47.293462653131101,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Centre Sportif de la Bourgonnière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6563962086297399,47.207201904729402,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Tennis"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5810329693676799,47.230105493064599,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"City Stade"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5839007450061899,47.230428277239703,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Poney Club Salantine Houssay"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5997194294490999,47.229686189978899,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Boulodrome du Tillay"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.60556742386325,47.231332013157797,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Tennis Club La Gagnerie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6010234098218099,47.235501355851,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"City Stade"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.51933111538115,47.256101730200399,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"City Stade"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5239317405127799,47.217091872220102,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"City Stade"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5187400215881099,47.268641325335302,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Terrains de Tennis"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.67626248447447,47.1829183341098,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plateau sportif de la Pelousière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6463037572667001,47.2075452017814,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Terrain Multisports"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6781403826468999,47.2667273761625,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Circuits Rustiques d'Activites en Plein Air de Sautron"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6713888583252201,47.268500578223197,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade de la Robinière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.53187121182908,47.164654711713503,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plateau multisports Château-Nord - City Stade"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55836846869043,47.185356794620297,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plateau multisports Château-Sud - City Stade"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5583462586782799,47.1815630236812,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Circuit d'orientation des îles de Loire"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.49573346582352,47.211769566241401,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"SkateParc - St-Sébastien"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.48711816708137,47.207235691133398,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Piste de bicross"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6777921490509,47.183532857508098,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Terrain de pétanque"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5628746551366799,47.184644757055302,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Aire de jeux de l'Etier"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.67339596547012,47.134856893006301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Anneau de Patin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.72662264628622,47.192577488835703,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Salle de danse Les Sorinières"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.52259368869916,47.145601640118102,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Stade Constant Pasquier"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6324608003871599,47.205150369753397,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"DOJO Jean-Claude Le Quintrec"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.7214516975249601,47.213669830730502,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"ASC Bonne Garde - Salle Jean-Yves Leroy"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54009352643386,47.195281264035202,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Salle sportive métropolitaine de Rezé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5717672449993101,47.179915668223899,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"City stade"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.57055699634047,47.180452828575,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gymnase du centre-ville"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4991344592345599,47.205190372708998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Piste de Bicross"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.69835572298409,47.196670261634097,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plateau multisports Ouche-Dinier"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5377057189247101,47.175939771178001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plateau multisports Port-au-Blé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5536297815289699,47.190403405341598,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plateau multisports Rezé-centre"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5710394681802,47.189907117830799,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plateau multisports Julien Douillard"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5427302178964999,47.185785093019298,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plateau multisports Petite-Lande"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55015206775593,47.179337943713698,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plateau multisports Roger Salengro"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5488693054381799,47.184022906252302,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plateau multisports Chêne-Creux"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54639170892458,47.173633354958,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plateau multisports Square Beaumarchais"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55814660204147,47.184428207604697,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plateau multisports Ragon"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54171072417792,47.165441615237803,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plateau multisports Trentemoult"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5841575079895001,47.193981092214003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Dojo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4698649061979201,47.176964934886797,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"SkatePark du Loiry"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.47675154133617,47.163495971217799,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Skatepark Beautour"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5065098320174299,47.180683105871701,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Centre équestre du Bois Brûlé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.44807956430045,47.187387064037303,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Chemin du château de la Tour"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6306091301994501,47.2806176309888,0]}}
+]}

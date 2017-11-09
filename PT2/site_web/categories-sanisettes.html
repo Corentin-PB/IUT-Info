@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+	<link rel="stylesheet" type="text/css" href="style.css">	
+
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	
+	<script>
+	  // declaration des cartes
+      var map;
+
+	  // la fenetre qui s'ouvre quand on passe la souris sur un point
+	  var infowindow = new google.maps.InfoWindow();
+
+	  // fonction d'initialisation
+      function initialize() {
+        var mapOptions = {
+          zoom: 6,
+          center: {lat:  46.55, lng: 2.4},
+          mapTypeId: google.maps.MapTypeId.TERRAIN
+        };
+        map = new google.maps.Map(document.getElementById('map-categorie'),
+          mapOptions);
+	    // initialisation des cartes et chargement des donnees
+	            map.data.loadGeoJson('json/sanisettes.json');
+
+	    
+	    // fonction de style
+	    var setColorStyleFn = function(feature) {
+	      return {icon: feature.getProperty('icon')};
+	    };
+	    // style des cartes, et listener pour la fenetre qui s'ouvre quand on passe la souris sur un point
+	    map.data.setStyle(setColorStyleFn);
+	    map.data.addListener('mouseover', function(event) {
+          infowindow.setContent(event.feature.getProperty('description'));
+          infowindow.setPosition(event.latLng);
+          infowindow.setOptions({pixelOffset: new google.maps.Size(0,-34)});
+          infowindow.open(map);
+        });
+        google.maps.event.addListener(map, 'click', function() {
+          infowindow.close(); // un clic sur la carte ferme les infowindows
+        });
+	  } // end initialize
+
+      // appel de la fonction d'initialisation une fois la page chargee
+      google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+	<meta charset="UTF-8">
+  </head>
+
+  <body>
+    <h1>sanisettes</h1>
+
+	<p><a href="./index.php">Page principale</a></p>
+	
+    <h2>Carte</h2>
+    <div id="map-categorie" class="map-canvas"></div>
+
+    <h2>Liste des points</h2>
+	<table>
+      <tr><td>1.4349177744199999</td><td>43.593256560900002</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.4536365840000001</td><td>43.608876893000001</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.45222039047</td><td>43.606551508099997</td><td>Sanitaires standarts                                                                                </td></tr>
+      <tr><td>1.44390507998</td><td>43.600300922300001</td><td>Sanitaires colonnes                                                                                 </td></tr>
+      <tr><td>1.4512657470899999</td><td>43.592382959200002</td><td>Sanitaires standarts                                                                                </td></tr>
+      <tr><td>1.45918784291</td><td>43.5794762154</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.4467977808900001</td><td>43.578581108800002</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.41860397024</td><td>43.591674729899999</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.37799627097</td><td>43.5899011172</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.3885879028999999</td><td>43.581775534099997</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.43610296592</td><td>43.603482586699997</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.4279554894099999</td><td>43.608127530399997</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.4392099975499999</td><td>43.611655623099999</td><td>Sanitaires standarts                                                                                </td></tr>
+      <tr><td>1.4435154219199999</td><td>43.610306414500002</td><td>Sanitaires standarts                                                                                </td></tr>
+      <tr><td>1.44756751242</td><td>43.606548508499998</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.4539684741000001</td><td>43.5964691362</td><td>Sanitaires standarts                                                                                </td></tr>
+      <tr><td>1.43336912263</td><td>43.626904741899999</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.4101752963400001</td><td>43.5648307449</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.44927686176</td><td>43.581043318699997</td><td>Sanitaires standarts                                                                                </td></tr>
+      <tr><td>1.4640420628299999</td><td>43.636458717099998</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.4778921361199999</td><td>43.612446435899997</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.4447770008800001</td><td>43.592679619800002</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.40347194586</td><td>43.570699175400001</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.3805229235600001</td><td>43.557258044599998</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.44823171001</td><td>43.603819668100002</td><td>Sanitaires intÃ©grables                                                                           </td></tr>
+      <tr><td>1.4283813830000001</td><td>43.599010769099998</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.4448204555599999</td><td>43.604152142700002</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.43077005558</td><td>43.5976076265</td><td>Sanitaires colonnes                                                                                 </td></tr>
+      <tr><td>1.4303527766699999</td><td>43.599019276699998</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.43715117305</td><td>43.608317091000004</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.4332368066700001</td><td>43.610011306499999</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.44788846851</td><td>43.605103524199997</td><td>Sanitaires colonnes                                                                                 </td></tr>
+      <tr><td>1.4521563723899999</td><td>43.601240535199999</td><td>Sanitaires standarts                                                                                </td></tr>
+      <tr><td>1.44805647817</td><td>43.602749080300001</td><td>Sanitaires colonnes                                                                                 </td></tr>
+      <tr><td>1.4545949284699999</td><td>43.599536936900002</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.4558616493700001</td><td>43.594347000600003</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.4352861401999999</td><td>43.620287367800003</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.45982608474</td><td>43.606749954800001</td><td>Sanitaires standarts                                                                                </td></tr>
+      <tr><td>1.3970282031900001</td><td>43.607762207500002</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.45045487595</td><td>43.608727375599997</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.4522372180100001</td><td>43.605788707000002</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.44421005367</td><td>43.597264793599997</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.4565551272699999</td><td>43.618588469300001</td><td>Sanitaires standarts                                                                                </td></tr>
+      <tr><td>1.46902285782</td><td>43.619473384400003</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.4399133870800001</td><td>43.577249223599999</td><td>Sanitaires standarts                                                                                </td></tr>
+      <tr><td>1.42826369701</td><td>43.584779275999999</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.41178584462</td><td>43.5787713295</td><td>Sanitaires standarts                                                                                </td></tr>
+      <tr><td>1.45233593683</td><td>43.640332487899997</td><td>Sanitaires intÃ©grables                                                                           </td></tr>
+      <tr><td>1.44755952337</td><td>43.5857994948</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.4493428205600001</td><td>43.594484520800002</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.4232830506800001</td><td>43.596267514200001</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.43675616942</td><td>43.598304650599999</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.43856243302</td><td>43.611355377700001</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.4409139097699999</td><td>43.598420208500002</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.4521351635199999</td><td>43.5993989304</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.43846486506</td><td>43.601552579200003</td><td>Sanitaires intÃ©grables                                                                           </td></tr>
+      <tr><td>1.4467358366</td><td>43.606021950900001</td><td>Sanitaires intÃ©grables                                                                           </td></tr>
+      <tr><td>1.4488683875199999</td><td>43.605338734500002</td><td>Sanitaires colonnes                                                                                 </td></tr>
+      <tr><td>1.45536590967</td><td>43.603207024200003</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.48357725336</td><td>43.579272522700002</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.4623406429800001</td><td>43.574423722900001</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.40808622116</td><td>43.616923355499999</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.43537733097</td><td>43.613247749199999</td><td>Sanitaires tous publics                                                                             </td></tr>
+      <tr><td>1.41326082684</td><td>43.581459947100001</td><td>Sanitaires tous publics                                                                             </td></tr>
+
+	</table>
+
+  </body>
+
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+	<link rel="stylesheet" type="text/css" href="style.css">	
+
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	
+	<script>
+	  // declaration des cartes
+      var map;
+
+	  // la fenetre qui s'ouvre quand on passe la souris sur un point
+	  var infowindow = new google.maps.InfoWindow();
+
+	  // fonction d'initialisation
+      function initialize() {
+        var mapOptions = {
+          zoom: 6,
+          center: {lat:  46.55, lng: 2.4},
+          mapTypeId: google.maps.MapTypeId.TERRAIN
+        };
+        map = new google.maps.Map(document.getElementById('map-categorie'),
+          mapOptions);
+	    // initialisation des cartes et chargement des donnees
+	            map.data.loadGeoJson('json/jardins-familiaux-de-la-ville-de-nantes.json');
+
+	    
+	    // fonction de style
+	    var setColorStyleFn = function(feature) {
+	      return {icon: feature.getProperty('icon')};
+	    };
+	    // style des cartes, et listener pour la fenetre qui s'ouvre quand on passe la souris sur un point
+	    map.data.setStyle(setColorStyleFn);
+	    map.data.addListener('mouseover', function(event) {
+          infowindow.setContent(event.feature.getProperty('description'));
+          infowindow.setPosition(event.latLng);
+          infowindow.setOptions({pixelOffset: new google.maps.Size(0,-34)});
+          infowindow.open(map);
+        });
+        google.maps.event.addListener(map, 'click', function() {
+          infowindow.close(); // un clic sur la carte ferme les infowindows
+        });
+	  } // end initialize
+
+      // appel de la fonction d'initialisation une fois la page chargee
+      google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+	<meta charset="UTF-8">
+  </head>
+
+  <body>
+    <h1>jardins familiaux</h1>
+
+	<p><a href="./index.php">Page principale</a></p>
+	
+    <h2>Carte</h2>
+    <div id="map-categorie" class="map-canvas"></div>
+
+    <h2>Liste des points</h2>
+	<table>
+      <tr><td>-1.5234414902209501</td><td>47.2194390174894</td><td>Asso  Les jardins de la Roche                                                                       </td></tr>
+      <tr><td>-1.5630940977061401</td><td>47.2565927290361</td><td>Asso  Les jardins de la Cressonnière                                                               </td></tr>
+      <tr><td>-1.5481177365620999</td><td>47.212126761111698</td><td>Asso. Des petits jardins du Lait de Mai                                                             </td></tr>
+      <tr><td>-1.58786484344719</td><td>47.229065648842102</td><td>Confédération Syndicale des Familles                                                              </td></tr>
+      <tr><td>-1.5857635645879899</td><td>47.228175421167599</td><td>Asso.Jardins Familiaux Nantais                                                                      </td></tr>
+      <tr><td>-1.5164583688436899</td><td>47.242058834349201</td><td>Asso les Jardins des Collines                                                                       </td></tr>
+      <tr><td>-1.5230917066574601</td><td>47.235147460220396</td><td>Asso. Jardins de la Marrière                                                                       </td></tr>
+      <tr><td>-1.5299645230415699</td><td>47.191118307050502</td><td>Asso.la crapaudine                                                                                  </td></tr>
+      <tr><td>-1.52862142777457</td><td>47.195788247032802</td><td>ECOS                                                                                                </td></tr>
+      <tr><td>-1.5205271391658299</td><td>47.255618654976701</td><td>Asso.Jardins Familiaux Nantais                                                                      </td></tr>
+      <tr><td>-1.52439613841858</td><td>47.2160658560964</td><td>Les Idéelles                                                                                       </td></tr>
+      <tr><td>-1.5426474832292101</td><td>47.194677133285602</td><td>Les Escartons                                                                                       </td></tr>
+      <tr><td>-1.56292365129831</td><td>47.2109178835222</td><td>PAPOTAGER                                                                                           </td></tr>
+      <tr><td>-1.5658554394258399</td><td>47.217418655760298</td><td>KENTELOU AN NOZ                                                                                     </td></tr>
+      <tr><td>-1.49076498693019</td><td>47.245736469755499</td><td>Asso.Jardins Familiaux Nantais                                                                      </td></tr>
+      <tr><td>-1.5859858364546799</td><td>47.200707776437199</td><td>Les potagers des Oblates                                                                            </td></tr>
+      <tr><td>-1.5765190053387299</td><td>47.267498125386403</td><td>Asso  Les jardins des bruyeres                                                                      </td></tr>
+      <tr><td>-1.5482412668591501</td><td>47.203605408301101</td><td>INTERFERENCES -16 watts                                                                             </td></tr>
+      <tr><td>-1.5253731601295499</td><td>47.209730458947398</td><td>CA POUSSE EN AMONT                                                                                  </td></tr>
+      <tr><td>-1.6061083285243101</td><td>47.207225934706599</td><td>Senteurs Gourmandes du Jamet                                                                        </td></tr>
+      <tr><td>-1.53292618840642</td><td>47.221854464567699</td><td>Asso.Jardins Familiaux Nantais                                                                      </td></tr>
+      <tr><td>-1.5124895066816499</td><td>47.247083384165201</td><td>CSC La Haluchère                                                                                   </td></tr>
+      <tr><td>-1.5993209062718099</td><td>47.226434848633403</td><td>                                                                                                    </td></tr>
+      <tr><td>-1.59402433638019</td><td>47.228095306559702</td><td>                                                                                                    </td></tr>
+      <tr><td>-1.5889593975263401</td><td>47.212537479885</td><td>Asso. Jardins de la Fournilière                                                                    </td></tr>
+      <tr><td>-1.60087770314206</td><td>47.218997313864101</td><td>Asso.Jardins Familiaux Nantais                                                                      </td></tr>
+      <tr><td>-1.5987712348810299</td><td>47.202195353334197</td><td>Asso.Jardins Familiaux Nantais                                                                      </td></tr>
+      <tr><td>-1.57164946642059</td><td>47.271787609793499</td><td>Asso. Nature & Jardins Nantes Nord                                                                  </td></tr>
+      <tr><td>-1.5208408036444201</td><td>47.228702444088</td><td>Asso. Mille et un jardins                                                                           </td></tr>
+      <tr><td>-1.59654089683538</td><td>47.229398432215802</td><td>Asso.Jardins Familiaux Nantais                                                                      </td></tr>
+      <tr><td>-1.5735679032974199</td><td>47.266447630677298</td><td>Asso. Les Jardins des Eglantiers                                                                    </td></tr>
+      <tr><td>-1.52402318387499</td><td>47.254038528016203</td><td>Asso.Jardins Familiaux Nantais                                                                      </td></tr>
+      <tr><td>-1.50911365979517</td><td>47.2205751821284</td><td>Asso . Loire & Jardins                                                                              </td></tr>
+      <tr><td>-1.61293860413442</td><td>47.203788959542699</td><td>Asso.Jardins Familiaux Nantais                                                                      </td></tr>
+      <tr><td>-1.5469466608434299</td><td>47.202081605368598</td><td>Asso.Jardins du Vertais                                                                             </td></tr>
+      <tr><td>-1.49939897422361</td><td>47.2446375693427</td><td>Asso.Jardins Familiaux Nantais                                                                      </td></tr>
+      <tr><td>-1.57701678864409</td><td>47.262638602017198</td><td>Asso Les Jardins de l'Amande                                                                        </td></tr>
+      <tr><td>-1.5388431285553701</td><td>47.242025912164799</td><td>Asso.Jardins Familiaux Nantais                                                                      </td></tr>
+
+	</table>
+
+  </body>
+
+</html>

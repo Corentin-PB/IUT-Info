@@ -1,0 +1,11 @@
+.map-canvas {
+    width: 800px;
+    height: 600px;
+    background-color: #CCC;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table, td, th {
+	border: 1px solid black;
+}

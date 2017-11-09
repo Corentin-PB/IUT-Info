@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+	<link rel="stylesheet" type="text/css" href="style.css">	
+
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	
+	<script>
+	  // declaration des cartes
+      var map;
+
+	  // la fenetre qui s'ouvre quand on passe la souris sur un point
+	  var infowindow = new google.maps.InfoWindow();
+
+	  // fonction d'initialisation
+      function initialize() {
+        var mapOptions = {
+          zoom: 6,
+          center: {lat:  46.55, lng: 2.4},
+          mapTypeId: google.maps.MapTypeId.TERRAIN
+        };
+        map = new google.maps.Map(document.getElementById('map-categorie'),
+          mapOptions);
+	    // initialisation des cartes et chargement des donnees
+	            map.data.loadGeoJson('json/aires-de-jeux.json');
+
+	    
+	    // fonction de style
+	    var setColorStyleFn = function(feature) {
+	      return {icon: feature.getProperty('icon')};
+	    };
+	    // style des cartes, et listener pour la fenetre qui s'ouvre quand on passe la souris sur un point
+	    map.data.setStyle(setColorStyleFn);
+	    map.data.addListener('mouseover', function(event) {
+          infowindow.setContent(event.feature.getProperty('description'));
+          infowindow.setPosition(event.latLng);
+          infowindow.setOptions({pixelOffset: new google.maps.Size(0,-34)});
+          infowindow.open(map);
+        });
+        google.maps.event.addListener(map, 'click', function() {
+          infowindow.close(); // un clic sur la carte ferme les infowindows
+        });
+	  } // end initialize
+
+      // appel de la fonction d'initialisation une fois la page chargee
+      google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+	<meta charset="UTF-8">
+  </head>
+
+  <body>
+    <h1>airesdejeux</h1>
+
+	<p><a href="./index.php">Page principale</a></p>
+	
+    <h2>Carte</h2>
+    <div id="map-categorie" class="map-canvas"></div>
+
+    <h2>Liste des points</h2>
+	<table>
+      <tr><td>1.4295954686900001</td><td>43.605302548499999</td><td>BAZACLE 2                                                                                           </td></tr>
+      <tr><td>1.43188582865</td><td>43.648619657300003</td><td>PAUL RICHE                                                                                          </td></tr>
+      <tr><td>1.4298758559</td><td>43.579438352499999</td><td>ILE DU RAMIER                                                                                       </td></tr>
+      <tr><td>1.41835400444</td><td>43.5740991045</td><td>MERLETTES                                                                                           </td></tr>
+      <tr><td>1.4528517641100001</td><td>43.5739461995</td><td>JULES JULIEN THEATRE                                                                                </td></tr>
+      <tr><td>1.4820044262500001</td><td>43.586998746500001</td><td>MONT  AIGUAL                                                                                        </td></tr>
+      <tr><td>1.42566128863</td><td>43.605720134400002</td><td>BAZACLE 1                                                                                           </td></tr>
+      <tr><td>1.4325148431300001</td><td>43.612676340599997</td><td>COMPANS                                                                                             </td></tr>
+      <tr><td>1.4378648031300001</td><td>43.609174294900001</td><td>EMBARTHE                                                                                            </td></tr>
+      <tr><td>1.4682954189199999</td><td>43.626031093400002</td><td>MICHOUN                                                                                             </td></tr>
+      <tr><td>1.44168380202</td><td>43.641716376600002</td><td>RIGAL                                                                                               </td></tr>
+      <tr><td>1.4682353318100001</td><td>43.623958910600003</td><td>ROSINE BET                                                                                          </td></tr>
+      <tr><td>1.4609778037300001</td><td>43.610786616200002</td><td>VILLA MERICANT                                                                                      </td></tr>
+      <tr><td>1.3852073917700001</td><td>43.588340253299997</td><td>ALEMBERT                                                                                            </td></tr>
+      <tr><td>1.3970369146999999</td><td>43.5603976409</td><td>DOTTIN                                                                                              </td></tr>
+      <tr><td>1.42235498373</td><td>43.585024871100003</td><td>FONTAINES LESTANG                                                                                   </td></tr>
+      <tr><td>1.4090298355299999</td><td>43.583974965400003</td><td>GIRONDE                                                                                             </td></tr>
+      <tr><td>1.41051183906</td><td>43.590164243399997</td><td>HIPPODROME CEPIERE                                                                                  </td></tr>
+      <tr><td>1.4086646164600001</td><td>43.582576621500003</td><td>ORNE                                                                                                </td></tr>
+      <tr><td>1.39767229974</td><td>43.561238786600001</td><td>TINTORET                                                                                            </td></tr>
+      <tr><td>1.4425814451900001</td><td>43.581808969999997</td><td>DASTE BAT 17                                                                                        </td></tr>
+      <tr><td>1.43882173344</td><td>43.578404265000003</td><td>EMPALOT MAIL                                                                                        </td></tr>
+      <tr><td>1.44833526074</td><td>43.570470916300003</td><td>LE FRANC DE POMPIGNAN                                                                               </td></tr>
+      <tr><td>1.4414779679600001</td><td>43.588488421699999</td><td>PAYS D'OC                                                                                           </td></tr>
+      <tr><td>1.4419734951600001</td><td>43.594830555800002</td><td>PORT-GARAUD                                                                                         </td></tr>
+      <tr><td>1.46976352913</td><td>43.583467797099999</td><td>SAINT-EXUPERY                                                                                       </td></tr>
+      <tr><td>1.44963152946</td><td>43.603219876300003</td><td>PLACE  OCCITANE                                                                                     </td></tr>
+      <tr><td>1.4590986662900001</td><td>43.579638252300001</td><td>SAOUZELONG                                                                                          </td></tr>
+      <tr><td>1.4158999182200001</td><td>43.580609925399997</td><td>LA FAOURETTE                                                                                        </td></tr>
+      <tr><td>1.45105761418</td><td>43.635157595300001</td><td>JARDIN DE GAVE                                                                                      </td></tr>
+      <tr><td>1.4510110549699999</td><td>43.6083519301</td><td>CASTELET                                                                                            </td></tr>
+      <tr><td>1.4774591185999999</td><td>43.622297287899997</td><td>ARGOULETS  TENNIS                                                                                   </td></tr>
+      <tr><td>1.4619499277100001</td><td>43.580753864800002</td><td>BEDOUCE                                                                                             </td></tr>
+      <tr><td>1.4136086300999999</td><td>43.563117733600002</td><td>GIRONIS  PARCOURS SPORTIF                                                                           </td></tr>
+      <tr><td>1.3861602584599999</td><td>43.550337220899998</td><td>TIBAOUS                                                                                             </td></tr>
+      <tr><td>1.38125219369</td><td>43.586602143500002</td><td>CATALA                                                                                              </td></tr>
+      <tr><td>1.4153434922300001</td><td>43.580989795900003</td><td>LA FAOURETTE 2                                                                                      </td></tr>
+      <tr><td>1.4376703989599999</td><td>43.575971976799998</td><td>PARC  POUDRERIE                                                                                     </td></tr>
+      <tr><td>1.41174853654</td><td>43.580649719500002</td><td>LA MARTINIQUE                                                                                       </td></tr>
+      <tr><td>1.3960151195899999</td><td>43.561899091599997</td><td>CANDELIS                                                                                            </td></tr>
+      <tr><td>1.45344608855</td><td>43.639497466100003</td><td>BORDEROUGE                                                                                          </td></tr>
+      <tr><td>1.4496493242299999</td><td>43.628894207400002</td><td>FROIDURE                                                                                            </td></tr>
+      <tr><td>1.40642023022</td><td>43.617452084299998</td><td>PARC JOB                                                                                            </td></tr>
+      <tr><td>1.46159142313</td><td>43.636151713399997</td><td>RAMELET                                                                                             </td></tr>
+      <tr><td>1.3891615044600001</td><td>43.598420073</td><td>BALUFFET                                                                                            </td></tr>
+      <tr><td>1.40806865116</td><td>43.594370273800003</td><td>BERGOUGNAN                                                                                          </td></tr>
+      <tr><td>1.4008472642800001</td><td>43.569860707799997</td><td>DOUVES                                                                                              </td></tr>
+      <tr><td>1.37035266558</td><td>43.601820790399998</td><td>GRIMAUD                                                                                             </td></tr>
+      <tr><td>1.43588787347</td><td>43.593876640200001</td><td>PRAIRIE DES FILTRES                                                                                 </td></tr>
+      <tr><td>1.4920317841699999</td><td>43.581147060100001</td><td>SARABELLE                                                                                           </td></tr>
+      <tr><td>1.46384166881</td><td>43.631318112999999</td><td>AVRANCHES                                                                                           </td></tr>
+      <tr><td>1.42597535167</td><td>43.613230441500001</td><td>BEARNAIS                                                                                            </td></tr>
+      <tr><td>1.4619588637900001</td><td>43.641997648299999</td><td>EBELOT                                                                                              </td></tr>
+      <tr><td>1.44283040732</td><td>43.636145398399997</td><td>ERNEST RENAN                                                                                        </td></tr>
+      <tr><td>1.4319530680400001</td><td>43.635867167100002</td><td>FERDINAND FAURE                                                                                     </td></tr>
+      <tr><td>1.4545358319399999</td><td>43.615951410999998</td><td>MICHELET                                                                                            </td></tr>
+      <tr><td>1.4652654921099999</td><td>43.618478719099997</td><td>PIERRE ROUS                                                                                         </td></tr>
+      <tr><td>1.4169716936700001</td><td>43.613748675899998</td><td>PONTS JUMEAUX                                                                                       </td></tr>
+      <tr><td>1.47761484262</td><td>43.608005366599997</td><td>SEYVEROLLES                                                                                         </td></tr>
+      <tr><td>1.40230943923</td><td>43.6013571445</td><td>BARRY                                                                                               </td></tr>
+      <tr><td>1.41929258218</td><td>43.6013339</td><td>FONTAINES                                                                                           </td></tr>
+      <tr><td>1.3984738754699999</td><td>43.574016680500002</td><td>REYNERIE COLLINES                                                                                   </td></tr>
+      <tr><td>1.4161423877799999</td><td>43.587824089999998</td><td>VESTREPAIN                                                                                          </td></tr>
+      <tr><td>1.47421806627</td><td>43.600687608199998</td><td>ACHIARY                                                                                             </td></tr>
+      <tr><td>1.4913016828300001</td><td>43.589703059400001</td><td>GRANDE PLAINE                                                                                       </td></tr>
+      <tr><td>1.44085776682</td><td>43.580667702500001</td><td>MENTON                                                                                              </td></tr>
+      <tr><td>1.4873095448</td><td>43.573462091499998</td><td>PELLETRIE 1                                                                                         </td></tr>
+      <tr><td>1.46027674489</td><td>43.594666105400002</td><td>RASPAIL                                                                                             </td></tr>
+      <tr><td>1.46901972682</td><td>43.625499040900003</td><td>SQUARE DU TOIT ROULANT                                                                              </td></tr>
+      <tr><td>1.44423559677</td><td>43.6424741525</td><td>JARDIN  BLEU                                                                                        </td></tr>
+      <tr><td>1.4047083070399999</td><td>43.563177507699997</td><td>LES  MURIERS                                                                                        </td></tr>
+      <tr><td>1.40074683722</td><td>43.562031441599999</td><td>LETITIEN  GOYA                                                                                      </td></tr>
+      <tr><td>1.4116941253299999</td><td>43.576442750799998</td><td>PAPUS                                                                                               </td></tr>
+      <tr><td>1.44956711761</td><td>43.555371984300002</td><td>PECH DAVID 2                                                                                        </td></tr>
+      <tr><td>1.4273569988000001</td><td>43.632227186900003</td><td>CERVANTES                                                                                           </td></tr>
+      <tr><td>1.4071291907300001</td><td>43.583861168200002</td><td>RONSARD                                                                                             </td></tr>
+      <tr><td>1.40966894846</td><td>43.604716133300002</td><td>BAUDIN                                                                                              </td></tr>
+      <tr><td>1.3442889946400001</td><td>43.566287776300001</td><td>BASE DE LOISIRS DE LA RAMEE                                                                         </td></tr>
+      <tr><td>1.4403131032400001</td><td>43.642492957199998</td><td>RIGAL 2                                                                                             </td></tr>
+      <tr><td>1.4427355526500001</td><td>43.637939961699999</td><td>MICOULAUD PLACE                                                                                     </td></tr>
+      <tr><td>1.4069794547200001</td><td>43.583801543900002</td><td>CAMPAN                                                                                              </td></tr>
+      <tr><td>1.38333918121</td><td>43.549900741800002</td><td>TIBAOUS 2                                                                                           </td></tr>
+      <tr><td>1.43864852209</td><td>43.622035510499998</td><td>ANGES                                                                                               </td></tr>
+      <tr><td>1.48892730989</td><td>43.635067509199999</td><td>GRAMONT                                                                                             </td></tr>
+      <tr><td>1.4342191688199999</td><td>43.621479098000002</td><td>NOUGARO                                                                                             </td></tr>
+      <tr><td>1.4631805764400001</td><td>43.612236861500001</td><td>OBSERVATOIRE                                                                                        </td></tr>
+      <tr><td>1.4554564213100001</td><td>43.603413805499997</td><td>SAINT AUBIN                                                                                         </td></tr>
+      <tr><td>1.4477909973800001</td><td>43.602223884499999</td><td>SAINT GEORGES                                                                                       </td></tr>
+      <tr><td>1.3861738283</td><td>43.5782721458</td><td>CEDRES 2                                                                                            </td></tr>
+      <tr><td>1.40572532341</td><td>43.582193037899998</td><td>CHER                                                                                                </td></tr>
+      <tr><td>1.3804164636</td><td>43.5567840589</td><td>GARDERIE ST SIMON                                                                                   </td></tr>
+      <tr><td>1.3773865106000001</td><td>43.589481436</td><td>SAUVEGRAIN                                                                                          </td></tr>
+      <tr><td>1.39943836052</td><td>43.581352969599997</td><td>VERGERS                                                                                             </td></tr>
+      <tr><td>1.45958842317</td><td>43.580183015099998</td><td>BONNAT                                                                                              </td></tr>
+      <tr><td>1.5027966665500001</td><td>43.5712048197</td><td>MARCAISSONNE                                                                                        </td></tr>
+      <tr><td>1.42751622251</td><td>43.627706857900002</td><td>FONQUERNE PLACE                                                                                     </td></tr>
+      <tr><td>1.45208485476</td><td>43.619002078599998</td><td>LAPUJADE                                                                                            </td></tr>
+      <tr><td>1.41653580686</td><td>43.602498674099998</td><td>BOURRASSOL                                                                                          </td></tr>
+      <tr><td>1.4141532191199999</td><td>43.5621855658</td><td>GIRONIS                                                                                             </td></tr>
+      <tr><td>1.39658455462</td><td>43.580443842400001</td><td>MAILLOL RESIDENCE                                                                                   </td></tr>
+      <tr><td>1.3866719081800001</td><td>43.606269216100003</td><td>MARMANDE                                                                                            </td></tr>
+      <tr><td>1.3795473522999999</td><td>43.6096315359</td><td>PLATANES                                                                                            </td></tr>
+      <tr><td>1.4018691972099999</td><td>43.572787637700003</td><td>TABAR                                                                                               </td></tr>
+      <tr><td>1.4413075017200001</td><td>43.582955085599998</td><td>DASTE ROND POINT                                                                                    </td></tr>
+      <tr><td>1.4497926196799999</td><td>43.592603629800003</td><td>JARDIN DES PLANTES                                                                                  </td></tr>
+      <tr><td>1.45057168645</td><td>43.631622384499998</td><td>LA MAOURINE                                                                                         </td></tr>
+      <tr><td>1.4503382228899999</td><td>43.608728735900002</td><td>BELFORT                                                                                             </td></tr>
+      <tr><td>1.4549268236999999</td><td>43.599372546799998</td><td>HALLE AUX GRAINS                                                                                    </td></tr>
+      <tr><td>1.49980655903</td><td>43.575528188100002</td><td>RIBAUTE                                                                                             </td></tr>
+      <tr><td>1.4528960910499999</td><td>43.634285264200003</td><td>LA  MAOURINE 2                                                                                      </td></tr>
+      <tr><td>1.4432953257700001</td><td>43.636035411999998</td><td>ERNEST RENAN 2                                                                                      </td></tr>
+      <tr><td>1.41398956384</td><td>43.571842160300001</td><td>TABAR  PAPUS                                                                                        </td></tr>
+      <tr><td>1.4393210297100001</td><td>43.577644142600001</td><td>CENTRE COMMERCIAL EMPALOT                                                                           </td></tr>
+      <tr><td>1.3971867095999999</td><td>43.564694996999997</td><td>BASTIDE  BELLEFONTAINE                                                                              </td></tr>
+      <tr><td>1.40691062103</td><td>43.614656653799997</td><td>SOLEIL D OR 2                                                                                       </td></tr>
+      <tr><td>1.44905745079</td><td>43.585797722999999</td><td>ROBESPIERRE                                                                                         </td></tr>
+      <tr><td>1.4649931272900001</td><td>43.589103989100003</td><td>BOISSERAIE                                                                                          </td></tr>
+      <tr><td>1.4448451127199999</td><td>43.604813025200002</td><td>SQUARE DE GAULLE                                                                                    </td></tr>
+      <tr><td>1.4234820589699999</td><td>43.584715632799998</td><td>BECANNE                                                                                             </td></tr>
+      <tr><td>1.41577077</td><td>43.569616480599997</td><td>BORDELONGUE                                                                                         </td></tr>
+      <tr><td>1.4661892455200001</td><td>43.594026221900002</td><td>VILLA  DES  ROSIERS                                                                                 </td></tr>
+      <tr><td>1.48027421615</td><td>43.6180883631</td><td>ARGOULET  JMS                                                                                       </td></tr>
+      <tr><td>1.4841630374999999</td><td>43.5840648613</td><td>SCHRADER 2                                                                                          </td></tr>
+      <tr><td>1.39583208845</td><td>43.565745287299997</td><td>LA TOURRASSE  2                                                                                     </td></tr>
+      <tr><td>1.4523109647700001</td><td>43.624305413000002</td><td>AUSONNE                                                                                             </td></tr>
+      <tr><td>1.4717638317499999</td><td>43.606730552499997</td><td>COQUILLE                                                                                            </td></tr>
+      <tr><td>1.4385429112699999</td><td>43.617412932599997</td><td>GIESPER                                                                                             </td></tr>
+      <tr><td>1.43905199967</td><td>43.613526643699998</td><td>GODOLIN                                                                                             </td></tr>
+      <tr><td>1.43758596993</td><td>43.6447446902</td><td>IBOS                                                                                                </td></tr>
+      <tr><td>1.43608448462</td><td>43.634660490199998</td><td>PARC DE LA VACHE                                                                                    </td></tr>
+      <tr><td>1.4641521878399999</td><td>43.638433720999998</td><td>PARC OZENNE                                                                                         </td></tr>
+      <tr><td>1.42808261055</td><td>43.622691676899997</td><td>RAUZY                                                                                               </td></tr>
+      <tr><td>1.40574917307</td><td>43.606874399100001</td><td>CHARDONNETS                                                                                         </td></tr>
+      <tr><td>1.4244320208200001</td><td>43.597919044199998</td><td>COLL                                                                                                </td></tr>
+      <tr><td>1.4018481252399999</td><td>43.566435510399998</td><td>FOULQUIER                                                                                           </td></tr>
+      <tr><td>1.39499845632</td><td>43.564137008000003</td><td>LA TOURASSE                                                                                         </td></tr>
+      <tr><td>1.4899034659599999</td><td>43.575664471800003</td><td>MONTAUDRAN                                                                                          </td></tr>
+      <tr><td>1.4668579532999999</td><td>43.602316679200001</td><td>PINEL                                                                                               </td></tr>
+      <tr><td>1.44337488641</td><td>43.639750166799999</td><td>FAONS                                                                                               </td></tr>
+      <tr><td>1.46040257224</td><td>43.612622737099997</td><td>FELIX LAVIT                                                                                         </td></tr>
+      <tr><td>1.3864272548600001</td><td>43.578346889099997</td><td>CEDRES                                                                                              </td></tr>
+      <tr><td>1.38014157648</td><td>43.581321008400003</td><td>DUPOUY                                                                                              </td></tr>
+      <tr><td>1.41570790134</td><td>43.590777471099997</td><td>PECH                                                                                                </td></tr>
+      <tr><td>1.38364489001</td><td>43.582126054600003</td><td>PORTAL                                                                                              </td></tr>
+      <tr><td>1.3952458539699999</td><td>43.560162744800003</td><td>ZONE 16                                                                                             </td></tr>
+      <tr><td>1.45347606137</td><td>43.549626828900003</td><td>POUVOURVILLE                                                                                        </td></tr>
+      <tr><td>1.4591162050399999</td><td>43.572636997799997</td><td>SACRE COEUR                                                                                         </td></tr>
+      <tr><td>1.4122373048600001</td><td>43.604979561</td><td>PRESSENSE                                                                                           </td></tr>
+      <tr><td>1.4409319067799999</td><td>43.633171836000002</td><td>PARCOURS DE SANTE                                                                                   </td></tr>
+      <tr><td>1.48242262113</td><td>43.5761350342</td><td>GUERRERO                                                                                            </td></tr>
+      <tr><td>1.4792268511</td><td>43.617727551999998</td><td>ARGOULETS JUDO                                                                                      </td></tr>
+      <tr><td>1.4167050705999999</td><td>43.592566083000001</td><td>LE CRISTAL                                                                                          </td></tr>
+      <tr><td>1.45971659049</td><td>43.609328420700002</td><td>PARC  CHARLES  GASPARD                                                                              </td></tr>
+      <tr><td>1.45690324049</td><td>43.610389411699998</td><td>MOIROUD                                                                                             </td></tr>
+      <tr><td>1.37772445357</td><td>43.559265017999998</td><td>REGUELONGUE                                                                                         </td></tr>
+      <tr><td>1.43039322007</td><td>43.617046760999997</td><td>JARDIN  SAUVAGE                                                                                     </td></tr>
+      <tr><td>1.48486415666</td><td>43.6011671284</td><td>SQUARE ROUGENET                                                                                     </td></tr>
+      <tr><td>1.4223686584499999</td><td>43.6148547158</td><td>PONTS JUMEAUX 2                                                                                     </td></tr>
+      <tr><td>1.4446126886699999</td><td>43.5776710333</td><td>NIEL                                                                                                </td></tr>
+      <tr><td>1.3969633323699999</td><td>43.576754825199998</td><td>CASTALIDES                                                                                          </td></tr>
+      <tr><td>1.3998058583499999</td><td>43.564458453299999</td><td>JARDIN  LUTHER KING                                                                                 </td></tr>
+      <tr><td>1.44887361881</td><td>43.649513521099998</td><td>GRAN SELVE                                                                                          </td></tr>
+      <tr><td>1.3912095874699999</td><td>43.665474952899999</td><td>BASE DE LOISIRS  DES QUINZE SO                                                                      </td></tr>
+      <tr><td>1.4031797051199999</td><td>43.564815144500002</td><td>ROUAULT                                                                                             </td></tr>
+      <tr><td>1.4109523721799999</td><td>43.567324689400003</td><td>VENDOME                                                                                             </td></tr>
+      <tr><td>1.4848938331599999</td><td>43.601370680800002</td><td>CITE DE L'HERS                                                                                      </td></tr>
+      <tr><td>1.4192989064499999</td><td>43.655095066100003</td><td>BASE DE LOISIRS DE SESQUIERES                                                                       </td></tr>
+      <tr><td>1.44628359654</td><td>43.600776340800003</td><td>PRIVAT                                                                                              </td></tr>
+      <tr><td>1.43392707573</td><td>43.642025828500003</td><td>SEMINAIRE                                                                                           </td></tr>
+      <tr><td>1.40616338084</td><td>43.571960545300001</td><td>MESSAGER                                                                                            </td></tr>
+      <tr><td>1.4173723788000001</td><td>43.596593913699998</td><td>POLYGONE                                                                                            </td></tr>
+      <tr><td>1.4411754013</td><td>43.577928194599998</td><td>JEAN MOULIN                                                                                         </td></tr>
+      <tr><td>1.4586668122399999</td><td>43.596454188400003</td><td>LAROUSSE                                                                                            </td></tr>
+      <tr><td>1.4875288894400001</td><td>43.573466670899997</td><td>PELLETRIE 2                                                                                         </td></tr>
+      <tr><td>1.4619743195499999</td><td>43.573269627099997</td><td>RANGUEIL                                                                                            </td></tr>
+      <tr><td>1.4638746518100001</td><td>43.6020150059</td><td>SACCARIN                                                                                            </td></tr>
+      <tr><td>1.44563690251</td><td>43.616986866799998</td><td>ABADIE                                                                                              </td></tr>
+      <tr><td>1.4309827398699999</td><td>43.624068509200001</td><td>BOURBAKI                                                                                            </td></tr>
+      <tr><td>1.4424893868899999</td><td>43.6387335748</td><td>CHAMOIS                                                                                             </td></tr>
+      <tr><td>1.4400016292</td><td>43.638174300899998</td><td>CITE BLANCHE                                                                                        </td></tr>
+      <tr><td>1.4576838916699999</td><td>43.623061035200003</td><td>HAUTS DE BONNEFOY                                                                                   </td></tr>
+      <tr><td>1.4719525474199999</td><td>43.608865432199998</td><td>SOUPETARD                                                                                           </td></tr>
+      <tr><td>1.3788876998799999</td><td>43.5611897219</td><td>CTRE ANIMATION ST-SIMON                                                                             </td></tr>
+      <tr><td>1.40618040311</td><td>43.569735006899997</td><td>D'INDY                                                                                              </td></tr>
+      <tr><td>1.4313104078600001</td><td>43.601154850599997</td><td>RAYMOND VI                                                                                          </td></tr>
+      <tr><td>1.39232265172</td><td>43.581636840599998</td><td>VIOLLET LE DUC                                                                                      </td></tr>
+      <tr><td>1.4854600519300001</td><td>43.576162866399997</td><td>ALALOUF                                                                                             </td></tr>
+      <tr><td>1.47321323177</td><td>43.579744119200001</td><td>BUTTE                                                                                               </td></tr>
+      <tr><td>1.4418025069</td><td>43.581939059500002</td><td>DASTE BAT 18                                                                                        </td></tr>
+      <tr><td>1.4380892947099999</td><td>43.575472211300003</td><td>EMPALOT POUDRERIE                                                                                   </td></tr>
+      <tr><td>1.48393924329</td><td>43.588705728500003</td><td>LIMAYRAC                                                                                            </td></tr>
+      <tr><td>1.48413502217</td><td>43.584019014900001</td><td>SCHRADER                                                                                            </td></tr>
+      <tr><td>1.4523217802199999</td><td>43.597918116599999</td><td>VERDIE                                                                                              </td></tr>
+      <tr><td>1.44978702175</td><td>43.555627818700003</td><td>PECH DAVID                                                                                          </td></tr>
+      <tr><td>1.44930028626</td><td>43.6413580137</td><td>JARDIN DE CHANTECLER                                                                                </td></tr>
+      <tr><td>1.43468815593</td><td>43.598172287700002</td><td>PLACE OLIVIER                                                                                       </td></tr>
+      <tr><td>1.40336070971</td><td>43.5689152558</td><td>CAMBERT                                                                                             </td></tr>
+      <tr><td>1.43720240462</td><td>43.624013736099997</td><td>BORDEAUX                                                                                            </td></tr>
+      <tr><td>1.4145378857799999</td><td>43.578426999900003</td><td>EX POSTE FAOURETTE                                                                                  </td></tr>
+
+	</table>
+
+  </body>
+
+</html>

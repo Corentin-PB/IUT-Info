@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+	<link rel="stylesheet" type="text/css" href="style.css">	
+
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	
+	<script>
+	  // declaration des cartes
+      var map;
+
+	  // la fenetre qui s'ouvre quand on passe la souris sur un point
+	  var infowindow = new google.maps.InfoWindow();
+
+	  // fonction d'initialisation
+      function initialize() {
+        var mapOptions = {
+          zoom: 6,
+          center: {lat:  46.55, lng: 2.4},
+          mapTypeId: google.maps.MapTypeId.TERRAIN
+        };
+        map = new google.maps.Map(document.getElementById('map-categorie'),
+          mapOptions);
+	    // initialisation des cartes et chargement des donnees
+	            map.data.loadGeoJson('json/poieducation.json');
+
+	    
+	    // fonction de style
+	    var setColorStyleFn = function(feature) {
+	      return {icon: feature.getProperty('icon')};
+	    };
+	    // style des cartes, et listener pour la fenetre qui s'ouvre quand on passe la souris sur un point
+	    map.data.setStyle(setColorStyleFn);
+	    map.data.addListener('mouseover', function(event) {
+          infowindow.setContent(event.feature.getProperty('description'));
+          infowindow.setPosition(event.latLng);
+          infowindow.setOptions({pixelOffset: new google.maps.Size(0,-34)});
+          infowindow.open(map);
+        });
+        google.maps.event.addListener(map, 'click', function() {
+          infowindow.close(); // un clic sur la carte ferme les infowindows
+        });
+	  } // end initialize
+
+      // appel de la fonction d'initialisation une fois la page chargee
+      google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+	<meta charset="UTF-8">
+  </head>
+
+  <body>
+    <h1>Ecoles maternelles et primaires</h1>
+
+	<p><a href="./index.php">Page principale</a></p>
+	
+    <h2>Carte</h2>
+    <div id="map-categorie" class="map-canvas"></div>
+
+    <h2>Liste des points</h2>
+	<table>
+      <tr><td>-0.55447793065199003</td><td>44.841330545259403</td><td>Ecole Elémentaire Montaud                                                                          </td></tr>
+      <tr><td>-0.56933528590912097</td><td>44.8242278061674</td><td>Ecole Elémentaire Cazemajor                                                                        </td></tr>
+      <tr><td>-0.55096568003577695</td><td>44.823751597736099</td><td>Ecole Maternelle Beck                                                                               </td></tr>
+      <tr><td>-0.55976144955643503</td><td>44.831473533663399</td><td>Conservatoire Jacques Thibaud                                                                       </td></tr>
+      <tr><td>-0.57611475848872495</td><td>44.832575504847298</td><td>Ecole Elémentaire Henri IV                                                                         </td></tr>
+      <tr><td>-0.59904056751897705</td><td>44.8470694184455</td><td>Ecole maternelle et élémentaire Bon Pasteur                                                       </td></tr>
+      <tr><td>-0.56749018059241896</td><td>44.832945511125402</td><td>Ecole Elémentaire Menuts                                                                           </td></tr>
+      <tr><td>-0.58859129832756496</td><td>44.843705341367297</td><td>Ecole Maternelle Paix                                                                               </td></tr>
+      <tr><td>-0.62437349690453903</td><td>44.856986092059302</td><td>Ecole Maternelle Stéhélin                                                                         </td></tr>
+      <tr><td>-0.61563396871586695</td><td>44.854895281436796</td><td>Ecole Maternelle Saint André                                                                       </td></tr>
+      <tr><td>-0.56984532268628696</td><td>44.872739953491902</td><td>Ecole Elémentaire Lac II                                                                           </td></tr>
+      <tr><td>-0.54546700361919398</td><td>44.846219720129596</td><td>Ecole Elémentaire Benauge                                                                          </td></tr>
+      <tr><td>-0.56733197375148103</td><td>44.8333276731152</td><td>Ecole Maternelle Menuts                                                                             </td></tr>
+      <tr><td>-0.56840027439997798</td><td>44.856388262896303</td><td>Ecole Elémentaire Stendhal                                                                         </td></tr>
+      <tr><td>-0.57489723123187098</td><td>44.875017117233199</td><td>Ecole Maternelle Lac III                                                                            </td></tr>
+      <tr><td>-0.58007292957442302</td><td>44.858939948830802</td><td>Ecole Maternelle Condorcet                                                                          </td></tr>
+      <tr><td>-0.56137363861504297</td><td>44.824418642029798</td><td>Ecole Elémentaire Francin                                                                          </td></tr>
+      <tr><td>-0.58952149818635402</td><td>44.838513198018099</td><td>Ecole Elémentaire Saint Bruno                                                                      </td></tr>
+      <tr><td>-0.57450162215354095</td><td>44.872920047126001</td><td>Ecole Elémentaire Jean Monnet                                                                      </td></tr>
+      <tr><td>-0.56800623302867004</td><td>44.856101012043602</td><td>Ecole Maternelle Stendhal                                                                           </td></tr>
+      <tr><td>-0.57097380659530905</td><td>44.863851292730303</td><td>Ecole Elémentaire Sousa Mendes                                                                     </td></tr>
+      <tr><td>-0.57610210640227399</td><td>44.827488259414999</td><td>Ecole Maternelle Argonne                                                                            </td></tr>
+      <tr><td>-0.58231986840643701</td><td>44.839010356812899</td><td>Ecole Maternelle Anatole France                                                                     </td></tr>
+      <tr><td>-0.569773835604797</td><td>44.856515840458997</td><td>Ecole Elémentaire Balguerie                                                                        </td></tr>
+      <tr><td>-0.58333545213071702</td><td>44.850744612375799</td><td>Ecole Maternelle Lagrange                                                                           </td></tr>
+      <tr><td>-0.58497213881114096</td><td>44.8477768199648</td><td>Ecole Maternelle Naujac                                                                             </td></tr>
+      <tr><td>-0.61525698886527802</td><td>44.851185998904</td><td>Ecole Maternelle Paul Lapie                                                                         </td></tr>
+      <tr><td>-0.56685491786664099</td><td>44.833899641914797</td><td>Ecole maternelle et élémentaire Saint Michel                                                      </td></tr>
+      <tr><td>-0.56160252578109604</td><td>44.844636935730698</td><td>Ecole Elémentaire Nuyens                                                                           </td></tr>
+      <tr><td>-0.58997320034671996</td><td>44.843751421612403</td><td>Ecole maternelle et élémentaire Saint Seurin                                                      </td></tr>
+      <tr><td>-0.561247855964491</td><td>44.844375689992198</td><td>Ecole Maternelle Nuyens                                                                             </td></tr>
+      <tr><td>-0.58927060991370395</td><td>44.838051308931398</td><td>Ecole Maternelle Saint Bruno                                                                        </td></tr>
+      <tr><td>-0.57429300173220299</td><td>44.872799234185301</td><td>Ecole Maternelle Jean Monnet                                                                        </td></tr>
+      <tr><td>-0.60964681266656895</td><td>44.833283767554697</td><td>Ecole Maternelle Flornoy                                                                            </td></tr>
+      <tr><td>-0.61056489721283103</td><td>44.83317032475</td><td>Ecole Elémentaire Flornoy                                                                          </td></tr>
+      <tr><td>-0.55371618126089095</td><td>44.8415386782168</td><td>Ecole Maternelle Nuits                                                                              </td></tr>
+      <tr><td>-0.56256303289266996</td><td>44.827486370890803</td><td>Rock School Barbey                                                                                  </td></tr>
+      <tr><td>-0.56136493242499297</td><td>44.871538973035797</td><td>Ecole du Cirque                                                                                     </td></tr>
+      <tr><td>-0.62513736041858503</td><td>44.858821490874</td><td>Ecole Elémentaire Pins Francs                                                                      </td></tr>
+      <tr><td>-0.58931309742349203</td><td>44.846262379965303</td><td>Ecole maternelle et élémentaire Saint Gabriel                                                     </td></tr>
+      <tr><td>-0.57195130331533095</td><td>44.8802056716655</td><td>Ecole Maternelle Vaclav Havel                                                                       </td></tr>
+      <tr><td>-0.58609006016788801</td><td>44.824282704255602</td><td>Ecole Elémentaire Jacques Prévert                                                                 </td></tr>
+      <tr><td>-0.58871689956436601</td><td>44.831275870945703</td><td>Ecole Maternelle Alphonse Dupeux                                                                    </td></tr>
+      <tr><td>-0.58462677479783198</td><td>44.850748024520897</td><td>Ecole Elémentaire David Johnston                                                                   </td></tr>
+      <tr><td>-0.57412589575704498</td><td>44.826169336837502</td><td>Ecole Elémentaire Deyries Sablières                                                               </td></tr>
+      <tr><td>-0.58661007294243706</td><td>44.844583851993796</td><td>Ecole Elémentaire Albert Barraud                                                                   </td></tr>
+      <tr><td>-0.58078484448479495</td><td>44.862046540420003</td><td>Ecole Elémentaire Albert Schweitzer                                                                </td></tr>
+      <tr><td>-0.61951911898971301</td><td>44.844593805890803</td><td>Ecole Elémentaire Raymond Poincaré                                                                </td></tr>
+      <tr><td>-0.57559534921126798</td><td>44.832309447179902</td><td>Ecole Maternelle Francis de Pressensé                                                              </td></tr>
+      <tr><td>-0.57211203319445703</td><td>44.856439061866197</td><td>Ecole Maternelle Paul Berthelot                                                                     </td></tr>
+      <tr><td>-0.55087943989357102</td><td>44.8237987739627</td><td>Ecole Elémentaire Ferdinand Buisson                                                                </td></tr>
+      <tr><td>-0.59436325305039595</td><td>44.852136306766901</td><td>Ecole maternelle et élémentaire L'Assomption                                                      </td></tr>
+      <tr><td>-0.58859327085082402</td><td>44.831080897808597</td><td>Ecole Elémentaire Alphonse Dupeux                                                                  </td></tr>
+      <tr><td>-0.62289991114681298</td><td>44.864146448470102</td><td>Ecole maternelle et élémentaire Saint Ferdinand                                                   </td></tr>
+      <tr><td>-0.57254368673651401</td><td>44.828128745590199</td><td>Ecole maternelle et élémentaire Saint Julien Victoire                                             </td></tr>
+      <tr><td>-0.57468248987284198</td><td>44.852124301372598</td><td>Ecole maternelle et élémentaire Saint Louis - Sainte Thérèse                                    </td></tr>
+      <tr><td>-0.55254668408762497</td><td>44.874514804221803</td><td>Ecole Maternelle Charles Martin                                                                     </td></tr>
+      <tr><td>-0.55567005987692297</td><td>44.8157640751242</td><td>Ecole Maternelle Carle Vernet                                                                       </td></tr>
+      <tr><td>-0.57042201543792703</td><td>44.863703079743097</td><td>Ecole Maternelle Sousa Mendes                                                                       </td></tr>
+      <tr><td>-0.61522512969462395</td><td>44.8520602594335</td><td>Ecole Elémentaire Paul Lapie                                                                       </td></tr>
+      <tr><td>-0.560561050805088</td><td>44.830499027458302</td><td>Ecole d'enseignement supérieur d'art de Bordeaux - EBABX                                           </td></tr>
+      <tr><td>-0.58046657323607198</td><td>44.861757419404299</td><td>Ecole Maternelle Albert Schweitzer                                                                  </td></tr>
+      <tr><td>-0.63134357360782301</td><td>44.844894280780998</td><td>Ecole Maternelle Clos Montesquieu                                                                   </td></tr>
+      <tr><td>-0.60778414996931496</td><td>44.8349970723336</td><td>Ecole maternelle et élémentaire Sainte Monique                                                    </td></tr>
+      <tr><td>-0.58090838514396004</td><td>44.824904059241597</td><td>Ecole maternelle et élémentaire Saint Genès                                                      </td></tr>
+      <tr><td>-0.59690607278933305</td><td>44.853678165199099</td><td>Ecole maternelle et élémentaire Saint Joseph de Tivoli                                            </td></tr>
+      <tr><td>-0.60606865945057598</td><td>44.850293018858999</td><td>Ecole maternelle et élémentaire Sainte Marie Grand Lebrun                                         </td></tr>
+      <tr><td>-0.56426091441419401</td><td>44.830343232214901</td><td>Ecole Elémentaire André Meunier                                                                   </td></tr>
+      <tr><td>-0.60003734113878804</td><td>44.822344456249297</td><td>Ecole Elémentaire Loucheur                                                                         </td></tr>
+      <tr><td>-0.57925947124306199</td><td>44.859383664244</td><td>Ecole Elémentaire Condorcet                                                                        </td></tr>
+      <tr><td>-0.56090135577921296</td><td>44.824079303742799</td><td>Ecole Maternelle Fieffé                                                                            </td></tr>
+      <tr><td>-0.58509507725978804</td><td>44.859875745713701</td><td>Ecole Maternelle Pierre Trébot                                                                     </td></tr>
+      <tr><td>-0.54786026461753601</td><td>44.871669312042201</td><td>Ecole Elémentaire Achard                                                                           </td></tr>
+      <tr><td>-0.54328063197744603</td><td>44.850146050129801</td><td>Ecole Elémentaire Thiers                                                                           </td></tr>
+      <tr><td>-0.572096310579154</td><td>44.8181703464995</td><td>Ecole Elémentaire Somme                                                                            </td></tr>
+      <tr><td>-0.57435857298383697</td><td>44.8361945224202</td><td>Ecole Maternelle Paul Bert                                                                          </td></tr>
+      <tr><td>-0.54771559242260404</td><td>44.8718169868364</td><td>Ecole Maternelle Achard                                                                             </td></tr>
+      <tr><td>-0.60777643623080901</td><td>44.839121392274599</td><td>Ecole Elémentaire Bel Air                                                                          </td></tr>
+      <tr><td>-0.54514013765189895</td><td>44.8457506335697</td><td>Ecole Maternelle Benauge                                                                            </td></tr>
+      <tr><td>-0.55167126469319605</td><td>44.881920158729599</td><td>Ecole Elémentaire Labarde                                                                          </td></tr>
+      <tr><td>-0.61216439597610595</td><td>44.823769716890403</td><td>Ecole maternelle et élémentaire Sainte Thérèse                                                  </td></tr>
+      <tr><td>-0.60528320263513002</td><td>44.838617554352702</td><td>Ecole Maternelle Bernard Adour                                                                      </td></tr>
+      <tr><td>-0.60621525470459003</td><td>44.843060129544298</td><td>Ecole Elémentaire Jules Ferry                                                                      </td></tr>
+      <tr><td>-0.552906150475585</td><td>44.8746138800864</td><td>Ecole Elémentaire Charles Martin                                                                   </td></tr>
+      <tr><td>-0.57108442438380302</td><td>44.841616557233202</td><td>Ecole Elémentaire Vieux Bordeaux                                                                   </td></tr>
+      <tr><td>-0.59723384550840497</td><td>44.828763903714197</td><td>Ecole Elémentaire Albert Thomas                                                                    </td></tr>
+      <tr><td>-0.59690192289527999</td><td>44.8256747331573</td><td>Ecole Maternelle Béchade                                                                           </td></tr>
+      <tr><td>-0.56141545103934298</td><td>44.860543394682999</td><td>Ecole Elémentaire Dupaty                                                                           </td></tr>
+      <tr><td>-0.60557461824418402</td><td>44.842653212667898</td><td>Ecole Maternelle Jules Ferry                                                                        </td></tr>
+      <tr><td>-0.54941860193400205</td><td>44.880157497595299</td><td>Ecole Maternelle Le Point du Jour                                                                   </td></tr>
+      <tr><td>-0.58012345624371298</td><td>44.840183956239599</td><td>Ecole maternelle et élémentaire Notre Dame                                                        </td></tr>
+      <tr><td>-0.625245894819354</td><td>44.8592149156134</td><td>Ecole Maternelle Pins Francs                                                                        </td></tr>
+      <tr><td>-0.57730670540347195</td><td>44.852202294347499</td><td>Ecole Maternelle Montgolfier                                                                        </td></tr>
+      <tr><td>-0.54405792508992101</td><td>44.830704251491497</td><td>Ecole Elémentaire Franc Sanson                                                                     </td></tr>
+      <tr><td>-0.62022064967946</td><td>44.844449807333703</td><td>Ecole Maternelle Raymond Poincaré                                                                  </td></tr>
+      <tr><td>-0.56918216442715497</td><td>44.872900678502198</td><td>Ecole Maternelle Lac II                                                                             </td></tr>
+      <tr><td>-0.56226164848082805</td><td>44.859990935787799</td><td>Ecole Maternelle Joséphine                                                                         </td></tr>
+      <tr><td>-0.60060628787509895</td><td>44.848317317877097</td><td>Ecole Maternelle Jean Cocteau                                                                       </td></tr>
+      <tr><td>-0.57004651700091902</td><td>44.824281963552899</td><td>Ecole Maternelle Yser                                                                               </td></tr>
+      <tr><td>-0.56425423085625803</td><td>44.830208332518403</td><td>Ecole Maternelle Noviciat                                                                           </td></tr>
+      <tr><td>-0.55562242942442297</td><td>44.816080424670297</td><td>Ecole Elémentaire Carle Vernet                                                                     </td></tr>
+      <tr><td>-0.58223589517083296</td><td>44.824015297031501</td><td>Ecole maternelle et élémentaire Albert Legrand                                                    </td></tr>
+      <tr><td>-0.58224232014393995</td><td>44.838724169188097</td><td>Ecole Elémentaire Anatole France                                                                   </td></tr>
+      <tr><td>-0.57147780373330503</td><td>44.818708171930098</td><td>Ecole Maternelle Paul Antin                                                                         </td></tr>
+      <tr><td>-0.58501615802683904</td><td>44.823553461424702</td><td>Ecole Maternelle Solferino                                                                          </td></tr>
+      <tr><td>-0.616941267864067</td><td>44.856968986674602</td><td>Ecole Elémentaire Paul Doumer                                                                      </td></tr>
+      <tr><td>-0.57188201213223899</td><td>44.838309863657301</td><td>Ecole Maternelle Pas Saint Georges                                                                  </td></tr>
+      <tr><td>-0.575008430442008</td><td>44.836538342123802</td><td>Ecole Elémentaire Paul Bert                                                                        </td></tr>
+      <tr><td>-0.55201926070881802</td><td>44.842544546476397</td><td>Ecole maternelle et élémentaire Sainte Marie La Bastide                                           </td></tr>
+      <tr><td>-0.55402718283460095</td><td>44.860908324528999</td><td>Ecole Maternelle Lucien Faure                                                                       </td></tr>
+      <tr><td>-0.57829050046574604</td><td>44.852384609551997</td><td>Ecole Elémentaire Montgolfier                                                                      </td></tr>
+      <tr><td>-0.54253737745578501</td><td>44.850218579385803</td><td>Ecole Maternelle Thiers                                                                             </td></tr>
+      <tr><td>-0.61664786901639201</td><td>44.857426707372198</td><td>Ecole Maternelle Paul Doumer                                                                        </td></tr>
+      <tr><td>-0.60237388375706802</td><td>44.848227392934596</td><td>Ecole Elémentaire Jean Cocteau                                                                     </td></tr>
+      <tr><td>-0.59656315083688205</td><td>44.828762910955703</td><td>Ecole Maternelle Albert Thomas                                                                      </td></tr>
+      <tr><td>-0.56264564472743805</td><td>44.828132622970898</td><td>Ecole Maternelle Barbey                                                                             </td></tr>
+      <tr><td>-0.54405806281856695</td><td>44.831478627425597</td><td>Ecole Maternelle Franc Sanson                                                                       </td></tr>
+      <tr><td>-0.57181829576124399</td><td>44.880587196682598</td><td>Ecole Elémentaire Vaclav Havel                                                                     </td></tr>
+      <tr><td>-0.624700275971241</td><td>44.855437934802701</td><td>Ecole Elémentaire Stéhélin                                                                       </td></tr>
+      <tr><td>-0.57662316680666204</td><td>44.836323256571198</td><td>Ecole maternelle et élémentaire Sévigné                                                         </td></tr>
+      <tr><td>-0.56123401345189095</td><td>44.859827903914798</td><td>Ecole maternelle Bassins à flot                                                                    </td></tr>
+      <tr><td>-0.56116619214383701</td><td>44.859872892762098</td><td>Ecole élémentaire Bassins à flot                                                                 </td></tr>
+
+	</table>
+
+  </body>
+
+</html>

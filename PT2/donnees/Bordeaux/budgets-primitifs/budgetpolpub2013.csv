@@ -1,0 +1,401 @@
+Code_Politique_Dominante;Description_Politique_Dominante;Code_Secteur_Intervention;Description_Secteur_Intervention;Code_Sous_Secteur;Description_Sous_Secteur_Interv;Code_Programme;Description_Programme;Nature_Affect_Operation;Vsectsubv;Vmt_Bp
+A-;ATTRACTIVITE ET RAYONNEMENT;A-01;Rayonnement architectural et urbain;;;P001;Rayonnement architectural et urbain;Depense;Fonctionnement;249050
+A-;ATTRACTIVITE ET RAYONNEMENT;A-01;Rayonnement architectural et urbain;;;P001;Rayonnement architectural et urbain;Depense;Investissement;115000
+A-;ATTRACTIVITE ET RAYONNEMENT;A-01;Rayonnement architectural et urbain;;;P001;Rayonnement architectural et urbain;Recette;Fonctionnement;25000
+A-;ATTRACTIVITE ET RAYONNEMENT;A-01;Rayonnement architectural et urbain;;;P001;Rayonnement architectural et urbain;Recette;Investissement;0
+A-;ATTRACTIVITE ET RAYONNEMENT;A-02;Patrimoine culturel;;;P002;Restauration des monuments historiques;Depense;Fonctionnement;0
+A-;ATTRACTIVITE ET RAYONNEMENT;A-02;Patrimoine culturel;;;P002;Restauration des monuments historiques;Depense;Investissement;590000
+A-;ATTRACTIVITE ET RAYONNEMENT;A-02;Patrimoine culturel;;;P002;Restauration des monuments historiques;Recette;Investissement;348800
+A-;ATTRACTIVITE ET RAYONNEMENT;A-02;Patrimoine culturel;;;P003;Restauration des edifices patrimoniaux;Depense;Fonctionnement;0
+A-;ATTRACTIVITE ET RAYONNEMENT;A-02;Patrimoine culturel;;;P003;Restauration des edifices patrimoniaux;Depense;Investissement;665000
+A-;ATTRACTIVITE ET RAYONNEMENT;A-02;Patrimoine culturel;;;P003;Restauration des edifices patrimoniaux;Recette;Investissement;0
+A-;ATTRACTIVITE ET RAYONNEMENT;A-02;Patrimoine culturel;;;P004;Mises en lumière;Depense;Fonctionnement;130000
+A-;ATTRACTIVITE ET RAYONNEMENT;A-02;Patrimoine culturel;;;P004;Mises en lumière;Depense;Investissement;0
+A-;ATTRACTIVITE ET RAYONNEMENT;A-02;Patrimoine culturel;;;P005;Animation du patrimoine;Depense;Fonctionnement;131200
+A-;ATTRACTIVITE ET RAYONNEMENT;A-02;Patrimoine culturel;;;P005;Animation du patrimoine;Depense;Investissement;362000
+A-;ATTRACTIVITE ET RAYONNEMENT;A-02;Patrimoine culturel;;;P005;Animation du patrimoine;Recette;Investissement;0
+A-;ATTRACTIVITE ET RAYONNEMENT;A-03;Relations internationales;;;P006;Relations internationales;Depense;Fonctionnement;430000
+A-;ATTRACTIVITE ET RAYONNEMENT;A-03;Relations internationales;;;P006;Relations internationales;Depense;Subventions;161400
+A-;ATTRACTIVITE ET RAYONNEMENT;A-03;Relations internationales;;;P006;Relations internationales;Recette;Fonctionnement;20000
+A-;ATTRACTIVITE ET RAYONNEMENT;A-04;Tourisme;;;P007;Equipements fluviaux;Depense;Fonctionnement;17000
+A-;ATTRACTIVITE ET RAYONNEMENT;A-04;Tourisme;;;P007;Equipements fluviaux;Depense;Investissement;34000
+A-;ATTRACTIVITE ET RAYONNEMENT;A-04;Tourisme;;;P007;Equipements fluviaux;Recette;Fonctionnement;20000
+A-;ATTRACTIVITE ET RAYONNEMENT;A-04;Tourisme;;;P007;Equipements fluviaux;Recette;Investissement;0
+A-;ATTRACTIVITE ET RAYONNEMENT;A-04;Tourisme;;;P008;Tourisme urbain;Depense;Fonctionnement;18600
+A-;ATTRACTIVITE ET RAYONNEMENT;A-04;Tourisme;;;P008;Tourisme urbain;Depense;Investissement;0
+A-;ATTRACTIVITE ET RAYONNEMENT;A-04;Tourisme;;;P008;Tourisme urbain;Depense;Subventions;2214642
+A-;ATTRACTIVITE ET RAYONNEMENT;A-04;Tourisme;;;P008;Tourisme urbain;Recette;Fonctionnement;2076000
+A-;ATTRACTIVITE ET RAYONNEMENT;A-04;Tourisme;;;P009;Tourisme d'affaires (TVA);Depense;Fonctionnement;992000
+A-;ATTRACTIVITE ET RAYONNEMENT;A-04;Tourisme;;;P009;Tourisme d'affaires (TVA);Depense;Investissement;0
+A-;ATTRACTIVITE ET RAYONNEMENT;A-04;Tourisme;;;P009;Tourisme d'affaires (TVA);Recette;Fonctionnement;92000
+A-;ATTRACTIVITE ET RAYONNEMENT;A-04;Tourisme;;;P126;Cite des civilisations du vin;Depense;Investissement;9176639,5
+A-;ATTRACTIVITE ET RAYONNEMENT;A-04;Tourisme;;;P126;Cite des civilisations du vin;Recette;Investissement;6673666
+A-;ATTRACTIVITE ET RAYONNEMENT;A-04;Tourisme;;;P130;Equipements fluviaux (TVA);Depense;Investissement;300000
+B-;DEVELOPPEMENT CULTUREL;B-01;Enseignement artistique;;;P010;Conservatoire de Bordeaux;Depense;Fonctionnement;348300
+B-;DEVELOPPEMENT CULTUREL;B-01;Enseignement artistique;;;P010;Conservatoire de Bordeaux;Depense;Investissement;137000
+B-;DEVELOPPEMENT CULTUREL;B-01;Enseignement artistique;;;P010;Conservatoire de Bordeaux;Depense;Subventions;7150
+B-;DEVELOPPEMENT CULTUREL;B-01;Enseignement artistique;;;P010;Conservatoire de Bordeaux;Recette;Fonctionnement;724050
+B-;DEVELOPPEMENT CULTUREL;B-01;Enseignement artistique;;;P010;Conservatoire de Bordeaux;Recette;Investissement;0
+B-;DEVELOPPEMENT CULTUREL;B-01;Enseignement artistique;;;P011;Ecole superieure d'Art de Bordeaux;Depense;Fonctionnement;3140000
+B-;DEVELOPPEMENT CULTUREL;B-01;Enseignement artistique;;;P011;Ecole superieure d'Art de Bordeaux;Depense;Investissement;100000
+B-;DEVELOPPEMENT CULTUREL;B-01;Enseignement artistique;;;P011;Ecole superieure d'Art de Bordeaux;Recette;Fonctionnement;0
+B-;DEVELOPPEMENT CULTUREL;B-01;Enseignement artistique;;;P011;Ecole superieure d'Art de Bordeaux;Recette;Investissement;0
+B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P012;Musee d'Art Contemporain;Depense;Fonctionnement;650000
+B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P012;Musee d'Art Contemporain;Depense;Investissement;0
+B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P012;Musee d'Art Contemporain;Recette;Fonctionnement;145000
+B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P013;Musee d'Aquitaine (Goupil et Jean Moulin);Depense;Fonctionnement;292000
+B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P013;Musee d'Aquitaine (Goupil et Jean Moulin);Depense;Investissement;400000
+B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P013;Musee d'Aquitaine (Goupil et Jean Moulin);Recette;Fonctionnement;105000
+B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P014;Musee des Arts decoratifs;Depense;Fonctionnement;45000
+B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P014;Musee des Arts decoratifs;Depense;Investissement;0
+B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P014;Musee des Arts decoratifs;Recette;Fonctionnement;83000
+B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P015;Musee des Beaux-Arts;Depense;Fonctionnement;262800
+B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P015;Musee des Beaux-Arts;Depense;Investissement;210000
+B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P015;Musee des Beaux-Arts;Recette;Fonctionnement;129200
+B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P015;Musee des Beaux-Arts;Recette;Investissement;0
+B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P016;Museum d'histoire naturelle;Depense;Fonctionnement;41600
+B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P016;Museum d'histoire naturelle;Depense;Investissement;0
+B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P016;Museum d'histoire naturelle;Recette;Fonctionnement;0
+B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P016;Museum d'histoire naturelle;Recette;Investissement;67415,49
+B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P017;Developpement des musees;Depense;Fonctionnement;35400
+B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P017;Developpement des musees;Depense;Investissement;448500
+B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P017;Developpement des musees;Recette;Fonctionnement;0
+B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P017;Developpement des musees;Recette;Investissement;0
+B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P119;Recettes des activites annexes du CAPC;Recette;Fonctionnement;60000
+B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P137;Boutiques des musees (TVA);Depense;Fonctionnement;0
+B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P137;Boutiques des musees (TVA);Recette;Fonctionnement;0
+B-;DEVELOPPEMENT CULTUREL;B-03;Lecture publique et archives;;;P018;Lecture publique;Depense;Fonctionnement;1109700
+B-;DEVELOPPEMENT CULTUREL;B-03;Lecture publique et archives;;;P018;Lecture publique;Depense;Investissement;4640550
+B-;DEVELOPPEMENT CULTUREL;B-03;Lecture publique et archives;;;P018;Lecture publique;Recette;Fonctionnement;217000
+B-;DEVELOPPEMENT CULTUREL;B-03;Lecture publique et archives;;;P018;Lecture publique;Recette;Investissement;1080000
+B-;DEVELOPPEMENT CULTUREL;B-03;Lecture publique et archives;;;P019;Archives municipales;Depense;Fonctionnement;38000
+B-;DEVELOPPEMENT CULTUREL;B-03;Lecture publique et archives;;;P019;Archives municipales;Depense;Investissement;4600000
+B-;DEVELOPPEMENT CULTUREL;B-03;Lecture publique et archives;;;P019;Archives municipales;Recette;Fonctionnement;9000
+B-;DEVELOPPEMENT CULTUREL;B-04;Dev. action artistiq et cult.;;;P020;Opera;Depense;Fonctionnement;16490000
+B-;DEVELOPPEMENT CULTUREL;B-04;Dev. action artistiq et cult.;;;P020;Opera;Depense;Investissement;270000
+B-;DEVELOPPEMENT CULTUREL;B-04;Dev. action artistiq et cult.;;;P020;Opera;Recette;Investissement;0
+B-;DEVELOPPEMENT CULTUREL;B-04;Dev. action artistiq et cult.;;;P021;Actions de developpement artistique;Depense;Fonctionnement;281600
+B-;DEVELOPPEMENT CULTUREL;B-04;Dev. action artistiq et cult.;;;P021;Actions de developpement artistique;Depense;Investissement;370000
+B-;DEVELOPPEMENT CULTUREL;B-04;Dev. action artistiq et cult.;;;P021;Actions de developpement artistique;Depense;Subventions;3773860
+B-;DEVELOPPEMENT CULTUREL;B-04;Dev. action artistiq et cult.;;;P021;Actions de developpement artistique;Recette;Fonctionnement;20000
+B-;DEVELOPPEMENT CULTUREL;B-04;Dev. action artistiq et cult.;;;P021;Actions de developpement artistique;Recette;Investissement;240000
+B-;DEVELOPPEMENT CULTUREL;B-04;Dev. action artistiq et cult.;;;P022;Rayonnement culturel;Depense;Fonctionnement;259600
+B-;DEVELOPPEMENT CULTUREL;B-04;Dev. action artistiq et cult.;;;P022;Rayonnement culturel;Depense;Investissement;10000
+B-;DEVELOPPEMENT CULTUREL;B-04;Dev. action artistiq et cult.;;;P022;Rayonnement culturel;Recette;Fonctionnement;0
+B-;DEVELOPPEMENT CULTUREL;B-04;Dev. action artistiq et cult.;;;P022;Rayonnement culturel;Recette;Investissement;0
+B-;DEVELOPPEMENT CULTUREL;B-04;Dev. action artistiq et cult.;;;P023;Securite dans les bâtiments culturels;Depense;Fonctionnement;750000
+B-;DEVELOPPEMENT CULTUREL;B-04;Dev. action artistiq et cult.;;;P023;Securite dans les bâtiments culturels;Depense;Investissement;750000
+B-;DEVELOPPEMENT CULTUREL;B-04;Dev. action artistiq et cult.;;;P124;Equipements culturels assujettis;Depense;Investissement;0
+B-;DEVELOPPEMENT CULTUREL;B-04;Dev. action artistiq et cult.;;;P134;Auditorium;Depense;Fonctionnement;0
+B-;DEVELOPPEMENT CULTUREL;B-04;Dev. action artistiq et cult.;;;P134;Auditorium;Depense;Investissement;2314247
+B-;DEVELOPPEMENT CULTUREL;B-04;Dev. action artistiq et cult.;;;P134;Auditorium;Recette;Fonctionnement;0
+C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P024;Commerce et artisanat;Depense;Fonctionnement;125605
+C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P024;Commerce et artisanat;Depense;Investissement;0
+C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P024;Commerce et artisanat;Depense;Subventions;405410
+C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P024;Commerce et artisanat;Recette;Fonctionnement;190187
+C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P024;Commerce et artisanat;Recette;Investissement;39452
+C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P025;Economie creative;Depense;Investissement;0
+C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P025;Economie creative;Depense;Subventions;50000
+C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P026;Emploi;Depense;Fonctionnement;20811
+C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P026;Emploi;Depense;Investissement;0
+C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P026;Emploi;Depense;Subventions;541872
+C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P026;Emploi;Recette;Fonctionnement;0
+C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P027;Creation et developpement entreprises;Depense;Fonctionnement;367453
+C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P027;Creation et developpement entreprises;Depense;Investissement;208918
+C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P027;Creation et developpement entreprises;Depense;Subventions;471125
+C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P027;Creation et developpement entreprises;Recette;Fonctionnement;0
+C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P027;Creation et developpement entreprises;Recette;Investissement;400000
+C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P028;Innovation - Enseignement superieur;Depense;Fonctionnement;3000
+C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P028;Innovation - Enseignement superieur;Depense;Investissement;50000
+C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P028;Innovation - Enseignement superieur;Depense;Subventions;187000
+C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P028;Innovation - Enseignement superieur;Recette;Investissement;0
+C-;DEVELOPPEMENT URBAIN DURABLE;C-02;Amenagement urbain;;;P029;Amenagement;Depense;Fonctionnement;104000
+C-;DEVELOPPEMENT URBAIN DURABLE;C-02;Amenagement urbain;;;P029;Amenagement;Depense;Investissement;2621200
+C-;DEVELOPPEMENT URBAIN DURABLE;C-02;Amenagement urbain;;;P029;Amenagement;Depense;Subventions;1012644
+C-;DEVELOPPEMENT URBAIN DURABLE;C-02;Amenagement urbain;;;P029;Amenagement;Recette;Fonctionnement;0
+C-;DEVELOPPEMENT URBAIN DURABLE;C-02;Amenagement urbain;;;P029;Amenagement;Recette;Investissement;339936
+C-;DEVELOPPEMENT URBAIN DURABLE;C-02;Amenagement urbain;;;P030;Droit des sols;Depense;Fonctionnement;238000
+C-;DEVELOPPEMENT URBAIN DURABLE;C-02;Amenagement urbain;;;P030;Droit des sols;Depense;Investissement;30000
+C-;DEVELOPPEMENT URBAIN DURABLE;C-02;Amenagement urbain;;;P030;Droit des sols;Recette;Fonctionnement;0
+C-;DEVELOPPEMENT URBAIN DURABLE;C-03;Habitat;;;P031;Logement;Depense;Fonctionnement;7200
+C-;DEVELOPPEMENT URBAIN DURABLE;C-03;Habitat;;;P031;Logement;Depense;Investissement;2900000
+C-;DEVELOPPEMENT URBAIN DURABLE;C-03;Habitat;;;P031;Logement;Recette;Investissement;0
+C-;DEVELOPPEMENT URBAIN DURABLE;C-03;Habitat;;;P032;Renovation urbaine;Depense;Fonctionnement;220000
+C-;DEVELOPPEMENT URBAIN DURABLE;C-03;Habitat;;;P032;Renovation urbaine;Depense;Investissement;2370480
+C-;DEVELOPPEMENT URBAIN DURABLE;C-03;Habitat;;;P032;Renovation urbaine;Recette;Investissement;0
+C-;DEVELOPPEMENT URBAIN DURABLE;C-04;Vie et depl. dans les esp.urb.;;;P033;Deplacements doux;Depense;Fonctionnement;110000
+C-;DEVELOPPEMENT URBAIN DURABLE;C-04;Vie et depl. dans les esp.urb.;;;P033;Deplacements doux;Depense;Investissement;290000
+C-;DEVELOPPEMENT URBAIN DURABLE;C-04;Vie et depl. dans les esp.urb.;;;P033;Deplacements doux;Recette;Fonctionnement;100000
+C-;DEVELOPPEMENT URBAIN DURABLE;C-04;Vie et depl. dans les esp.urb.;;;P034;Amenagement des espaces de circulation;Depense;Fonctionnement;799000
+C-;DEVELOPPEMENT URBAIN DURABLE;C-04;Vie et depl. dans les esp.urb.;;;P034;Amenagement des espaces de circulation;Depense;Investissement;2578640
+C-;DEVELOPPEMENT URBAIN DURABLE;C-04;Vie et depl. dans les esp.urb.;;;P034;Amenagement des espaces de circulation;Recette;Fonctionnement;0
+C-;DEVELOPPEMENT URBAIN DURABLE;C-04;Vie et depl. dans les esp.urb.;;;P034;Amenagement des espaces de circulation;Recette;Investissement;150000
+C-;DEVELOPPEMENT URBAIN DURABLE;C-05;Eclairage;;;P035;Eclairage;Depense;Fonctionnement;4300000
+C-;DEVELOPPEMENT URBAIN DURABLE;C-05;Eclairage;;;P035;Eclairage;Depense;Investissement;3700000
+C-;DEVELOPPEMENT URBAIN DURABLE;C-05;Eclairage;;;P035;Eclairage;Recette;Fonctionnement;0
+C-;DEVELOPPEMENT URBAIN DURABLE;C-05;Eclairage;;;P035;Eclairage;Recette;Investissement;0
+C-;DEVELOPPEMENT URBAIN DURABLE;C-06;Paysages et patrimoine urbains;;;P036;Patrimoine naturel;Depense;Fonctionnement;205000
+C-;DEVELOPPEMENT URBAIN DURABLE;C-06;Paysages et patrimoine urbains;;;P036;Patrimoine naturel;Depense;Investissement;110000
+C-;DEVELOPPEMENT URBAIN DURABLE;C-06;Paysages et patrimoine urbains;;;P036;Patrimoine naturel;Depense;Subventions;0
+C-;DEVELOPPEMENT URBAIN DURABLE;C-06;Paysages et patrimoine urbains;;;P036;Patrimoine naturel;Recette;Fonctionnement;12000
+C-;DEVELOPPEMENT URBAIN DURABLE;C-06;Paysages et patrimoine urbains;;;P036;Patrimoine naturel;Recette;Investissement;0
+C-;DEVELOPPEMENT URBAIN DURABLE;C-06;Paysages et patrimoine urbains;;;P037;Paysages urbains;Depense;Fonctionnement;35000
+C-;DEVELOPPEMENT URBAIN DURABLE;C-06;Paysages et patrimoine urbains;;;P037;Paysages urbains;Depense;Investissement;3665000
+C-;DEVELOPPEMENT URBAIN DURABLE;C-06;Paysages et patrimoine urbains;;;P037;Paysages urbains;Recette;Investissement;679520,9
+C-;DEVELOPPEMENT URBAIN DURABLE;C-06;Paysages et patrimoine urbains;;;P038;Lycee horticole;Depense;Fonctionnement;287000
+C-;DEVELOPPEMENT URBAIN DURABLE;C-06;Paysages et patrimoine urbains;;;P038;Lycee horticole;Depense;Investissement;255000
+C-;DEVELOPPEMENT URBAIN DURABLE;C-06;Paysages et patrimoine urbains;;;P038;Lycee horticole;Depense;Subventions;0
+C-;DEVELOPPEMENT URBAIN DURABLE;C-06;Paysages et patrimoine urbains;;;P038;Lycee horticole;Recette;Fonctionnement;554067
+C-;DEVELOPPEMENT URBAIN DURABLE;C-06;Paysages et patrimoine urbains;;;P038;Lycee horticole;Recette;Investissement;55000
+D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-01;Proprete urbaine;;;P039;Nettoyage des rues;Depense;Fonctionnement;625300
+D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-01;Proprete urbaine;;;P039;Nettoyage des rues;Depense;Investissement;770000
+D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-01;Proprete urbaine;;;P039;Nettoyage des rues;Recette;Fonctionnement;0
+D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-01;Proprete urbaine;;;P040;Enlèvement des dechets;Depense;Fonctionnement;1170000
+D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-01;Proprete urbaine;;;P040;Enlèvement des dechets;Recette;Fonctionnement;10000
+D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-01;Proprete urbaine;;;P123;Sanitaires ;Depense;Fonctionnement;786000
+D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-01;Proprete urbaine;;;P123;Sanitaires ;Depense;Investissement;70000
+D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-02;Gestion de la voie publique;;;P041;Stationnement et circulation;Depense;Fonctionnement;300000
+D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-02;Gestion de la voie publique;;;P041;Stationnement et circulation;Depense;Investissement;250000
+D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-02;Gestion de la voie publique;;;P041;Stationnement et circulation;Recette;Fonctionnement;4200000
+D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-02;Gestion de la voie publique;;;P042;Occupation du domaine;Depense;Fonctionnement;592550
+D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-02;Gestion de la voie publique;;;P042;Occupation du domaine;Depense;Investissement;152000
+D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-02;Gestion de la voie publique;;;P042;Occupation du domaine;Recette;Fonctionnement;2500000
+D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-02;Gestion de la voie publique;;;P042;Occupation du domaine;Recette;Investissement;0
+D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-02;Gestion de la voie publique;;;P043;Occupation du domaine (operations assujetties);Recette;Fonctionnement;1170000
+D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-02;Gestion de la voie publique;;;P082;Territoire et proximite;Depense;Fonctionnement;126850
+D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-02;Gestion de la voie publique;;;P082;Territoire et proximite;Depense;Investissement;25000
+D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-02;Gestion de la voie publique;;;P082;Territoire et proximite;Recette;Fonctionnement;2300000
+D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-03;Gestion maintien patrim. vert;;;P044;Preservation et gestion du patrimoine vert;Depense;Fonctionnement;1235000
+D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-03;Gestion maintien patrim. vert;;;P044;Preservation et gestion du patrimoine vert;Depense;Investissement;951700
+D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-03;Gestion maintien patrim. vert;;;P044;Preservation et gestion du patrimoine vert;Depense;Subventions;0
+D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-03;Gestion maintien patrim. vert;;;P044;Preservation et gestion du patrimoine vert;Recette;Fonctionnement;177000
+D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-03;Gestion maintien patrim. vert;;;P044;Preservation et gestion du patrimoine vert;Recette;Investissement;0
+D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-03;Gestion maintien patrim. vert;;;P045;Proximite et animation;Depense;Fonctionnement;110000
+D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-03;Gestion maintien patrim. vert;;;P045;Proximite et animation;Depense;Investissement;325000
+D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-03;Gestion maintien patrim. vert;;;P136;Gestion patrimoine vert assujettie (TVA);Recette;Fonctionnement;0
+E-;PREVENTION DES RISQUES ET TRANQUILLITE;E-01;Tranquillite publique;;;P046;Police municipale;Depense;Fonctionnement;238870
+E-;PREVENTION DES RISQUES ET TRANQUILLITE;E-01;Tranquillite publique;;;P046;Police municipale;Depense;Investissement;145000
+E-;PREVENTION DES RISQUES ET TRANQUILLITE;E-01;Tranquillite publique;;;P046;Police municipale;Recette;Fonctionnement;6000
+E-;PREVENTION DES RISQUES ET TRANQUILLITE;E-01;Tranquillite publique;;;P046;Police municipale;Recette;Investissement;0
+E-;PREVENTION DES RISQUES ET TRANQUILLITE;E-02;Prevention des risques;;;P047;Prevention, securite incendie et accessibilite dans les ERP;Depense;Fonctionnement;27000
+E-;PREVENTION DES RISQUES ET TRANQUILLITE;E-02;Prevention des risques;;;P047;Prevention, securite incendie et accessibilite dans les ERP;Depense;Investissement;10200
+E-;PREVENTION DES RISQUES ET TRANQUILLITE;E-02;Prevention des risques;;;P048;Prevention des risques majeurs et lutte contre les nuisances;Depense;Fonctionnement;335500
+E-;PREVENTION DES RISQUES ET TRANQUILLITE;E-02;Prevention des risques;;;P048;Prevention des risques majeurs et lutte contre les nuisances;Depense;Investissement;35000
+E-;PREVENTION DES RISQUES ET TRANQUILLITE;E-02;Prevention des risques;;;P048;Prevention des risques majeurs et lutte contre les nuisances;Depense;Subventions;0
+E-;PREVENTION DES RISQUES ET TRANQUILLITE;E-02;Prevention des risques;;;P048;Prevention des risques majeurs et lutte contre les nuisances;Recette;Fonctionnement;2096000
+E-;PREVENTION DES RISQUES ET TRANQUILLITE;E-02;Prevention des risques;;;P048;Prevention des risques majeurs et lutte contre les nuisances;Recette;Investissement;0
+E-;PREVENTION DES RISQUES ET TRANQUILLITE;E-02;Prevention des risques;;;P049;SCHS - Activites assujetties;Recette;Fonctionnement;104000
+F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0101;Equipements structurants delegues;P050;DSP Golf Bordeaux Lac;Depense;Investissement;130000
+F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0101;Equipements structurants delegues;P050;DSP Golf Bordeaux Lac;Recette;Investissement;0
+F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0101;Equipements structurants delegues;P051;Nouveau stade;Depense;Fonctionnement;136000
+F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0101;Equipements structurants delegues;P051;Nouveau stade;Depense;Investissement;40000000
+F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0101;Equipements structurants delegues;P051;Nouveau stade;Recette;Investissement;30000000
+F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0101;Equipements structurants delegues;P131;Patinoire;Depense;Investissement;150000
+F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0101;Equipements structurants delegues;P132;Stadium;Depense;Investissement;50000
+F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0101;Equipements structurants delegues;P135;Affermage Equip. Sport Loisirs;Depense;Fonctionnement;1481216
+F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0102;Equipements structurants en regie;P052;Stade Chaban-Delmas;Depense;Fonctionnement;302700
+F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0102;Equipements structurants en regie;P052;Stade Chaban-Delmas;Depense;Investissement;700000
+F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0102;Equipements structurants en regie;P052;Stade Chaban-Delmas;Recette;Fonctionnement;340000
+F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0102;Equipements structurants en regie;P052;Stade Chaban-Delmas;Recette;Investissement;0
+F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0102;Equipements structurants en regie;P053;Piscine Judaïque;Depense;Fonctionnement;59000
+F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0102;Equipements structurants en regie;P053;Piscine Judaïque;Depense;Investissement;0
+F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0102;Equipements structurants en regie;P053;Piscine Judaïque;Recette;Fonctionnement;323500
+F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0102;Equipements structurants en regie;P054;Palais des sports;Depense;Investissement;1010000
+F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0102;Equipements structurants en regie;P125;Salle Jean Dauguet;Depense;Fonctionnement;32600
+F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0102;Equipements structurants en regie;P125;Salle Jean Dauguet;Depense;Investissement;97000
+F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0102;Equipements structurants en regie;P125;Salle Jean Dauguet;Recette;Fonctionnement;5000
+F-;DEVELOPPEMENT SPORTIF;F-02;Sports de haut niveau et perf.;;;P055;Soutien aux structures haut niveau;Depense;Fonctionnement;614200
+F-;DEVELOPPEMENT SPORTIF;F-02;Sports de haut niveau et perf.;;;P055;Soutien aux structures haut niveau;Depense;Subventions;2322000
+F-;DEVELOPPEMENT SPORTIF;F-02;Sports de haut niveau et perf.;;;P055;Soutien aux structures haut niveau;Recette;Fonctionnement;130000
+F-;DEVELOPPEMENT SPORTIF;F-03;Sports educatif et loisirs;F-0301;Partenariats et animation;P056;Partenariats avec les clubs;Depense;Subventions;1436394,44
+F-;DEVELOPPEMENT SPORTIF;F-03;Sports educatif et loisirs;F-0301;Partenariats et animation;P057;Politique d'animation;Depense;Fonctionnement;341380
+F-;DEVELOPPEMENT SPORTIF;F-03;Sports educatif et loisirs;F-0301;Partenariats et animation;P057;Politique d'animation;Depense;Investissement;0
+F-;DEVELOPPEMENT SPORTIF;F-03;Sports educatif et loisirs;F-0301;Partenariats et animation;P057;Politique d'animation;Depense;Subventions;140300
+F-;DEVELOPPEMENT SPORTIF;F-03;Sports educatif et loisirs;F-0301;Partenariats et animation;P057;Politique d'animation;Recette;Fonctionnement;160000
+F-;DEVELOPPEMENT SPORTIF;F-03;Sports educatif et loisirs;F-0301;Partenariats et animation;P057;Politique d'animation;Recette;Investissement;0
+F-;DEVELOPPEMENT SPORTIF;F-03;Sports educatif et loisirs;F-0302;Construction et gestion des equipements;P058;Gestion des equipements par les clubs;Depense;Fonctionnement;185000
+F-;DEVELOPPEMENT SPORTIF;F-03;Sports educatif et loisirs;F-0302;Construction et gestion des equipements;P058;Gestion des equipements par les clubs;Depense;Investissement;85000
+F-;DEVELOPPEMENT SPORTIF;F-03;Sports educatif et loisirs;F-0302;Construction et gestion des equipements;P058;Gestion des equipements par les clubs;Depense;Subventions;554210
+F-;DEVELOPPEMENT SPORTIF;F-03;Sports educatif et loisirs;F-0302;Construction et gestion des equipements;P059;Piscines;Depense;Fonctionnement;240000
+F-;DEVELOPPEMENT SPORTIF;F-03;Sports educatif et loisirs;F-0302;Construction et gestion des equipements;P059;Piscines;Depense;Investissement;305000
+F-;DEVELOPPEMENT SPORTIF;F-03;Sports educatif et loisirs;F-0302;Construction et gestion des equipements;P059;Piscines;Recette;Fonctionnement;627500
+F-;DEVELOPPEMENT SPORTIF;F-03;Sports educatif et loisirs;F-0302;Construction et gestion des equipements;P060;Gestion salles et stades;Depense;Fonctionnement;745000
+F-;DEVELOPPEMENT SPORTIF;F-03;Sports educatif et loisirs;F-0302;Construction et gestion des equipements;P060;Gestion salles et stades;Depense;Investissement;1098000
+F-;DEVELOPPEMENT SPORTIF;F-03;Sports educatif et loisirs;F-0302;Construction et gestion des equipements;P060;Gestion salles et stades;Recette;Fonctionnement;110000
+F-;DEVELOPPEMENT SPORTIF;F-03;Sports educatif et loisirs;F-0302;Construction et gestion des equipements;P060;Gestion salles et stades;Recette;Investissement;0
+F-;DEVELOPPEMENT SPORTIF;F-03;Sports educatif et loisirs;F-0302;Construction et gestion des equipements;P061;Rehabilitation et construction d'equipements sportifs;Depense;Investissement;1890000
+F-;DEVELOPPEMENT SPORTIF;F-03;Sports educatif et loisirs;F-0302;Construction et gestion des equipements;P061;Rehabilitation et construction d'equipements sportifs;Recette;Investissement;160000
+F-;DEVELOPPEMENT SPORTIF;F-03;Sports educatif et loisirs;F-0302;Construction et gestion des equipements;P133;Bowling et tennis de Meriadeck;Depense;Investissement;50000
+G-;Vie en societe;G-01;Petite enfance;;;P062;Structures sous gestion municipale;Depense;Fonctionnement;623500
+G-;Vie en societe;G-01;Petite enfance;;;P062;Structures sous gestion municipale;Recette;Fonctionnement;15655546
+G-;Vie en societe;G-01;Petite enfance;;;P063;Structures sous gestion externe;Depense;Fonctionnement;754077
+G-;Vie en societe;G-01;Petite enfance;;;P063;Structures sous gestion externe;Depense;Investissement;0
+G-;Vie en societe;G-01;Petite enfance;;;P063;Structures sous gestion externe;Depense;Subventions;6230424
+G-;Vie en societe;G-01;Petite enfance;;;P063;Structures sous gestion externe;Recette;Investissement;0
+G-;Vie en societe;G-01;Petite enfance;;;P064;Patrimoine et equipements de la petite enfance;Depense;Fonctionnement;93000
+G-;Vie en societe;G-01;Petite enfance;;;P064;Patrimoine et equipements de la petite enfance;Depense;Investissement;2552000
+G-;Vie en societe;G-01;Petite enfance;;;P064;Patrimoine et equipements de la petite enfance;Recette;Investissement;0
+G-;Vie en societe;G-02;Education;;;P065;Patrimoine et equipements de l'education;Depense;Investissement;6965478
+G-;Vie en societe;G-02;Education;;;P065;Patrimoine et equipements de l'education;Recette;Investissement;720000
+G-;Vie en societe;G-02;Education;;;P066;Actions educatives;Depense;Fonctionnement;1335840
+G-;Vie en societe;G-02;Education;;;P066;Actions educatives;Depense;Investissement;631750
+G-;Vie en societe;G-02;Education;;;P066;Actions educatives;Depense;Subventions;67400
+G-;Vie en societe;G-02;Education;;;P066;Actions educatives;Recette;Fonctionnement;171800
+G-;Vie en societe;G-02;Education;;;P067;Vie scolaire;Depense;Fonctionnement;12305861
+G-;Vie en societe;G-02;Education;;;P067;Vie scolaire;Recette;Fonctionnement;5004000
+G-;Vie en societe;G-02;Education;;;P068;Vie etudiante;Depense;Fonctionnement;1000
+G-;Vie en societe;G-02;Education;;;P068;Vie etudiante;Depense;Subventions;8300
+G-;Vie en societe;G-03;Jeunesse;;;P069;Accueil educatifs et de loisirs;Depense;Fonctionnement;115000
+G-;Vie en societe;G-03;Jeunesse;;;P069;Accueil educatifs et de loisirs;Depense;Investissement;100000
+G-;Vie en societe;G-03;Jeunesse;;;P069;Accueil educatifs et de loisirs;Depense;Subventions;8952119
+G-;Vie en societe;G-03;Jeunesse;;;P069;Accueil educatifs et de loisirs;Recette;Fonctionnement;2976000
+G-;Vie en societe;G-03;Jeunesse;;;P069;Accueil educatifs et de loisirs;Recette;Investissement;0
+G-;Vie en societe;G-03;Jeunesse;;;P070;Accueil et hebergement;Depense;Fonctionnement;190000
+G-;Vie en societe;G-03;Jeunesse;;;P070;Accueil et hebergement;Depense;Investissement;170000
+G-;Vie en societe;G-03;Jeunesse;;;P070;Accueil et hebergement;Recette;Fonctionnement;540000
+G-;Vie en societe;G-03;Jeunesse;;;P071;Engagement et participations des jeunes;Depense;Fonctionnement;24000
+G-;Vie en societe;G-03;Jeunesse;;;P071;Engagement et participations des jeunes;Depense;Subventions;0
+G-;Vie en societe;G-03;Jeunesse;;;P071;Engagement et participations des jeunes;Recette;Fonctionnement;2000
+G-;Vie en societe;G-04;Developpement social terr.;;;P072;Accompagnement des projets de quartier;Depense;Fonctionnement;0
+G-;Vie en societe;G-04;Developpement social terr.;;;P072;Accompagnement des projets de quartier;Depense;Investissement;0
+G-;Vie en societe;G-04;Developpement social terr.;;;P072;Accompagnement des projets de quartier;Depense;Subventions;553144
+G-;Vie en societe;G-04;Developpement social terr.;;;P072;Accompagnement des projets de quartier;Recette;Fonctionnement;159875
+G-;Vie en societe;G-04;Developpement social terr.;;;P121;Sante;Depense;Fonctionnement;0
+G-;Vie en societe;G-04;Developpement social terr.;;;P121;Sante;Depense;Subventions;0
+G-;Vie en societe;G-04;Developpement social terr.;;;P121;Sante;Recette;Fonctionnement;0
+G-;Vie en societe;G-04;Developpement social terr.;;;P122;Prevention de la delinquance;Depense;Fonctionnement;0
+G-;Vie en societe;G-04;Developpement social terr.;;;P122;Prevention de la delinquance;Depense;Subventions;0
+G-;Vie en societe;G-04;Developpement social terr.;;;P122;Prevention de la delinquance;Recette;Fonctionnement;0
+G-;Vie en societe;G-04;Developpement social terr.;;;P127;Accompagnement de projets transversaux;Depense;Fonctionnement;166000
+G-;Vie en societe;G-04;Developpement social terr.;;;P127;Accompagnement de projets transversaux;Depense;Subventions;1875267,61
+G-;Vie en societe;G-04;Developpement social terr.;;;P127;Accompagnement de projets transversaux;Recette;Fonctionnement;56250
+G-;Vie en societe;G-05;Seniors;G-0502;Vie à domicile;P075;Activites des seniors;Depense;Fonctionnement;273000
+G-;Vie en societe;G-05;Seniors;G-0502;Vie à domicile;P075;Activites des seniors;Depense;Investissement;167000
+G-;Vie en societe;G-05;Seniors;G-0502;Vie à domicile;P075;Activites des seniors;Depense;Subventions;82500
+G-;Vie en societe;G-05;Seniors;G-0502;Vie à domicile;P075;Activites des seniors;Recette;Fonctionnement;119066
+G-;Vie en societe;G-05;Seniors;G-0502;Vie à domicile;P076;Portage et restauration des seniors;Depense;Fonctionnement;1920000
+G-;Vie en societe;G-05;Seniors;G-0502;Vie à domicile;P076;Portage et restauration des seniors;Recette;Fonctionnement;1354450
+G-;Vie en societe;G-05;Seniors;G-0502;Vie à domicile;P077;Residences seniors;Depense;Investissement;0
+G-;Vie en societe;G-06;Cohesion sociale transversale;;;P073;Projet social;Depense;Fonctionnement;145000
+G-;Vie en societe;G-06;Cohesion sociale transversale;;;P073;Projet social;Depense;Subventions;188400
+G-;Vie en societe;G-06;Cohesion sociale transversale;;;P073;Projet social;Recette;Fonctionnement;168000
+G-;Vie en societe;G-06;Cohesion sociale transversale;;;P074;Promouvoir l'egalite;Depense;Fonctionnement;7080800
+G-;Vie en societe;G-06;Cohesion sociale transversale;;;P074;Promouvoir l'egalite;Depense;Investissement;1005000
+G-;Vie en societe;G-06;Cohesion sociale transversale;;;P074;Promouvoir l'egalite;Depense;Subventions;40500
+H-;VIE DEMOCRATIQUE;H-01;Vie associative;;;P078;Developpement de la vie associative;Depense;Fonctionnement;200000
+H-;VIE DEMOCRATIQUE;H-01;Vie associative;;;P078;Developpement de la vie associative;Depense;Investissement;232000
+H-;VIE DEMOCRATIQUE;H-01;Vie associative;;;P078;Developpement de la vie associative;Depense;Subventions;611800
+H-;VIE DEMOCRATIQUE;H-01;Vie associative;;;P078;Developpement de la vie associative;Recette;Fonctionnement;100000
+H-;VIE DEMOCRATIQUE;H-01;Vie associative;;;P079;Structures d'animation et proximite;Depense;Fonctionnement;35980
+H-;VIE DEMOCRATIQUE;H-01;Vie associative;;;P079;Structures d'animation et proximite;Depense;Investissement;100000
+H-;VIE DEMOCRATIQUE;H-01;Vie associative;;;P079;Structures d'animation et proximite;Depense;Subventions;4948575
+H-;VIE DEMOCRATIQUE;H-01;Vie associative;;;P080;Rehabilitation et construction des equipements associatifs;Depense;Fonctionnement;0
+H-;VIE DEMOCRATIQUE;H-01;Vie associative;;;P080;Rehabilitation et construction des equipements associatifs;Depense;Investissement;3273677
+H-;VIE DEMOCRATIQUE;H-01;Vie associative;;;P080;Rehabilitation et construction des equipements associatifs;Recette;Investissement;500000
+H-;VIE DEMOCRATIQUE;H-01;Vie associative;;;P081;Aires d'accueil des gens du voyage;Depense;Fonctionnement;177260
+H-;VIE DEMOCRATIQUE;H-01;Vie associative;;;P081;Aires d'accueil des gens du voyage;Depense;Investissement;0
+H-;VIE DEMOCRATIQUE;H-01;Vie associative;;;P081;Aires d'accueil des gens du voyage;Recette;Fonctionnement;136500
+H-;VIE DEMOCRATIQUE;H-01;Vie associative;;;P081;Aires d'accueil des gens du voyage;Recette;Investissement;0
+H-;VIE DEMOCRATIQUE;H-02;Democratie locale et participation citoyenne;;;P083;Democratie locale et participation citoyenne;Depense;Fonctionnement;30000
+H-;VIE DEMOCRATIQUE;H-02;Democratie locale et participation citoyenne;;;P083;Democratie locale et participation citoyenne;Depense;Investissement;163720
+H-;VIE DEMOCRATIQUE;H-03;Accueil et citoyennete;;;P084;Services à la population;Depense;Fonctionnement;152000
+H-;VIE DEMOCRATIQUE;H-03;Accueil et citoyennete;;;P084;Services à la population;Depense;Investissement;110000
+H-;VIE DEMOCRATIQUE;H-03;Accueil et citoyennete;;;P084;Services à la population;Recette;Fonctionnement;116360
+H-;VIE DEMOCRATIQUE;H-03;Accueil et citoyennete;;;P084;Services à la population;Recette;Investissement;0
+H-;VIE DEMOCRATIQUE;H-03;Accueil et citoyennete;;;P085;Cimetières;Depense;Fonctionnement;150000
+H-;VIE DEMOCRATIQUE;H-03;Accueil et citoyennete;;;P085;Cimetières;Depense;Investissement;283000
+H-;VIE DEMOCRATIQUE;H-03;Accueil et citoyennete;;;P085;Cimetières;Recette;Fonctionnement;280000
+I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-01;Delegation au dev. durable;;;P086;Maison eco-citoyenne;Depense;Fonctionnement;115000
+I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-01;Delegation au dev. durable;;;P086;Maison eco-citoyenne;Depense;Investissement;0
+I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-01;Delegation au dev. durable;;;P086;Maison eco-citoyenne;Recette;Investissement;0
+I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-01;Delegation au dev. durable;;;P087;Developpement durable;Depense;Fonctionnement;100000
+I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-01;Delegation au dev. durable;;;P087;Developpement durable;Depense;Investissement;0
+I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-01;Delegation au dev. durable;;;P087;Developpement durable;Depense;Subventions;82800
+I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-01;Delegation au dev. durable;;;P087;Developpement durable;Recette;Fonctionnement;69060
+I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-02;Vie municipale;;;P088;Cabinet;Depense;Fonctionnement;560000
+I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-02;Vie municipale;;;P089;Elus;Depense;Fonctionnement;1831760
+I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-03;Pilotage strategique et eval.;;;P090;Evaluation et performance;Depense;Fonctionnement;110000
+I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-03;Pilotage strategique et eval.;;;P090;Evaluation et performance;Depense;Subventions;0
+I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-03;Pilotage strategique et eval.;;;P097;Cooperation territoriale et europeenne;Depense;Fonctionnement;23500
+I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-03;Pilotage strategique et eval.;;;P097;Cooperation territoriale et europeenne;Depense;Subventions;0
+I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-03;Pilotage strategique et eval.;;;P097;Cooperation territoriale et europeenne;Recette;Fonctionnement;0
+I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-03;Pilotage strategique et eval.;;;P120;Mission performance;Depense;Fonctionnement;0
+I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-04;Communication externe;;;P091;Communication externe;Depense;Fonctionnement;1624900
+I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-04;Communication externe;;;P091;Communication externe;Depense;Investissement;40000
+I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-04;Communication externe;;;P091;Communication externe;Recette;Fonctionnement;0
+I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-05;E administration;;;P113;Gouvernance numerique;Depense;Fonctionnement;92000
+I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-05;E administration;;;P113;Gouvernance numerique;Depense;Investissement;141000
+I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-05;E administration;;;P113;Gouvernance numerique;Recette;Fonctionnement;10000
+I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-05;E administration;;;P114;Services numeriques à la population;Depense;Fonctionnement;145200
+I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-05;E administration;;;P114;Services numeriques à la population;Depense;Investissement;123600
+I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-05;E administration;;;P115;Amenagement numerique du territoire;Depense;Fonctionnement;35000
+I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-05;E administration;;;P115;Amenagement numerique du territoire;Depense;Investissement;165000
+I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-05;E administration;;;P116;Services numeriques interne et SI transverses;Depense;Fonctionnement;216000
+I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-05;E administration;;;P116;Services numeriques interne et SI transverses;Depense;Investissement;162496
+I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-05;E administration;;;P117;Performance technique du SI;Depense;Fonctionnement;1434600
+I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-05;E administration;;;P117;Performance technique du SI;Depense;Investissement;846000
+I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-05;E administration;;;P118;Securite du SI;Depense;Fonctionnement;174600
+I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-05;E administration;;;P118;Securite du SI;Depense;Investissement;383561
+I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-05;E administration;;;P128;Territoire innovant - mobile;Depense;Fonctionnement;220000
+I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-05;E administration;;;P128;Territoire innovant - mobile;Depense;Investissement;440000
+I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-05;E administration;;;P128;Territoire innovant - mobile;Depense;Subventions;0
+J-;PERFORMANCE DE LA COLLECTIVITE;J-01;Gestion dev. Ress. humaines;;;P092;Communication interne;Depense;Fonctionnement;50000
+J-;PERFORMANCE DE LA COLLECTIVITE;J-01;Gestion dev. Ress. humaines;;;P093;Medecine et prevention;Depense;Fonctionnement;55000
+J-;PERFORMANCE DE LA COLLECTIVITE;J-01;Gestion dev. Ress. humaines;;;P093;Medecine et prevention;Depense;Investissement;0
+J-;PERFORMANCE DE LA COLLECTIVITE;J-01;Gestion dev. Ress. humaines;;;P094;Developpement et aide à la personne ;Depense;Fonctionnement;584000
+J-;PERFORMANCE DE LA COLLECTIVITE;J-01;Gestion dev. Ress. humaines;;;P095;Prestations aux services et frais generaux;Depense;Fonctionnement;1899000
+J-;PERFORMANCE DE LA COLLECTIVITE;J-01;Gestion dev. Ress. humaines;;;P095;Prestations aux services et frais generaux;Depense;Investissement;0
+J-;PERFORMANCE DE LA COLLECTIVITE;J-01;Gestion dev. Ress. humaines;;;P095;Prestations aux services et frais generaux;Depense;Subventions;577991
+J-;PERFORMANCE DE LA COLLECTIVITE;J-01;Gestion dev. Ress. humaines;;;P095;Prestations aux services et frais generaux;Recette;Fonctionnement;130000
+J-;PERFORMANCE DE LA COLLECTIVITE;J-01;Gestion dev. Ress. humaines;;;P095;Prestations aux services et frais generaux;Recette;Investissement;0
+J-;PERFORMANCE DE LA COLLECTIVITE;J-01;Gestion dev. Ress. humaines;;;P096;Restauration du personnel assujettie;Depense;Fonctionnement;1495000
+J-;PERFORMANCE DE LA COLLECTIVITE;J-01;Gestion dev. Ress. humaines;;;P096;Restauration du personnel assujettie;Depense;Investissement;20000
+J-;PERFORMANCE DE LA COLLECTIVITE;J-01;Gestion dev. Ress. humaines;;;P096;Restauration du personnel assujettie;Recette;Fonctionnement;550000
+J-;PERFORMANCE DE LA COLLECTIVITE;J-01;Gestion dev. Ress. humaines;;;P098;Masse salariale;Depense;Fonctionnement;174450000
+J-;PERFORMANCE DE LA COLLECTIVITE;J-01;Gestion dev. Ress. humaines;;;P098;Masse salariale;Recette;Fonctionnement;1220000
+J-;PERFORMANCE DE LA COLLECTIVITE;J-02;Gestion financière;;;P099;Operations avec TVA;Depense;Fonctionnement;100000
+J-;PERFORMANCE DE LA COLLECTIVITE;J-02;Gestion financière;;;P099;Operations avec TVA;Recette;Fonctionnement;2261000
+J-;PERFORMANCE DE LA COLLECTIVITE;J-02;Gestion financière;;;P100;Dette, Investissement et operations comptables;Depense;Fonctionnement;8316101,09
+J-;PERFORMANCE DE LA COLLECTIVITE;J-02;Gestion financière;;;P100;Dette, Investissement et operations comptables;Depense;Investissement;21241465
+J-;PERFORMANCE DE LA COLLECTIVITE;J-02;Gestion financière;;;P100;Dette, Investissement et operations comptables;Recette;Fonctionnement;1540000
+J-;PERFORMANCE DE LA COLLECTIVITE;J-02;Gestion financière;;;P100;Dette, Investissement et operations comptables;Recette;Investissement;52476708
+J-;PERFORMANCE DE LA COLLECTIVITE;J-02;Gestion financière;;;P101;Gestion budgetaire;Depense;Fonctionnement;3470000
+J-;PERFORMANCE DE LA COLLECTIVITE;J-02;Gestion financière;;;P101;Gestion budgetaire;Depense;Subventions;60171,95
+J-;PERFORMANCE DE LA COLLECTIVITE;J-02;Gestion financière;;;P101;Gestion budgetaire;Recette;Fonctionnement;307615025,3
+J-;PERFORMANCE DE LA COLLECTIVITE;J-02;Gestion financière;;;P101;Gestion budgetaire;Recette;Investissement;0
+J-;PERFORMANCE DE LA COLLECTIVITE;J-03;Securite jur. et Commande pub.;;;P102;Securite Juridique;Depense;Fonctionnement;1640000
+J-;PERFORMANCE DE LA COLLECTIVITE;J-03;Securite jur. et Commande pub.;;;P102;Securite Juridique;Recette;Fonctionnement;600000
+J-;PERFORMANCE DE LA COLLECTIVITE;J-03;Securite jur. et Commande pub.;;;P103;Concurrence et commande publique;Depense;Fonctionnement;200000
+J-;PERFORMANCE DE LA COLLECTIVITE;J-03;Securite jur. et Commande pub.;;;P103;Concurrence et commande publique;Depense;Investissement;0
+J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P104;Travaux et gestion du patrimoine administratif;Depense;Fonctionnement;1928745
+J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P104;Travaux et gestion du patrimoine administratif;Depense;Investissement;10291000
+J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P104;Travaux et gestion du patrimoine administratif;Recette;Fonctionnement;1327004
+J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P104;Travaux et gestion du patrimoine administratif;Recette;Investissement;79574,79
+J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P105;Acquisitions immobilières;Depense;Investissement;0
+J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P106;Cessions immobilières;Depense;Fonctionnement;0
+J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P106;Cessions immobilières;Depense;Investissement;0
+J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P106;Cessions immobilières;Recette;Fonctionnement;0
+J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P106;Cessions immobilières;Recette;Investissement;4880584
+J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P107;Gestion immobilière assujettie;Depense;Fonctionnement;0
+J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P107;Gestion immobilière assujettie;Depense;Investissement;0
+J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P107;Gestion immobilière assujettie;Recette;Fonctionnement;3519216
+J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P107;Gestion immobilière assujettie;Recette;Investissement;0
+J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P108;Construction publique, maintenance et energies;Depense;Fonctionnement;13000000
+J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P108;Construction publique, maintenance et energies;Depense;Investissement;3440500
+J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P108;Construction publique, maintenance et energies;Recette;Fonctionnement;5020000
+J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P108;Construction publique, maintenance et energies;Recette;Investissement;0
+J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P109;Ateliers du bâtiment;Depense;Fonctionnement;1211300
+J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P109;Ateliers du bâtiment;Depense;Investissement;515000
+J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P129;Transactions assujetties à la TVA immobilières;Depense;Investissement;0
+J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P129;Transactions assujetties à la TVA immobilières;Recette;Fonctionnement;0
+J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P129;Transactions assujetties à la TVA immobilières;Recette;Investissement;3119416
+J-;PERFORMANCE DE LA COLLECTIVITE;J-05;Logistique et exploitation;;;P110;Moyens operationnels d'exploitation;Depense;Fonctionnement;2760000
+J-;PERFORMANCE DE LA COLLECTIVITE;J-05;Logistique et exploitation;;;P110;Moyens operationnels d'exploitation;Depense;Investissement;865000
+J-;PERFORMANCE DE LA COLLECTIVITE;J-05;Logistique et exploitation;;;P110;Moyens operationnels d'exploitation;Recette;Fonctionnement;40000
+J-;PERFORMANCE DE LA COLLECTIVITE;J-05;Logistique et exploitation;;;P110;Moyens operationnels d'exploitation;Recette;Investissement;0
+J-;PERFORMANCE DE LA COLLECTIVITE;J-05;Logistique et exploitation;;;P111;Editique et telephonie;Depense;Fonctionnement;1020000
+J-;PERFORMANCE DE LA COLLECTIVITE;J-05;Logistique et exploitation;;;P111;Editique et telephonie;Depense;Investissement;0
+J-;PERFORMANCE DE LA COLLECTIVITE;J-05;Logistique et exploitation;;;P112;Logistique;Depense;Fonctionnement;974000
+J-;PERFORMANCE DE LA COLLECTIVITE;J-05;Logistique et exploitation;;;P112;Logistique;Depense;Investissement;89000
+J-;PERFORMANCE DE LA COLLECTIVITE;J-05;Logistique et exploitation;;;P112;Logistique;Depense;Subventions;16000
+J-;PERFORMANCE DE LA COLLECTIVITE;J-05;Logistique et exploitation;;;P112;Logistique;Recette;Fonctionnement;1370000

@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+	<link rel="stylesheet" type="text/css" href="style.css">	
+
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	
+	<script>
+	  // declaration des cartes
+      var map;
+
+	  // la fenetre qui s'ouvre quand on passe la souris sur un point
+	  var infowindow = new google.maps.InfoWindow();
+
+	  // fonction d'initialisation
+      function initialize() {
+        var mapOptions = {
+          zoom: 6,
+          center: {lat:  46.55, lng: 2.4},
+          mapTypeId: google.maps.MapTypeId.TERRAIN
+        };
+        map = new google.maps.Map(document.getElementById('map-categorie'),
+          mapOptions);
+	    // initialisation des cartes et chargement des donnees
+	            map.data.loadGeoJson('json/localisation-des-equipements-publics-relevant-du-theme-sports-loisirs-de-nantes-metropole.json');
+
+	    
+	    // fonction de style
+	    var setColorStyleFn = function(feature) {
+	      return {icon: feature.getProperty('icon')};
+	    };
+	    // style des cartes, et listener pour la fenetre qui s'ouvre quand on passe la souris sur un point
+	    map.data.setStyle(setColorStyleFn);
+	    map.data.addListener('mouseover', function(event) {
+          infowindow.setContent(event.feature.getProperty('description'));
+          infowindow.setPosition(event.latLng);
+          infowindow.setOptions({pixelOffset: new google.maps.Size(0,-34)});
+          infowindow.open(map);
+        });
+        google.maps.event.addListener(map, 'click', function() {
+          infowindow.close(); // un clic sur la carte ferme les infowindows
+        });
+	  } // end initialize
+
+      // appel de la fonction d'initialisation une fois la page chargee
+      google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+	<meta charset="UTF-8">
+  </head>
+
+  <body>
+    <h1>public sport</h1>
+
+	<p><a href="./index.php">Page principale</a></p>
+	
+    <h2>Carte</h2>
+    <div id="map-categorie" class="map-canvas"></div>
+
+    <h2>Liste des points</h2>
+	<table>
+      <tr><td>-1.5987246849786501</td><td>47.212756571104997</td><td>Piscine Durantière - Nantes                                                                        </td></tr>
+      <tr><td>-1.59218618244518</td><td>47.227539715795302</td><td>Piscine Dervallières - Nantes                                                                      </td></tr>
+      <tr><td>-1.5600661354310299</td><td>47.209857833206499</td><td>Piscine Léo Lagrange Ile Gloriette - Nantes                                                        </td></tr>
+      <tr><td>-1.5438899368230501</td><td>47.245733451259497</td><td>Club Léo Lagrange Nantes Aviron                                                                    </td></tr>
+      <tr><td>-1.57977559307076</td><td>47.2692656930341</td><td>Golf Nantes Erdre                                                                                   </td></tr>
+      <tr><td>-1.55129581053572</td><td>47.236556381804903</td><td>Base d'Aviron Universitaire                                                                         </td></tr>
+      <tr><td>-1.53365378581846</td><td>47.263993054528903</td><td>Plaine de Jeux de la Beaujoire                                                                      </td></tr>
+      <tr><td>-1.51861361543117</td><td>47.253863455688297</td><td>Stade La Halvêque                                                                                  </td></tr>
+      <tr><td>-1.5328453490571701</td><td>47.239734960728001</td><td>Stade Joseph Geoffroy La Saint-Pierre                                                               </td></tr>
+      <tr><td>-1.52669752937696</td><td>47.245272895184698</td><td>Stade Batignolles                                                                                   </td></tr>
+      <tr><td>-1.5383314439883999</td><td>47.239667383290502</td><td>Plateau Sportif du Port Boyer                                                                       </td></tr>
+      <tr><td>-1.52203929092366</td><td>47.236872688160702</td><td>Espace de Proximité La Grande Noue                                                                 </td></tr>
+      <tr><td>-1.5264712238628599</td><td>47.195916194495602</td><td>Espace Sportif de Proximité du Clos Toreau                                                         </td></tr>
+      <tr><td>-1.5208204818423301</td><td>47.188383252732301</td><td>Stade de la Gilarderie                                                                              </td></tr>
+      <tr><td>-1.5196002709432701</td><td>47.184801876414298</td><td>Stade des Bourdonnières                                                                            </td></tr>
+      <tr><td>-1.5637200105434099</td><td>47.248334882679998</td><td>Plaine de Jeux du Petit Port                                                                        </td></tr>
+      <tr><td>-1.5573412374870199</td><td>47.249089832546602</td><td>Stade Launay Violette                                                                               </td></tr>
+      <tr><td>-1.5803796983899301</td><td>47.224492870133297</td><td>Stade Procé                                                                                        </td></tr>
+      <tr><td>-1.5803084859143</td><td>47.221905256987299</td><td>Stade Annexe de Procé                                                                              </td></tr>
+      <tr><td>-1.61578032556758</td><td>47.202263552387699</td><td>Plaine de Jeux Bernardière                                                                         </td></tr>
+      <tr><td>-1.61194218184324</td><td>47.201641861332199</td><td>Stade Bois de la Musse Espérance St-Yves                                                           </td></tr>
+      <tr><td>-1.61000448546101</td><td>47.203030129374</td><td>Plaine de Jeux Lycée Albert Camus                                                                  </td></tr>
+      <tr><td>-1.59280872537732</td><td>47.220062689523097</td><td>Stade La Mellinet-Audrain                                                                           </td></tr>
+      <tr><td>-1.58210919594525</td><td>47.229221007633498</td><td>Stade Pascal-Laporte                                                                                </td></tr>
+      <tr><td>-1.58463937662557</td><td>47.212167491761598</td><td>Gymnase du Club Athlétic Nantais                                                                   </td></tr>
+      <tr><td>-1.53111131447497</td><td>47.227216709554703</td><td>Gymnase Agenêts                                                                                    </td></tr>
+      <tr><td>-1.5947876142158901</td><td>47.198644649810198</td><td>Gymnase Chantenay                                                                                   </td></tr>
+      <tr><td>-1.51748108230335</td><td>47.248251332038102</td><td>Piscine Jules Verne Haluchère - Nantes                                                             </td></tr>
+      <tr><td>-1.50438306254425</td><td>47.240171029535098</td><td>Stade Jean Jacques Audubon                                                                          </td></tr>
+      <tr><td>-1.54361455419714</td><td>47.261444100163402</td><td>Plaine de Jeux Jonelière                                                                           </td></tr>
+      <tr><td>-1.4909378276142</td><td>47.279165523367801</td><td>Plaine de Jeux de la Mainguais                                                                      </td></tr>
+      <tr><td>-1.5353443496558701</td><td>47.2479389858742</td><td>Plaine de Jeux l'Eraudière                                                                         </td></tr>
+      <tr><td>-1.51848979699111</td><td>47.254168051342802</td><td>Equipement Sportif de Proximité La Halvêque                                                       </td></tr>
+      <tr><td>-1.5287141535615101</td><td>47.236696693151202</td><td>Plaine de Jeux Marrière                                                                            </td></tr>
+      <tr><td>-1.5316535182812601</td><td>47.1846104468124</td><td>Plaine de Jeux Sévres                                                                              </td></tr>
+      <tr><td>-1.5407156269076301</td><td>47.224397183052702</td><td>Plaine de jeux Gaston Turpin                                                                        </td></tr>
+      <tr><td>-1.5747452777233999</td><td>47.255501567701003</td><td>Stade Etoile du Cens                                                                                </td></tr>
+      <tr><td>-1.5733371330974799</td><td>47.262490842556602</td><td>Stade l'Amande                                                                                      </td></tr>
+      <tr><td>-1.53281900853191</td><td>47.209675350334003</td><td>Stade Michel Lecointre Beaulieu                                                                     </td></tr>
+      <tr><td>-1.5201696337809001</td><td>47.242648370723003</td><td>Stade Pin Sec                                                                                       </td></tr>
+      <tr><td>-1.5472936544111999</td><td>47.233981218756</td><td>Cercle d'Aviron de Nantes                                                                           </td></tr>
+      <tr><td>-1.53949512370314</td><td>47.257981289921297</td><td>Base Nautique de la Jonelière                                                                      </td></tr>
+      <tr><td>-1.50964696317175</td><td>47.225440671245501</td><td>Plaine de Jeux Grand Blottereau                                                                     </td></tr>
+      <tr><td>-1.5197462247447899</td><td>47.219267017127898</td><td>Stade de la Roche                                                                                   </td></tr>
+      <tr><td>-1.55555103389616</td><td>47.242786099791303</td><td>Patinoire Olympique du Petit Port                                                                   </td></tr>
+      <tr><td>-1.5682539154209201</td><td>47.260411863374998</td><td>Plaine de Jeux Géraudière Santos Dumont                                                           </td></tr>
+      <tr><td>-1.56316761933513</td><td>47.246203014932902</td><td>Hippodrome du Petit Port                                                                            </td></tr>
+      <tr><td>-1.5925994156914201</td><td>47.2264093976016</td><td>Stade des Dervallières                                                                             </td></tr>
+      <tr><td>-1.4999870358613301</td><td>47.232863880198401</td><td>Stade Racing Athlétic Club Cheminots                                                               </td></tr>
+      <tr><td>-1.50037475669311</td><td>47.231944206212198</td><td>Gymnase RACC                                                                                        </td></tr>
+      <tr><td>-1.5410088172821399</td><td>47.205051553485603</td><td>Stade Mangin Beaulieu                                                                               </td></tr>
+      <tr><td>-1.50893453793683</td><td>47.225938270913801</td><td>Circuits Rustiques d'Activités Plein Air - Blottereau                                              </td></tr>
+      <tr><td>-1.5546389944477299</td><td>47.253229371101703</td><td>Terrain de tennis Bourgeonnière                                                                    </td></tr>
+      <tr><td>-1.5382189641922099</td><td>47.252503377348603</td><td>Base Nautique Port Durand S.N.S.M.                                                                  </td></tr>
+      <tr><td>-1.5414766558903601</td><td>47.260672338584698</td><td>Centre Sportif José Arribas                                                                        </td></tr>
+      <tr><td>-1.5364861468979101</td><td>47.246083830988297</td><td>Gymnase Amicale Don Bosco                                                                           </td></tr>
+      <tr><td>-1.60978483501323</td><td>47.247105793594898</td><td>Centre Sportif l'Angevinière                                                                       </td></tr>
+      <tr><td>-1.59992582425841</td><td>47.235057948968098</td><td>Gymnase Le Hérault                                                                                 </td></tr>
+      <tr><td>-1.6008832939483</td><td>47.242707413864999</td><td>Gymnase Joli Mai                                                                                    </td></tr>
+      <tr><td>-1.6498932522163801</td><td>47.2150249072251</td><td>Stade Calvaires                                                                                     </td></tr>
+      <tr><td>-1.6160163793685101</td><td>47.206323365469501</td><td>Gymnase Bernardière                                                                                </td></tr>
+      <tr><td>-1.6125140102790401</td><td>47.2150709214297</td><td>Espace Multisport Ernest Renan                                                                      </td></tr>
+      <tr><td>-1.6135806654445499</td><td>47.215419875884301</td><td>Piscine Ernest Renan - St Herblain                                                                  </td></tr>
+      <tr><td>-1.6122506212955099</td><td>47.210653661827102</td><td>Gymnase Sensive                                                                                     </td></tr>
+      <tr><td>-1.62222094024926</td><td>47.2179570960269</td><td>Centre Sportif du Vigneau                                                                           </td></tr>
+      <tr><td>-1.65323604713288</td><td>47.210746403378998</td><td>Gymnase du Bourg                                                                                    </td></tr>
+      <tr><td>-1.65677255323662</td><td>47.207785243533799</td><td>Piscine Bourgonnière  - St Herblain                                                                </td></tr>
+      <tr><td>-1.6511152608945801</td><td>47.215168276446803</td><td>Gymnase Changetterie                                                                                </td></tr>
+      <tr><td>-1.6100777686460801</td><td>47.2518860610327</td><td>Complexe Sportif Roger-Piccaud                                                                      </td></tr>
+      <tr><td>-1.59134696816738</td><td>47.250043521643903</td><td>Stade du Verger                                                                                     </td></tr>
+      <tr><td>-1.5955240559064201</td><td>47.2542766664819</td><td>Gymnase Emile Gibier                                                                                </td></tr>
+      <tr><td>-1.59197970160573</td><td>47.246157821333</td><td>Complexe de la Ferrière                                                                            </td></tr>
+      <tr><td>-1.5961971384645</td><td>47.270360767606398</td><td>Gymnase Le Bois Raguenet                                                                            </td></tr>
+      <tr><td>-1.63172618061595</td><td>47.260078129357602</td><td>Stade de la Bugallière                                                                             </td></tr>
+      <tr><td>-1.63172494291619</td><td>47.262118910885398</td><td>Gymnase de La Bugallière                                                                           </td></tr>
+      <tr><td>-1.62565544930331</td><td>47.273209857768101</td><td>Complexe Sportif de la Frebaudière                                                                 </td></tr>
+      <tr><td>-1.6297076507114101</td><td>47.283179234589298</td><td>Stade de Gagné                                                                                     </td></tr>
+      <tr><td>-1.4999201880599999</td><td>47.192658785274098</td><td>Gymnase Ouche Quinet                                                                                </td></tr>
+      <tr><td>-1.5017449964623999</td><td>47.2067361689816</td><td>Gymnase du Petit Anjou                                                                              </td></tr>
+      <tr><td>-1.4890329841084999</td><td>47.195930684030003</td><td>Gymnase Profondine                                                                                  </td></tr>
+      <tr><td>-1.48756395474289</td><td>47.209437035228397</td><td>Gymnase Savarières                                                                                 </td></tr>
+      <tr><td>-1.5268367540368399</td><td>47.198080590438998</td><td>Complexe Sportif de La Martellière                                                                 </td></tr>
+      <tr><td>-1.4878616852217199</td><td>47.1947852992256</td><td>Stade de la Profondine                                                                              </td></tr>
+      <tr><td>-1.4835223798767101</td><td>47.194588433184698</td><td>Stade des Gripots                                                                                   </td></tr>
+      <tr><td>-1.52081100676749</td><td>47.191412971511099</td><td>Gymnase du Douet                                                                                    </td></tr>
+      <tr><td>-1.6337854369218101</td><td>47.205457013899199</td><td>Ensemble Sportif  de l'Orvasserie                                                                   </td></tr>
+      <tr><td>-1.6291818282216599</td><td>47.167039190497697</td><td>Les Écuries du Clos - Village du cheval                                                            </td></tr>
+      <tr><td>-1.6212962986588499</td><td>47.171742960848</td><td>Piscine municipale - Bouguenais                                                                     </td></tr>
+      <tr><td>-1.67079315636277</td><td>47.201286519481499</td><td>Stade Football Félix Guyot                                                                         </td></tr>
+      <tr><td>-1.49257395344305</td><td>47.213172136489199</td><td>Practice de golf                                                                                    </td></tr>
+      <tr><td>-1.50685768063897</td><td>47.211188591206103</td><td>Centre Equestre Ile Pinette                                                                         </td></tr>
+      <tr><td>-1.50056167624582</td><td>47.211370442229402</td><td>Stade René Massé                                                                                  </td></tr>
+      <tr><td>-1.50375232534838</td><td>47.211271474064901</td><td>Stade Maurice Thollé                                                                               </td></tr>
+      <tr><td>-1.4851677777661301</td><td>47.1937733642716</td><td>Circuits Rustiques d'Activites Plein Air des Gripots                                                </td></tr>
+      <tr><td>-1.5124112865842301</td><td>47.211228073537598</td><td>Circuits Rustiques d'Activites en Plein Air de l'Ile Forget                                         </td></tr>
+      <tr><td>-1.4957648243528301</td><td>47.212680072829698</td><td>Stade de la Ligue Atlantique de Football                                                            </td></tr>
+      <tr><td>-1.6228281637648201</td><td>47.172456197681797</td><td>Stade de la Croix Jeannette                                                                         </td></tr>
+      <tr><td>-1.6239799174476801</td><td>47.158019840541897</td><td>Parcours sportif de la Ville-au-Denis                                                               </td></tr>
+      <tr><td>-1.57897799892288</td><td>47.183223973952401</td><td>Salle du Fougan-de-Mer                                                                              </td></tr>
+      <tr><td>-1.6309405594036599</td><td>47.181338462823298</td><td>Stade de Beauvoir                                                                                   </td></tr>
+      <tr><td>-1.58662907238535</td><td>47.1756170441002</td><td>Stade des Landes                                                                                    </td></tr>
+      <tr><td>-1.62828964796547</td><td>47.179004161506597</td><td>Plateau d'évolution Cité de Beauvoir                                                              </td></tr>
+      <tr><td>-1.61838202891687</td><td>47.240904806218197</td><td>Centre Sportif du Val de Chézine                                                                   </td></tr>
+      <tr><td>-1.6333863858186199</td><td>47.238694249990999</td><td>Plaine de Jeux La Bergerie                                                                          </td></tr>
+      <tr><td>-1.6478993182919</td><td>47.195129523746502</td><td>Gymnase Haute-Indre                                                                                 </td></tr>
+      <tr><td>-1.67143790880919</td><td>47.196950766681503</td><td>Golf Miniature                                                                                      </td></tr>
+      <tr><td>-1.66931281917631</td><td>47.2008208726484</td><td>Gymnase Basse-Indre                                                                                 </td></tr>
+      <tr><td>-1.5710414266968</td><td>47.213069738357603</td><td>Gymnase Gigant                                                                                      </td></tr>
+      <tr><td>-1.5183083417821099</td><td>47.272090636317103</td><td>Complexe Sportif de Saint Joseph de Porterie                                                        </td></tr>
+      <tr><td>-1.52715800803948</td><td>47.230800063303903</td><td>Gymnase Noë Lambert                                                                                </td></tr>
+      <tr><td>-1.69670558494988</td><td>47.2682760901519</td><td>Parc d'Attractions des Naudières                                                                   </td></tr>
+      <tr><td>-1.7255254070563999</td><td>47.1728202523257</td><td>Stade Julien Micheau                                                                                </td></tr>
+      <tr><td>-1.7221065596152101</td><td>47.168319934031302</td><td>Gymnase Brains                                                                                      </td></tr>
+      <tr><td>-1.52400721179044</td><td>47.303153108161901</td><td>Club nautique de Port Jean                                                                          </td></tr>
+      <tr><td>-1.4818566700487501</td><td>47.284336383332501</td><td>Centre Sportif du Moulin Boiseau                                                                    </td></tr>
+      <tr><td>-1.4874311720500999</td><td>47.295826083548</td><td>Centre sportif Jean Gauvrit                                                                         </td></tr>
+      <tr><td>-1.49260361219881</td><td>47.302491179702798</td><td>Piscine Daniel Gilard - Carquefou                                                                   </td></tr>
+      <tr><td>-1.4699926487648101</td><td>47.318583422567301</td><td>Complexe sportif de la Tournière                                                                   </td></tr>
+      <tr><td>-1.7170855440783701</td><td>47.210487014211402</td><td>Stade de la Frémondière                                                                           </td></tr>
+      <tr><td>-1.7194611716960899</td><td>47.212041939626502</td><td>Stade Donatien et Suzanne Hauray                                                                    </td></tr>
+      <tr><td>-1.7200004079245099</td><td>47.214405596114602</td><td>Centre Sportif Paul Langevin                                                                        </td></tr>
+      <tr><td>-1.7203929977591601</td><td>47.213864375675399</td><td>Piscine Baptiste Lefèvre - Couëron                                                                </td></tr>
+      <tr><td>-1.68423886292367</td><td>47.2207410736832</td><td>Complexe Sportif Léo-Lagrange                                                                      </td></tr>
+      <tr><td>-1.4860637634407301</td><td>47.189582458066603</td><td>Bowling EuroBowl                                                                                    </td></tr>
+      <tr><td>-1.48894815586082</td><td>47.287780342613701</td><td>Golf de l'Epinay                                                                                    </td></tr>
+      <tr><td>-1.68430936585207</td><td>47.216331690672099</td><td>Gymnase Pierre Moisan                                                                               </td></tr>
+      <tr><td>-1.7275881021075601</td><td>47.214537250231501</td><td>Gymnase Jules Boullery                                                                              </td></tr>
+      <tr><td>-1.5729261472647</td><td>47.182371820933596</td><td>Patinoire Olympique Rezé                                                                           </td></tr>
+      <tr><td>-1.73884756734602</td><td>47.212265146798501</td><td>Centre Sportif René Gaudin                                                                         </td></tr>
+      <tr><td>-1.7368906288991</td><td>47.2115055172575</td><td>Vélodrome Marcel-de-la-Provôté                                                                   </td></tr>
+      <tr><td>-1.4225562840010799</td><td>47.2853531096737</td><td>Centre Equestre de la Hillière                                                                     </td></tr>
+      <tr><td>-1.7801671315777701</td><td>47.202733474168497</td><td>Centre Equestre Ferme de la Chauffetière                                                           </td></tr>
+      <tr><td>-1.75867046958166</td><td>47.195695996630498</td><td>Salle omnisports - Gymnase intercommunal                                                            </td></tr>
+      <tr><td>-1.76061423481004</td><td>47.196177732069899</td><td>Stade Municipal Le Pellerin                                                                         </td></tr>
+      <tr><td>-1.7065950580576501</td><td>47.2437449092645</td><td>Centre Equestre de la Pirouette                                                                     </td></tr>
+      <tr><td>-1.51644264715241</td><td>47.149885937582397</td><td>Centre Equestre Poney Club                                                                          </td></tr>
+      <tr><td>-1.55725415859161</td><td>47.2988927790405</td><td>Stade de Massigné                                                                                  </td></tr>
+      <tr><td>-1.5444019374584701</td><td>47.268003346556199</td><td>Stade de la Haute Gournière                                                                        </td></tr>
+      <tr><td>-1.5596052533087299</td><td>47.3036283754249</td><td>Stade de rugby Robert Mesnard                                                                       </td></tr>
+      <tr><td>-1.5508421866106601</td><td>47.267657194124098</td><td>Halle des sports Bernard Corneau                                                                    </td></tr>
+      <tr><td>-1.6745670922931</td><td>47.182745258080402</td><td>Stade de football municipal La Montagne                                                             </td></tr>
+      <tr><td>-1.72513264303311</td><td>47.192082171731002</td><td>Complexe Sportif Les Genets                                                                         </td></tr>
+      <tr><td>-1.71022499843855</td><td>47.1877658275626</td><td>Stade Saint Jean de Boiseau                                                                         </td></tr>
+      <tr><td>-1.69458100821657</td><td>47.1496505324574</td><td>Centre Sportif de Bellestre                                                                         </td></tr>
+      <tr><td>-1.6822663231064701</td><td>47.155148903020198</td><td>Centre Sportif Les Ormeaux                                                                          </td></tr>
+      <tr><td>-1.73260456982872</td><td>47.134037573798402</td><td>Salle Omnisports                                                                                    </td></tr>
+      <tr><td>-1.67548286181971</td><td>47.181166226702999</td><td>Stade de Football Marcel Lejay                                                                      </td></tr>
+      <tr><td>-1.6351141907511</td><td>47.124218701986997</td><td>Halle de sport La Pavelle                                                                           </td></tr>
+      <tr><td>-1.6325891488623701</td><td>47.123773035481797</td><td>Salle polyvalente                                                                                   </td></tr>
+      <tr><td>-1.3937219728816901</td><td>47.292895200758601</td><td>Stade Municipal des Loquets                                                                         </td></tr>
+      <tr><td>-1.39001752893399</td><td>47.293365884144499</td><td>Gymnase Armand Jolaine                                                                              </td></tr>
+      <tr><td>-1.48292958826837</td><td>47.248900747517197</td><td>Gymnase Marc Jaffret                                                                                </td></tr>
+      <tr><td>-1.4702859062032001</td><td>47.153807224700401</td><td>Hippodrome du Portillon                                                                             </td></tr>
+      <tr><td>-1.4665017603452</td><td>47.164811926873398</td><td>Complexe Sportif Sèvre et Maine                                                                    </td></tr>
+      <tr><td>-1.4723961276886199</td><td>47.165808420877802</td><td>Stade de Vertou Centre                                                                              </td></tr>
+      <tr><td>-1.46996117459646</td><td>47.164908839672997</td><td>Piscine municipale - Vertou                                                                         </td></tr>
+      <tr><td>-1.49234523360176</td><td>47.1847635199967</td><td>Stade Vincent et Robert Girard                                                                      </td></tr>
+      <tr><td>-1.48558414099214</td><td>47.159123634280697</td><td>Stade Loreau                                                                                        </td></tr>
+      <tr><td>-1.4904787067537699</td><td>47.258538248275102</td><td>Gymnase  Eric Tabarly                                                                               </td></tr>
+      <tr><td>-1.4621911395020399</td><td>47.245167879344301</td><td>Centre Sportif Philippe Porcher                                                                     </td></tr>
+      <tr><td>-1.4554902932085201</td><td>47.2557045303056</td><td>Centre Equestre (CERVAL)                                                                            </td></tr>
+      <tr><td>-1.4813988532474101</td><td>47.253669842148497</td><td>Stade municipal                                                                                     </td></tr>
+      <tr><td>-1.47940132531115</td><td>47.245394463819402</td><td>Complexe sportif du Patisseau                                                                       </td></tr>
+      <tr><td>-1.49054823768047</td><td>47.2589533862309</td><td>Plateau sportif de la Reinetière                                                                   </td></tr>
+      <tr><td>-1.54003681983312</td><td>47.264614107884398</td><td>Base Nautique de Port Barbe                                                                         </td></tr>
+      <tr><td>-1.5370732372525999</td><td>47.293760381692103</td><td>Base nautique de l'ANCRE - La Grimaudière                                                          </td></tr>
+      <tr><td>-1.5382836982007899</td><td>47.2972906511825</td><td>Centre Equestre de la Gascherie                                                                     </td></tr>
+      <tr><td>-1.57123346471296</td><td>47.276833138129803</td><td>Centre Equestre de la Noue Verrière                                                                </td></tr>
+      <tr><td>-1.5807960985918299</td><td>47.341344517417902</td><td>Centre Equestre de la Vaillantière                                                                 </td></tr>
+      <tr><td>-1.65323044926348</td><td>47.183967878811202</td><td>Site naturel de loisirs de la Roche Ballue                                                          </td></tr>
+      <tr><td>-1.4778650831874101</td><td>47.161924200066203</td><td>Base Nautique Canöé Kayak Vertou                                                                  </td></tr>
+      <tr><td>-1.46394887294369</td><td>47.217936733326503</td><td>Gymnase de Goulaine                                                                                 </td></tr>
+      <tr><td>-1.46875691160205</td><td>47.217831617745098</td><td>Stade Henri Michel                                                                                  </td></tr>
+      <tr><td>-1.4680126450214199</td><td>47.216916190808497</td><td>Gymnase Henri Michel                                                                                </td></tr>
+      <tr><td>-1.4679696208523101</td><td>47.202856234020899</td><td>Stade de Rugby des Rouleaux                                                                         </td></tr>
+      <tr><td>-1.68208699209713</td><td>47.183956168427301</td><td>Gymnase Saint Exupéry                                                                              </td></tr>
+      <tr><td>-1.5220484391971401</td><td>47.146098088227802</td><td>Complexe ancien stade Les Sorinières                                                               </td></tr>
+      <tr><td>-1.79331782394207</td><td>47.206982831701602</td><td>Club Nautique de la Martinière                                                                     </td></tr>
+      <tr><td>-1.4536947025054201</td><td>47.261570532928197</td><td>Parc des Sports                                                                                     </td></tr>
+      <tr><td>-1.4613223171473699</td><td>47.245817472219898</td><td>Stade Philippe Porcher                                                                              </td></tr>
+      <tr><td>-1.5312200343070099</td><td>47.163663947040099</td><td>Complexe sportif de la Robinière                                                                   </td></tr>
+      <tr><td>-1.5694293191042401</td><td>47.181864995541197</td><td>Stade Léo Lagrange                                                                                 </td></tr>
+      <tr><td>-1.5687572847370601</td><td>47.183020586909102</td><td>Piscine municipale Victor-Jara - Rezé                                                              </td></tr>
+      <tr><td>-1.5587292778792701</td><td>47.178140772256903</td><td>Gymnase Lysiane et Michel Liberge                                                                   </td></tr>
+      <tr><td>-1.5476242991379601</td><td>47.185694949542899</td><td>Gymnase Cercle Saint Paul                                                                           </td></tr>
+      <tr><td>-1.55761005300458</td><td>47.185424945756999</td><td>Gymnase Château Nord                                                                               </td></tr>
+      <tr><td>-1.5594340891510201</td><td>47.180510797470099</td><td>Gymnase Lucien Cavalin                                                                              </td></tr>
+      <tr><td>-1.5691145073320401</td><td>47.183632569293998</td><td>Gymnase Cités Unies COSEC                                                                          </td></tr>
+      <tr><td>-1.5466585886491899</td><td>47.173792696169599</td><td>Gymnase du Chêne Creux                                                                             </td></tr>
+      <tr><td>-1.54863252978591</td><td>47.178422586817199</td><td>Gymnase E. Cretual                                                                                  </td></tr>
+      <tr><td>-1.5506939900727501</td><td>47.186745913297898</td><td>Gymnase Foyer AEPR                                                                                  </td></tr>
+      <tr><td>-1.56021694457925</td><td>47.183277005352799</td><td>Gymnase Jean Perrin                                                                                 </td></tr>
+      <tr><td>-1.5430742353342199</td><td>47.185850516918102</td><td>Gymnase Julien Douillard                                                                            </td></tr>
+      <tr><td>-1.53696348110384</td><td>47.176226291714798</td><td>Gymnase Ouche Dinier                                                                                </td></tr>
+      <tr><td>-1.57064522845569</td><td>47.190039740392002</td><td>Gymnase Yvonne et Alexandre Plancher                                                                </td></tr>
+      <tr><td>-1.5495168410679001</td><td>47.184110948755901</td><td>Gymnase Roger Salengro                                                                              </td></tr>
+      <tr><td>-1.46711916996356</td><td>47.164914745607099</td><td>Gymnase Jean-Pierre Morel                                                                           </td></tr>
+      <tr><td>-1.4672910389304199</td><td>47.1643410306174</td><td>Gymnase 2                                                                                           </td></tr>
+      <tr><td>-1.4655576536502799</td><td>47.163829331363097</td><td>Stade Sèvre et Maine                                                                               </td></tr>
+      <tr><td>-1.5180645057914299</td><td>47.151591304678597</td><td>Roller-Skatepark - Les Sorinières                                                                  </td></tr>
+      <tr><td>-1.49772048555354</td><td>47.183702552838099</td><td>Gymnase Raymond Durand                                                                              </td></tr>
+      <tr><td>-1.4988362258085299</td><td>47.182575254709903</td><td>Stade Raymond Durand                                                                                </td></tr>
+      <tr><td>-1.4459204893995301</td><td>47.156394632042897</td><td>Piscine des Thébaudières - Vertou                                                                 </td></tr>
+      <tr><td>-1.4672216212209199</td><td>47.163287313849203</td><td>Salle Sèvre et Maine                                                                               </td></tr>
+      <tr><td>-1.6765164919651401</td><td>47.265941420437997</td><td>Complexe Sportif                                                                                    </td></tr>
+      <tr><td>-1.6220346010185001</td><td>47.170732458997001</td><td>Gymnase Joël Dubois                                                                                </td></tr>
+      <tr><td>-1.5231167400240999</td><td>47.1484770051065</td><td>Gymnase Joachim Marnier                                                                             </td></tr>
+      <tr><td>-1.54281104096611</td><td>47.257656005473002</td><td>Mini Auto Club Nantais                                                                              </td></tr>
+      <tr><td>-1.51303380175172</td><td>47.219622055725601</td><td>Skatepark Le Hangar - Nantes                                                                        </td></tr>
+      <tr><td>-1.54988607605579</td><td>47.223176732287797</td><td>Gymnase Sully                                                                                       </td></tr>
+      <tr><td>-1.5296646218601599</td><td>47.162749295035297</td><td>Courts de Tennis Robinière                                                                         </td></tr>
+      <tr><td>-1.53045499402347</td><td>47.165152705485099</td><td>Boulodrome Robinière                                                                               </td></tr>
+      <tr><td>-1.57189318372349</td><td>47.180645555237597</td><td>Skatepark - Rezé                                                                                   </td></tr>
+      <tr><td>-1.5679119813604001</td><td>47.181193894903402</td><td>Rezé Tennis Club - Halles de la Trocardière                                                       </td></tr>
+      <tr><td>-1.5699706836541301</td><td>47.1602373880865</td><td>Espace Sport Canin Bouguenais                                                                       </td></tr>
+      <tr><td>-1.57953925266013</td><td>47.183220838449799</td><td>Plateau sportif du Fougan-de-Mer                                                                    </td></tr>
+      <tr><td>-1.60547145313346</td><td>47.1729765475935</td><td>Salle des Bélians                                                                                  </td></tr>
+      <tr><td>-1.6204902892795501</td><td>47.171186984947802</td><td>Terrain stabilisé de la Croix Jeannette                                                            </td></tr>
+      <tr><td>-1.6188956821998399</td><td>47.170068654964801</td><td>Terrains de Tennis de la Gagnerie                                                                   </td></tr>
+      <tr><td>-1.61804709117255</td><td>47.170368015288197</td><td>Terrain de tir à l'arc de la Gagnerie                                                              </td></tr>
+      <tr><td>-1.59180917746448</td><td>47.176639337408098</td><td>Centre de tennis Arthur Ashe                                                                        </td></tr>
+      <tr><td>-1.59302228346367</td><td>47.176229567163404</td><td>Gymnase de la Baronnais                                                                             </td></tr>
+      <tr><td>-1.5921990676745099</td><td>47.175882322273999</td><td>Gymnase de la Neustrie                                                                              </td></tr>
+      <tr><td>-1.5927673773588999</td><td>47.1757333241693</td><td>Salle des Mousquetaires                                                                             </td></tr>
+      <tr><td>-1.5911284482011401</td><td>47.175391018069703</td><td>Plateau d'évolution de la Neustrie                                                                 </td></tr>
+      <tr><td>-1.5918103807230199</td><td>47.174988472819201</td><td>Stade Pierre de Coubertin                                                                           </td></tr>
+      <tr><td>-1.47325814337337</td><td>47.1652856313396</td><td>Salle de Tennis de Table Vertou                                                                     </td></tr>
+      <tr><td>-1.47981291545655</td><td>47.165830201305397</td><td>Terrain de Pétanque du Parc de la Sèvre                                                           </td></tr>
+      <tr><td>-1.49907317912865</td><td>47.183339951557301</td><td>Terrain de Tir à l'Arc Vertou                                                                      </td></tr>
+      <tr><td>-1.5169476191906399</td><td>47.209388656043302</td><td>Piste de Bi-cross Ile Forget                                                                        </td></tr>
+      <tr><td>-1.5019944845511799</td><td>47.1925737586485</td><td>Tennis de l'Ouche Catin                                                                             </td></tr>
+      <tr><td>-1.49951203283728</td><td>47.209361707033999</td><td>Complexe Sportif Saint Sébastien                                                                   </td></tr>
+      <tr><td>-1.4901658616862301</td><td>47.292160972469901</td><td>Skatepark Jouandière - Carquefou                                                                   </td></tr>
+      <tr><td>-1.48272657049156</td><td>47.283476054155301</td><td>Gymnase Alella                                                                                      </td></tr>
+      <tr><td>-1.4819778113677</td><td>47.281659953679799</td><td>Salle du Tremplin                                                                                   </td></tr>
+      <tr><td>-1.4641483452963799</td><td>47.217495601504702</td><td>Salle de Tennis                                                                                     </td></tr>
+      <tr><td>-1.4521164100380699</td><td>47.198136998796301</td><td>Gymnase La Herdrie                                                                                  </td></tr>
+      <tr><td>-1.4518438765204</td><td>47.197060698453697</td><td>Stade La Herdrie                                                                                    </td></tr>
+      <tr><td>-1.5583652816759299</td><td>47.296980840745597</td><td>Gymnase de Mazaire                                                                                  </td></tr>
+      <tr><td>-1.55849488739076</td><td>47.306280542142702</td><td>Complexe sportif de La Coutancière                                                                 </td></tr>
+      <tr><td>-1.53853292487801</td><td>47.289715376793303</td><td>Complexe sportif Buisson de la Grolle                                                               </td></tr>
+      <tr><td>-1.68227255927785</td><td>47.1543009732966</td><td>Piste d'athlétisme                                                                                 </td></tr>
+      <tr><td>-1.68346552493436</td><td>47.219563383459104</td><td>Salle Léo Lagrange                                                                                 </td></tr>
+      <tr><td>-1.7212723900612701</td><td>47.214030147673299</td><td>Gymnase Paul Langevin                                                                               </td></tr>
+      <tr><td>-1.70294117334378</td><td>47.212310186846103</td><td>Piste Bi-cross Couëron                                                                             </td></tr>
+      <tr><td>-1.6719939069782499</td><td>47.197316315329601</td><td>Boulodrome Indre                                                                                    </td></tr>
+      <tr><td>-1.3904484426300501</td><td>47.293590625065399</td><td>Salle de sport                                                                                      </td></tr>
+      <tr><td>-1.63451043548246</td><td>47.2594508036441</td><td>Centre Stévin                                                                                      </td></tr>
+      <tr><td>-1.5815643845638101</td><td>47.257164547028403</td><td>Tennis Orvault                                                                                      </td></tr>
+      <tr><td>-1.59694048733103</td><td>47.263231868325903</td><td>Plateau Multisports                                                                                 </td></tr>
+      <tr><td>-1.61156164440896</td><td>47.252933050899799</td><td>Tennis Roger Picaud                                                                                 </td></tr>
+      <tr><td>-1.61012134345654</td><td>47.251124918662001</td><td>Piscine Roger Picaud - Orvault                                                                      </td></tr>
+      <tr><td>-1.67655751897517</td><td>47.182749252407497</td><td>Complexe Sports Loisirs Francis Lespinet                                                            </td></tr>
+      <tr><td>-1.76158045857492</td><td>47.196190030195702</td><td>Courts de Tennis                                                                                    </td></tr>
+      <tr><td>-1.75932744212281</td><td>47.196074491203497</td><td>Terrain de pétanque                                                                                </td></tr>
+      <tr><td>-1.63772247513102</td><td>47.120719396384203</td><td>Tennis Saint Aignan de Grand Lieu                                                                   </td></tr>
+      <tr><td>-1.6316612001436099</td><td>47.124226769720302</td><td>Stade Jean Bertin                                                                                   </td></tr>
+      <tr><td>-1.73297467088365</td><td>47.133430497723097</td><td>Plaine de Jeux de la Rive                                                                           </td></tr>
+      <tr><td>-1.49018590950255</td><td>47.2582512018069</td><td>Gymnase Marcel Le Bonniec                                                                           </td></tr>
+      <tr><td>-1.5250525944848301</td><td>47.147588596402301</td><td>Gymnase Jules Léauté                                                                              </td></tr>
+      <tr><td>-1.5229674188572599</td><td>47.148218561622102</td><td>Salle de Judo Les Sorinières                                                                       </td></tr>
+      <tr><td>-1.51904656373622</td><td>47.150010156029602</td><td>Complexe de loisirs Louis Barta                                                                     </td></tr>
+      <tr><td>-1.64003404395561</td><td>47.198098764127899</td><td>Motocross Christian Bageot                                                                          </td></tr>
+      <tr><td>-1.6204894226531801</td><td>47.215773137101202</td><td>Tir à l'Arc Saint Herblain                                                                         </td></tr>
+      <tr><td>-1.5215401792340599</td><td>47.159688631078701</td><td>Salle de Tennis de Table du Haut Vigneau                                                            </td></tr>
+      <tr><td>-1.69313170407814</td><td>47.1498081053604</td><td>Stade Georges Tougeron                                                                              </td></tr>
+      <tr><td>-1.6105478303718199</td><td>47.246360741490001</td><td>Espace Multisport Sillon                                                                            </td></tr>
+      <tr><td>-1.5317100587432999</td><td>47.216392663842399</td><td>Piscine Petite Amazonie - Nantes                                                                    </td></tr>
+      <tr><td>-1.55351435609301</td><td>47.212307440788699</td><td>Skatepark Ricordeau - Nantes                                                                        </td></tr>
+      <tr><td>-1.5486942734715701</td><td>47.213201100097002</td><td>Terrain Multisport Monteil                                                                          </td></tr>
+      <tr><td>-1.52528828389541</td><td>47.230971683226102</td><td>Boulodrome Noë Lambert                                                                             </td></tr>
+      <tr><td>-1.4662823302900401</td><td>47.176281148573601</td><td>Complexe sportif des Echalonnières                                                                 </td></tr>
+      <tr><td>-1.46967483894057</td><td>47.175924394687797</td><td>Plateau sportif Les Echalonnières                                                                  </td></tr>
+      <tr><td>-1.47063261253475</td><td>47.176751419124898</td><td>Salle omnisports des Echalonnières                                                                 </td></tr>
+      <tr><td>-1.71206542059429</td><td>47.277505695115799</td><td>Centre Equestre La Gourmette                                                                        </td></tr>
+      <tr><td>-1.5513494228590801</td><td>47.212296003736597</td><td>Gymnase CEPA                                                                                        </td></tr>
+      <tr><td>-1.59266498071941</td><td>47.200644828654802</td><td>Espace Spotif des Courtils                                                                          </td></tr>
+      <tr><td>-1.61048376514402</td><td>47.207718143476299</td><td>Espace Sportif des Martyrs Irlandais                                                                </td></tr>
+      <tr><td>-1.60070048031775</td><td>47.204610915961801</td><td>Espace Sportif Terrain A. Fournier                                                                  </td></tr>
+      <tr><td>-1.60361198834223</td><td>47.207384850610502</td><td>Espace Sportif Terrain du Petit Verger                                                              </td></tr>
+      <tr><td>-1.60892584696039</td><td>47.199891507105299</td><td>Espace Sportif ZAC Montplaisir                                                                      </td></tr>
+      <tr><td>-1.5822774212436801</td><td>47.221306931140496</td><td>Stade Raymond Baumard - Centre Hebertiste                                                           </td></tr>
+      <tr><td>-1.59247267037624</td><td>47.224746343571198</td><td>Espace Sportif Meissonier                                                                           </td></tr>
+      <tr><td>-1.6030286420075499</td><td>47.210340023940802</td><td>Salle de Musculation du Jamet - Bellevue                                                            </td></tr>
+      <tr><td>-1.5207793798543601</td><td>47.216206493177502</td><td>Espace Sportif Malakoff                                                                             </td></tr>
+      <tr><td>-1.52634402218328</td><td>47.227954133296599</td><td>Espace Sportif Noe Mitrie                                                                           </td></tr>
+      <tr><td>-1.5336494639276901</td><td>47.220911611503901</td><td>Espace Sportif Moutonnerie                                                                          </td></tr>
+      <tr><td>-1.5316355140000599</td><td>47.205254951556903</td><td>Terrain multisports Sébilleau                                                                      </td></tr>
+      <tr><td>-1.5369173966535401</td><td>47.192965706917803</td><td>Gymnase Bonne Garde                                                                                 </td></tr>
+      <tr><td>-1.5514927475804201</td><td>47.206459346983202</td><td>Gymnase Emile Morice                                                                                </td></tr>
+      <tr><td>-1.57752951962898</td><td>47.203863625707598</td><td>Gymnase Gravaud                                                                                     </td></tr>
+      <tr><td>-1.5428113959507399</td><td>47.204869028070497</td><td>Centre Sportif Mangin Beaulieu                                                                      </td></tr>
+      <tr><td>-1.52936590210597</td><td>47.191065992008298</td><td>Gymnase Gobelets Ripossière                                                                        </td></tr>
+      <tr><td>-1.51222501260675</td><td>47.2282590704611</td><td>Gymnase Raphaël Lebel                                                                              </td></tr>
+      <tr><td>-1.51029286158558</td><td>47.237238310363203</td><td>Gymnase Doulon                                                                                      </td></tr>
+      <tr><td>-1.52250611892111</td><td>47.2351002409264</td><td>Centre Sportif Croissant                                                                            </td></tr>
+      <tr><td>-1.52857641995758</td><td>47.214695364997603</td><td>Gymnase Malakoff 4                                                                                  </td></tr>
+      <tr><td>-1.6109029278331299</td><td>47.203571220195897</td><td>Gymnase Albert Camus                                                                                </td></tr>
+      <tr><td>-1.51723434629303</td><td>47.253735540174702</td><td>Gymnase La Halvêque                                                                                </td></tr>
+      <tr><td>-1.5215062832178501</td><td>47.241523594467999</td><td>Gymnase Urbain Le Verrier                                                                           </td></tr>
+      <tr><td>-1.5294678837946301</td><td>47.242520591395198</td><td>Gymnase des Marsauderies                                                                            </td></tr>
+      <tr><td>-1.59051123448175</td><td>47.206925445275402</td><td>Gymnase Chantenaysienne                                                                             </td></tr>
+      <tr><td>-1.60741124990384</td><td>47.208291072120701</td><td>Gymnase Jean Zay Bellevue                                                                           </td></tr>
+      <tr><td>-1.6038825260168801</td><td>47.210427834992103</td><td>Gymnase Jamet                                                                                       </td></tr>
+      <tr><td>-1.60509557209857</td><td>47.214125468928898</td><td>Complexe Sportif de la Durantière                                                                  </td></tr>
+      <tr><td>-1.5936678993111899</td><td>47.2305298815958</td><td>Gymnase Pierre de Coubertin                                                                         </td></tr>
+      <tr><td>-1.5957376502537099</td><td>47.226192964106403</td><td>Gymnase Jean Ogé                                                                                   </td></tr>
+      <tr><td>-1.5918260694891799</td><td>47.225961173814802</td><td>Complexe Sportif Dervallières                                                                      </td></tr>
+      <tr><td>-1.5777651306726801</td><td>47.240941788404399</td><td>Gymnase Longchamp                                                                                   </td></tr>
+      <tr><td>-1.5764239154162401</td><td>47.263785658836198</td><td>Gymnase Bout des Landes                                                                             </td></tr>
+      <tr><td>-1.5675850917752401</td><td>47.2613899375134</td><td>Gymnase Géraudière                                                                                </td></tr>
+      <tr><td>-1.5628647623385701</td><td>47.254688797586397</td><td>Gymnase Le Baut                                                                                     </td></tr>
+      <tr><td>-1.5551249940102401</td><td>47.252265738513799</td><td>Gymnase  Barboire                                                                                   </td></tr>
+      <tr><td>-1.53826191612352</td><td>47.240776097617399</td><td>Gymnase du Port Boyer                                                                               </td></tr>
+      <tr><td>-1.5367720694193701</td><td>47.209525096819398</td><td>Palais des Sports Beaulieu                                                                          </td></tr>
+      <tr><td>-1.54107241363304</td><td>47.2236630243329</td><td>Gymnase Gaston Turpin                                                                               </td></tr>
+      <tr><td>-1.54372092947929</td><td>47.2327235683155</td><td>Gymnase du Coudray                                                                                  </td></tr>
+      <tr><td>-1.55964752075255</td><td>47.20999754084</td><td>Gymnase Léo Lagrange                                                                               </td></tr>
+      <tr><td>-1.56398900131605</td><td>47.224341921187801</td><td>Gymnase Joêl Paon                                                                                  </td></tr>
+      <tr><td>-1.5628896219584201</td><td>47.223966059043804</td><td>Gymnase La Similienne                                                                               </td></tr>
+      <tr><td>-1.55798634041585</td><td>47.223444046917002</td><td>Gymnase V. Hugo                                                                                     </td></tr>
+      <tr><td>-1.56139305853245</td><td>47.216404271621499</td><td>Gymnase Armand Coidelle                                                                             </td></tr>
+      <tr><td>-1.5670618606168401</td><td>47.215727142987099</td><td>Gymnase Sévigné                                                                                   </td></tr>
+      <tr><td>-1.5734859854520999</td><td>47.210048507336602</td><td>Gymnase Leloup Bouhier                                                                              </td></tr>
+      <tr><td>-1.57598246882318</td><td>47.227230320527802</td><td>Gymnase Gaston Serpette                                                                             </td></tr>
+      <tr><td>-1.58358465931778</td><td>47.229142567454701</td><td>Gymnase du Breil Malville                                                                           </td></tr>
+      <tr><td>-1.5800023215603001</td><td>47.2318280425404</td><td>Centre Sportif et Culturel La Laëtitia                                                             </td></tr>
+      <tr><td>-1.5803339931200699</td><td>47.202717675415002</td><td>Gymnase de la Mellinet                                                                              </td></tr>
+      <tr><td>-1.579919327956</td><td>47.214053707420902</td><td>Gymnase ASPTT Appert                                                                                </td></tr>
+      <tr><td>-1.52010465635145</td><td>47.228285142919098</td><td>Gymnase ASTA                                                                                        </td></tr>
+      <tr><td>-1.5797215238920399</td><td>47.235391342112997</td><td>Gymnase ASPTT de Longchamp                                                                          </td></tr>
+      <tr><td>-1.5432864092104599</td><td>47.230280169118998</td><td>Salle Saint Donatien                                                                                </td></tr>
+      <tr><td>-1.53864710450033</td><td>47.212811134927797</td><td>Stade Marcel Saupin                                                                                 </td></tr>
+      <tr><td>-1.52470397906934</td><td>47.256018824337502</td><td>Stade de la Beaujoire Louis Fonteneau                                                               </td></tr>
+      <tr><td>-1.5100433909461799</td><td>47.235367061292401</td><td>Plaine de Jeux Colinière                                                                           </td></tr>
+      <tr><td>-1.58770491033286</td><td>47.269104437311903</td><td>Plaine de Jeux Basses Landes                                                                        </td></tr>
+      <tr><td>-1.6004686967686601</td><td>47.213878648692102</td><td>Vélodrome Stade Petit Breton                                                                       </td></tr>
+      <tr><td>-1.6003703118216199</td><td>47.211773815621299</td><td>Plaine de Jeux Durantière                                                                          </td></tr>
+      <tr><td>-1.5544608975630601</td><td>47.242843421845798</td><td>Piscine Petit Port - Nantes                                                                         </td></tr>
+      <tr><td>-1.58148771094116</td><td>47.231420091776897</td><td>Boulodrome du Breil                                                                                 </td></tr>
+      <tr><td>-1.5727031517998</td><td>47.241643552185799</td><td>Skatepark Schuman - Nantes                                                                          </td></tr>
+      <tr><td>-1.5512961797376501</td><td>47.236708853438103</td><td>Base Nautique de l'UNA                                                                              </td></tr>
+      <tr><td>-1.5408070583219999</td><td>47.257097782338398</td><td>Stand de Tir des Jamonières                                                                        </td></tr>
+      <tr><td>-1.57826013212345</td><td>47.259529701216401</td><td>Plateau Sportif Winnipeg                                                                            </td></tr>
+      <tr><td>-1.56724591076149</td><td>47.253373326297499</td><td>Plateau Sportif André Chénier                                                                     </td></tr>
+      <tr><td>-1.5676747523283501</td><td>47.258481052181999</td><td>Plateau Sportif de la Géraudière                                                                  </td></tr>
+      <tr><td>-1.5553137607007601</td><td>47.251689514325498</td><td>UFR STAPS                                                                                           </td></tr>
+      <tr><td>-1.52053450198753</td><td>47.2662235402302</td><td>Equipement Sportif des Quatre Jeudis                                                                </td></tr>
+      <tr><td>-1.51982819492898</td><td>47.268068713089598</td><td>Espace Sportif Louis Pergaud                                                                        </td></tr>
+      <tr><td>-1.5285551638079</td><td>47.2682287243193</td><td>Espace Sportif Ecole du Linot                                                                       </td></tr>
+      <tr><td>-1.51229825260666</td><td>47.235416199563403</td><td>Plaine de Jeux du Lycée de la Colinière                                                           </td></tr>
+      <tr><td>-1.52784818256959</td><td>47.2368185757269</td><td>Halle de Tennis de la Marrière                                                                     </td></tr>
+      <tr><td>-1.5325272623831701</td><td>47.234157824906397</td><td>Equipement Sportif Marché de la Marrière                                                          </td></tr>
+      <tr><td>-1.5051183545599001</td><td>47.239935244659002</td><td>Stade René Chevalier                                                                               </td></tr>
+      <tr><td>-1.5226656598961399</td><td>47.242695645397603</td><td>Equipement Sportif du Square A. Fresnel                                                             </td></tr>
+      <tr><td>-1.5258631232986599</td><td>47.230054738175802</td><td>Complexe sportif de la Noë Lambert                                                                 </td></tr>
+      <tr><td>-1.52102580886387</td><td>47.240674496897299</td><td>Salle de Boxe Bottière Nantes Est                                                                  </td></tr>
+      <tr><td>-1.5122799131178499</td><td>47.247459519324202</td><td>Equipement Sportif de la Haluchère                                                                 </td></tr>
+      <tr><td>-1.51301291030959</td><td>47.259881843984203</td><td>Boulodrome du Bèle                                                                                 </td></tr>
+      <tr><td>-1.50361701293574</td><td>47.301824836005103</td><td>Bowling de l'Erdre                                                                                  </td></tr>
+      <tr><td>-1.53037444889631</td><td>47.209110261629597</td><td>Terrain multisports Millerand                                                                       </td></tr>
+      <tr><td>-1.50241580552544</td><td>47.303961537897599</td><td>Espace Sportif Le Souchais                                                                          </td></tr>
+      <tr><td>-1.59817455093445</td><td>47.225816279734097</td><td>Espace Sportif Louis Le Nain                                                                        </td></tr>
+      <tr><td>-1.51413692175225</td><td>47.237434063416003</td><td>Gymnase Bottière Chênaie                                                                          </td></tr>
+      <tr><td>-1.5555768256890501</td><td>47.248873422185198</td><td>Stadium Métropolitain Pierre Quinon                                                                </td></tr>
+      <tr><td>-1.5528708005485301</td><td>47.190252044537601</td><td>Gymnase Port-au-Blé                                                                                </td></tr>
+      <tr><td>-1.5443874396766599</td><td>47.165479701187799</td><td>Gymnase Arthur-Dugast                                                                               </td></tr>
+      <tr><td>-1.64176082507584</td><td>47.216699500995603</td><td>Espace Multisport Solvardière                                                                      </td></tr>
+      <tr><td>-1.6115880954925199</td><td>47.2104096584847</td><td>Espace Multisport Censive                                                                           </td></tr>
+      <tr><td>-1.60905162935041</td><td>47.215451784302999</td><td>Espace Multisport Crémetterie                                                                      </td></tr>
+      <tr><td>-1.73271134771113</td><td>47.134534554037501</td><td>Tennis                                                                                              </td></tr>
+      <tr><td>-1.66875796124264</td><td>47.200961761503301</td><td>Court de Tennis                                                                                     </td></tr>
+      <tr><td>-1.66910329129323</td><td>47.196070043854199</td><td>Cercle Nautique d'Indre                                                                             </td></tr>
+      <tr><td>-1.71740328001877</td><td>47.171727973295603</td><td>Skatepark - Brains                                                                                  </td></tr>
+      <tr><td>-1.7174134872371301</td><td>47.1715714181572</td><td>Aire de jeux multisports Brains                                                                     </td></tr>
+      <tr><td>-1.5226345940555499</td><td>47.148051833968402</td><td>Karaté                                                                                             </td></tr>
+      <tr><td>-1.52301319853266</td><td>47.157498536424697</td><td>Aire multisports                                                                                    </td></tr>
+      <tr><td>-1.53387347807476</td><td>47.148858594161801</td><td>Aire multisports                                                                                    </td></tr>
+      <tr><td>-1.54402353337293</td><td>47.144896947915399</td><td>Centre equestre Poney Club                                                                          </td></tr>
+      <tr><td>-1.4734169189370701</td><td>47.189583722382501</td><td>Centre aquatique So.Pool                                                                            </td></tr>
+      <tr><td>-1.69634341849071</td><td>47.149840841961797</td><td>Salle omnisport de Bellestre                                                                        </td></tr>
+      <tr><td>-1.6926206048408501</td><td>47.150635340513297</td><td>Court de Tennis                                                                                     </td></tr>
+      <tr><td>-1.6802964431057701</td><td>47.1546780883818</td><td>Skatepark - Bouaye                                                                                  </td></tr>
+      <tr><td>-1.45322268077049</td><td>47.260932282871998</td><td>Salle de sport de la Belle Etoile                                                                   </td></tr>
+      <tr><td>-1.45519991438981</td><td>47.262554889217803</td><td>Salle de Tennis du Guette Loup                                                                      </td></tr>
+      <tr><td>-1.4560830507437801</td><td>47.263195289025603</td><td>Salle Omnisport                                                                                     </td></tr>
+      <tr><td>-1.4678157472067701</td><td>47.218532934201903</td><td>Court de Tennis                                                                                     </td></tr>
+      <tr><td>-1.46645497803417</td><td>47.218460390894002</td><td>Stades de Football                                                                                  </td></tr>
+      <tr><td>-1.4674895111250501</td><td>47.216794307123301</td><td>Dojo Goulainais                                                                                     </td></tr>
+      <tr><td>-1.4680711596290299</td><td>47.216619931956501</td><td>Boulodrome                                                                                          </td></tr>
+      <tr><td>-1.46573542845903</td><td>47.217875658281201</td><td>Skatepark - Basse-Goulaine                                                                          </td></tr>
+      <tr><td>-1.4657807215055101</td><td>47.217631263400101</td><td>Terrain multisport                                                                                  </td></tr>
+      <tr><td>-1.63771789549553</td><td>47.1203301600343</td><td>Boulodrome                                                                                          </td></tr>
+      <tr><td>-1.6372830000767</td><td>47.121160359900699</td><td>Skatepark - St-Aignan                                                                               </td></tr>
+      <tr><td>-1.6371984164958799</td><td>47.121000245275297</td><td>Terrain de Basket                                                                                   </td></tr>
+      <tr><td>-1.7099801739162901</td><td>47.186294274252802</td><td>Tir à l'Arc                                                                                        </td></tr>
+      <tr><td>-1.6868503338309899</td><td>47.186997597229002</td><td>Skatepark - La Montagne                                                                             </td></tr>
+      <tr><td>-1.4661835324072301</td><td>47.163205322919403</td><td>Skatepark - Vertou                                                                                  </td></tr>
+      <tr><td>-1.46673883456256</td><td>47.1639364142099</td><td>Terrain de Tennis                                                                                   </td></tr>
+      <tr><td>-1.4982833575474499</td><td>47.183257535808501</td><td>Terrain de Tennis                                                                                   </td></tr>
+      <tr><td>-1.46318253916213</td><td>47.178537327027499</td><td>Entente Tennis Vertou                                                                               </td></tr>
+      <tr><td>-1.4671354674047301</td><td>47.165239070876503</td><td>Salle spécifique de gymnastique                                                                    </td></tr>
+      <tr><td>-1.4644503506231199</td><td>47.1376168981039</td><td>Terrain de Pétanque des Reigners                                                                   </td></tr>
+      <tr><td>-1.4650612269699099</td><td>47.137740018998997</td><td>Skatepark - Vertou                                                                                  </td></tr>
+      <tr><td>-1.67944111191122</td><td>47.266208767174099</td><td>Salle Antarès                                                                                      </td></tr>
+      <tr><td>-1.6788642584901501</td><td>47.2669270963193</td><td>Salle de Tennis Centaure                                                                            </td></tr>
+      <tr><td>-1.6781119842212899</td><td>47.265882124727099</td><td>Salle de Pétanque Electra                                                                          </td></tr>
+      <tr><td>-1.6792350804817899</td><td>47.266647481286903</td><td>Salle de Tennis Cassiopée                                                                          </td></tr>
+      <tr><td>-1.6778722237383099</td><td>47.266164291382999</td><td>Salle Omnisport Delta                                                                               </td></tr>
+      <tr><td>-1.67874386609388</td><td>47.266037577980399</td><td>Salle Omnisport Bellatrix                                                                           </td></tr>
+      <tr><td>-1.6784190584645899</td><td>47.266512310487101</td><td>Terrains de tennis                                                                                  </td></tr>
+      <tr><td>-1.6779236096743599</td><td>47.267012615919903</td><td>Terrains de pétanque                                                                               </td></tr>
+      <tr><td>-1.67980908258144</td><td>47.2662524329902</td><td>Skatepark - Sautron                                                                                 </td></tr>
+      <tr><td>-1.7043806673428099</td><td>47.244588343803599</td><td>Tennis Country Club                                                                                 </td></tr>
+      <tr><td>-1.7045512212479399</td><td>47.2460107847443</td><td>Centre équestre Poney-Club                                                                         </td></tr>
+      <tr><td>-1.68393059268241</td><td>47.219316300576502</td><td>Boulodrome                                                                                          </td></tr>
+      <tr><td>-1.73813547120881</td><td>47.211715263944399</td><td>Tennis                                                                                              </td></tr>
+      <tr><td>-1.7368820187365599</td><td>47.212469299478698</td><td>Stade René Gaudin                                                                                  </td></tr>
+      <tr><td>-1.73831246720018</td><td>47.212189124208997</td><td>Skatepark Romain Douillard - Couëron                                                               </td></tr>
+      <tr><td>-1.6834647648968899</td><td>47.214044239017902</td><td>City Stade                                                                                          </td></tr>
+      <tr><td>-1.4830005017521</td><td>47.285573909122697</td><td>Gymnase Eersel                                                                                      </td></tr>
+      <tr><td>-1.4813821087255801</td><td>47.2814486517006</td><td>Piste de bicross                                                                                    </td></tr>
+      <tr><td>-1.48128079092291</td><td>47.282227710860901</td><td>Terrain de Pétanque                                                                                </td></tr>
+      <tr><td>-1.48341346932704</td><td>47.284435182268403</td><td>Tennis                                                                                              </td></tr>
+      <tr><td>-1.47070687781425</td><td>47.318243226480597</td><td>Stand de Tir                                                                                        </td></tr>
+      <tr><td>-1.5264152489955101</td><td>47.301405742284501</td><td>Sport Nautique de l'Ouest                                                                           </td></tr>
+      <tr><td>-1.49269654987027</td><td>47.302925259448799</td><td>Color'ado                                                                                           </td></tr>
+      <tr><td>-1.53530393844997</td><td>47.217128810849402</td><td>Gymnase Pré-Gauchet                                                                                </td></tr>
+      <tr><td>-1.62505307890939</td><td>47.274346152420001</td><td>Boulodrome                                                                                          </td></tr>
+      <tr><td>-1.62560460051723</td><td>47.274402243431503</td><td>Tennis Frébaudière                                                                                </td></tr>
+      <tr><td>-1.62611737840092</td><td>47.274417689682302</td><td>Skatepark - Orvault                                                                                 </td></tr>
+      <tr><td>-1.6295972962060301</td><td>47.281875747302301</td><td>Bike-Park                                                                                           </td></tr>
+      <tr><td>-1.5983966005253001</td><td>47.254077017241798</td><td>Boulodrome                                                                                          </td></tr>
+      <tr><td>-1.5557863871242399</td><td>47.296078994646301</td><td>Skatepark - La Chapelle-sur-Erdre                                                                   </td></tr>
+      <tr><td>-1.55717877351555</td><td>47.2981980314539</td><td>Piste d'athlétisme                                                                                 </td></tr>
+      <tr><td>-1.5590017209638301</td><td>47.299140493553203</td><td>Boulodrome de Massigné                                                                             </td></tr>
+      <tr><td>-1.55164077434728</td><td>47.267252004277701</td><td>Courts de Tennis du Gesvres                                                                         </td></tr>
+      <tr><td>-1.5512937731218199</td><td>47.266994579336298</td><td>Terrain multisports de Gesvres                                                                      </td></tr>
+      <tr><td>-1.5510211970947001</td><td>47.266836240653099</td><td>Plateau sportif Gesvres                                                                             </td></tr>
+      <tr><td>-1.5424368096337699</td><td>47.2647855333542</td><td>Poney-club de Port-Barbe                                                                            </td></tr>
+      <tr><td>-1.54072241592381</td><td>47.2635553088015</td><td>Swing-Golf de Port-Barbe                                                                            </td></tr>
+      <tr><td>-1.5578479787725801</td><td>47.296366211006799</td><td>Halle des Sports de Mazaire                                                                         </td></tr>
+      <tr><td>-1.55853957466216</td><td>47.296640274236701</td><td>Salle de Gymnastique Jacques Canzillon                                                              </td></tr>
+      <tr><td>-1.6217682482645299</td><td>47.171065696192898</td><td>Salles Duruy et Petipa                                                                              </td></tr>
+      <tr><td>-1.6218647740513501</td><td>47.171322599190901</td><td>Salle des Samouraïs                                                                                </td></tr>
+      <tr><td>-1.59066517061956</td><td>47.174852247097</td><td>Skatepark - Bouguenais                                                                              </td></tr>
+      <tr><td>-1.62643250012879</td><td>47.179111397586603</td><td>Terrain de boules de Beauvoir                                                                       </td></tr>
+      <tr><td>-1.6253652831215899</td><td>47.166781620901503</td><td>Terrain multisports de la Pierre Blanche                                                            </td></tr>
+      <tr><td>-1.6298593988431</td><td>47.177808349996802</td><td>Skatepark - Bouguenais                                                                              </td></tr>
+      <tr><td>-1.7621102991375901</td><td>47.194253911792302</td><td>Espace René Cassin - salle Gilles de la Bourdonnaye                                                </td></tr>
+      <tr><td>-1.7617534836978199</td><td>47.194179677296901</td><td>Espace René Cassin - salle Cécile Nowak                                                           </td></tr>
+      <tr><td>-1.7584786438705799</td><td>47.195954228462703</td><td>Terrain de basket                                                                                   </td></tr>
+      <tr><td>-1.75819683229684</td><td>47.195804982588598</td><td>Terrain Multisports                                                                                 </td></tr>
+      <tr><td>-1.7590287648952601</td><td>47.200727477550998</td><td>Amicale Laïque du Pellerin Tir Sportif                                                             </td></tr>
+      <tr><td>-1.7501086342735801</td><td>47.201945428743798</td><td>Skatepark - Le Pellerin                                                                             </td></tr>
+      <tr><td>-1.5130686844250101</td><td>47.210394893443201</td><td>Terrain multisports                                                                                 </td></tr>
+      <tr><td>-1.3909254439348699</td><td>47.293462653131101</td><td>Courts de Tennis                                                                                    </td></tr>
+      <tr><td>-1.6563962086297399</td><td>47.207201904729402</td><td>Centre Sportif de la Bourgonnière                                                                  </td></tr>
+      <tr><td>-1.5810329693676799</td><td>47.230105493064599</td><td>Tennis                                                                                              </td></tr>
+      <tr><td>-1.5839007450061899</td><td>47.230428277239703</td><td>City Stade                                                                                          </td></tr>
+      <tr><td>-1.5997194294490999</td><td>47.229686189978899</td><td>Poney Club Salantine Houssay                                                                        </td></tr>
+      <tr><td>-1.60556742386325</td><td>47.231332013157797</td><td>Boulodrome du Tillay                                                                                </td></tr>
+      <tr><td>-1.6010234098218099</td><td>47.235501355851</td><td>Tennis Club La Gagnerie                                                                             </td></tr>
+      <tr><td>-1.51933111538115</td><td>47.256101730200399</td><td>City Stade                                                                                          </td></tr>
+      <tr><td>-1.5239317405127799</td><td>47.217091872220102</td><td>City Stade                                                                                          </td></tr>
+      <tr><td>-1.5187400215881099</td><td>47.268641325335302</td><td>City Stade                                                                                          </td></tr>
+      <tr><td>-1.67626248447447</td><td>47.1829183341098</td><td>Terrains de Tennis                                                                                  </td></tr>
+      <tr><td>-1.6463037572667001</td><td>47.2075452017814</td><td>Plateau sportif de la Pelousière                                                                   </td></tr>
+      <tr><td>-1.6781403826468999</td><td>47.2667273761625</td><td>Terrain Multisports                                                                                 </td></tr>
+      <tr><td>-1.6713888583252201</td><td>47.268500578223197</td><td>Circuits Rustiques d'Activites en Plein Air de Sautron                                              </td></tr>
+      <tr><td>-1.53187121182908</td><td>47.164654711713503</td><td>Stade de la Robinière                                                                              </td></tr>
+      <tr><td>-1.55836846869043</td><td>47.185356794620297</td><td>Plateau multisports Château-Nord - City Stade                                                      </td></tr>
+      <tr><td>-1.5583462586782799</td><td>47.1815630236812</td><td>Plateau multisports Château-Sud - City Stade                                                       </td></tr>
+      <tr><td>-1.49573346582352</td><td>47.211769566241401</td><td>Circuit d'orientation des îles de Loire                                                            </td></tr>
+      <tr><td>-1.48711816708137</td><td>47.207235691133398</td><td>SkateParc - St-Sébastien                                                                           </td></tr>
+      <tr><td>-1.6777921490509</td><td>47.183532857508098</td><td>Piste de bicross                                                                                    </td></tr>
+      <tr><td>-1.5628746551366799</td><td>47.184644757055302</td><td>Terrain de pétanque                                                                                </td></tr>
+      <tr><td>-1.67339596547012</td><td>47.134856893006301</td><td>Aire de jeux de l'Etier                                                                             </td></tr>
+      <tr><td>-1.72662264628622</td><td>47.192577488835703</td><td>Anneau de Patin                                                                                     </td></tr>
+      <tr><td>-1.52259368869916</td><td>47.145601640118102</td><td>Salle de danse Les Sorinières                                                                      </td></tr>
+      <tr><td>-1.6324608003871599</td><td>47.205150369753397</td><td>Stade Constant Pasquier                                                                             </td></tr>
+      <tr><td>-1.7214516975249601</td><td>47.213669830730502</td><td>DOJO Jean-Claude Le Quintrec                                                                        </td></tr>
+      <tr><td>-1.54009352643386</td><td>47.195281264035202</td><td>ASC Bonne Garde - Salle Jean-Yves Leroy                                                             </td></tr>
+      <tr><td>-1.5717672449993101</td><td>47.179915668223899</td><td>Salle sportive métropolitaine de Rezé                                                             </td></tr>
+      <tr><td>-1.57055699634047</td><td>47.180452828575</td><td>City stade                                                                                          </td></tr>
+      <tr><td>-1.4991344592345599</td><td>47.205190372708998</td><td>Gymnase du centre-ville                                                                             </td></tr>
+      <tr><td>-1.69835572298409</td><td>47.196670261634097</td><td>Piste de Bicross                                                                                    </td></tr>
+      <tr><td>-1.5377057189247101</td><td>47.175939771178001</td><td>Plateau multisports Ouche-Dinier                                                                    </td></tr>
+      <tr><td>-1.5536297815289699</td><td>47.190403405341598</td><td>Plateau multisports Port-au-Blé                                                                    </td></tr>
+      <tr><td>-1.5710394681802</td><td>47.189907117830799</td><td>Plateau multisports Rezé-centre                                                                    </td></tr>
+      <tr><td>-1.5427302178964999</td><td>47.185785093019298</td><td>Plateau multisports Julien Douillard                                                                </td></tr>
+      <tr><td>-1.55015206775593</td><td>47.179337943713698</td><td>Plateau multisports Petite-Lande                                                                    </td></tr>
+      <tr><td>-1.5488693054381799</td><td>47.184022906252302</td><td>Plateau multisports Roger Salengro                                                                  </td></tr>
+      <tr><td>-1.54639170892458</td><td>47.173633354958</td><td>Plateau multisports Chêne-Creux                                                                    </td></tr>
+      <tr><td>-1.55814660204147</td><td>47.184428207604697</td><td>Plateau multisports Square Beaumarchais                                                             </td></tr>
+      <tr><td>-1.54171072417792</td><td>47.165441615237803</td><td>Plateau multisports Ragon                                                                           </td></tr>
+      <tr><td>-1.5841575079895001</td><td>47.193981092214003</td><td>Plateau multisports Trentemoult                                                                     </td></tr>
+      <tr><td>-1.4698649061979201</td><td>47.176964934886797</td><td>Dojo                                                                                                </td></tr>
+      <tr><td>-1.47675154133617</td><td>47.163495971217799</td><td>SkatePark du Loiry                                                                                  </td></tr>
+      <tr><td>-1.5065098320174299</td><td>47.180683105871701</td><td>Skatepark Beautour                                                                                  </td></tr>
+      <tr><td>-1.44807956430045</td><td>47.187387064037303</td><td>Centre équestre du Bois Brûlé                                                                    </td></tr>
+      <tr><td>-1.6306091301994501</td><td>47.2806176309888</td><td>Chemin du château de la Tour                                                                       </td></tr>
+
+	</table>
+
+  </body>
+
+</html>

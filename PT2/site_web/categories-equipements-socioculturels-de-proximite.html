@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+	<link rel="stylesheet" type="text/css" href="style.css">	
+
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	
+	<script>
+	  // declaration des cartes
+      var map;
+
+	  // la fenetre qui s'ouvre quand on passe la souris sur un point
+	  var infowindow = new google.maps.InfoWindow();
+
+	  // fonction d'initialisation
+      function initialize() {
+        var mapOptions = {
+          zoom: 6,
+          center: {lat:  46.55, lng: 2.4},
+          mapTypeId: google.maps.MapTypeId.TERRAIN
+        };
+        map = new google.maps.Map(document.getElementById('map-categorie'),
+          mapOptions);
+	    // initialisation des cartes et chargement des donnees
+	            map.data.loadGeoJson('json/equipements-socioculturels-de-proximite.json');
+
+	    
+	    // fonction de style
+	    var setColorStyleFn = function(feature) {
+	      return {icon: feature.getProperty('icon')};
+	    };
+	    // style des cartes, et listener pour la fenetre qui s'ouvre quand on passe la souris sur un point
+	    map.data.setStyle(setColorStyleFn);
+	    map.data.addListener('mouseover', function(event) {
+          infowindow.setContent(event.feature.getProperty('description'));
+          infowindow.setPosition(event.latLng);
+          infowindow.setOptions({pixelOffset: new google.maps.Size(0,-34)});
+          infowindow.open(map);
+        });
+        google.maps.event.addListener(map, 'click', function() {
+          infowindow.close(); // un clic sur la carte ferme les infowindows
+        });
+	  } // end initialize
+
+      // appel de la fonction d'initialisation une fois la page chargee
+      google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+	<meta charset="UTF-8">
+  </head>
+
+  <body>
+    <h1>les équipements socioculturels de proximité</h1>
+
+	<p><a href="./index.php">Page principale</a></p>
+	
+    <h2>Carte</h2>
+    <div id="map-categorie" class="map-canvas"></div>
+
+    <h2>Liste des points</h2>
+	<table>
+      <tr><td>1.47465189762</td><td>43.614244150700003</td><td>CENTRE D'ANIMATION SOUPETARD                                                                        </td></tr>
+      <tr><td>1.4414627930099999</td><td>43.610668691299999</td><td>MAISON DE QUARTIER ESCOUSSIERES ARNAUD-BERNARD                                                      </td></tr>
+      <tr><td>1.4165750110799999</td><td>43.587149254099998</td><td>MAISON DE QUARTIER FONTAINE-LESTANG                                                                 </td></tr>
+      <tr><td>1.4659300282500001</td><td>43.585618402199998</td><td>MJC PONT DES DEMOISELLES                                                                            </td></tr>
+      <tr><td>1.4083573601599999</td><td>43.616852403199999</td><td>ESPACE JOB                                                                                          </td></tr>
+      <tr><td>1.46820948725</td><td>43.626564069700002</td><td>MAISON DE QUARTIER AMOUROUX                                                                         </td></tr>
+      <tr><td>1.40100204141</td><td>43.619028517799997</td><td>MJC ANCELY                                                                                          </td></tr>
+      <tr><td>1.43865928815</td><td>43.5773850259</td><td>MJC EMPALOT                                                                                         </td></tr>
+      <tr><td>1.47974179746</td><td>43.589473883099998</td><td>SALLE DES FETES DE LIMAYRAC                                                                         </td></tr>
+      <tr><td>1.4851154765400001</td><td>43.574060422999999</td><td>CENTRE D'ANIMATION MONTAUDRAN                                                                       </td></tr>
+      <tr><td>1.4273901705000001</td><td>43.596164322600004</td><td>ESPACE ROGUET - MJC ROGUET                                                                          </td></tr>
+      <tr><td>1.45050090606</td><td>43.550402012100001</td><td>MAISON DE QUARTIER DE POUVOURVILLE                                                                  </td></tr>
+      <tr><td>1.4357909102299999</td><td>43.6337730244</td><td>MAISON DE QUARTIER LA VACHE                                                                         </td></tr>
+      <tr><td>1.4191641878300001</td><td>43.5732488684</td><td>MJC PREVERT                                                                                         </td></tr>
+      <tr><td>1.4137555607200001</td><td>43.564100195800002</td><td>SALLE LAFOURGUETTE                                                                                  </td></tr>
+      <tr><td>1.48345175619</td><td>43.5837161253</td><td>CENTRE D'ANIMATION LA TERRASSE                                                                      </td></tr>
+      <tr><td>1.47405413173</td><td>43.600489778700002</td><td>MAISON DE QUARTIER ACHIARY                                                                          </td></tr>
+      <tr><td>1.3969423859300001</td><td>43.615074258999996</td><td>MAISON DE QUARTIER DES ARENES ROMAINES                                                              </td></tr>
+      <tr><td>1.4028565308300001</td><td>43.570422848299998</td><td>ATELIER B                                                                                           </td></tr>
+      <tr><td>1.37899412833</td><td>43.561673056499998</td><td>CENTRE D'ANIMATION SAINT SIMON                                                                      </td></tr>
+      <tr><td>1.4507576387600001</td><td>43.649125210699999</td><td>MAISON DE QUARTIER DU GRAND SELVE                                                                   </td></tr>
+      <tr><td>1.4329903739900001</td><td>43.646779376700003</td><td>MAISON DE QUARTIER LALANDE                                                                          </td></tr>
+      <tr><td>1.3851632006600001</td><td>43.588217991900002</td><td>MAISON DE QUARTIER RUE JEAN D'ALEMBERT                                                              </td></tr>
+      <tr><td>1.44654842749</td><td>43.578796715599999</td><td>MAISON DES ASSOCIATIONS NIEL                                                                        </td></tr>
+      <tr><td>1.46607143611</td><td>43.634709743999998</td><td>MJC CROIX DAURADE                                                                                   </td></tr>
+      <tr><td>1.46394643231</td><td>43.574870209799997</td><td>MAISON DE QUARTIER RANGUEIL                                                                         </td></tr>
+      <tr><td>1.40821873348</td><td>43.579886477499997</td><td>CENTRE D'ANIMATION DE BAGATELLE                                                                     </td></tr>
+      <tr><td>1.4429026757100001</td><td>43.639216330799997</td><td>CENTRE D'ANIMATION DES CHAMOIS                                                                      </td></tr>
+      <tr><td>1.4328911851199999</td><td>43.648227390700001</td><td>CENTRE D'ANIMATION LALANDE                                                                          </td></tr>
+      <tr><td>1.4028565308300001</td><td>43.570422848299998</td><td>CENTRE D'ANIMATION REYNERIE                                                                         </td></tr>
+      <tr><td>1.4673673834400001</td><td>43.602363814599997</td><td>CERCLE LAIQUE JEAN CHAUBET                                                                          </td></tr>
+      <tr><td>1.46276675958</td><td>43.636493311800002</td><td>MAISON DE QUARTIER CROIX DAURADE                                                                    </td></tr>
+      <tr><td>1.4840412091799999</td><td>43.600378133100001</td><td>MAISON DE QUARTIER DE L'HERS                                                                        </td></tr>
+      <tr><td>1.3837735983199999</td><td>43.578952958499997</td><td>MAISON DE QUARTIER DES PRADETTES                                                                    </td></tr>
+      <tr><td>1.4488869602500001</td><td>43.6144594887</td><td>MAISON DE QUARTIER MATABIAU                                                                         </td></tr>
+
+	</table>
+
+  </body>
+
+</html>

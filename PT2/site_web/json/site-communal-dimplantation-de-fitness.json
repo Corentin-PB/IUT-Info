@@ -1,0 +1,241 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"CARDIO TRAINING"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4306769985300001,43.604944997300002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"STRETCHING"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.42721700041,43.605750001600001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"MUSCULATION"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4259509959400001,43.605588001400001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"CARDIO TRAINING"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4400509965699999,43.589089997599999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"MUSCULATION"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.47719999606,43.621499999000001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"STRETCHING"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.47959999748,43.622299999699997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"STRETCHING"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4801000019899999,43.622399999999999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"PMR"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.42205600244,43.606021003000002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"PMR"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.44014000263,43.588984001100002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"CARDIO TRAINING"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4392230026199999,43.587467999700003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"PMR"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.43916299796,43.584734000700003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"STRETCHING"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4779000013500001,43.620500002299998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"CARDIO TRAINING"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.43892700211,43.584463999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"STRETCHING"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4371960018200001,43.580280998699997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"CARDIO TRAINING"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.43066299715,43.604958002899998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"MUSCULATION"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4300539960100001,43.605120004299998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"PMR"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4269290022600001,43.605650001299999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"MUSCULATION"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.425927999,43.606050003699998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"CARDIO TRAINING"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.43913399839,43.587538000400002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"STRETCHING"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4389940028599999,43.583341998500003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"MUSCULATION"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4390960017500001,43.583149000399999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"CARDIO TRAINING"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4369829994900001,43.5802990014,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"STRETCHING"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.43606299949,43.577835999999998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"CARDIO TRAINING"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.47860000047,43.621900000300002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"CARDIO TRAINING"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4786000041,43.621800000900002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"STRETCHING"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.43019199633,43.605130001299997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"CARDIO TRAINING"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.42604900181,43.606015000799999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"STRETCHING"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.42207299794,43.605903998700001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"STRETCHING"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4393299980400001,43.584847997899999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"PMR"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4360350035,43.577928999800001,0]}}
+]}

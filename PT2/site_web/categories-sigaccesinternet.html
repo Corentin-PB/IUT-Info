@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+	<link rel="stylesheet" type="text/css" href="style.css">	
+
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	
+	<script>
+	  // declaration des cartes
+      var map;
+
+	  // la fenetre qui s'ouvre quand on passe la souris sur un point
+	  var infowindow = new google.maps.InfoWindow();
+
+	  // fonction d'initialisation
+      function initialize() {
+        var mapOptions = {
+          zoom: 6,
+          center: {lat:  46.55, lng: 2.4},
+          mapTypeId: google.maps.MapTypeId.TERRAIN
+        };
+        map = new google.maps.Map(document.getElementById('map-categorie'),
+          mapOptions);
+	    // initialisation des cartes et chargement des donnees
+	            map.data.loadGeoJson('json/sigaccesinternet.json');
+
+	    
+	    // fonction de style
+	    var setColorStyleFn = function(feature) {
+	      return {icon: feature.getProperty('icon')};
+	    };
+	    // style des cartes, et listener pour la fenetre qui s'ouvre quand on passe la souris sur un point
+	    map.data.setStyle(setColorStyleFn);
+	    map.data.addListener('mouseover', function(event) {
+          infowindow.setContent(event.feature.getProperty('description'));
+          infowindow.setPosition(event.latLng);
+          infowindow.setOptions({pixelOffset: new google.maps.Size(0,-34)});
+          infowindow.open(map);
+        });
+        google.maps.event.addListener(map, 'click', function() {
+          infowindow.close(); // un clic sur la carte ferme les infowindows
+        });
+	  } // end initialize
+
+      // appel de la fonction d'initialisation une fois la page chargee
+      google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+	<meta charset="UTF-8">
+  </head>
+
+  <body>
+    <h1>Points d'accès à Internet</h1>
+
+	<p><a href="./index.php">Page principale</a></p>
+	
+    <h2>Carte</h2>
+    <div id="map-categorie" class="map-canvas"></div>
+
+    <h2>Liste des points</h2>
+	<table>
+      <tr><td>-0.61516260813920198</td><td>44.852123266392397</td><td>Annexe Caudéran                                                                                    </td></tr>
+      <tr><td>-0.57417606178287295</td><td>44.843723092834402</td><td>Office de tourisme - Quinconce                                                                      </td></tr>
+      <tr><td>-0.57426054240520197</td><td>44.843571582214899</td><td>Office de tourisme - Place de la Comédie                                                           </td></tr>
+      <tr><td>-0.55527577983448895</td><td>44.863181331112798</td><td>Hangar G2                                                                                           </td></tr>
+      <tr><td>-0.56911267037034197</td><td>44.838454308662001</td><td>Alsace                                                                                              </td></tr>
+      <tr><td>-0.566015567785078</td><td>44.834298452383599</td><td>Place Saint Michel                                                                                  </td></tr>
+      <tr><td>-0.56945597398709003</td><td>44.850030462265103</td><td>Ibaia                                                                                               </td></tr>
+      <tr><td>-0.58803797468641394</td><td>44.835180548989001</td><td>Patinoire Mériadeck                                                                                </td></tr>
+      <tr><td>-0.55827184189154999</td><td>44.844349909617598</td><td>Jardin Botanique 1                                                                                  </td></tr>
+      <tr><td>-0.57695896150001102</td><td>44.839843665107097</td><td>ATHENEE MUNICIPAL                                                                                   </td></tr>
+      <tr><td>-0.56003661883248401</td><td>44.831252424283598</td><td>Conservatoire                                                                                       </td></tr>
+      <tr><td>-0.55947248382969095</td><td>44.832536275192098</td><td>Esplanade Sport1                                                                                    </td></tr>
+      <tr><td>-0.601869931416811</td><td>44.820489209845903</td><td>Bibliothèque Tauzin                                                                                </td></tr>
+      <tr><td>-0.58667256654969002</td><td>44.835289403120399</td><td>Bibliothèque Mériadeck                                                                            </td></tr>
+      <tr><td>-0.58153343927373202</td><td>44.858943276318698</td><td>Mairie annexe Grand Parc                                                                            </td></tr>
+      <tr><td>-0.57293800288890295</td><td>44.873735280852898</td><td>Bibliothèque Lac                                                                                   </td></tr>
+      <tr><td>-0.56627701529781205</td><td>44.853527016502802</td><td>Skate1                                                                                              </td></tr>
+      <tr><td>-0.57394947694555298</td><td>44.838985320368501</td><td>Place Saint Projet                                                                                  </td></tr>
+      <tr><td>-0.56704112697658604</td><td>44.838764139192598</td><td>MEC Toit                                                                                            </td></tr>
+      <tr><td>-0.56504012553448302</td><td>44.8542727303211</td><td>H14Toit                                                                                             </td></tr>
+      <tr><td>-0.56751573672372901</td><td>44.8392620546689</td><td>MEC Parvis 1                                                                                        </td></tr>
+      <tr><td>-0.56603767224396795</td><td>44.853716622717002</td><td>Skate2                                                                                              </td></tr>
+      <tr><td>-0.565794139097888</td><td>44.853903452105598</td><td>Skate3                                                                                              </td></tr>
+      <tr><td>-0.55877795930833996</td><td>44.844569374164401</td><td>Jardin Botanique 2                                                                                  </td></tr>
+      <tr><td>-0.56898193867724001</td><td>44.858799622825401</td><td>CCAS                                                                                                </td></tr>
+      <tr><td>-0.55285718526441197</td><td>44.841558792506902</td><td>Mairie Annexe Bastide                                                                               </td></tr>
+      <tr><td>-0.54615346977220003</td><td>44.873080405925897</td><td>Bibliothèque Bacalan                                                                               </td></tr>
+      <tr><td>-0.56294475647827202</td><td>44.845499864398903</td><td>Atelier du Pole Giono                                                                               </td></tr>
+      <tr><td>-0.58012286108146005</td><td>44.848026083312902</td><td>Bibliothèque Jardin Public                                                                         </td></tr>
+      <tr><td>-0.58362565153433699</td><td>44.856741114620597</td><td>Bibliothèque Grand Parc                                                                            </td></tr>
+      <tr><td>-0.55166014576966305</td><td>44.824746442486401</td><td>Bibliothèque Son Tay                                                                               </td></tr>
+      <tr><td>-0.54596546203840601</td><td>44.873376737770599</td><td>Mairie Annexe Bacalan                                                                               </td></tr>
+      <tr><td>-0.572855794265409</td><td>44.873783180131802</td><td>Bibliothèque Aubiers Est                                                                           </td></tr>
+      <tr><td>-0.57321240003958795</td><td>44.873678947015001</td><td>Bibliothèque Aubiers Ouest                                                                         </td></tr>
+      <tr><td>-0.61475043514685501</td><td>44.846218919071802</td><td>Club senior A. Faulat                                                                               </td></tr>
+      <tr><td>-0.59046628628799402</td><td>44.831373511372597</td><td>Club senior Manon Cormier                                                                           </td></tr>
+      <tr><td>-0.56699252270480804</td><td>44.839210540619497</td><td>MEC Ponton Honneur                                                                                  </td></tr>
+      <tr><td>-0.61554088869735202</td><td>44.852199246270402</td><td>Mairie annexe Caudéran                                                                             </td></tr>
+      <tr><td>-0.58425498426117695</td><td>44.8578601494929</td><td>Bibliothèque Grand Parc                                                                            </td></tr>
+      <tr><td>-0.576620048679785</td><td>44.839559106517299</td><td>11 Louis de Jabrun – Point info familles                                                          </td></tr>
+      <tr><td>-0.57286595629555404</td><td>44.830983085782201</td><td>Place Victoire 2                                                                                    </td></tr>
+      <tr><td>-0.56920024136426495</td><td>44.841014062027298</td><td>Mirroir Eau Sud 2                                                                                   </td></tr>
+      <tr><td>-0.56920024136426495</td><td>44.841014062027298</td><td>Mirroir Eau Sud 1                                                                                   </td></tr>
+      <tr><td>-0.56751573672372901</td><td>44.8392620546689</td><td>MEC Parvis 2                                                                                        </td></tr>
+      <tr><td>-0.56743389686549495</td><td>44.852401689682303</td><td>Martinique                                                                                          </td></tr>
+      <tr><td>-0.56972177667686597</td><td>44.842221872953701</td><td>Mirroir Eau Nord 1                                                                                  </td></tr>
+      <tr><td>-0.56972177667686597</td><td>44.842221872953701</td><td>Mirroir Eau Nord 2                                                                                  </td></tr>
+      <tr><td>-0.57190330582672899</td><td>44.839110367624301</td><td>Place Camille Julian                                                                                </td></tr>
+      <tr><td>-0.54222009286700501</td><td>44.8440508455854</td><td>Bibliothèque Bastide                                                                               </td></tr>
+      <tr><td>-0.57238998242305905</td><td>44.830798582833701</td><td>Place Victoire 1                                                                                    </td></tr>
+      <tr><td>-0.57750349580370697</td><td>44.838632434936102</td><td>Place Jean Moulin                                                                                   </td></tr>
+      <tr><td>-0.57614629380537996</td><td>44.837943025081302</td><td>Pey Berland Forges                                                                                  </td></tr>
+      <tr><td>-0.578910265324865</td><td>44.837711742468002</td><td>Pey Berland HDV1                                                                                    </td></tr>
+      <tr><td>-0.57443245034508195</td><td>44.833643754787701</td><td>DGA                                                                                                 </td></tr>
+      <tr><td>-0.57107243117207995</td><td>44.842804549053099</td><td>Mission de l'europe                                                                                 </td></tr>
+      <tr><td>-0.57933452605233604</td><td>44.838175133415703</td><td>Hotel de Ville                                                                                      </td></tr>
+      <tr><td>-0.57570028739131496</td><td>44.833218332478602</td><td>Club Senior Magendie                                                                                </td></tr>
+      <tr><td>-0.56458748236789202</td><td>44.824042601313998</td><td>Club Senior Billaudel                                                                               </td></tr>
+      <tr><td>-0.54612814234150997</td><td>44.8732525681827</td><td>Club Senior Lumineuse                                                                               </td></tr>
+      <tr><td>-0.59461583192046097</td><td>44.839006308578398</td><td>Atelier du Pole Brach                                                                               </td></tr>
+      <tr><td>-0.56691164804483296</td><td>44.830840921451298</td><td>Bibliothèque St Michel                                                                             </td></tr>
+      <tr><td>-0.61084617557337795</td><td>44.831766981959198</td><td>Bibliothèque St Augustin                                                                           </td></tr>
+      <tr><td>-0.54212232719891795</td><td>44.8441809608696</td><td>Bibliothèque Bastide                                                                               </td></tr>
+      <tr><td>-0.61120345340139104</td><td>44.832961708013698</td><td>Mairie annexe St Augustin                                                                           </td></tr>
+      <tr><td>-0.57260565917259398</td><td>44.852059406399498</td><td>Chartron Marche                                                                                     </td></tr>
+      <tr><td>-0.56080726768872102</td><td>44.830746514060202</td><td>EBA                                                                                                 </td></tr>
+      <tr><td>-0.57244697809330702</td><td>44.852414570599997</td><td>Chartron Halle                                                                                      </td></tr>
+      <tr><td>-0.58228804809935697</td><td>44.859939581208103</td><td>Grand Parc Centre Commercial                                                                        </td></tr>
+      <tr><td>-0.56161787961001897</td><td>44.830680095787798</td><td>EBA Annexe                                                                                          </td></tr>
+      <tr><td>-0.55841675069844499</td><td>44.832180832907902</td><td>Quai Sport Maison Jardinier                                                                         </td></tr>
+
+	</table>
+
+  </body>
+
+</html>

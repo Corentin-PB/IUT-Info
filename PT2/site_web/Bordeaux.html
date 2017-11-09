@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+	<link rel="stylesheet" type="text/css" href="style.css">	
+
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	
+	<script>
+	  // declaration des cartes
+      var map;
+
+	  // la fenetre qui s'ouvre quand on passe la souris sur un point
+	  var infowindow = new google.maps.InfoWindow();
+
+	  // fonction d'initialisation
+      function initialize() {
+        var mapOptions = {
+          zoom: 6,
+          center: {lat:  46.55, lng: 2.4},
+          mapTypeId: google.maps.MapTypeId.TERRAIN
+        };
+
+	    // initialisation des cartes et chargement des donnees
+	            map_624 = new google.maps.Map(document.getElementById('map-624'), mapOptions);
+        map_624.data.loadGeoJson('json/airejeux.json');
+        map_624.data.loadGeoJson('json/parcjardin.json');
+        map_624.data.loadGeoJson('json/poiculture.json');
+        map_624.data.loadGeoJson('json/poieducation.json');
+        map_624.data.loadGeoJson('json/poienfance.json');
+        map_624.data.loadGeoJson('json/poiservices.json');
+        map_624.data.loadGeoJson('json/poisocial.json');
+        map_624.data.loadGeoJson('json/poisport.json');
+        map_624.data.loadGeoJson('json/sigaccesinternet.json');
+        map_624.data.loadGeoJson('json/sigparkpub.json');
+        map_624.data.loadGeoJson('json/sigsanitaire.json');
+        map_624.data.loadGeoJson('json/sigstavelo.json');
+
+	    
+	    // fonction de style
+	    var setColorStyleFn = function(feature) {
+	      return {icon: feature.getProperty('icon')};
+	    };
+	    // style des cartes, et listener pour la fenetre qui s'ouvre quand on passe la souris sur un point
+	            map_624.data.setStyle(setColorStyleFn);
+        map_624.data.addListener('mouseover', function(event) {
+          infowindow.setContent(event.feature.getProperty('description'));
+          infowindow.setPosition(event.latLng);
+          infowindow.setOptions({pixelOffset: new google.maps.Size(0,-34)});
+          infowindow.open(map_624);
+        });
+        google.maps.event.addListener(map_624, 'click', function() {
+          infowindow.close(); // un clic sur la carte ferme les infowindows
+        });
+
+	  } // end initialize
+
+      // appel de la fonction d'initialisation une fois la page chargee
+      google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+	<meta charset="UTF-8">
+  </head>
+
+  <body>
+    <h1>Bordeaux</h1>
+
+	<p><a href="./index.php">Page principale</a></p>
+	
+    
+<h2>Bordeaux</h2>
+<div id="map-624" class="map-canvas"></div>
+
+
+    <h2>Catégories de Bordeaux</h2>
+	<ul>
+	  <li><img src="images/icones/themepark.png"/> <a href="categories-airejeux.html">Airesdejeux Bordeaux</a>
+<li><img src="images/icones/tree.png"/> <a href="categories-parcjardin.html">Parcs, jardins et squares</a>
+<li><img src="images/icones/theater.png"/> <a href="categories-poiculture.html">Etablissements culturels</a>
+<li><img src="images/icones/school.png"/> <a href="categories-poieducation.html">Ecoles maternelles et primaires</a>
+<li><img src="images/icones/daycare.png"/> <a href="categories-poienfance.html">Etablissements petite enfance</a>
+<li><img src="images/icones/townhouse.png"/> <a href="categories-poiservices.html">Etablissements et lieux de services</a>
+<li><img src="images/icones/group-2.png"/> <a href="categories-poisocial.html">Etablissements sociaux</a>
+<li><img src="images/icones/tennis.png"/> <a href="categories-poisport.html">Lieux de sports et loisirs</a>
+<li><img src="images/icones/radio-station-2.png"/> <a href="categories-sigaccesinternet.html">Points d'accès à Internet</a>
+<li><img src="images/icones/parking.png"/> <a href="categories-sigparkpub.html">Parkings publics</a>
+<li><img src="images/icones/toilets.png"/> <a href="categories-sigsanitaire.html">Toilettes publiques</a>
+<li><img src="images/icones/parking_bicycle-2.png"/> <a href="categories-sigstavelo.html">Mobiliers urbains : Stationnement deux-roues</a>
+
+	</ul>
+
+  </body>
+
+</html>

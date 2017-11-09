@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+	<link rel="stylesheet" type="text/css" href="style.css">	
+
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	
+	<script>
+	  // declaration des cartes
+      var map;
+
+	  // la fenetre qui s'ouvre quand on passe la souris sur un point
+	  var infowindow = new google.maps.InfoWindow();
+
+	  // fonction d'initialisation
+      function initialize() {
+        var mapOptions = {
+          zoom: 6,
+          center: {lat:  46.55, lng: 2.4},
+          mapTypeId: google.maps.MapTypeId.TERRAIN
+        };
+        map = new google.maps.Map(document.getElementById('map-categorie'),
+          mapOptions);
+	    // initialisation des cartes et chargement des donnees
+	            map.data.loadGeoJson('json/bornes-wi-fi.json');
+
+	    
+	    // fonction de style
+	    var setColorStyleFn = function(feature) {
+	      return {icon: feature.getProperty('icon')};
+	    };
+	    // style des cartes, et listener pour la fenetre qui s'ouvre quand on passe la souris sur un point
+	    map.data.setStyle(setColorStyleFn);
+	    map.data.addListener('mouseover', function(event) {
+          infowindow.setContent(event.feature.getProperty('description'));
+          infowindow.setPosition(event.latLng);
+          infowindow.setOptions({pixelOffset: new google.maps.Size(0,-34)});
+          infowindow.open(map);
+        });
+        google.maps.event.addListener(map, 'click', function() {
+          infowindow.close(); // un clic sur la carte ferme les infowindows
+        });
+	  } // end initialize
+
+      // appel de la fonction d'initialisation une fois la page chargee
+      google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+	<meta charset="UTF-8">
+  </head>
+
+  <body>
+    <h1>bornes wifi</h1>
+
+	<p><a href="./index.php">Page principale</a></p>
+	
+    <h2>Carte</h2>
+    <div id="map-categorie" class="map-canvas"></div>
+
+    <h2>Liste des points</h2>
+	<table>
+      <tr><td>1.4434037962199999</td><td>43.604377059699999</td><td>MairieToulousePublic                                                                                </td></tr>
+      <tr><td>1.44576059144</td><td>43.606513263300002</td><td>Toulouse_wifi                                                                                       </td></tr>
+      <tr><td>1.45130737927</td><td>43.594915824099999</td><td>_FanZone Toulouse                                                                                   </td></tr>
+      <tr><td>1.4505751651700001</td><td>43.5947088745</td><td>_FanZone Toulouse                                                                                   </td></tr>
+      <tr><td>1.4481734446500001</td><td>43.593820303400001</td><td>_FanZone Toulouse                                                                                   </td></tr>
+      <tr><td>1.4476267359699999</td><td>43.593652782600003</td><td>_FanZone Toulouse                                                                                   </td></tr>
+      <tr><td>1.43718013555</td><td>43.597436393800002</td><td>Toulouse_wifi                                                                                       </td></tr>
+      <tr><td>1.4005869946</td><td>43.567356461899998</td><td>_MairieToulousePublic                                                                               </td></tr>
+      <tr><td>1.4394892260900001</td><td>43.601521632599997</td><td>Toulouse_wifi                                                                                       </td></tr>
+      <tr><td>1.4317188943400001</td><td>43.598018010700002</td><td>Toulouse_wifi                                                                                       </td></tr>
+      <tr><td>1.45568583892</td><td>43.610312055400001</td><td>_MairieToulousePublic                                                                               </td></tr>
+      <tr><td>1.44982679071</td><td>43.594470883200003</td><td>_FanZone Toulouse                                                                                   </td></tr>
+      <tr><td>1.4364095725799999</td><td>43.595417565399998</td><td>Toulouse_wifi                                                                                       </td></tr>
+      <tr><td>1.4463100819200001</td><td>43.601050606800001</td><td>_MairieToulousePublic                                                                               </td></tr>
+      <tr><td>1.4356649592499999</td><td>43.603399899300001</td><td>MairieToulousePublic                                                                                </td></tr>
+      <tr><td>1.4451243627200001</td><td>43.6045135249</td><td>Toulouse_wifi                                                                                       </td></tr>
+      <tr><td>1.44387119385</td><td>43.607726781899999</td><td>_MairieToulousePublic                                                                               </td></tr>
+      <tr><td>1.4457682140999999</td><td>43.603031765799997</td><td>Toulouse_wifi                                                                                       </td></tr>
+      <tr><td>1.4457673764800001</td><td>43.601879447999998</td><td>Toulouse_wifi                                                                                       </td></tr>
+      <tr><td>1.4492037252200001</td><td>43.594261732500001</td><td>_FanZone Toulouse                                                                                   </td></tr>
+      <tr><td>1.43986886737</td><td>43.603740613399999</td><td>_MairieToulousePublic                                                                               </td></tr>
+      <tr><td>1.4493019870999999</td><td>43.593856581099999</td><td>_MairieToulousePublic                                                                               </td></tr>
+      <tr><td>1.44570341908</td><td>43.607767659399997</td><td>Toulouse_wifi                                                                                       </td></tr>
+      <tr><td>1.44565208383</td><td>43.600511208699999</td><td>Toulouse_wifi                                                                                       </td></tr>
+      <tr><td>1.43568932256</td><td>43.5930913698</td><td>Toulouse_wifi                                                                                       </td></tr>
+      <tr><td>1.4419301555699999</td><td>43.578815120599998</td><td>_MairieToulousePublic                                                                               </td></tr>
+
+	</table>
+
+  </body>
+
+</html>

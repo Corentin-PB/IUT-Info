@@ -1,0 +1,456 @@
+entityid;code_politique_dominante;description_politique_dominante;code_secteur_intervention;description_secteur_intervention;code_sous_secteur;description_sous_secteur_interv;code_programme;description_programme;nature_affect_operation;vsectsubv;vmt_bp
+03022c3d-942c-49a0-8d64-69a342fc8a16;D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-02;Gestion de la voie publique;;;P041;Stationnement et circulation;Depense;Investissement;400000
+04811fe6-3305-4b16-8f03-20a4f573557d;J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P107;Gestion immobilière assujettie;Recette;Investissement;0
+04ede331-6592-4fac-be0a-4068573712d1;C-;DEVELOPPEMENT URBAIN DURABLE;C-02;Amenagement urbain;;;P140;Amenagement Brazza Nord;Depense;Investissement;0
+05660005-5d6a-43e5-a90d-b13b3f7f3b72;J-;PERFORMANCE DE LA COLLECTIVITE;J-05;Logistique et exploitation;;;P112;Logistique;Depense;Subventions;15000
+0583dae4-8cb5-42ac-9ea3-6897ae82ea70;J-;PERFORMANCE DE LA COLLECTIVITE;J-05;Logistique et exploitation;;;P144;Gestion des equipements DGST;Depense;Fonctionnement;163900
+05fd5e3d-626c-4c35-8a9e-e3f3021b630b;C-;DEVELOPPEMENT URBAIN DURABLE;C-04;Vie et depl. dans les esp.urb.;;;P034;Amenagement des espaces de circulation;Recette;Fonctionnement;40000
+06947ba6-894c-41fc-b3a2-d77d5d309427;A-;ATTRACTIVITE ET RAYONNEMENT;A-04;Tourisme;;;P007;Equipements fluviaux;Depense;Fonctionnement;14470
+07576955-929e-4784-8630-62f3cbe9f45b;F-;DEVELOPPEMENT SPORTIF;F-03;Sports educatif et loisirs;F-0302;Construction et gestion des equipements;P060;Gestion salles et stades;Recette;Investissement;0
+07c65cc6-08dd-4772-8ba3-d3e77ca43c2d;G-;Vie en societe;G-03;Jeunesse;;;P071;Engagement et participations des jeunes;Depense;Fonctionnement;23500
+085e26eb-34b9-4ec6-ab25-53fe8f1c6ebf;J-;PERFORMANCE DE LA COLLECTIVITE;J-01;Gestion dev. Ress. humaines;;;P096;Restauration du personnel assujettie;Depense;Investissement;0
+088f6e2f-a57a-4f95-bfe8-2eb663750f4a;I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-03;Pilotage strategique et eval.;;;P090;Evaluation et performance;Depense;Fonctionnement;10000
+093ed331-19d9-4860-bb6c-b862d8bbadef;J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P107;Gestion immobilière assujettie;Depense;Fonctionnement;0
+09b76006-8459-4e6a-af9e-216c9f01146e;A-;ATTRACTIVITE ET RAYONNEMENT;A-02;Patrimoine culturel;;;P003;Restauration des edifices patrimoniaux;Depense;Fonctionnement;30000
+0a6a2736-a062-4be6-bc8e-9df6de43babe;A-;ATTRACTIVITE ET RAYONNEMENT;A-04;Tourisme;;;P126;Cite des civilisations du vin;Depense;Fonctionnement;0
+0a742920-cbfb-4ab3-ae21-c02f5f1d99b5;C-;DEVELOPPEMENT URBAIN DURABLE;C-06;Paysages et patrimoine urbains;;;P037;Paysages urbains;Recette;Investissement;2287651
+0adefab7-3e38-4664-a853-b51b64964a0f;C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P026;Emploi;Recette;Fonctionnement;0
+0b717ba1-72e0-450a-8ae7-073027141cf4;G-;Vie en societe;G-04;Developpement social terr.;;;P072;Accompagnement des projets de quartier;Recette;Fonctionnement;138550
+0ca21977-de87-4108-9961-9170f9fd15d2;E-;PREVENTION DES RISQUES ET TRANQUILLITE;E-02;Prevention des risques;;;P048;Prevention Sante Environnement Securite;Depense;Investissement;38000
+0d65f0cd-8085-40c4-99ce-d561ae0ceb48;A-;ATTRACTIVITE ET RAYONNEMENT;A-04;Tourisme;;;P130;Equipements fluviaux (TVA);Depense;Fonctionnement;0
+0e2629ab-fa4f-4248-8364-55ef61bd7abb;C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P024;Commerce et artisanat;Depense;Investissement;0
+0e738a13-5300-4579-866a-09e30bd505ce;F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0101;Equipements structurants delegues;P050;DSP Golf Bordeaux Lac;Recette;Fonctionnement;0
+0efdf825-0134-4430-a807-45e703bd9b9e;H-;VIE DEMOCRATIQUE;H-03;Accueil et citoyennete;;;P084;Services à la population;Depense;Investissement;0
+116afec4-02dd-42db-805d-ee1d49c4f896;I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-04;Communication externe;;;P091;Communication externe;Depense;Fonctionnement;1300000
+13677db0-9321-4cec-ab71-bdcc8b218b72;C-;DEVELOPPEMENT URBAIN DURABLE;C-02;Amenagement urbain;;;P029;Amenagement;Recette;Fonctionnement;0
+141c2b54-b1f7-4749-9a63-b29c6e78f438;D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-03;Gestion maintien patrim. vert;;;P045;Proximite et animation;Recette;Investissement;0
+14e36574-4185-4e34-9a5d-928bc98d5a46;B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P014;Musee des Arts decoratifs;Depense;Fonctionnement;45000
+16b677c9-38be-43a1-b08f-c0c5cf06f756;C-;DEVELOPPEMENT URBAIN DURABLE;C-06;Paysages et patrimoine urbains;;;P038;Lycee horticole;Depense;Investissement;105000
+1730efe3-ebd9-4f38-8933-8d0f2698fd87;F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0102;Equipements structurants en regie;P054;Palais des sports;Depense;Fonctionnement;12000
+177d973e-a1e9-4910-971b-804fbc803b2a;A-;ATTRACTIVITE ET RAYONNEMENT;A-04;Tourisme;;;P130;Equipements fluviaux (TVA);Depense;Investissement;1198407
+184477dd-671a-4a6b-83fa-4b44063aa1e4;G-;Vie en societe;G-03;Jeunesse;;;P069;Accueil educatifs et de loisirs;Depense;Fonctionnement;79700
+18929254-5f6c-4fd4-b35c-933f3db34e76;B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P017;Developpement des musees;Recette;Investissement;0
+18e18c11-6c75-4d4a-badb-fb2d097891f8;G-;Vie en societe;G-04;Developpement social terr.;;;P127;Accompagnement de projets transversaux;Depense;Fonctionnement;160000
+1966e94f-b9e3-4013-b673-1805658e42ab;G-;Vie en societe;G-03;Jeunesse;;;P070;Accueil et hebergement;Depense;Investissement;115000
+196fee41-592c-47e7-b67b-3ce7c63ab9fb;H-;VIE DEMOCRATIQUE;H-02;Democratie locale et participation citoyenne;;;P083;Democratie locale et participation citoyenne;Depense;Investissement;163720
+19c4d355-6004-4e1d-8242-9ff2790a6434;G-;Vie en societe;G-02;Education;;;P141;Magasin mutualise;Depense;Fonctionnement;465000
+19ed7cdc-75d9-4cf8-a38f-ed63e0a8b6ec;G-;Vie en societe;G-01;Petite enfance;;;P063;Structures sous gestion externe;Depense;Subventions;7422944
+1ad57b64-193c-4536-8424-8e495ccfb66b;F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0102;Equipements structurants en regie;P125;Salle Jean Dauguet;Depense;Investissement;150000
+1af87a39-b3cb-4081-90fe-4a436f853ae2;F-;DEVELOPPEMENT SPORTIF;F-03;Sports educatif et loisirs;F-0301;Partenariats et animation;P056;Partenariats avec les clubs;Depense;Subventions;1395360
+1b32c8d2-1229-4ca0-83a0-566302053451;G-;Vie en societe;G-03;Jeunesse;;;P138;Rythmes scolaires;Recette;Fonctionnement;790000
+1bb024a6-ac71-4a0f-a62a-a9135f805ef4;B-;DEVELOPPEMENT CULTUREL;B-01;Enseignement artistique;;;P010;Conservatoire de Bordeaux;Depense;Subventions;7150
+1c37f95a-0e28-4a9f-8630-ff1566948cd4;F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0101;Equipements structurants delegues;P132;Stadium;Recette;Investissement;0
+1c3f103d-6b48-4582-9606-76fa22528594;I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-01;Delegation au dev. durable;;;P086;Maison eco-citoyenne;Depense;Investissement;0
+1cf29e8b-6785-4ea8-a1cc-c9eaa6284518;I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-01;Delegation au dev. durable;;;P086;Maison eco-citoyenne;Depense;Fonctionnement;53000
+1d4034b0-7312-464a-8034-888e80765d10;G-;Vie en societe;G-02;Education;;;P067;Vie scolaire;Recette;Fonctionnement;5849000
+1dda3e3b-b82c-463b-879c-8c621321f63c;B-;DEVELOPPEMENT CULTUREL;B-04;Dev. action artistiq et cult.;;;P022;Rayonnement culturel;Depense;Investissement;0
+1de140a7-9512-48ca-b8d3-5988030e8f55;J-;PERFORMANCE DE LA COLLECTIVITE;J-03;Securite jur. et Commande pub.;;;P103;Concurrence et commande publique;Depense;Investissement;0
+1e457c91-22ac-4fc2-a750-3d8baf7db0dd;G-;Vie en societe;G-02;Education;;;P065;Patrimoine et equipements de l'education;Depense;Investissement;9144066,64
+1f385308-cc1e-4cb9-ae20-b51edfff2c21;G-;Vie en societe;G-06;Cohesion sociale transversale;;;P073;Projet social;Depense;Fonctionnement;5400
+1f440252-e797-41b9-81d9-bc1ff164348b;J-;PERFORMANCE DE LA COLLECTIVITE;J-01;Gestion dev. Ress. humaines;;;P095;Prestations aux services et frais generaux;Depense;Fonctionnement;2125000
+1f63e170-078e-4028-bad3-1e1a0d164b97;H-;VIE DEMOCRATIQUE;H-01;Vie associative;;;P079;Structures d'animation et proximite;Depense;Investissement;58000
+2236bbd1-d50e-4905-8c30-fcc7f4067a75;G-;Vie en societe;G-06;Cohesion sociale transversale;;;P074;Promouvoir l'egalite;Depense;Fonctionnement;7495000
+23027013-348e-48fb-bb73-4c4b76e75dec;G-;Vie en societe;G-04;Developpement social terr.;;;P121;Sante;Depense;Fonctionnement;0
+231db1f4-8c15-48f2-8925-d22ac63884d8;D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-02;Gestion de la voie publique;;;P082;Territoire et proximite;Depense;Fonctionnement;119920
+24bf8183-3d9a-4e53-89df-b546a7adebd7;E-;PREVENTION DES RISQUES ET TRANQUILLITE;E-02;Prevention des risques;;;P047;Prevention, securite incendie et accessibilite dans les ERP;Depense;Investissement;0
+25cad8ea-1536-4e8c-8de1-3ae86d2000d9;C-;DEVELOPPEMENT URBAIN DURABLE;C-05;Eclairage;;;P035;Eclairage;Depense;Fonctionnement;4412507
+25dac460-a4a6-4bdd-ad2a-7da3f5b6a975;A-;ATTRACTIVITE ET RAYONNEMENT;A-02;Patrimoine culturel;;;P005;Animation du patrimoine;Recette;Investissement;0
+261d472d-e3ab-4839-a59f-108f3a54dbd6;G-;Vie en societe;G-03;Jeunesse;;;P071;Engagement et participations des jeunes;Recette;Fonctionnement;4500
+2624177d-701f-4f9e-9286-1bc0692a1982;C-;DEVELOPPEMENT URBAIN DURABLE;C-02;Amenagement urbain;;;P030;Droit des sols;Depense;Investissement;0
+2647cadb-66a4-4c94-b52d-23e17bff8f3b;G-;Vie en societe;G-06;Cohesion sociale transversale;;;P074;Promouvoir l'egalite;Depense;Subventions;43700
+268e8776-b0b3-4c52-a1a3-64901a70dc33;C-;DEVELOPPEMENT URBAIN DURABLE;C-05;Eclairage;;;P035;Eclairage;Recette;Investissement;0
+2746dca9-1311-40ae-9077-ae4e47acc49e;F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0101;Equipements structurants delegues;P051;Nouveau stade (TVA);Recette;Fonctionnement;25850000
+27e1e1ca-a1c2-4b68-a1dc-500c5f61967f;E-;PREVENTION DES RISQUES ET TRANQUILLITE;E-02;Prevention des risques;;;P047;Prevention, securite incendie et accessibilite dans les ERP;Depense;Fonctionnement;0
+282d273e-d0ca-4577-bab1-cf4be267d153;G-;Vie en societe;G-02;Education;;;P067;Vie scolaire;Depense;Fonctionnement;14622747
+28af025a-e303-493f-8505-4162fa734579;A-;ATTRACTIVITE ET RAYONNEMENT;A-02;Patrimoine culturel;;;P004;Mises en lumière;Depense;Investissement;0
+2a1b4040-65f7-4e04-a96e-a324f925cbf6;D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-03;Gestion maintien patrim. vert;;;P044;Preservation et gestion du patrimoine vert;Depense;Subventions;0
+2a6a69e5-2c94-4a86-9774-7cc97a8c7d0f;A-;ATTRACTIVITE ET RAYONNEMENT;A-04;Tourisme;;;P007;Equipements fluviaux;Recette;Fonctionnement;0
+2ae39685-bc24-4bb0-83c4-7feda0833e0c;B-;DEVELOPPEMENT CULTUREL;B-01;Enseignement artistique;;;P010;Conservatoire de Bordeaux;Depense;Fonctionnement;318680
+2af36dc7-04bb-4111-b236-16ea58e0af80;B-;DEVELOPPEMENT CULTUREL;B-04;Dev. action artistiq et cult.;;;P021;Actions de developpement artistique;Depense;Investissement;103000
+2bde5953-0eb1-4860-b9f5-d5fef944e1ca;E-;PREVENTION DES RISQUES ET TRANQUILLITE;E-01;Tranquillite publique;;;P046;Police municipale;Depense;Investissement;150000
+2be9dfe3-a7e8-4ebf-beb4-2739dad1a09e;B-;DEVELOPPEMENT CULTUREL;B-04;Dev. action artistiq et cult.;;;P022;Rayonnement culturel;Recette;Fonctionnement;12000
+2e58e5fd-eb28-4b10-9258-fe768b6afb09;J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P108;Construction publique, maintenance et energies;Depense;Fonctionnement;13631180
+2f6990a3-2701-4be4-8359-09fd9a37fd90;J-;PERFORMANCE DE LA COLLECTIVITE;J-02;Gestion financière;;;P099;Operations avec TVA;Depense;Fonctionnement;130300
+2f8e6e68-98a7-4ed9-a58f-d8cda4ac6bec;G-;Vie en societe;G-03;Jeunesse;;;P138;Rythmes scolaires;Depense;Investissement;0
+313600fd-9496-4f44-9118-337051835f96;G-;Vie en societe;G-02;Education;;;P068;Vie etudiante;Depense;Subventions;9100
+31510d90-f096-4bb8-b87b-627b08646e81;J-;PERFORMANCE DE LA COLLECTIVITE;J-01;Gestion dev. Ress. humaines;;;P093;Medecine et prevention;Depense;Fonctionnement;50000
+31624589-c18a-4380-9ae9-06d21c40ee2d;G-;Vie en societe;G-03;Jeunesse;;;P138;Rythmes scolaires;Depense;Fonctionnement;26000
+317452cc-635d-4764-b8ba-6543bf7bcafe;C-;DEVELOPPEMENT URBAIN DURABLE;C-03;Habitat;;;P032;Renovation urbaine;Recette;Fonctionnement;0
+31823763-b7ac-48bc-b7c3-56533ec10625;C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P024;Commerce et artisanat;Depense;Subventions;241625
+31b0fdfd-87e8-48b0-9e75-f28496fd01c8;B-;DEVELOPPEMENT CULTUREL;B-03;Lecture publique et archives;;;P019;Archives municipales;Depense;Fonctionnement;111950
+31db5211-8339-448b-8d22-4b280d00d559;C-;DEVELOPPEMENT URBAIN DURABLE;C-06;Paysages et patrimoine urbains;;;P037;Paysages urbains;Depense;Investissement;10246846,75
+3301b454-443b-417c-86f9-e8f330bd5c0f;J-;PERFORMANCE DE LA COLLECTIVITE;J-02;Gestion financière;;;P101;Gestion budgetaire;Depense;Fonctionnement;4505537,59
+337de728-c945-4bb5-99f2-5d8ddb766074;C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P026;Emploi;Depense;Subventions;479092
+33fc533f-32c0-4db9-b0a1-dea8d3d56d15;C-;DEVELOPPEMENT URBAIN DURABLE;C-04;Vie et depl. dans les esp.urb.;;;P034;Amenagement des espaces de circulation;Depense;Investissement;2644491
+343d6395-2b2e-43e7-bc87-11ba06d8c287;I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-05;E administration;;;P128;Territoire innovant - mobile;Depense;Subventions;20000
+34aac73d-e715-4d2f-be2d-fd6c0872fe8e;J-;PERFORMANCE DE LA COLLECTIVITE;J-01;Gestion dev. Ress. humaines;;;P095;Prestations aux services et frais generaux;Depense;Subventions;483680
+35a481a0-c8f7-47c3-a7f5-6df5615b61f6;C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P025;Croissance et Filières;Depense;Fonctionnement;72960
+36c1bed4-b316-4a3f-86aa-80f7a4eb81cd;B-;DEVELOPPEMENT CULTUREL;B-01;Enseignement artistique;;;P011;Ecole superieure d'Art de Bordeaux;Recette;Investissement;0
+370f0e6a-90c7-4a43-89cc-3f8ad1089c9b;F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0101;Equipements structurants delegues;P050;DSP Golf Bordeaux Lac;Recette;Investissement;0
+37aca6ff-7d82-4dd1-9ea3-af0ea4ee1cbd;C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P026;Emploi;Depense;Investissement;0
+37c15dd1-086a-4667-87d5-26057975dd5a;J-;PERFORMANCE DE LA COLLECTIVITE;J-01;Gestion dev. Ress. humaines;;;P096;Restauration du personnel assujettie;Recette;Fonctionnement;1087000
+383008e4-6cc9-45bc-abf8-cfd875d10ab9;B-;DEVELOPPEMENT CULTUREL;B-01;Enseignement artistique;;;P011;Ecole superieure d'Art de Bordeaux;Recette;Fonctionnement;40000
+38b175c2-1407-4816-97e4-d52174d2473a;A-;ATTRACTIVITE ET RAYONNEMENT;A-02;Patrimoine culturel;;;P005;Animation du patrimoine;Depense;Fonctionnement;110800
+38f2fbda-2ec4-4584-bb11-33dda8f93114;J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P104;Travaux et gestion du patrimoine administratif;Recette;Fonctionnement;1276000
+39480736-7619-429c-9b5b-d80df1d2b1f2;A-;ATTRACTIVITE ET RAYONNEMENT;A-04;Tourisme;;;P008;Tourisme urbain;Depense;Subventions;2070000
+39b48487-aab3-49e5-8752-75e1addc78b0;B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P015;Musee des Beaux-Arts;Recette;Investissement;0
+3abdf515-f97e-469e-98d1-860ef3b8870e;C-;DEVELOPPEMENT URBAIN DURABLE;C-02;Amenagement urbain;;;P029;Amenagement;Depense;Investissement;2192000
+3c1eb530-b310-4e04-9190-7c918d04b390;B-;DEVELOPPEMENT CULTUREL;B-04;Dev. action artistiq et cult.;;;P020;Opera;Depense;Investissement;80000
+3ceb3767-f6e8-4ce5-a9ec-e71e88570f94;G-;Vie en societe;G-02;Education;;;P065;Patrimoine et equipements de l'education;Recette;Fonctionnement;0
+3d08cbf3-9839-493e-9f40-fbf05d41f688;D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-01;Proprete urbaine;;;P040;Enlèvement des dechets;Depense;Fonctionnement;1250000
+3e1d3b86-506b-4702-a5a0-6439ea9a4975;D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-01;Proprete urbaine;;;P123;Sanitaires ;Depense;Investissement;15500
+3e2219cb-24bf-4e55-9cfd-a294363de094;A-;ATTRACTIVITE ET RAYONNEMENT;A-01;Rayonnement architectural et urbain;;;P001;Rayonnement architectural et urbain;Depense;Fonctionnement;225320
+3e6940eb-7d11-480d-bc35-db8b85508647;I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-05;E administration;;;P117;Performance technique du SI;Depense;Investissement;1195000
+3ef686d2-7b0b-4a51-b6fc-e29e61fc6141;F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0101;Equipements structurants delegues;P135;Affermage Equip. Sport Loisirs;Depense;Fonctionnement;1007976
+3f075f6c-8f17-42b6-8262-029fcf57350a;B-;DEVELOPPEMENT CULTUREL;B-04;Dev. action artistiq et cult.;;;P021;Actions de developpement artistique;Recette;Fonctionnement;10000
+3f9120fd-3439-4cf7-a538-95025f74e110;C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P025;Croissance et Filières;Depense;Subventions;260575
+3fcbc566-ec17-4e05-84d2-e5b9edc54421;G-;Vie en societe;G-06;Cohesion sociale transversale;;;P073;Projet social;Depense;Subventions;13500
+3ff6db85-2161-4d25-995b-c1cd2e514dd0;C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P028;Innovation - Enseignement superieur;Depense;Investissement;0
+416e95a5-3cf4-4079-882f-614eb2719b8d;G-;Vie en societe;G-03;Jeunesse;;;P069;Accueil educatifs et de loisirs;Recette;Fonctionnement;3480000
+41bfacb5-6bab-490f-8395-377a45d6b557;J-;PERFORMANCE DE LA COLLECTIVITE;J-02;Gestion financière;;;P100;Dette, Investissement et operations comptables;Recette;Investissement;68845000
+41c90b62-701a-44d4-9308-5c9c95ac856a;J-;PERFORMANCE DE LA COLLECTIVITE;J-05;Logistique et exploitation;;;P112;Logistique;Depense;Fonctionnement;992200
+4200b807-e716-44b5-a6d3-32272beeeda3;F-;DEVELOPPEMENT SPORTIF;F-03;Sports educatif et loisirs;F-0302;Construction et gestion des equipements;P061;Rehabilitation et construction d'equipements sportifs;Depense;Fonctionnement;0
+42199494-d1a9-4a16-9f8c-8d65dd5a546c;C-;DEVELOPPEMENT URBAIN DURABLE;C-03;Habitat;;;P031;Logement;Depense;Fonctionnement;5700
+42274424-69f3-404f-8eb7-9d14b0b3005e;G-;Vie en societe;G-05;Seniors;G-0502;Vie à domicile;P075;Activites des seniors;Depense;Fonctionnement;318621
+427fff3e-6aab-4548-a055-8a979638328b;I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-04;Communication externe;;;P091;Communication externe;Recette;Fonctionnement;0
+444ff54f-f6e5-4731-83d9-cb03269d36c7;C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P025;Croissance et Filières;Recette;Investissement;0
+44af7518-e4d5-463c-ab21-612d10cb286d;B-;DEVELOPPEMENT CULTUREL;B-04;Dev. action artistiq et cult.;;;P020;Opera;Recette;Investissement;0
+44ecd7e6-2c90-4b7a-a604-8ac1c6abe30d;G-;Vie en societe;G-05;Seniors;G-0502;Vie à domicile;P076;Portage et restauration des seniors;Depense;Fonctionnement;1900000
+451d08f9-df85-4c1d-8339-640b8cc659da;J-;PERFORMANCE DE LA COLLECTIVITE;J-01;Gestion dev. Ress. humaines;;;P095;Prestations aux services et frais generaux;Depense;Investissement;0
+462b03f2-14db-4460-a32a-00cd19f99529;F-;DEVELOPPEMENT SPORTIF;F-03;Sports educatif et loisirs;F-0302;Construction et gestion des equipements;P058;Gestion des equipements par les clubs;Depense;Fonctionnement;165000
+466f5af2-0707-4a51-91c6-8411afd4a1cd;B-;DEVELOPPEMENT CULTUREL;B-04;Dev. action artistiq et cult.;;;P021;Actions de developpement artistique;Depense;Fonctionnement;69700
+46c61afc-7cdf-4699-b43d-e963335c0ffd;J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P106;Cessions immobilières;Recette;Fonctionnement;0
+47130037-39ed-4888-9d32-48e0bb85f23c;C-;DEVELOPPEMENT URBAIN DURABLE;C-03;Habitat;;;P032;Renovation urbaine;Recette;Investissement;89664
+472cf538-7db9-49de-ad06-205855da11d4;J-;PERFORMANCE DE LA COLLECTIVITE;J-02;Gestion financière;;;P100;Dette, Investissement et operations comptables;Depense;Fonctionnement;9920000
+47c683f9-ef6b-4251-9ce1-d0c10101af96;F-;DEVELOPPEMENT SPORTIF;F-03;Sports educatif et loisirs;F-0302;Construction et gestion des equipements;P133;Bowling et tennis de Meriadeck;Depense;Investissement;25000
+483b33ad-8ed2-4523-8289-b4d786333131;B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P013;Musee d'Aquitaine (Goupil et Jean Moulin);Depense;Fonctionnement;267200
+48811a5f-5552-4bcc-a033-706faf95f891;B-;DEVELOPPEMENT CULTUREL;B-03;Lecture publique et archives;;;P018;Lecture publique;Depense;Fonctionnement;1029290
+48ee6f84-de63-492c-a3d3-0f7533276fba;G-;Vie en societe;G-05;Seniors;G-0502;Vie à domicile;P076;Portage et restauration des seniors;Recette;Fonctionnement;1450000
+4914d778-d8ca-49cf-9de6-24e520cdbc52;G-;Vie en societe;G-02;Education;;;P066;Actions educatives;Recette;Fonctionnement;53600
+49b9d979-fb96-4cfa-bf7f-dd5746490596;D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-03;Gestion maintien patrim. vert;;;P045;Proximite et animation;Depense;Fonctionnement;100000
+4a08b86d-e198-4fb7-8e1e-e41bf47619af;C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P143;Entrepreneuriat (TVA);Depense;Fonctionnement;41000
+4a2bea46-53b4-4a01-90db-38e575f4399b;F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0102;Equipements structurants en regie;P052;Stade Chaban-Delmas;Recette;Investissement;0
+4b35ba96-83f5-4f00-9e4f-b8b730368925;B-;DEVELOPPEMENT CULTUREL;B-01;Enseignement artistique;;;P010;Conservatoire de Bordeaux;Recette;Investissement;0
+4b4615a6-798a-4232-9ff9-eb863ac59bf1;G-;Vie en societe;G-01;Petite enfance;;;P063;Structures sous gestion externe;Depense;Investissement;0
+4b78d978-0af8-4e26-9d93-f123c15eab1e;C-;DEVELOPPEMENT URBAIN DURABLE;C-04;Vie et depl. dans les esp.urb.;;;P033;Deplacements doux;Recette;Investissement;0
+4c44c098-af06-452c-a006-a37239758a46;G-;Vie en societe;G-01;Petite enfance;;;P064;Patrimoine et equipements de la petite enfance;Depense;Fonctionnement;98000
+4c653421-5218-4df9-be03-5089dbf1bfdd;D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-01;Proprete urbaine;;;P039;Nettoyage des rues;Recette;Fonctionnement;0
+4cb3cb99-69ed-4c29-bd79-a2c792344450;H-;VIE DEMOCRATIQUE;H-01;Vie associative;;;P078;Developpement de la vie associative;Depense;Subventions;644300
+4d5d6fdc-76b8-4677-99e2-5d9f8682f09e;H-;VIE DEMOCRATIQUE;H-01;Vie associative;;;P079;Structures d'animation et proximite;Depense;Subventions;5339801
+4fcb0133-e706-4ed3-8557-1d44e4655d3c;I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-04;Communication externe;;;P091;Communication externe;Depense;Subventions;0
+5068ebc3-8fd3-4939-bc24-414d2223c1ac;I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-05;E administration;;;P118;Securite du SI;Depense;Fonctionnement;160000
+5085ef7c-d7d0-4a2b-a13e-2dcebbe2d50a;J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P106;Cessions immobilières;Depense;Fonctionnement;0
+51ecba66-b942-47f4-a5ee-b2d0b86fdfad;I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-03;Pilotage strategique et eval.;;;P090;Evaluation et performance;Depense;Subventions;0
+51f10682-8797-4cf0-b2ff-cd990d99c050;C-;DEVELOPPEMENT URBAIN DURABLE;C-06;Paysages et patrimoine urbains;;;P036;Patrimoine naturel;Recette;Investissement;0
+52deadbd-85ad-4739-9d9e-d42576acee1b;F-;DEVELOPPEMENT SPORTIF;F-03;Sports educatif et loisirs;F-0302;Construction et gestion des equipements;P060;Gestion salles et stades;Recette;Fonctionnement;15000
+53f80eb7-9ccb-4bd2-94c2-79bd51ad0423;C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P027;Entrepreneuriat;Depense;Fonctionnement;331529
+547ff279-0fcf-4fa8-837a-552c44258e09;J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P107;Gestion immobilière assujettie;Depense;Investissement;0
+55195ec6-7fdb-4f1e-a143-2be96b7aea8c;B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P017;Developpement des musees;Recette;Fonctionnement;0
+5556497d-80ec-4eff-b63e-0c5e250d1dd5;A-;ATTRACTIVITE ET RAYONNEMENT;A-02;Patrimoine culturel;;;P005;Animation du patrimoine;Depense;Investissement;0
+5732d5d4-9df1-4daf-8c8c-0ec86ad6a4f2;G-;Vie en societe;G-04;Developpement social terr.;;;P122;Prevention de la delinquance;Depense;Fonctionnement;0
+57cf8593-df55-4889-a15e-9a6bb8195347;J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P104;Travaux et gestion du patrimoine administratif;Depense;Investissement;1295000
+57f0e57e-4ee2-454a-a660-a6f36ec59c88;B-;DEVELOPPEMENT CULTUREL;B-03;Lecture publique et archives;;;P018;Lecture publique;Recette;Investissement;79000
+5835940d-569d-4749-bac3-d41c423f61e2;C-;DEVELOPPEMENT URBAIN DURABLE;C-03;Habitat;;;P031;Logement;Recette;Investissement;0
+59e143af-f21e-4445-9ee0-7616454653ad;C-;DEVELOPPEMENT URBAIN DURABLE;C-03;Habitat;;;P031;Logement;Depense;Investissement;2810000
+5b52b0ed-605c-4aca-9c7f-65ba3615a457;A-;ATTRACTIVITE ET RAYONNEMENT;A-04;Tourisme;;;P007;Equipements fluviaux;Depense;Investissement;0
+5b7defde-257f-4023-b4d9-f9fb09fbd595;C-;DEVELOPPEMENT URBAIN DURABLE;C-06;Paysages et patrimoine urbains;;;P038;Lycee horticole;Recette;Investissement;43427
+5b8bac1e-2b90-48e2-b0e6-d05a16339134;B-;DEVELOPPEMENT CULTUREL;B-04;Dev. action artistiq et cult.;;;P134;Auditorium (TVA);Depense;Investissement;0
+5c95506b-4b65-4249-a50b-571e0da16c35;D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-03;Gestion maintien patrim. vert;;;P136;Gestion patrimoine vert assujettie (TVA);Recette;Fonctionnement;167000
+5cd965f7-3654-40eb-a0db-b5235f0a7e75;I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-05;E administration;;;P117;Performance technique du SI;Depense;Fonctionnement;1700000
+5d07f169-5469-48cb-80ba-235321b0747f;D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-02;Gestion de la voie publique;;;P043;Occupation du domaine (operations assujetties);Recette;Fonctionnement;1309000
+5d0868c0-f9e7-4299-b0e0-6b3be28b794a;F-;DEVELOPPEMENT SPORTIF;F-03;Sports educatif et loisirs;F-0301;Partenariats et animation;P057;Politique d'animation;Depense;Investissement;0
+5d8106df-916b-4ad1-b4a1-9e835646eaca;H-;VIE DEMOCRATIQUE;H-01;Vie associative;;;P080;Rehabilitation et construction des equipements associatifs;Recette;Fonctionnement;0
+5dcc533a-764a-40c0-8db2-5c6c559ea823;J-;PERFORMANCE DE LA COLLECTIVITE;J-01;Gestion dev. Ress. humaines;;;P098;Masse salariale;Depense;Fonctionnement;185620000
+5e1f2155-94c9-40b2-8589-832577bdeaf9;A-;ATTRACTIVITE ET RAYONNEMENT;A-01;Rayonnement architectural et urbain;;;P001;Rayonnement architectural et urbain;Recette;Investissement;0
+5f41260b-4686-4434-a2eb-6e7aa1049ac7;G-;Vie en societe;G-03;Jeunesse;;;P070;Accueil et hebergement;Depense;Fonctionnement;178160
+5f50d335-bada-49d3-947e-4874da907f1b;D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-03;Gestion maintien patrim. vert;;;P044;Preservation et gestion du patrimoine vert;Depense;Fonctionnement;1160056
+5f7778ae-1cb6-4309-b967-b448a3b74ef3;I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-05;E administration;;;P115;Amenagement numerique du territoire;Depense;Investissement;105000
+5f9f379f-ae3b-4987-a6e1-f69d273f79d6;G-;Vie en societe;G-03;Jeunesse;;;P069;Accueil educatifs et de loisirs;Depense;Investissement;70000
+5fe97d51-7ac7-4a4a-a16a-14fcab68c5f4;E-;PREVENTION DES RISQUES ET TRANQUILLITE;E-01;Tranquillite publique;;;P046;Police municipale;Recette;Fonctionnement;10000
+6049312a-440a-4481-af42-92c58b95d6e0;H-;VIE DEMOCRATIQUE;H-03;Accueil et citoyennete;;;P084;Services à la population;Recette;Investissement;0
+60e0c609-3a2f-40aa-991c-91b346319f39;D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-02;Gestion de la voie publique;;;P042;Occupation du domaine;Depense;Investissement;217000
+61aaa818-51ec-419e-a8d0-30b223466b34;G-;Vie en societe;G-04;Developpement social terr.;;;P121;Sante;Depense;Subventions;0
+624950b5-1b4b-4853-ab62-f2c50c014096;F-;DEVELOPPEMENT SPORTIF;F-03;Sports educatif et loisirs;F-0301;Partenariats et animation;P057;Politique d'animation;Depense;Fonctionnement;300000
+6278a18b-5288-4451-b833-369ea3f2aa65;C-;DEVELOPPEMENT URBAIN DURABLE;C-03;Habitat;;;P032;Renovation urbaine;Depense;Investissement;1140000
+627b37a1-3895-4d14-b79e-9dcb7da90567;E-;PREVENTION DES RISQUES ET TRANQUILLITE;E-01;Tranquillite publique;;;P046;Police municipale;Recette;Investissement;0
+6300cb36-bc51-43e3-9c80-2792092ecff4;H-;VIE DEMOCRATIQUE;H-03;Accueil et citoyennete;;;P085;Cimetières;Depense;Fonctionnement;130000
+644d4560-0d4b-479b-bb3c-beef1974e9cd;D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-03;Gestion maintien patrim. vert;;;P044;Preservation et gestion du patrimoine vert;Recette;Investissement;0
+644f87c1-5951-4c41-9f9c-2188b9452162;F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0101;Equipements structurants delegues;P131;Patinoire;Recette;Investissement;0
+64669801-a971-4141-96c0-9d5529470244;B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P014;Musee des Arts decoratifs;Recette;Fonctionnement;83000
+653c832c-2a44-4964-b427-dfe1bb1b437b;C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P027;Entrepreneuriat;Recette;Investissement;0
+65703b3c-65ad-4606-8b1b-8c3409e0e0aa;C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P028;Innovation - Enseignement superieur;Depense;Fonctionnement;0
+65e7279f-004e-4467-ae78-aeed7aeb649d;J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P104;Travaux et gestion du patrimoine administratif;Recette;Investissement;0
+66b79788-c9af-484d-bcda-4d59188cded6;G-;Vie en societe;G-04;Developpement social terr.;;;P127;Accompagnement de projets transversaux;Depense;Investissement;0
+66f9e96f-b967-4bbb-b2a4-47a5320da715;B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P013;Musee d'Aquitaine (Goupil et Jean Moulin);Recette;Fonctionnement;165000
+676d3ad5-1afd-4c68-acc5-2bf7ed036e54;B-;DEVELOPPEMENT CULTUREL;B-04;Dev. action artistiq et cult.;;;P134;Auditorium (TVA);Depense;Fonctionnement;0
+679f1a5e-ccbb-41c8-a04c-434479c5d62c;G-;Vie en societe;G-04;Developpement social terr.;;;P145;Innovation sociale;Depense;Subventions;306450
+67c6239e-acd7-4225-a010-66ad2d25ea13;G-;Vie en societe;G-04;Developpement social terr.;;;P072;Accompagnement des projets de quartier;Depense;Subventions;585042
+692c541e-9fc7-4fd8-b1f1-bab371054a8c;J-;PERFORMANCE DE LA COLLECTIVITE;J-02;Gestion financière;;;P100;Dette, Investissement et operations comptables;Recette;Fonctionnement;0
+697c67d6-b66d-4f1f-8924-47ecd34dab35;F-;DEVELOPPEMENT SPORTIF;F-03;Sports educatif et loisirs;F-0301;Partenariats et animation;P057;Politique d'animation;Recette;Fonctionnement;130000
+6981656b-1178-46e3-b972-770bd62ad4a4;J-;PERFORMANCE DE LA COLLECTIVITE;J-01;Gestion dev. Ress. humaines;;;P098;Masse salariale;Recette;Fonctionnement;1210000
+69dec11e-d06a-441c-aeb5-10bbf54faa4b;J-;PERFORMANCE DE LA COLLECTIVITE;J-01;Gestion dev. Ress. humaines;;;P093;Medecine et prevention;Depense;Investissement;0
+6a08b2cc-b3b8-4fb3-9a1c-d1f2fd38b52a;J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P109;Ateliers du bâtiment;Depense;Fonctionnement;846110
+6a0c671c-a827-4a2f-9234-4f8f09d8b701;H-;VIE DEMOCRATIQUE;H-01;Vie associative;;;P081;Aires d'accueil des gens du voyage;Depense;Fonctionnement;128424
+6a53556d-cccc-4855-97ea-55fe265c75b6;F-;DEVELOPPEMENT SPORTIF;F-03;Sports educatif et loisirs;F-0301;Partenariats et animation;P057;Politique d'animation;Depense;Subventions;143330
+6b3fc198-62d4-42d1-8c3f-f4dae67f5f9b;J-;PERFORMANCE DE LA COLLECTIVITE;J-05;Logistique et exploitation;;;P144;Gestion des equipements DGST;Depense;Investissement;180000
+6cb1d581-2b3e-4257-9ca2-33bb0b104436;A-;ATTRACTIVITE ET RAYONNEMENT;A-04;Tourisme;;;P130;Equipements fluviaux (TVA);Recette;Investissement;606195
+6e0306f9-38d4-4501-84b6-e75fd716b338;G-;Vie en societe;G-02;Education;;;P066;Actions educatives;Depense;Fonctionnement;1648453
+700fda81-ceae-437f-b425-d05753684ace;B-;DEVELOPPEMENT CULTUREL;B-04;Dev. action artistiq et cult.;;;P021;Actions de developpement artistique;Recette;Investissement;0
+701ad41c-3b32-4865-862a-cab4e4e55973;J-;PERFORMANCE DE LA COLLECTIVITE;J-03;Securite jur. et Commande pub.;;;P102;Securite Juridique;Depense;Fonctionnement;1700000
+707783d6-7831-4a66-9b6d-9dd247ab52ca;G-;Vie en societe;G-02;Education;;;P065;Patrimoine et equipements de l'education;Recette;Investissement;2179506,56
+70b9e6eb-5965-4268-ada6-449b17c80fd6;J-;PERFORMANCE DE LA COLLECTIVITE;J-01;Gestion dev. Ress. humaines;;;P095;Prestations aux services et frais generaux;Recette;Fonctionnement;130000
+719d4135-ea0e-4f9c-bc8b-d07d7bb0cf2a;B-;DEVELOPPEMENT CULTUREL;B-01;Enseignement artistique;;;P010;Conservatoire de Bordeaux;Recette;Fonctionnement;593900
+7203dde6-2103-4e8c-b1fc-3c486b9d5612;C-;DEVELOPPEMENT URBAIN DURABLE;C-06;Paysages et patrimoine urbains;;;P036;Patrimoine naturel;Depense;Investissement;70000
+72975f2c-696c-4cdf-8939-f382b756017f;B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P015;Musee des Beaux-Arts;Recette;Fonctionnement;140000
+72aa06f9-161f-4b55-aa90-f12cbe6529b3;C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P027;Entrepreneuriat;Depense;Investissement;0
+73b6b179-a7f6-4b7d-9d64-c7b8ab35fdb3;G-;Vie en societe;G-06;Cohesion sociale transversale;;;P073;Projet social;Recette;Fonctionnement;168000
+73c7291e-7548-4d97-9eb6-76ec3d9b5847;G-;Vie en societe;G-04;Developpement social terr.;;;P127;Accompagnement de projets transversaux;Depense;Subventions;1958619,61
+7445af9b-c9b4-406b-9595-e5e918bc2ce4;B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P016;Museum d'histoire naturelle;Recette;Fonctionnement;0
+75c0a1b7-c032-4703-ad9c-e5c3d06fc104;B-;DEVELOPPEMENT CULTUREL;B-03;Lecture publique et archives;;;P019;Archives municipales;Recette;Investissement;0
+7681b73b-2d80-4391-b5ac-c16ef56f420a;A-;ATTRACTIVITE ET RAYONNEMENT;A-02;Patrimoine culturel;;;P004;Mises en lumière;Depense;Fonctionnement;120000
+774c1f10-7bf7-470c-8c50-d0dbdcc572d7;H-;VIE DEMOCRATIQUE;H-01;Vie associative;;;P080;Rehabilitation et construction des equipements associatifs;Recette;Investissement;125000
+7909c8e3-7948-4b01-9e7c-6362384c91b6;C-;DEVELOPPEMENT URBAIN DURABLE;C-06;Paysages et patrimoine urbains;;;P037;Paysages urbains;Depense;Fonctionnement;25000
+79220a03-d485-409e-bd99-52d8e909b786;J-;PERFORMANCE DE LA COLLECTIVITE;J-05;Logistique et exploitation;;;P111;Editique et telephonie;Depense;Investissement;76000
+79557a67-0aa1-4ea5-899c-32ba2a308ecb;A-;ATTRACTIVITE ET RAYONNEMENT;A-02;Patrimoine culturel;;;P003;Restauration des edifices patrimoniaux;Recette;Investissement;0
+795e7648-1c1b-409f-94d5-df15923a6ecb;A-;ATTRACTIVITE ET RAYONNEMENT;A-04;Tourisme;;;P008;Tourisme urbain;Depense;Investissement;0
+79e525f2-ef32-4263-8ee1-5535dee8e87a;C-;DEVELOPPEMENT URBAIN DURABLE;C-02;Amenagement urbain;;;P029;Amenagement;Recette;Investissement;145000
+79f728b9-a9c0-4a0d-91c3-f89b39543b1d;C-;DEVELOPPEMENT URBAIN DURABLE;C-06;Paysages et patrimoine urbains;;;P038;Lycee horticole;Recette;Fonctionnement;721084
+79ff4fb6-bd3a-4309-b223-135aef95d1b8;A-;ATTRACTIVITE ET RAYONNEMENT;A-02;Patrimoine culturel;;;P003;Restauration des edifices patrimoniaux;Depense;Investissement;280000
+7aaed06e-9ccf-4f36-ab9f-fd7325d1eedf;A-;ATTRACTIVITE ET RAYONNEMENT;A-03;Relations internationales;;;P006;Relations internationales;Depense;Subventions;136260
+7cd73126-dcaa-44ee-b860-19f1c6f329a6;F-;DEVELOPPEMENT SPORTIF;F-03;Sports educatif et loisirs;F-0302;Construction et gestion des equipements;P058;Gestion des equipements par les clubs;Depense;Investissement;0
+7d5a97b1-993a-4495-920f-8f6fb09051d6;C-;DEVELOPPEMENT URBAIN DURABLE;C-06;Paysages et patrimoine urbains;;;P038;Lycee horticole;Depense;Subventions;0
+7eb1514a-3a09-4c09-aa7e-34eb9184aa32;D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-03;Gestion maintien patrim. vert;;;P044;Preservation et gestion du patrimoine vert;Depense;Investissement;1096400
+7eeea2dd-5fdc-41a1-a8d9-0b7821f0165f;G-;Vie en societe;G-02;Education;;;P066;Actions educatives;Depense;Investissement;424000
+7fc26bde-e24b-47b1-8e21-2a17b709fc5b;F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0101;Equipements structurants delegues;P132;Stadium;Depense;Investissement;0
+80eba329-4326-46c9-8517-6400f91d4ae5;E-;PREVENTION DES RISQUES ET TRANQUILLITE;E-02;Prevention des risques;;;P048;Prevention Sante Environnement Securite;Recette;Fonctionnement;2154330
+8138e0be-169f-4264-8511-fa97c322bcd8;C-;DEVELOPPEMENT URBAIN DURABLE;C-04;Vie et depl. dans les esp.urb.;;;P033;Deplacements doux;Recette;Fonctionnement;75000
+8354dd63-cc78-4443-8c5a-7d6fe8b77f0a;J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P129;Transactions assujetties à la TVA immobilières;Recette;Investissement;2700000
+83983288-d986-4d40-92b2-20b093d89fde;G-;Vie en societe;G-01;Petite enfance;;;P063;Structures sous gestion externe;Recette;Fonctionnement;3200
+84dceb7b-d216-40bb-96c9-683e25d4c279;F-;DEVELOPPEMENT SPORTIF;F-02;Sports de haut niveau et perf.;;;P055;Soutien aux structures haut niveau;Depense;Subventions;1993500
+84f9cce9-2f07-499c-b8e9-dddd154ac2b6;C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P028;Innovation - Enseignement superieur;Recette;Investissement;0
+851ee14c-502e-463a-9410-8140e9390c85;A-;ATTRACTIVITE ET RAYONNEMENT;A-02;Patrimoine culturel;;;P002;Restauration des monuments historiques;Recette;Investissement;192307
+853c7b48-df90-4d39-800d-17c05617c915;G-;Vie en societe;G-01;Petite enfance;;;P063;Structures sous gestion externe;Depense;Fonctionnement;1310308
+8594bbcb-76a4-429f-83d5-7d81b9811bd1;C-;DEVELOPPEMENT URBAIN DURABLE;C-02;Amenagement urbain;;;P030;Droit des sols;Recette;Investissement;0
+863bbe34-4de4-4378-b8ea-4c9802a8e019;C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P143;Entrepreneuriat (TVA);Recette;Fonctionnement;131000
+8852a35d-3730-4065-9bb8-b49d5a5324de;B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P137;Boutiques des musees (TVA);Depense;Fonctionnement;0
+88eeafc1-21b5-4c0d-8ba8-b066a71c4056;F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0102;Equipements structurants en regie;P052;Stade Chaban-Delmas;Depense;Fonctionnement;235000
+894f8242-08ab-40df-a0af-773efccd6278;C-;DEVELOPPEMENT URBAIN DURABLE;C-05;Eclairage;;;P035;Eclairage;Depense;Investissement;2605000
+899c8229-17e8-43b3-99e5-92fcd62d10ab;F-;DEVELOPPEMENT SPORTIF;F-03;Sports educatif et loisirs;F-0302;Construction et gestion des equipements;P061;Rehabilitation et construction d'equipements sportifs;Depense;Investissement;220000
+89b108f9-08ae-43d6-acae-245b226ceb4e;G-;Vie en societe;G-02;Education;;;P068;Vie etudiante;Depense;Fonctionnement;4150
+89e9d17c-9364-474d-96f4-9c583615bd2c;J-;PERFORMANCE DE LA COLLECTIVITE;J-03;Securite jur. et Commande pub.;;;P103;Concurrence et commande publique;Depense;Fonctionnement;180000
+8b0affac-ce8e-4d74-a26d-9d67a399f7ee;C-;DEVELOPPEMENT URBAIN DURABLE;C-02;Amenagement urbain;;;P029;Amenagement;Depense;Fonctionnement;151000
+8b6916a0-59fc-4873-9b95-ad8d489ce387;F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0102;Equipements structurants en regie;P054;Palais des sports;Depense;Investissement;1860479
+8bc91ab8-14d8-4bc1-9911-ea0e7e3439a9;J-;PERFORMANCE DE LA COLLECTIVITE;J-01;Gestion dev. Ress. humaines;;;P095;Prestations aux services et frais generaux;Recette;Investissement;0
+8cf9a7c3-0d46-438b-915c-516daf4bd524;B-;DEVELOPPEMENT CULTUREL;B-04;Dev. action artistiq et cult.;;;P023;Securite dans les bâtiments culturels;Depense;Investissement;700000
+8eb5d74f-7434-4c8e-b511-347cc833977f;H-;VIE DEMOCRATIQUE;H-03;Accueil et citoyennete;;;P085;Cimetières;Recette;Fonctionnement;290000
+906e343f-cac4-40a7-8736-c7a7b50e1013;A-;ATTRACTIVITE ET RAYONNEMENT;A-01;Rayonnement architectural et urbain;;;P001;Rayonnement architectural et urbain;Depense;Investissement;36000
+9083e682-cb08-445f-89b0-f36e36d52d18;G-;Vie en societe;G-01;Petite enfance;;;P062;Structures sous gestion municipale;Recette;Fonctionnement;16331600
+912c5994-a309-401d-b01d-945e1dbc9ab2;G-;Vie en societe;G-03;Jeunesse;;;P138;Rythmes scolaires;Depense;Subventions;2289038
+929f26d1-8519-4fcb-9636-257e7d65e060;F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0102;Equipements structurants en regie;P053;Piscine Judaïque;Recette;Fonctionnement;556200
+92ecb498-13f3-46fa-9535-bf4e23ab1dfe;J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P109;Ateliers du bâtiment;Depense;Investissement;215000
+932b5151-5bc2-413e-a9ed-d3517cca1743;G-;Vie en societe;G-01;Petite enfance;;;P064;Patrimoine et equipements de la petite enfance;Depense;Investissement;4400000
+949948da-a4c7-441d-a3a5-0290623a68f3;I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-05;E administration;;;P113;Gouvernance numerique;Recette;Fonctionnement;75100
+9511da0e-8c8b-472e-b2a8-83d69eb42a18;J-;PERFORMANCE DE LA COLLECTIVITE;J-02;Gestion financière;;;P101;Gestion budgetaire;Recette;Fonctionnement;315515000
+951e4b52-0a61-44b5-87da-3316c77b841d;F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0102;Equipements structurants en regie;P125;Salle Jean Dauguet;Depense;Fonctionnement;25000
+97add785-c38d-466d-b25c-44c255a7eeb0;H-;VIE DEMOCRATIQUE;H-01;Vie associative;;;P080;Rehabilitation et construction des equipements associatifs;Depense;Investissement;1420000
+97c7a276-fe6f-4858-9eb9-ce25fa961fef;G-;Vie en societe;G-05;Seniors;G-0502;Vie à domicile;P075;Activites des seniors;Recette;Fonctionnement;125000
+9849584b-51c7-4f12-aa49-0a7db7c002d5;J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P106;Cessions immobilières;Recette;Investissement;7528000
+9867a453-7989-4dce-8905-2d56ef48d931;C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P027;Entrepreneuriat;Depense;Subventions;273800
+99cbf70d-8729-49ee-ac51-dc64e270506a;A-;ATTRACTIVITE ET RAYONNEMENT;A-04;Tourisme;;;P008;Tourisme urbain;Recette;Fonctionnement;2322000
+99cc4549-6a93-457e-bc47-58c476595cc0;G-;Vie en societe;G-01;Petite enfance;;;P063;Structures sous gestion externe;Recette;Investissement;0
+99faacd4-1d83-4d26-a954-380cfc73be78;F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0102;Equipements structurants en regie;P053;Piscine Judaïque;Depense;Fonctionnement;54000
+9abdc6f3-e7a4-4c91-bb2c-9e1334668220;G-;Vie en societe;G-04;Developpement social terr.;;;P122;Prevention de la delinquance;Recette;Fonctionnement;0
+9b8cc1b4-0bc3-4678-b326-38a6274b4aa3;F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0101;Equipements structurants delegues;P051;Nouveau stade (TVA);Depense;Fonctionnement;5721231
+9b94a590-d569-4fbc-87b3-62399793aa9e;I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-03;Pilotage strategique et eval.;;;P120;Mission performance;Depense;Fonctionnement;0
+9c8d06a5-ffee-404b-87b3-30d58c315dd5;C-;DEVELOPPEMENT URBAIN DURABLE;C-02;Amenagement urbain;;;P029;Amenagement;Depense;Subventions;910030
+9d4a546a-b0fb-4c21-aac1-bf96a257efb6;G-;Vie en societe;G-03;Jeunesse;;;P069;Accueil educatifs et de loisirs;Recette;Investissement;0
+9d4c7862-fab9-4c5c-8300-fba618f2eea2;B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P012;Musee d'Art Contemporain;Depense;Fonctionnement;481100
+9de37c6e-045e-48a5-90b2-32d71b14eade;B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P015;Musee des Beaux-Arts;Depense;Investissement;50000
+9dfd5fe3-5761-4853-ab6a-19746320800c;B-;DEVELOPPEMENT CULTUREL;B-04;Dev. action artistiq et cult.;;;P023;Securite dans les bâtiments culturels;Depense;Fonctionnement;443990
+9e653d5b-8e05-4758-89c0-9129296d63b6;G-;Vie en societe;G-04;Developpement social terr.;;;P072;Accompagnement des projets de quartier;Depense;Fonctionnement;0
+9f670865-c243-426f-9f26-e9de2a5b5591;G-;Vie en societe;G-03;Jeunesse;;;P070;Accueil et hebergement;Recette;Fonctionnement;567000
+9fa6109b-43c9-44e1-b09a-40b5cf22010d;A-;ATTRACTIVITE ET RAYONNEMENT;A-02;Patrimoine culturel;;;P002;Restauration des monuments historiques;Depense;Investissement;350000
+9fac2511-bd60-4fd9-8760-9b2c73cc15d3;J-;PERFORMANCE DE LA COLLECTIVITE;J-02;Gestion financière;;;P101;Gestion budgetaire;Depense;Subventions;105217,39
+9fcecc63-c58c-4c1e-a42f-2b3f48e42359;G-;Vie en societe;G-04;Developpement social terr.;;;P145;Innovation sociale;Recette;Fonctionnement;0
+a00cd416-ff4f-4fb3-b4ca-71b15ade542c;F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0101;Equipements structurants delegues;P050;DSP Golf Bordeaux Lac;Depense;Investissement;0
+a0222e76-8118-4f25-8f55-749527098d70;B-;DEVELOPPEMENT CULTUREL;B-04;Dev. action artistiq et cult.;;;P021;Actions de developpement artistique;Depense;Subventions;4101720
+a09221fb-915d-49d3-8bc5-9e08af2fe851;C-;DEVELOPPEMENT URBAIN DURABLE;C-03;Habitat;;;P031;Logement;Recette;Fonctionnement;0
+a176722c-1a35-4f7c-b7d7-2ff7d14d414f;F-;DEVELOPPEMENT SPORTIF;F-03;Sports educatif et loisirs;F-0302;Construction et gestion des equipements;P060;Gestion salles et stades;Depense;Fonctionnement;729950
+a2f69341-8400-4b48-a821-5d389e395f1a;F-;DEVELOPPEMENT SPORTIF;F-03;Sports educatif et loisirs;F-0302;Construction et gestion des equipements;P058;Gestion des equipements par les clubs;Depense;Subventions;441010
+a31307e0-0afb-491b-9a67-a53cec9b707d;F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0102;Equipements structurants en regie;P052;Stade Chaban-Delmas;Recette;Fonctionnement;200000
+a349b8c1-ffcf-4d03-945e-c29b1ba211b7;H-;VIE DEMOCRATIQUE;H-01;Vie associative;;;P081;Aires d'accueil des gens du voyage;Recette;Investissement;0
+a36f2323-f7e4-4cb5-9fca-35e5e736ef42;J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P108;Construction publique, maintenance et energies;Recette;Investissement;0
+a473f006-b10e-458f-93a3-edc7b571a948;C-;DEVELOPPEMENT URBAIN DURABLE;C-05;Eclairage;;;P035;Eclairage;Recette;Fonctionnement;0
+a4809f1e-a90b-4232-be0c-a2d500537056;J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P108;Construction publique, maintenance et energies;Depense;Investissement;1612000
+a4f359bf-3ad1-4074-b721-f4267bae39aa;G-;Vie en societe;G-06;Cohesion sociale transversale;;;P074;Promouvoir l'egalite;Recette;Investissement;0
+a5c567de-089b-43d2-bc4b-417a2ebe9523;I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-05;E administration;;;P114;Services numeriques à la population;Depense;Investissement;92000
+a6442189-470f-41dc-8d8c-c8986e61b305;F-;DEVELOPPEMENT SPORTIF;F-02;Sports de haut niveau et perf.;;;P055;Soutien aux structures haut niveau;Depense;Fonctionnement;824200
+a6cb7e44-d5f1-4dbe-91f9-da785eefc604;C-;DEVELOPPEMENT URBAIN DURABLE;C-03;Habitat;;;P032;Renovation urbaine;Depense;Fonctionnement;70000
+a708d442-03fa-4900-9504-9b8efdcdc394;B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P016;Museum d'histoire naturelle;Depense;Investissement;4000000
+a86099ef-32d9-465d-a08b-ef57919bac38;J-;PERFORMANCE DE LA COLLECTIVITE;J-05;Logistique et exploitation;;;P112;Logistique;Depense;Investissement;40000
+a8e7e6ee-6d51-4423-9528-26a1a9f043e9;H-;VIE DEMOCRATIQUE;H-01;Vie associative;;;P079;Structures d'animation et proximite;Depense;Fonctionnement;36900
+a9b9afa9-928b-4b79-9eb5-343524450670;A-;ATTRACTIVITE ET RAYONNEMENT;A-04;Tourisme;;;P009;Tourisme d'affaires (TVA);Depense;Fonctionnement;530000
+aa652920-e547-4af5-b08f-dd1a13a17d47;G-;Vie en societe;G-04;Developpement social terr.;;;P127;Accompagnement de projets transversaux;Recette;Fonctionnement;150000
+aaa7d2a7-1e83-4d53-b795-ff86cdfa24f6;A-;ATTRACTIVITE ET RAYONNEMENT;A-02;Patrimoine culturel;;;P002;Restauration des monuments historiques;Depense;Fonctionnement;0
+aafc8fdc-3072-4032-aa73-b23e6def52ec;G-;Vie en societe;G-06;Cohesion sociale transversale;;;P074;Promouvoir l'egalite;Depense;Investissement;600000
+ab4ad97d-c8fb-4f0e-b609-64dfc1efebc7;J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P129;Transactions assujetties à la TVA immobilières;Recette;Fonctionnement;0
+abcae319-0f9f-49b0-aac5-a8cb65c598dc;I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-03;Pilotage strategique et eval.;;;P097;Cooperation territoriale et europeenne;Recette;Fonctionnement;0
+ac2e3c5f-5f32-4a2f-b1c9-b7a3670d7135;C-;DEVELOPPEMENT URBAIN DURABLE;C-02;Amenagement urbain;;;P030;Droit des sols;Recette;Fonctionnement;0
+acc093ff-f05a-45da-8a18-d3db81611e01;I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-01;Delegation au dev. durable;;;P087;Developpement durable;Recette;Fonctionnement;10000
+ad361302-144e-4a9c-a264-2040f36d1cd2;E-;PREVENTION DES RISQUES ET TRANQUILLITE;E-02;Prevention des risques;;;P048;Prevention Sante Environnement Securite;Depense;Fonctionnement;343900
+ad49f4b9-47a9-412c-8907-a56cb66de82b;H-;VIE DEMOCRATIQUE;H-03;Accueil et citoyennete;;;P084;Services à la population;Recette;Fonctionnement;263400
+ae08d5d0-5dc9-4be4-b66f-faedd3a41f4f;B-;DEVELOPPEMENT CULTUREL;B-01;Enseignement artistique;;;P011;Ecole superieure d'Art de Bordeaux;Depense;Fonctionnement;3090000
+af04ec23-f556-41e0-addc-68ce92748d8f;B-;DEVELOPPEMENT CULTUREL;B-04;Dev. action artistiq et cult.;;;P134;Auditorium (TVA);Recette;Fonctionnement;1010000
+aff561c0-5558-4aa3-9265-cdb04476cd46;B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P012;Musee d'Art Contemporain;Depense;Investissement;0
+b125779f-9b3d-496c-8072-5c9475674c46;I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-05;E administration;;;P116;Services numeriques interne et SI transverses;Depense;Investissement;217000
+b1f647f4-b96f-4f95-9fa2-d2f0f129e495;J-;PERFORMANCE DE LA COLLECTIVITE;J-01;Gestion dev. Ress. humaines;;;P094;Developpement et aide à la personne ;Depense;Fonctionnement;579000
+b23a170d-8ffb-408f-bbb0-97f643e12782;F-;DEVELOPPEMENT SPORTIF;F-03;Sports educatif et loisirs;F-0302;Construction et gestion des equipements;P061;Rehabilitation et construction d'equipements sportifs;Recette;Investissement;0
+b2b512e2-8fc8-4d79-aa95-9cd4438c4e36;F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0101;Equipements structurants delegues;P131;Patinoire;Depense;Investissement;50000
+b2e48c6e-d43c-4b2e-aed7-bc4f074f96f2;D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-03;Gestion maintien patrim. vert;;;P045;Proximite et animation;Depense;Investissement;470000
+b3853063-e4fe-4505-908a-742a7a979d22;C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P024;Commerce et artisanat;Recette;Investissement;0
+b490bb02-ecfa-4152-a261-0c1c79e3d2f3;H-;VIE DEMOCRATIQUE;H-01;Vie associative;;;P081;Aires d'accueil des gens du voyage;Depense;Investissement;0
+b4e2f447-9319-4808-9b90-b62d961a1753;J-;PERFORMANCE DE LA COLLECTIVITE;J-02;Gestion financière;;;P101;Gestion budgetaire;Recette;Investissement;0
+b69aaad2-2380-4fed-8fb3-d448b36d5d41;G-;Vie en societe;G-04;Developpement social terr.;;;P072;Accompagnement des projets de quartier;Depense;Investissement;0
+b710fe54-0091-4a95-a193-188820cfac83;D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-01;Proprete urbaine;;;P123;Sanitaires ;Depense;Fonctionnement;831000
+b735ce26-1d04-49bc-b72b-927f5b952cc1;H-;VIE DEMOCRATIQUE;H-03;Accueil et citoyennete;;;P085;Cimetières;Depense;Investissement;283000
+b7bbb031-5348-45b7-916c-7abce1d8a449;G-;Vie en societe;G-04;Developpement social terr.;;;P145;Innovation sociale;Depense;Fonctionnement;65000
+b7fbd1f2-d36d-4d0b-a296-4a3fd8211d0d;A-;ATTRACTIVITE ET RAYONNEMENT;A-04;Tourisme;;;P126;Cite des civilisations du vin;Recette;Investissement;14002334
+b82d90f4-95ec-4629-8d95-22bd73d78730;D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-02;Gestion de la voie publique;;;P042;Occupation du domaine;Recette;Investissement;0
+b82fbdfa-3ea8-4a78-8cc6-d0c09f4965fa;F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0102;Equipements structurants en regie;P125;Salle Jean Dauguet;Recette;Fonctionnement;1000
+b8cdbf23-5155-4872-ad1d-312fcbb7ff6c;H-;VIE DEMOCRATIQUE;H-01;Vie associative;;;P080;Rehabilitation et construction des equipements associatifs;Depense;Fonctionnement;0
+b8dcc1fc-9acd-4149-add8-661cc859680d;G-;Vie en societe;G-02;Education;;;P066;Actions educatives;Depense;Subventions;61200
+b95aff24-8342-4a3c-9c61-17fb97062a5d;A-;ATTRACTIVITE ET RAYONNEMENT;A-04;Tourisme;;;P009;Tourisme d'affaires (TVA);Depense;Investissement;0
+b9d31412-fb4f-4859-b287-c61c809b0612;G-;Vie en societe;G-05;Seniors;G-0502;Vie à domicile;P075;Activites des seniors;Depense;Investissement;147000
+ba1c302b-b953-4c15-b993-c78922eb3c10;C-;DEVELOPPEMENT URBAIN DURABLE;C-06;Paysages et patrimoine urbains;;;P038;Lycee horticole;Depense;Fonctionnement;315000
+ba814064-c819-4081-b3ca-e1c3bfbc549f;A-;ATTRACTIVITE ET RAYONNEMENT;A-04;Tourisme;;;P008;Tourisme urbain;Depense;Fonctionnement;10530
+bb7a1b0f-418a-42d0-987a-2afed87ced2a;D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-02;Gestion de la voie publique;;;P042;Occupation du domaine;Recette;Fonctionnement;2935000
+bc70ef9e-90b3-4b60-b997-d3c6a246e1d7;B-;DEVELOPPEMENT CULTUREL;B-03;Lecture publique et archives;;;P019;Archives municipales;Depense;Investissement;580000
+bcb0e78d-c4c9-4867-aae7-4d943f79b1a4;B-;DEVELOPPEMENT CULTUREL;B-04;Dev. action artistiq et cult.;;;P020;Opera;Depense;Fonctionnement;15897900
+bcc4c4ec-5646-4742-b9b2-44315a26246c;F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0102;Equipements structurants en regie;P052;Stade Chaban-Delmas;Depense;Investissement;0
+bcfe62ec-1829-4945-a2a4-52b0cdd2eed4;J-;PERFORMANCE DE LA COLLECTIVITE;J-05;Logistique et exploitation;;;P110;Moyens operationnels d'exploitation;Depense;Investissement;815000
+be32e78f-1421-4248-936c-edd11cbc4be0;G-;Vie en societe;G-01;Petite enfance;;;P062;Structures sous gestion municipale;Depense;Investissement;0
+bee16c26-15a7-4251-b896-e1e2bf7d0e6b;I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-02;Vie municipale;;;P089;Elus;Depense;Fonctionnement;2211760
+bee77b17-8b56-4d22-9d1c-6768578ee328;F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0102;Equipements structurants en regie;P053;Piscine Judaïque;Depense;Investissement;0
+c2cd2f61-f428-4484-a776-ff0f44e122eb;H-;VIE DEMOCRATIQUE;H-01;Vie associative;;;P078;Developpement de la vie associative;Recette;Fonctionnement;50000
+c303cba8-de54-4f52-9204-8af77525a8ea;J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P105;Acquisitions immobilières;Depense;Investissement;828700
+c32eecc9-e4c8-4b4e-964b-f3a9ba015195;J-;PERFORMANCE DE LA COLLECTIVITE;J-05;Logistique et exploitation;;;P112;Logistique;Recette;Fonctionnement;1100000
+c335b4ab-2de6-4e06-be3e-e688286c2998;C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P024;Commerce et artisanat;Depense;Fonctionnement;20000
+c34ae3d7-91a8-4cf2-94e5-fd3f0bbc92f4;H-;VIE DEMOCRATIQUE;H-03;Accueil et citoyennete;;;P084;Services à la population;Depense;Fonctionnement;216850
+c4dfbc63-2c5a-4b12-b5ee-b1d9f0c4d54d;I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-01;Delegation au dev. durable;;;P086;Maison eco-citoyenne;Recette;Investissement;0
+c4ed9f22-5cfe-4049-b89a-426b9c7275c4;C-;DEVELOPPEMENT URBAIN DURABLE;C-04;Vie et depl. dans les esp.urb.;;;P034;Amenagement des espaces de circulation;Depense;Fonctionnement;743800
+c5a8434b-5143-4de1-b3c4-989a60548e2b;G-;Vie en societe;G-01;Petite enfance;;;P062;Structures sous gestion municipale;Depense;Fonctionnement;749550
+c5b081d8-30c7-4719-9792-5c5b758d14a2;I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-05;E administration;;;P113;Gouvernance numerique;Depense;Fonctionnement;60000
+c5dba0bf-8316-4637-9c3c-9b5c2ed881e1;D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-01;Proprete urbaine;;;P040;Enlèvement des dechets;Recette;Fonctionnement;5000
+c60d5756-c308-4d81-9afe-7ed45479d86c;A-;ATTRACTIVITE ET RAYONNEMENT;A-04;Tourisme;;;P007;Equipements fluviaux;Recette;Investissement;0
+c656f891-0cb0-45c1-977d-64a9e28906b1;F-;DEVELOPPEMENT SPORTIF;F-02;Sports de haut niveau et perf.;;;P055;Soutien aux structures haut niveau;Recette;Fonctionnement;195000
+c685c711-d4c8-4667-87e6-e55802cebcc9;J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P109;Ateliers du bâtiment;Recette;Investissement;0
+c6d63642-60a1-4c81-b887-e84960dfd75f;C-;DEVELOPPEMENT URBAIN DURABLE;C-06;Paysages et patrimoine urbains;;;P036;Patrimoine naturel;Depense;Fonctionnement;153100
+c6e863c1-69e7-4d14-bc37-24d6ac4d8085;C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P024;Commerce et artisanat;Recette;Fonctionnement;0
+c71359a4-d361-47af-aa3d-8e18258babcc;C-;DEVELOPPEMENT URBAIN DURABLE;C-06;Paysages et patrimoine urbains;;;P036;Patrimoine naturel;Recette;Fonctionnement;15000
+c7d949b3-329d-490d-8036-186e5178fa66;B-;DEVELOPPEMENT CULTUREL;B-03;Lecture publique et archives;;;P019;Archives municipales;Recette;Fonctionnement;9000
+c8598b94-85ee-4043-b93e-d00fa3927d84;I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-05;E administration;;;P128;Territoire innovant - mobile;Depense;Investissement;300000
+c94711cc-2c0b-4f2a-a53a-8aaa5860b1ab;C-;DEVELOPPEMENT URBAIN DURABLE;C-04;Vie et depl. dans les esp.urb.;;;P033;Deplacements doux;Depense;Investissement;62900
+ca37a387-6eee-4108-8d34-b38fd2fe62cc;G-;Vie en societe;G-05;Seniors;G-0502;Vie à domicile;P075;Activites des seniors;Depense;Subventions;74250
+cb61e9be-02e1-4d6c-8e74-ec7b7d8e4ab5;C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P025;Croissance et Filières;Depense;Investissement;0
+ccdafef4-20c9-417f-8c3d-38b459e00d97;J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P146;Cite municipale;Depense;Investissement;2149346
+ccdd7316-f4cf-4393-b64c-43d7af864e5a;I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-05;E administration;;;P128;Territoire innovant - mobile;Depense;Fonctionnement;46500
+cd023cca-39a2-4e84-9a34-eda40342a546;I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-04;Communication externe;;;P091;Communication externe;Depense;Investissement;45000
+cd14f57c-7a76-4464-896f-18af87981cdc;J-;PERFORMANCE DE LA COLLECTIVITE;J-02;Gestion financière;;;P099;Operations avec TVA;Recette;Fonctionnement;2230000
+cd376e8e-fef4-4364-9fae-500085746ce5;D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-02;Gestion de la voie publique;;;P042;Occupation du domaine;Depense;Fonctionnement;383501
+cd74a722-81ae-457f-8d6f-7b430cccaf7f;B-;DEVELOPPEMENT CULTUREL;B-03;Lecture publique et archives;;;P018;Lecture publique;Depense;Investissement;1285000
+cf558ba5-6fa7-4b70-ba75-c675eca4e50b;J-;PERFORMANCE DE LA COLLECTIVITE;J-03;Securite jur. et Commande pub.;;;P102;Securite Juridique;Recette;Fonctionnement;600000
+d03457b1-67df-40e2-9967-335a08e77b19;B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P119;Recettes des activites annexes du CAPC;Recette;Fonctionnement;100000
+d0f431cb-d6ef-4cf6-a0ae-50376efc297a;J-;PERFORMANCE DE LA COLLECTIVITE;J-02;Gestion financière;;;P100;Dette, Investissement et operations comptables;Depense;Investissement;26497500
+d1327fd2-c604-4280-8b86-cfe086286574;D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-02;Gestion de la voie publique;;;P041;Stationnement et circulation;Depense;Fonctionnement;800000
+d23b4c76-81ef-4067-b78c-ea6573995ae6;J-;PERFORMANCE DE LA COLLECTIVITE;J-01;Gestion dev. Ress. humaines;;;P092;Communication interne;Depense;Fonctionnement;45000
+d27ec851-df2a-4f89-81d8-3e1065bb3d96;J-;PERFORMANCE DE LA COLLECTIVITE;J-05;Logistique et exploitation;;;P110;Moyens operationnels d'exploitation;Recette;Fonctionnement;70000
+d30e0ed7-e7b5-4ffd-b1cb-54e739ab36a4;I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-05;E administration;;;P116;Services numeriques interne et SI transverses;Depense;Fonctionnement;314000
+d45fc4ae-1625-493e-aa45-d94005759d0c;H-;VIE DEMOCRATIQUE;H-01;Vie associative;;;P078;Developpement de la vie associative;Depense;Investissement;104000
+d54b94b9-f8c9-4dbf-b7c5-24db26126c5e;C-;DEVELOPPEMENT URBAIN DURABLE;C-04;Vie et depl. dans les esp.urb.;;;P033;Deplacements doux;Depense;Fonctionnement;104000
+d60cdc78-d84e-4639-a0f9-68ca3f8987ae;B-;DEVELOPPEMENT CULTUREL;B-01;Enseignement artistique;;;P010;Conservatoire de Bordeaux;Depense;Investissement;205000
+d65aac9c-aeca-4409-8e05-64396f330794;A-;ATTRACTIVITE ET RAYONNEMENT;A-03;Relations internationales;;;P006;Relations internationales;Recette;Fonctionnement;25000
+d68dbb47-4813-4022-9c22-d7f3fc2760c9;B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P013;Musee d'Aquitaine (Goupil et Jean Moulin);Depense;Investissement;50000
+d6949bfa-ff99-46b4-9b77-c686db3da552;G-;Vie en societe;G-04;Developpement social terr.;;;P121;Sante;Recette;Fonctionnement;0
+d695e92e-1eba-401c-bab4-8aa73fb6bbf4;D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-02;Gestion de la voie publique;;;P041;Stationnement et circulation;Recette;Fonctionnement;6000000
+d6dd80c0-9f39-47c0-b582-3dec931cac8c;I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-05;E administration;;;P113;Gouvernance numerique;Depense;Investissement;215000
+d84c9ec2-0ad1-437f-b413-91076a00fc3d;I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-03;Pilotage strategique et eval.;;;P097;Cooperation territoriale et europeenne;Depense;Fonctionnement;21000
+d8e9b8d0-d5a5-4ab6-9c2d-96c0c35c1f1e;H-;VIE DEMOCRATIQUE;H-01;Vie associative;;;P081;Aires d'accueil des gens du voyage;Recette;Fonctionnement;125000
+da097b64-c7e4-416d-aec4-e0899768235e;A-;ATTRACTIVITE ET RAYONNEMENT;A-04;Tourisme;;;P009;Tourisme d'affaires (TVA);Recette;Fonctionnement;0
+da2f7b6d-8060-4917-981f-0cfb0b18cffe;B-;DEVELOPPEMENT CULTUREL;B-04;Dev. action artistiq et cult.;;;P139;Base sous-marine;Depense;Fonctionnement;220500
+da320ad9-be3c-48c9-96c5-4cccbf1c6c35;B-;DEVELOPPEMENT CULTUREL;B-04;Dev. action artistiq et cult.;;;P022;Rayonnement culturel;Recette;Investissement;0
+da52c8db-e95c-4e76-97fe-a5126cdcd8ef;F-;DEVELOPPEMENT SPORTIF;F-03;Sports educatif et loisirs;F-0302;Construction et gestion des equipements;P059;Piscines;Depense;Fonctionnement;223000
+dc76f30b-820f-4386-b4e6-43ec6e2b295b;I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-02;Vie municipale;;;P088;Cabinet;Depense;Fonctionnement;490000
+dc915cb2-dd9a-478d-beba-a10bbe8b1df9;C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P026;Emploi;Depense;Fonctionnement;17311
+dd44900b-9ce0-4d9b-887c-f910440a3a38;J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P146;Cite municipale;Depense;Fonctionnement;2697505
+dd908025-ae75-4f68-af1a-4c53f44aac74;B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P014;Musee des Arts decoratifs;Depense;Investissement;0
+ddbf2f57-ba8a-47fe-ab16-a2c8d2dc2d87;E-;PREVENTION DES RISQUES ET TRANQUILLITE;E-02;Prevention des risques;;;P049;SCHS - Activites assujetties;Recette;Fonctionnement;104000
+de324529-6c9d-4900-9523-f0449b0c193c;B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P013;Musee d'Aquitaine (Goupil et Jean Moulin);Recette;Investissement;0
+df253db3-9af9-42a4-a018-fc0f8b9f927a;I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-01;Delegation au dev. durable;;;P087;Developpement durable;Recette;Investissement;0
+dfbc534d-f6eb-4682-b98a-7f1b035387ef;B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P017;Developpement des musees;Depense;Investissement;338500
+e008a9be-1f33-4a67-84a8-3b11f1001a66;B-;DEVELOPPEMENT CULTUREL;B-04;Dev. action artistiq et cult.;;;P124;Equipements culturels assujettis;Depense;Investissement;50000
+e11897a2-9218-4753-95e2-eaeb9b2935f1;D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-03;Gestion maintien patrim. vert;;;P044;Preservation et gestion du patrimoine vert;Recette;Fonctionnement;10000
+e1efde83-1043-4a96-b56f-c73b8731a228;D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-02;Gestion de la voie publique;;;P082;Territoire et proximite;Recette;Fonctionnement;2600000
+e2544823-88d7-4213-a878-d6ac2f3e38bb;I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-01;Delegation au dev. durable;;;P087;Developpement durable;Depense;Subventions;83160
+e352e4b3-59dd-433a-8d9d-d6232c7cc803;C-;DEVELOPPEMENT URBAIN DURABLE;C-06;Paysages et patrimoine urbains;;;P036;Patrimoine naturel;Depense;Subventions;0
+e3e35be9-8c9c-43af-867f-ec0b0af6c313;C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P027;Entrepreneuriat;Recette;Fonctionnement;0
+e536ae88-6c14-4602-ae99-de3846fc942c;A-;ATTRACTIVITE ET RAYONNEMENT;A-03;Relations internationales;;;P006;Relations internationales;Depense;Fonctionnement;308000
+e5ad71c4-9cf8-4e06-aae5-07ec805f9035;F-;DEVELOPPEMENT SPORTIF;F-03;Sports educatif et loisirs;F-0301;Partenariats et animation;P057;Politique d'animation;Recette;Investissement;0
+e6489e20-6892-427a-a649-417ffe9e92c8;C-;DEVELOPPEMENT URBAIN DURABLE;C-02;Amenagement urbain;;;P030;Droit des sols;Depense;Fonctionnement;142836
+e6606dc6-3c5c-4578-9216-2ffc444bad1a;J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P107;Gestion immobilière assujettie;Recette;Fonctionnement;1496000
+e696713c-501f-4aa6-8a4b-8b4d99618dd7;F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0101;Equipements structurants delegues;P051;Nouveau stade (TVA);Recette;Investissement;0
+e722e43e-4ebc-4389-a674-c8bfaaa37839;A-;ATTRACTIVITE ET RAYONNEMENT;A-04;Tourisme;;;P126;Cite des civilisations du vin;Depense;Investissement;42000000
+e882fa17-8912-49a5-be9d-b6f5b2c7e287;E-;PREVENTION DES RISQUES ET TRANQUILLITE;E-02;Prevention des risques;;;P048;Prevention Sante Environnement Securite;Depense;Subventions;0
+e89b0f55-438d-4e82-9def-1d939573ef25;J-;PERFORMANCE DE LA COLLECTIVITE;J-05;Logistique et exploitation;;;P110;Moyens operationnels d'exploitation;Recette;Investissement;0
+e92d4123-c6d9-4ff4-8070-5cc120d63457;A-;ATTRACTIVITE ET RAYONNEMENT;A-02;Patrimoine culturel;;;P005;Animation du patrimoine;Recette;Fonctionnement;0
+e98b7ab3-bd9a-45d7-b149-1ddd4635188e;B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P015;Musee des Beaux-Arts;Depense;Fonctionnement;240500
+ea3ba290-9c73-49d7-a6a3-74cb08e8d433;B-;DEVELOPPEMENT CULTUREL;B-04;Dev. action artistiq et cult.;;;P139;Base sous-marine;Depense;Investissement;150000
+ea462e54-32ff-4237-88b4-eea2a0dc005d;C-;DEVELOPPEMENT URBAIN DURABLE;C-01;Dev. eco, emploi et ens. sup.;;;P028;Innovation - Enseignement superieur;Depense;Subventions;134800
+ea797814-6d59-4dd1-ba52-3c293015f90b;G-;Vie en societe;G-01;Petite enfance;;;P064;Patrimoine et equipements de la petite enfance;Recette;Investissement;2841463,62
+eb11a422-6c8a-411f-85b0-c8fedb88006c;J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P104;Travaux et gestion du patrimoine administratif;Depense;Fonctionnement;1494965
+eb7164a8-4953-4a91-821c-05639f928d5e;J-;PERFORMANCE DE LA COLLECTIVITE;J-05;Logistique et exploitation;;;P110;Moyens operationnels d'exploitation;Depense;Fonctionnement;2871300
+eba926a4-e61d-4c14-9c58-949fd8e23f6e;I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-05;E administration;;;P115;Amenagement numerique du territoire;Depense;Fonctionnement;31000
+ebdcbe2f-31fc-4d4b-9e62-cd647904c048;D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-01;Proprete urbaine;;;P039;Nettoyage des rues;Depense;Fonctionnement;650000
+ebedc0c5-b8d4-453a-8466-78d9b8e36ed2;D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-02;Gestion de la voie publique;;;P082;Territoire et proximite;Depense;Investissement;15000
+ec7ea4a2-b95a-43b4-94cb-a33c701d9242;B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P017;Developpement des musees;Depense;Fonctionnement;50350
+ecfbb307-4799-4e21-bdb3-0a7d4dd6f3ca;G-;Vie en societe;G-03;Jeunesse;;;P071;Engagement et participations des jeunes;Depense;Subventions;13000
+edf1015f-5e1f-4ec9-8fa8-91b815689d8a;E-;PREVENTION DES RISQUES ET TRANQUILLITE;E-01;Tranquillite publique;;;P046;Police municipale;Depense;Fonctionnement;305000
+ee57137a-1d57-41d0-bad2-2a220fd23a9c;F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0101;Equipements structurants delegues;P135;Affermage Equip. Sport Loisirs;Recette;Fonctionnement;230000
+ef9229f5-4db2-46de-a236-e7baedbbdc05;E-;PREVENTION DES RISQUES ET TRANQUILLITE;E-02;Prevention des risques;;;P048;Prevention Sante Environnement Securite;Recette;Investissement;0
+efb4406f-13d3-4f4d-a925-0d13ca63cdb0;G-;Vie en societe;G-05;Seniors;G-0502;Vie à domicile;P077;Residences seniors;Depense;Investissement;0
+f0f53650-a299-4848-a1d4-d946579b67ff;C-;DEVELOPPEMENT URBAIN DURABLE;C-04;Vie et depl. dans les esp.urb.;;;P034;Amenagement des espaces de circulation;Recette;Investissement;585451,82
+f13c32c4-cd72-421e-8397-2f54c8196793;B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P137;Boutiques des musees (TVA);Depense;Investissement;0
+f1ea464f-7dd7-4cdf-9fdb-83a4fc12c7c6;B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P016;Museum d'histoire naturelle;Recette;Investissement;0
+f1f46c8f-5f9e-47ff-89b6-fa6394ac9e02;F-;DEVELOPPEMENT SPORTIF;F-03;Sports educatif et loisirs;F-0302;Construction et gestion des equipements;P060;Gestion salles et stades;Depense;Investissement;941700
+f2df3d46-9594-4b8f-b6a0-05b16cce7bcf;J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P129;Transactions assujetties à la TVA immobilières;Depense;Investissement;2500000
+f34ecf0d-3cd0-45cc-a22d-b072b37672a3;B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P012;Musee d'Art Contemporain;Recette;Fonctionnement;185100
+f369ad00-9425-4f62-869d-9360ace21013;F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0102;Equipements structurants en regie;P054;Palais des sports;Recette;Investissement;400000
+f423b5aa-aa0d-4c81-8626-122e00a72ebb;B-;DEVELOPPEMENT CULTUREL;B-01;Enseignement artistique;;;P011;Ecole superieure d'Art de Bordeaux;Depense;Investissement;20000
+f4e80b7c-754f-4294-b6bd-a5f1aef335b3;B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P137;Boutiques des musees (TVA);Recette;Fonctionnement;0
+f52e3c43-2689-46ce-8588-1c34c77e8132;I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-01;Delegation au dev. durable;;;P087;Developpement durable;Depense;Investissement;0
+f56eb877-f8fd-44f9-842b-58e3b5c4e949;I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-03;Pilotage strategique et eval.;;;P097;Cooperation territoriale et europeenne;Depense;Subventions;0
+f58402b0-50f1-466f-962e-7c7bd4bd8c00;J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P108;Construction publique, maintenance et energies;Recette;Fonctionnement;5425000
+f5d1de83-3b5c-40ae-8aca-26850edcf914;I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-03;Pilotage strategique et eval.;;;P090;Evaluation et performance;Recette;Fonctionnement;0
+f627154c-1341-42bf-ae0b-b9953c5f548d;I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-05;E administration;;;P118;Securite du SI;Depense;Investissement;310000
+f63ac33f-d339-4e86-bc6f-388b7607f44e;F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0101;Equipements structurants delegues;P051;Nouveau stade (TVA);Depense;Investissement;21664000
+f6d9d93e-a4a2-44c4-a84b-2f8c2a95be81;B-;DEVELOPPEMENT CULTUREL;B-03;Lecture publique et archives;;;P018;Lecture publique;Recette;Fonctionnement;217000
+f805ced4-938c-4ea5-b42c-a7cbf7832f78;I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-01;Delegation au dev. durable;;;P087;Developpement durable;Depense;Fonctionnement;60000
+f8328eec-672e-4199-8f12-761419d996ac;G-;Vie en societe;G-04;Developpement social terr.;;;P122;Prevention de la delinquance;Depense;Subventions;0
+f8ba65aa-9d96-49aa-b394-a94367f921cb;I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-05;E administration;;;P128;Territoire innovant - mobile;Recette;Fonctionnement;0
+f8c06495-71a3-4bcf-8cd5-5b1365b1b969;B-;DEVELOPPEMENT CULTUREL;B-04;Dev. action artistiq et cult.;;;P139;Base sous-marine;Recette;Fonctionnement;10000
+f8c39a14-1cb6-46e2-8910-18dd7540ac4b;B-;DEVELOPPEMENT CULTUREL;B-04;Dev. action artistiq et cult.;;;P022;Rayonnement culturel;Depense;Fonctionnement;253640
+f8d702b2-b39a-4789-8d7a-4fbcaa23a5a5;F-;DEVELOPPEMENT SPORTIF;F-03;Sports educatif et loisirs;F-0302;Construction et gestion des equipements;P059;Piscines;Depense;Investissement;662800
+f94d1e0b-93ad-47c9-8190-5d0251cdae93;J-;PERFORMANCE DE LA COLLECTIVITE;J-05;Logistique et exploitation;;;P144;Gestion des equipements DGST;Recette;Investissement;0
+f989a490-95ad-48e6-8b5b-2c33489e3c9e;H-;VIE DEMOCRATIQUE;H-02;Democratie locale et participation citoyenne;;;P083;Democratie locale et participation citoyenne;Depense;Fonctionnement;40000
+f9de197f-4a9b-44db-a5bc-3c8c1c117346;D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-01;Proprete urbaine;;;P039;Nettoyage des rues;Depense;Investissement;675500
+fa3bd27f-d266-46ed-8b23-f39079b4aaee;J-;PERFORMANCE DE LA COLLECTIVITE;J-05;Logistique et exploitation;;;P111;Editique et telephonie;Depense;Fonctionnement;894700
+fb20e441-d2e6-4686-b9b9-691e9259797d;B-;DEVELOPPEMENT CULTUREL;B-02;Musees;;;P016;Museum d'histoire naturelle;Depense;Fonctionnement;38100
+fc28eda3-d339-4d21-93f7-ae096cd6fb6b;H-;VIE DEMOCRATIQUE;H-01;Vie associative;;;P078;Developpement de la vie associative;Depense;Fonctionnement;216400
+fc662705-2b82-4ae1-b2c5-43ca7f41e6f7;G-;Vie en societe;G-03;Jeunesse;;;P069;Accueil educatifs et de loisirs;Depense;Subventions;9700886
+fc9d49f4-4aa3-4cb6-b9b4-1821d22dd63a;F-;DEVELOPPEMENT SPORTIF;F-01;Equipements sportifs struct.;F-0101;Equipements structurants delegues;P142;Gestion des sports (TVA);Recette;Fonctionnement;80000
+fcc1c989-1caf-4e70-8c85-b06a4df012b8;F-;DEVELOPPEMENT SPORTIF;F-03;Sports educatif et loisirs;F-0302;Construction et gestion des equipements;P059;Piscines;Recette;Fonctionnement;767865
+fcebc5cf-99b0-4fc4-b8de-e9920898bbc7;A-;ATTRACTIVITE ET RAYONNEMENT;A-04;Tourisme;;;P130;Equipements fluviaux (TVA);Recette;Fonctionnement;405960
+fcfa1cb3-fad9-4a7a-8cf2-ebd26bcaecac;J-;PERFORMANCE DE LA COLLECTIVITE;J-04;Strategie et gestion immo.;;;P106;Cessions immobilières;Depense;Investissement;0
+fcfc6166-27db-4f57-b0e0-fc7509b0da20;J-;PERFORMANCE DE LA COLLECTIVITE;J-01;Gestion dev. Ress. humaines;;;P096;Restauration du personnel assujettie;Depense;Fonctionnement;2644000
+fed6d7ca-6723-4d2a-856a-aa993b441a47;D-;QUALITE DES ESPACES PUBLICS DE PROXIMITE;D-01;Proprete urbaine;;;P123;Sanitaires ;Recette;Fonctionnement;0
+ff821e3f-0bad-4be8-91d4-fa30065d68ae;A-;ATTRACTIVITE ET RAYONNEMENT;A-01;Rayonnement architectural et urbain;;;P001;Rayonnement architectural et urbain;Recette;Fonctionnement;0
+ffa2f682-9962-49cc-b878-788b95ee9425;I-;PILOTAGE STRATEGIQUE DE LA COLLECTIVITE;I-05;E administration;;;P114;Services numeriques à la population;Depense;Fonctionnement;100000

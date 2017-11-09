@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+	<link rel="stylesheet" type="text/css" href="style.css">	
+
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	
+	<script>
+	  // declaration des cartes
+      var map;
+
+	  // la fenetre qui s'ouvre quand on passe la souris sur un point
+	  var infowindow = new google.maps.InfoWindow();
+
+	  // fonction d'initialisation
+      function initialize() {
+        var mapOptions = {
+          zoom: 6,
+          center: {lat:  46.55, lng: 2.4},
+          mapTypeId: google.maps.MapTypeId.TERRAIN
+        };
+        map = new google.maps.Map(document.getElementById('map-categorie'),
+          mapOptions);
+	    // initialisation des cartes et chargement des donnees
+	            map.data.loadGeoJson('json/toilettes-publiques-de-nantes-metropole.json');
+
+	    
+	    // fonction de style
+	    var setColorStyleFn = function(feature) {
+	      return {icon: feature.getProperty('icon')};
+	    };
+	    // style des cartes, et listener pour la fenetre qui s'ouvre quand on passe la souris sur un point
+	    map.data.setStyle(setColorStyleFn);
+	    map.data.addListener('mouseover', function(event) {
+          infowindow.setContent(event.feature.getProperty('description'));
+          infowindow.setPosition(event.latLng);
+          infowindow.setOptions({pixelOffset: new google.maps.Size(0,-34)});
+          infowindow.open(map);
+        });
+        google.maps.event.addListener(map, 'click', function() {
+          infowindow.close(); // un clic sur la carte ferme les infowindows
+        });
+	  } // end initialize
+
+      // appel de la fonction d'initialisation une fois la page chargee
+      google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+	<meta charset="UTF-8">
+  </head>
+
+  <body>
+    <h1>les toilettes publiques</h1>
+
+	<p><a href="./index.php">Page principale</a></p>
+	
+    <h2>Carte</h2>
+    <div id="map-categorie" class="map-canvas"></div>
+
+    <h2>Liste des points</h2>
+	<table>
+      <tr><td>-1.3924741041092801</td><td>47.296755026287101</td><td>Cellier                                                                                             </td></tr>
+      <tr><td>-1.5027685941407101</td><td>47.234940148585203</td><td>Vieux Doulon                                                                                        </td></tr>
+      <tr><td>-1.53285244350403</td><td>47.234393875282102</td><td>Marrière                                                                                           </td></tr>
+      <tr><td>-1.5087793391295901</td><td>47.227498607100102</td><td>Grand Blottereau                                                                                    </td></tr>
+      <tr><td>-1.49139177009538</td><td>47.296228260287798</td><td>Place du marché                                                                                    </td></tr>
+      <tr><td>-1.4934256482368</td><td>47.296530057160098</td><td>Place Le Corvec                                                                                     </td></tr>
+      <tr><td>-1.53076311416444</td><td>47.262564551339501</td><td>Beaujoire (maison de la Rose)                                                                       </td></tr>
+      <tr><td>-1.53460443859609</td><td>47.261895320634402</td><td>Beaujoire (vallon)                                                                                  </td></tr>
+      <tr><td>-1.52274532606656</td><td>47.288042182077398</td><td>Chantrerie                                                                                          </td></tr>
+      <tr><td>-1.5355529970335899</td><td>47.235347991895203</td><td>Plessis Tison                                                                                       </td></tr>
+      <tr><td>-1.55005782168864</td><td>47.299212479416497</td><td>Eglise                                                                                              </td></tr>
+      <tr><td>-1.6727998481160999</td><td>47.262579232860404</td><td>Gendarmerie                                                                                         </td></tr>
+      <tr><td>-1.6231917590648699</td><td>47.270568853578403</td><td>Jeanne dArc                                                                                       </td></tr>
+      <tr><td>-1.5764835256254901</td><td>47.253276922159301</td><td>Bout des Pavés                                                                                     </td></tr>
+      <tr><td>-1.59631296898079</td><td>47.252636456166201</td><td>Petit Chantilly                                                                                     </td></tr>
+      <tr><td>-1.5693466091578201</td><td>47.2434041846086</td><td>Vallée du Cens (Grotte)                                                                            </td></tr>
+      <tr><td>-1.5603522422801599</td><td>47.253561852274203</td><td>Bourgeonnière                                                                                      </td></tr>
+      <tr><td>-1.5670144615570301</td><td>47.242438359674097</td><td>Vallée du Cens (camping)                                                                           </td></tr>
+      <tr><td>-1.68235350185828</td><td>47.214345202247699</td><td>Place des cités                                                                                    </td></tr>
+      <tr><td>-1.72479448617054</td><td>47.215631889040303</td><td>Epinettes                                                                                           </td></tr>
+      <tr><td>-1.72749549896159</td><td>47.211158906551901</td><td>Charles De Gaulle                                                                                   </td></tr>
+      <tr><td>-1.64709926489558</td><td>47.193248886718003</td><td>Joseph Tahet                                                                                        </td></tr>
+      <tr><td>-1.67376706998005</td><td>47.197790349723498</td><td>Quai dIndre                                                                                       </td></tr>
+      <tr><td>-1.63927863771579</td><td>47.221928021929699</td><td>Marcel Paul                                                                                         </td></tr>
+      <tr><td>-1.6535919884927299</td><td>47.211570413993101</td><td>Lieutenant Mouillie                                                                                 </td></tr>
+      <tr><td>-1.6080674977806899</td><td>47.218397642751398</td><td>Branchoire                                                                                          </td></tr>
+      <tr><td>-1.5868932570163501</td><td>47.213590004655202</td><td>Zola                                                                                                </td></tr>
+      <tr><td>-1.58792608975112</td><td>47.206763560465397</td><td>Mairie Chantenay                                                                                    </td></tr>
+      <tr><td>-1.5927835731452999</td><td>47.199473470366399</td><td>Civelles                                                                                            </td></tr>
+      <tr><td>-1.57892821431067</td><td>47.201926628091599</td><td>Garennes                                                                                            </td></tr>
+      <tr><td>-1.57123120436148</td><td>47.2092763473293</td><td>René Bouhier                                                                                       </td></tr>
+      <tr><td>-1.57477040504501</td><td>47.2146595270628</td><td>Canclaux                                                                                            </td></tr>
+      <tr><td>-1.5980882166371599</td><td>47.223818677059199</td><td>Dervallières                                                                                       </td></tr>
+      <tr><td>-1.5891768364740799</td><td>47.199488316434397</td><td>Macé                                                                                               </td></tr>
+      <tr><td>-1.58176945128172</td><td>47.200298865519699</td><td>Maurice Schwob                                                                                      </td></tr>
+      <tr><td>-1.5608266438179399</td><td>47.211060744742902</td><td>Petite Hollande                                                                                     </td></tr>
+      <tr><td>-1.5636451512373699</td><td>47.216000242321201</td><td>Square Lebé                                                                                        </td></tr>
+      <tr><td>-1.5587931829209001</td><td>47.219262661263002</td><td>Cassegrain                                                                                          </td></tr>
+      <tr><td>-1.54310426691244</td><td>47.228789472267401</td><td>Enfants Nantais                                                                                     </td></tr>
+      <tr><td>-1.5228083455769099</td><td>47.225858985758798</td><td>Gabriel Trarieux                                                                                    </td></tr>
+      <tr><td>-1.55254762147452</td><td>47.212817515378298</td><td>Baco                                                                                                </td></tr>
+      <tr><td>-1.5613300011039899</td><td>47.215249924591703</td><td>Calvaire                                                                                            </td></tr>
+      <tr><td>-1.5562296336468899</td><td>47.217097556369602</td><td>Armand Brossard                                                                                     </td></tr>
+      <tr><td>-1.5594800969214599</td><td>47.217257943870202</td><td>Bretagne                                                                                            </td></tr>
+      <tr><td>-1.54456688020931</td><td>47.2205170959908</td><td>Jardin des plantes Nord                                                                             </td></tr>
+      <tr><td>-1.5637636650262099</td><td>47.211096496078198</td><td>Cambronne                                                                                           </td></tr>
+      <tr><td>-1.5647992137733</td><td>47.212790768862099</td><td>Louis Bureau                                                                                        </td></tr>
+      <tr><td>-1.5271079310393501</td><td>47.226993917384704</td><td>Noë Mitrie                                                                                         </td></tr>
+      <tr><td>-1.5465582809810801</td><td>47.202049175272201</td><td>Vertais                                                                                             </td></tr>
+      <tr><td>-1.5331134796541299</td><td>47.206923728286803</td><td>Jardin des cinq sens                                                                                </td></tr>
+      <tr><td>-1.5648103028134399</td><td>47.206233381692797</td><td>Parc des chantiers- Bar de la Branche                                                               </td></tr>
+      <tr><td>-1.56466112957655</td><td>47.205274693797698</td><td>Parc des chantiers - Les Nefs                                                                       </td></tr>
+      <tr><td>-1.5673750957874699</td><td>47.205155769439699</td><td>Parc des chantiers - Station Prouvé                                                                </td></tr>
+      <tr><td>-1.5409807392442501</td><td>47.218827424207902</td><td>Jardin des plantes Sud                                                                              </td></tr>
+      <tr><td>-1.56619350364038</td><td>47.228829820160797</td><td>Emile Fritsch                                                                                       </td></tr>
+      <tr><td>-1.5702002321061801</td><td>47.224487913551997</td><td>Cimetière Pelleterie                                                                               </td></tr>
+      <tr><td>-1.58592716957707</td><td>47.230348815840898</td><td>Louis Feuillade                                                                                     </td></tr>
+      <tr><td>-1.5631987118890101</td><td>47.225112261461199</td><td>Capucins                                                                                            </td></tr>
+      <tr><td>-1.5913891591793601</td><td>47.227478785082198</td><td>Piscine Dervallières                                                                               </td></tr>
+      <tr><td>-1.56185137461257</td><td>47.220411228909299</td><td>Viarme                                                                                              </td></tr>
+      <tr><td>-1.5767442416419599</td><td>47.232795494168698</td><td>Américains                                                                                         </td></tr>
+      <tr><td>-1.58197343101717</td><td>47.222404042472697</td><td>Jardin d'enfants de Procé                                                                          </td></tr>
+      <tr><td>-1.58330065600502</td><td>47.2235568442375</td><td>Procé Vallon                                                                                       </td></tr>
+      <tr><td>-1.5813659877586199</td><td>47.223136236766003</td><td>Procé Chateau                                                                                      </td></tr>
+      <tr><td>-1.5771055036536199</td><td>47.241168632556899</td><td>Gaudinière Haut                                                                                    </td></tr>
+      <tr><td>-1.5537171660187299</td><td>47.225270478295002</td><td>Ile de Versailles                                                                                   </td></tr>
+      <tr><td>-1.5223902089082499</td><td>47.248659640610697</td><td>La Halluchère                                                                                      </td></tr>
+      <tr><td>-1.3928653309210599</td><td>47.295198854792503</td><td>Eglise                                                                                              </td></tr>
+      <tr><td>-1.51780773830689</td><td>47.269500798694999</td><td>Tonelliers                                                                                          </td></tr>
+      <tr><td>-1.5514622432977001</td><td>47.221167402857802</td><td>Parking Tournefort                                                                                  </td></tr>
+      <tr><td>-1.55438473971654</td><td>47.217177859169801</td><td>Amiral Halgan                                                                                       </td></tr>
+      <tr><td>-1.5233692288254399</td><td>47.210357790518202</td><td>Crapa                                                                                               </td></tr>
+      <tr><td>-1.5297221084210999</td><td>47.190897502498203</td><td>Crapaudine                                                                                          </td></tr>
+      <tr><td>-1.5624877837661599</td><td>47.217714671817703</td><td>Faustin Helie                                                                                       </td></tr>
+      <tr><td>-1.5782526729522199</td><td>47.246542817996698</td><td>Gaudinière Bas                                                                                     </td></tr>
+      <tr><td>-1.5122751094211699</td><td>47.226652429386803</td><td>Potager tropical                                                                                    </td></tr>
+      <tr><td>-1.52768342121573</td><td>47.222696472938402</td><td>Jean Baptiste Barre                                                                                 </td></tr>
+      <tr><td>-1.59354973264737</td><td>47.204329167475102</td><td>Jean Le Gigant                                                                                      </td></tr>
+      <tr><td>-1.5839366442963001</td><td>47.200657490337598</td><td>Oblates                                                                                             </td></tr>
+      <tr><td>-1.55369078770185</td><td>47.225271368410702</td><td>Ile Versailles Capitainerie                                                                         </td></tr>
+      <tr><td>-1.54114446382891</td><td>47.196458125063998</td><td>Pirmil                                                                                              </td></tr>
+      <tr><td>-1.61282701891088</td><td>47.209443708082503</td><td>Denis Forestier                                                                                     </td></tr>
+      <tr><td>-1.68881374199635</td><td>47.141356787938101</td><td>Marché                                                                                             </td></tr>
+      <tr><td>-1.6932900405576701</td><td>47.144532215999199</td><td>Eglise                                                                                              </td></tr>
+      <tr><td>-1.73293335372255</td><td>47.134913147855599</td><td>Eglise                                                                                              </td></tr>
+      <tr><td>-1.68370684991348</td><td>47.189950589368998</td><td>Eglise                                                                                              </td></tr>
+      <tr><td>-1.6833796629987201</td><td>47.187881253384496</td><td>Similien Guérin                                                                                    </td></tr>
+      <tr><td>-1.7249621972835401</td><td>47.1957187825113</td><td>Mairie                                                                                              </td></tr>
+      <tr><td>-1.78556903413688</td><td>47.206186766669603</td><td>Canal                                                                                               </td></tr>
+      <tr><td>-1.7551368848215001</td><td>47.203028556674496</td><td>LHerminier                                                                                        </td></tr>
+      <tr><td>-1.7551327385225399</td><td>47.201245125829701</td><td>Halles                                                                                              </td></tr>
+      <tr><td>-1.7223608741276299</td><td>47.169606662584997</td><td>Mairie                                                                                              </td></tr>
+      <tr><td>-1.72043759541334</td><td>47.168629522492203</td><td>Eglise                                                                                              </td></tr>
+      <tr><td>-1.5885438591410499</td><td>47.1807661934522</td><td>Freinet                                                                                             </td></tr>
+      <tr><td>-1.6237573738714799</td><td>47.179065503707797</td><td>Eglise                                                                                              </td></tr>
+      <tr><td>-1.5930761708482899</td><td>47.176999818830801</td><td>Neustrie                                                                                            </td></tr>
+      <tr><td>-1.6544466205052799</td><td>47.184212366549197</td><td>Roche Ballue                                                                                        </td></tr>
+      <tr><td>-1.5870802206818999</td><td>47.185310582746197</td><td>Leclerc                                                                                             </td></tr>
+      <tr><td>-1.6228820024680799</td><td>47.167764426405398</td><td>Les jardins familiaux                                                                               </td></tr>
+      <tr><td>-1.6293724293398599</td><td>47.177349653857</td><td>Champ Toury                                                                                         </td></tr>
+      <tr><td>-1.5287989913016</td><td>47.194215931479199</td><td>Joliot curie                                                                                        </td></tr>
+      <tr><td>-1.5475983152933399</td><td>47.184693993721503</td><td>Eglise                                                                                              </td></tr>
+      <tr><td>-1.5623948094769999</td><td>47.184869688594098</td><td>Pays de Retz                                                                                        </td></tr>
+      <tr><td>-1.55155146434883</td><td>47.189100103932297</td><td>08-mai                                                                                              </td></tr>
+      <tr><td>-1.55262697722405</td><td>47.183550212446598</td><td>Balinière                                                                                          </td></tr>
+      <tr><td>-1.5317782494555401</td><td>47.1636165228539</td><td>La Robinière                                                                                       </td></tr>
+      <tr><td>-1.5650322849317</td><td>47.1905078077965</td><td>Cimetière St Pierre                                                                                </td></tr>
+      <tr><td>-1.5435267074172301</td><td>47.184710448458297</td><td>Cimetière St Paul                                                                                  </td></tr>
+      <tr><td>-1.53188936779172</td><td>47.183044231059398</td><td>Parc de la Morinière                                                                               </td></tr>
+      <tr><td>-1.5695262926198299</td><td>47.191518492195698</td><td>Hôtel de Ville                                                                                     </td></tr>
+      <tr><td>-1.53754770038832</td><td>47.187718394190803</td><td>Parc Chêne Gala                                                                                    </td></tr>
+      <tr><td>-1.5320469198054301</td><td>47.164717809850202</td><td>Stade Robinière                                                                                    </td></tr>
+      <tr><td>-1.5583192290072301</td><td>47.171728380380799</td><td>Cimetière Classerie                                                                                </td></tr>
+      <tr><td>-1.57022297073413</td><td>47.1817949613664</td><td>Stade Léo lagrange                                                                                 </td></tr>
+      <tr><td>-1.5051440402330301</td><td>47.2074361214992</td><td>Poste                                                                                               </td></tr>
+      <tr><td>-1.5036414003124701</td><td>47.208413875370198</td><td>Eglise                                                                                              </td></tr>
+      <tr><td>-1.5177309527504901</td><td>47.193550923078803</td><td>Liberté                                                                                            </td></tr>
+      <tr><td>-1.4653193225441501</td><td>47.215016089947902</td><td>Eglise                                                                                              </td></tr>
+      <tr><td>-1.4659757916271501</td><td>47.217372111080103</td><td>Salle Zodiaque                                                                                      </td></tr>
+      <tr><td>-1.5304514312309401</td><td>47.148315904221</td><td>Face Mairie                                                                                         </td></tr>
+      <tr><td>-1.4839848939869</td><td>47.165232452639401</td><td>Garnier                                                                                             </td></tr>
+      <tr><td>-1.4724064855030801</td><td>47.158221624608203</td><td>Pierre Percée                                                                                      </td></tr>
+      <tr><td>-1.5108851366932701</td><td>47.170920808769303</td><td>Cale Beautour                                                                                       </td></tr>
+      <tr><td>-1.4799223438947799</td><td>47.167855115843302</td><td>Capitainerie                                                                                        </td></tr>
+      <tr><td>-1.4720667926519799</td><td>47.163843916546703</td><td>Eglise                                                                                              </td></tr>
+      <tr><td>-1.4682535571017701</td><td>47.1493884345102</td><td>Portillon                                                                                           </td></tr>
+      <tr><td>-1.4867233661747199</td><td>47.249298055464799</td><td>11-nov                                                                                              </td></tr>
+      <tr><td>-1.4838549994935399</td><td>47.249879440579797</td><td>Marché                                                                                             </td></tr>
+      <tr><td>-1.46086918880616</td><td>47.2443251085474</td><td>Ile Clémentine                                                                                     </td></tr>
+      <tr><td>-1.47450553357271</td><td>47.2445237680788</td><td>Plessis                                                                                             </td></tr>
+      <tr><td>-1.4408557059354401</td><td>47.267308442054599</td><td>Eglise                                                                                              </td></tr>
+      <tr><td>-1.4382438390373899</td><td>47.266295181378098</td><td>Cimetière communautaire                                                                            </td></tr>
+
+	</table>
+
+  </body>
+
+</html>

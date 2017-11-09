@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+	<link rel="stylesheet" type="text/css" href="style.css">	
+
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	
+	<script>
+	  // declaration des cartes
+      var map;
+
+	  // la fenetre qui s'ouvre quand on passe la souris sur un point
+	  var infowindow = new google.maps.InfoWindow();
+
+	  // fonction d'initialisation
+      function initialize() {
+        var mapOptions = {
+          zoom: 6,
+          center: {lat:  46.55, lng: 2.4},
+          mapTypeId: google.maps.MapTypeId.TERRAIN
+        };
+        map = new google.maps.Map(document.getElementById('map-categorie'),
+          mapOptions);
+	    // initialisation des cartes et chargement des donnees
+	            map.data.loadGeoJson('json/poisocial.json');
+
+	    
+	    // fonction de style
+	    var setColorStyleFn = function(feature) {
+	      return {icon: feature.getProperty('icon')};
+	    };
+	    // style des cartes, et listener pour la fenetre qui s'ouvre quand on passe la souris sur un point
+	    map.data.setStyle(setColorStyleFn);
+	    map.data.addListener('mouseover', function(event) {
+          infowindow.setContent(event.feature.getProperty('description'));
+          infowindow.setPosition(event.latLng);
+          infowindow.setOptions({pixelOffset: new google.maps.Size(0,-34)});
+          infowindow.open(map);
+        });
+        google.maps.event.addListener(map, 'click', function() {
+          infowindow.close(); // un clic sur la carte ferme les infowindows
+        });
+	  } // end initialize
+
+      // appel de la fonction d'initialisation une fois la page chargee
+      google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+	<meta charset="UTF-8">
+  </head>
+
+  <body>
+    <h1>Etablissements sociaux</h1>
+
+	<p><a href="./index.php">Page principale</a></p>
+	
+    <h2>Carte</h2>
+    <div id="map-categorie" class="map-canvas"></div>
+
+    <h2>Liste des points</h2>
+	<table>
+      <tr><td>-0.55244691685834801</td><td>44.841616135252004</td><td>Club senior Nuits                                                                                   </td></tr>
+      <tr><td>-0.56392224324934104</td><td>44.826283316388903</td><td>Club senior Vilaris                                                                                 </td></tr>
+      <tr><td>-0.56637932689089598</td><td>44.831834336692701</td><td>Club senior Saumenude                                                                               </td></tr>
+      <tr><td>-0.58699268652591097</td><td>44.844345465612001</td><td>Club Senior Albert Barraud                                                                          </td></tr>
+      <tr><td>-0.548064723004695</td><td>44.869210547653999</td><td>Club senior Achard                                                                                  </td></tr>
+      <tr><td>-0.55190143937045899</td><td>44.825010818353</td><td>Club senior Son Tay                                                                                 </td></tr>
+      <tr><td>-0.54623206506824795</td><td>44.872655517385603</td><td>Club senior Lumineuse                                                                               </td></tr>
+      <tr><td>-0.61267606371133698</td><td>44.824174033245598</td><td>Club senior Alfred Smith                                                                            </td></tr>
+      <tr><td>-0.55138307294976097</td><td>44.844764620455798</td><td>Club senior Bonnefin                                                                                </td></tr>
+      <tr><td>-0.56292706080888999</td><td>44.862844854462899</td><td>Club senior Chantecrit                                                                              </td></tr>
+      <tr><td>-0.56381496742647597</td><td>44.826194341726897</td><td>Centre médico-scolaire Vilaris                                                                     </td></tr>
+      <tr><td>-0.56504847122422497</td><td>44.821881113021597</td><td>Club senior Buchou                                                                                  </td></tr>
+      <tr><td>-0.60115747342764703</td><td>44.820965294425797</td><td>Maison de quartier Tauzin                                                                           </td></tr>
+      <tr><td>-0.61983130885219995</td><td>44.8497725027188</td><td>Club senior Gelé de Francony                                                                       </td></tr>
+      <tr><td>-0.57276081225297204</td><td>44.8564080694238</td><td>Club senior Jardin Public                                                                           </td></tr>
+      <tr><td>-0.59051624071321895</td><td>44.8312235810088</td><td>Club senior Manon Cormier                                                                           </td></tr>
+      <tr><td>-0.61167191013043298</td><td>44.832674852054403</td><td>Club senior Saint Augustin                                                                          </td></tr>
+      <tr><td>-0.57113606798813499</td><td>44.8733107276326</td><td>Club senior Aubiers                                                                                 </td></tr>
+      <tr><td>-0.56882123343200297</td><td>44.838138550382197</td><td>Club senior Alsace Lorraine                                                                         </td></tr>
+      <tr><td>-0.61403938210722697</td><td>44.845828161434497</td><td>Club senior Armand Faulat                                                                           </td></tr>
+      <tr><td>-0.57748148521039</td><td>44.8213719996631</td><td>Club senior Dubourdieu                                                                              </td></tr>
+      <tr><td>-0.61680804654717802</td><td>44.849813720742098</td><td>Maison de quartier AGJA                                                                             </td></tr>
+      <tr><td>-0.56937393111859702</td><td>44.814425922094003</td><td>Club senior Albert Premier                                                                          </td></tr>
+      <tr><td>-0.57577247333207904</td><td>44.833214353293698</td><td>Club senior Magendie                                                                                </td></tr>
+      <tr><td>-0.59964003931353904</td><td>44.823646085415703</td><td>Club senior Quintin                                                                                 </td></tr>
+      <tr><td>-0.56465833134551402</td><td>44.824108897553202</td><td>Club senior Billaudel                                                                               </td></tr>
+      <tr><td>-0.54108532058193204</td><td>44.850773543830499</td><td>Club senior Reinette                                                                                </td></tr>
+      <tr><td>-0.55855008270822004</td><td>44.845520272367601</td><td>Club senior Queyries                                                                                </td></tr>
+      <tr><td>-0.57667149896011205</td><td>44.8394409319163</td><td>Centre local d'information et de coordination (CLIC)                                                </td></tr>
+      <tr><td>-0.567961534533861</td><td>44.833518964271597</td><td>Centre médico-social Saint-Michel                                                                  </td></tr>
+      <tr><td>-0.563847743534304</td><td>44.825067956161597</td><td>Maison de quartier Union Saint Jean                                                                 </td></tr>
+      <tr><td>-0.54929036523422203</td><td>44.843927314480602</td><td>Centre médico-social Bastide                                                                       </td></tr>
+      <tr><td>-0.59931589342825597</td><td>44.848836328968197</td><td>Centre médico-scolaire Bel-Air                                                                     </td></tr>
+      <tr><td>-0.61069237589589698</td><td>44.831742531907402</td><td>Maison de quartier Saint Augustin                                                                   </td></tr>
+      <tr><td>-0.55249803127328001</td><td>44.841731195266199</td><td>Centre médico-scolaire Nuits                                                                       </td></tr>
+      <tr><td>-0.591154228172865</td><td>44.838769023712203</td><td>Maison de quartier Union Saint Bruno                                                                </td></tr>
+      <tr><td>-0.572498557225671</td><td>44.855555912367997</td><td>Centre médico-scolaire Gouffrand                                                                   </td></tr>
+      <tr><td>-0.56479240536542397</td><td>44.858432763679097</td><td>Maison de quartier US Chartrons                                                                     </td></tr>
+      <tr><td>-0.58324676950648402</td><td>44.845668312677503</td><td>Centre médico-social Bordeaux Centre                                                               </td></tr>
+      <tr><td>-0.56289810858113198</td><td>44.845495901337998</td><td>Maison de quartier de La Bastide                                                                    </td></tr>
+      <tr><td>-0.55929629193480601</td><td>44.828720811112099</td><td>Centre médico-social Saint-Jean                                                                    </td></tr>
+      <tr><td>-0.57276658354251297</td><td>44.873170785022303</td><td>Centre médico-social Bordeaux-Lac                                                                  </td></tr>
+      <tr><td>-0.61966190445815095</td><td>44.855440743041498</td><td>Centre médico-social Caudéran                                                                     </td></tr>
+      <tr><td>-0.57665847597867004</td><td>44.853929469379104</td><td>Maison de quartier Chantecler                                                                       </td></tr>
+      <tr><td>-0.57667147065019397</td><td>44.855207774315197</td><td>Centre médico-social Grand Parc                                                                    </td></tr>
+      <tr><td>-0.57091009968540996</td><td>44.879405655208103</td><td>Maison polyvalente Sarah Bernhardt                                                                  </td></tr>
+
+	</table>
+
+  </body>
+
+</html>

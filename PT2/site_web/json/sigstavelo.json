@@ -1,0 +1,1653 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56112974290556905,44.863363614414801,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.572445361892433,44.819593332423104,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56216724933020701,44.863710209802598,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58002625504963001,44.836352537807599,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Rack"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56285784051222898,44.833486018840198,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Rack"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.544854739902213,44.842362345504,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.54469128172624803,44.842884940711301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56921791940449895,44.830827135007098,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55266510114858403,44.842204270742499,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.59948426146721301,44.840167627520998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56713198439365597,44.838459555384297,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56702921111720495,44.836153663400701,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57032026930916002,44.852911837850101,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56647747423588402,44.833278215293703,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56991436805265505,44.824934387540502,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57148984535674296,44.8553779312237,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.562277108186236,44.8428193614373,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56307643471425295,44.842332317823598,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56348345874099603,44.843721396165002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56290238039998397,44.8435714108901,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56967677065285605,44.835186678379301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57467191309887899,44.843714157713997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.583370351871903,44.841518809072603,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57508247013909897,44.835412144566398,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.573405267274533,44.831746217304698,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57432890829177696,44.833415853390903,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.572025513325496,44.854489236438702,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.60697128769647402,44.839579441011601,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.60058148273546796,44.840161651365797,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.60055906037106299,44.8400824583345,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.59948428840561896,44.840255186066102,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57811144643851597,44.833032758808102,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58667561712404304,44.834011637826798,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.571116310814067,44.851958048413898,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57207035363036396,44.830551600786301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Rack"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58525153548354003,44.849872934287902,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55982941021372401,44.843544889036401,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58548881002120001,44.834292982079297,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58548150024440504,44.834586426258603,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.588969019990771,44.843796003748203,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56846683931126896,44.830861413818901,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57657389520770996,44.839653020459899,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.59018196135726597,44.847165154711497,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.560707475832803,44.843786306961199,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.544135074475109,44.849665747757797,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58207551116193001,44.838281984211399,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57524730743242802,44.835714139966001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau moto"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.59563282266613105,44.8506738871518,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Rack"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58864521939104997,44.831280247162297,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57142066724885698,44.855745016384397,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.60090261025157699,44.840056994792199,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58669554537207302,44.834099919704897,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.54378961772995105,44.850340565741803,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57118343199530597,44.851890724396902,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Rack"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.571506584571569,44.832435314796797,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57350196348195404,44.831229541346403,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56183938384833099,44.843152845882599,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57529805300928405,44.825344809358498,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.60842625216331803,44.839552596465602,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57736345780042997,44.844952233273297,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56292524073644101,44.8434640406428,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58564659303464595,44.834413673034803,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58652553280777797,44.844353169727597,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57798735138812796,44.824650323844999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58682975883281796,44.849525399965799,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56492040908613395,44.831650350611703,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58201976448535298,44.879453278242799,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56704297466456299,44.905638828547502,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Autre"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57920907470789496,44.902254354703402,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57262867456528799,44.849483104764303,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56905605199060705,44.872159589667099,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56991846774243904,44.899151324754101,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.54371045929293504,44.846020326494497,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56044856140431498,44.857380039177798,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57047423511534501,44.856345184943798,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56164012740067903,44.856900020854702,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.554489625142218,44.8413122604709,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55282446107642502,44.841678006339599,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55954637115734496,44.844265281744498,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56853142159640502,44.852143884415199,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56288592008353799,44.8562384930203,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55188267103544997,44.844907112401799,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55291438034612495,44.844269034161599,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55431510172056397,44.8434146707704,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55484181423349499,44.843572522754002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55499080149273505,44.843001539188798,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55473285892160895,44.843161110298297,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55646504043485501,44.842100261268499,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.543727069792037,44.846100970347102,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.556868889780603,44.8423332863781,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55684528025598601,44.841856602624802,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55702826145801099,44.842230208371397,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55706657604552801,44.841725015549102,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55761895332136202,44.841378056863597,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55137723896221802,44.845694144541604,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57077978868095403,44.843893368761101,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57055946243728894,44.845343456725097,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55161262254750698,44.845075971544503,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.54038228651498299,44.851956053518101,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.54907986145443599,44.847102135722899,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55277105014176497,44.8541864635081,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.54953894008929505,44.843065693648803,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.558442740510532,44.845238335210603,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.54026623269760199,44.847245666547202,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.54961833823370398,44.843135730896599,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55201238734382896,44.843175072569402,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.61022664340578003,44.832233428087697,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.60968272438281701,44.832238341878003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.54579229753943304,44.874674230207901,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.60925412451358696,44.832026911325798,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.61004167885405103,44.832328207327301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.61019553742260502,44.832369358214798,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57203730479211401,44.839143334764898,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57241015073562396,44.849957390433097,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56596503822834399,44.827707146004897,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56672984412113103,44.8280752007215,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56274953021956198,44.856295909070603,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56589594265149201,44.854261748063301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56164012740067903,44.856900020854702,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau moto"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57900352313875103,44.843023656886601,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57069287958302495,44.843181759491003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57135421533209596,44.836855386222297,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57945845955590702,44.842288162459198,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57891994849360695,44.843166180495103,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55988138304635904,44.829804746989403,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56944975295571398,44.835966778832102,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57204903624955405,44.835559299493099,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57882641400243295,44.8433216285339,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58891538507170405,44.825624979792103,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57810006394608504,44.844492455563497,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.579980310361911,44.8446342028248,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56217092965082505,44.833367091447897,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57194221904829801,44.8482131704815,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57062780003125302,44.8352258400976,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58102453121845199,44.837143112490502,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.59719544937370295,44.8287558561398,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57513578766308204,44.849276464047001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57718139238049004,44.841039902682702,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.61983944154991,44.852689840713403,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57624950686161702,44.826890235143999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau moto"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57502584988086902,44.844673656163501,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57392435382055895,44.830514636930502,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau moto"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57522123390484303,44.843007155446301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57247357614909999,44.825256440754302,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57924234342806102,44.8426388879857,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58142593362287598,44.843165982429298,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58146470292374397,44.843435184747101,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57246895950037702,44.820069928287602,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.573826747744413,44.842042867251102,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57715824836962404,44.844390185490099,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57754461917663003,44.837149793075596,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57153777284114005,44.836985826418498,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57237935624402903,44.835073755232699,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57611179223535203,44.844470546218901,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56559869598041002,44.836144540645698,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56999583407308196,44.837789986942298,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55542779164087097,44.816238381009001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57915233978145497,44.8422418507377,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56184804792513598,44.830169633624401,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56745020995609596,44.835710872780801,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56867682745561798,44.835436939247899,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56941383723118399,44.835499488194102,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.569200448273951,44.835279720198301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57260708953080897,44.848145009500399,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57204099805107,44.842528977815597,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57014995513435196,44.8350307668493,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56951030210328402,44.8341284131074,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57695866747879498,44.838344126179102,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57596196212605499,44.837135674098299,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58038319855672105,44.8367180247173,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57361590118576,44.841111661711402,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57091458808027595,44.8348854346522,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.59792811229521603,44.827719719401998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.59745547029576596,44.8283891093295,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.597573773570096,44.828224032118001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57261958278384695,44.834815609115402,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55687074397593805,44.826494433770598,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57699907847405096,44.846276069712701,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57676456503517404,44.846651148898502,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.61545860363743399,44.852423514494603,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57499793833406898,44.839407258582199,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57264396849202703,44.837597337019901,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57334814031126802,44.833941831352703,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.59183009370159501,44.833304137200301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.59211664356316396,44.833215819373798,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55536029820761601,44.859704405880102,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57198102803654005,44.836980020105997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.59689973700127796,44.8301771457066,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56091793881460705,44.860979078614299,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57480427688784896,44.834976697890298,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.59988676919829997,44.829182845693097,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58768131645036203,44.841450179128998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57344502660461105,44.840728781166099,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57553265197912595,44.841225488284103,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.60032868354897595,44.829162556365503,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58115935589724399,44.840715166899002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau moto"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57148591275020999,44.848148760585602,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57604788923312999,44.827669735097302,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57428882240163404,44.822320266733598,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.573272105760257,44.822228796797802,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57643196273220898,44.827506957138297,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau moto"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.571675920746192,44.8408170204033,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58095911167052805,44.825672922668701,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58093123392667001,44.840558849111702,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58132853718925903,44.824961274727599,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56990731783704995,44.8362614896404,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Arceau vélo"},

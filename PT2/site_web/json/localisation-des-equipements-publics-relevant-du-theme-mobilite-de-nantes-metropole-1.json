@@ -1,0 +1,3561 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Parking Médiathèque"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5623381759623001,47.210870827100301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare de Nantes Chantenay"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.59435499316903,47.197202245403901,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Parking Gare Nord"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5449843341157199,47.216689040172902,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare de Nantes -accès nord"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54205106482655,47.217491112988498,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare Fluviale Bateaux Nantais"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5516367391695001,47.227968476642701,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Parking Decré-Bouffay"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55400463227177,47.216662619964303,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Parking Graslin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.56257181621741,47.214310210506802,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Parking Tour Bretagne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55825001902681,47.217842894839798,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare Routière Baco Eurolines"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55276077185068,47.212740250147398,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Parking Commerce"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5577132196905099,47.213120285802397,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare de Nantes -accès sud"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54155846026517,47.216448854427,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Parking Aristide Briand"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5629364180805301,47.217093604857901,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Parking Cité des Congrès"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5439712771668399,47.212901670902298,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Parking Gare Sud 1"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5410368284639799,47.216149635954402,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Parking Talensac"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55835729990237,47.220255981046797,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R tramway Recteur Schmitt 1"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5529031043792401,47.251735253868802,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Capitainerie du Port Atlantique Nantes Saint Nazaire"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5739813913417799,47.205400782347702,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Port Autonome de Nantes Saint Nazaire"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5747113547278799,47.205511114895302,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Port de l'Erdre"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5537245980108401,47.225203577314801,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Service Maritime et Navigation Ecluse Saint Félix"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5408989995220099,47.212528607285599,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare de Basse-Indre / Saint-Herblain"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6603128412802299,47.204083239044301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Aéroport Nantes Atlantique"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.60178206983725,47.157519148192797,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Bacs de Loire entre Basse-Indre et Indret"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6736104347138701,47.197459130930397,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare de Bouaye"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6811035882018499,47.1380452446435,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare de Couëron"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.7235993999189201,47.221944187514701,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Bacs de Loire entre Couëron et Le Pellerin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.75212411426107,47.205946244377799,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare de Rezé Pont-Rousseau"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5493921054275499,47.193331595479002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare de Thouaré-sur-Loire"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4409638607144699,47.265120118465298,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare de Mauves-sur-Loire"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.38930347898703,47.293008169788898,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare de Vertou"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4780319485592499,47.186143479464299,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Port de Trentemoult"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.57837788591499,47.195577299885798,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Port de Couëron"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.7299592237938299,47.209125688498403,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R tramway Frachon"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.62163336178234,47.2186961365515,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R tramway Le Cardo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5845119807914101,47.262502093615502,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R tramway François Mitterrand"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.63948414305523,47.221706200870003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R tramway Recteur Schmitt 2"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5524703846475401,47.252027701738598,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R tramway La Beaujoire"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5266809543080699,47.2594951760586,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R tramway 8 Mai"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5514394505457401,47.190033752099502,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R tramway Trocardière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.57109558940531,47.183292745883897,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R tramway René Cassin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.57499790750312,47.263950926010097,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R tramway Pirmil"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5414483988965499,47.197213293203497,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R tramway Goudy"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5410477469437001,47.196098946737401,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R TER Frêne Rond"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4961857897961699,47.190622842092203,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R TER Gare de Vertou Nord"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4791618545830101,47.186402376370502,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R TER Gare de Vertou Sud"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4785719721857999,47.185683019737802,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R tramway Plaisance"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.59344052396589,47.240532662020698,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare de St-Sébastien Frêne Rond"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4958313646506001,47.190616348109501,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Parking Gloriette 1"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55843872950464,47.211179655323299,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Parking Hôtel Dieu"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55198311230427,47.211057086029903,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Parking Baco-LU 2 côté CHU"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55160425745185,47.213150980027301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R TER Gare des Pas Enchantés"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.51299644307533,47.208229054565201,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare de St-Sébastien Pas Enchantés"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5111130635138501,47.207008774038499,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Parking Château"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5478504496852701,47.216989960979298,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Parking Gare Sud 3"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5392563112869999,47.214915340625701,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R TER Gare de Couëron"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.72363750160792,47.2217771934083,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R tramway Neustrie 2"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.59339969648243,47.176672451111003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R navibus Trentemoult-Roquios"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5777839320635501,47.195252511278902,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R TER Gare de Basse-Indre Sud"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.66103809646199,47.204157974131903,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R tramway Neustrie 1"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.59309648041537,47.175453234250902,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R TER de Thouaré-sur_Loire"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4413893536783,47.264711990884798,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R TER Gare de Mauves-sur-Loire"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.3889048866860001,47.293258333932897,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R TER Gare de Bouaye"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6825754365936201,47.138322368680299,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R navibus Trentemoult-Dépôt"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.58068768637466,47.191964989509501,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R tramway Morlière Paquelais"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.60283874722482,47.2478235218625,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R tramway Orvault Morlière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6030494667625901,47.246776647706497,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R tramway Beauséjour"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5873437488368001,47.238413521397099,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Parking Gare Sud 2"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5413433758428801,47.214234036616297,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Parking Gare Sud 2 limité 1h"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54267513884661,47.215202123295597,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R busway Porte de Vertou"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.50516017764927,47.180175295986899,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R busway Gréneraie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5333336232472901,47.200139039269203,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R busway Bourdonnières 1"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5213374773700299,47.185974212047597,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R busway Chapeau Verni"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5115107556291101,47.189457522152097,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R TER Gare de Pont-Rousseau"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5482825337663799,47.192501022904899,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R tramway Bignon"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5982002251551299,47.248975246611501,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Parking Bellamy"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5576936925635501,47.222360416101701,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Parking CHU 1"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5572502339924199,47.209361971599897,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Parking Cathédrale"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5510561683261099,47.220813351072103,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R busway Maraîchers"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5106742003706599,47.185169023526299,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"1 Station Abonnement Préfecture"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5540709075493899,47.220276344270196,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"2 Station Accueil Hôtel de Ville"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55354426853678,47.218564001564502,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"3 Station Accueil Strasbourg"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55161756498412,47.216532854728001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"4 Station Accueil Moulin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5544258471072101,47.216646871200297,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"5 Station Accueil Brossard"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55677730034727,47.218838091503699,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"6 Station Abonnement Place du Cirque"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5569536605999901,47.217604415335003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"7 Station Accueil Barillerie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5561003799955999,47.215409629938499,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"8 Station Abonnement Boucherie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55713447812337,47.216210446263098,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"9 Station Accueil Guépin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5590604289729999,47.215834906918303,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"11 Station Accueil Calvaire"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.56071869453248,47.215588626949902,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"12 Station Abonnement et Bonus Place Delorme"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5639635668283201,47.215158134429899,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"13 Station Abonnement et Bonus Bretagne Sud"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55918288617231,47.216796210998801,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"15 Station Accueil Place Aristide Briand"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.56300550348212,47.217196287643297,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"16 Station Accueil Place Edouard Normand"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5634947333767499,47.219028032543299,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"17 Station Accueil Sainte Elisabeth"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.56158876841816,47.219225442241999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"18 Station Abonnement et Bonus Place Viarme"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.56332698114374,47.221440878007201,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"19 Station Accueil Saint Similien"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55892890964265,47.219835952651998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"20 Station Abonnement Bellamy"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55724358606304,47.222911795406397,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"21 Station Accueil Marché de Talensac Sud"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5564947717984501,47.221154818393998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"22 Station Accueil Moquechien"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55558297927192,47.220379047481501,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"23 Station Accueil Buat"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54242264341268,47.2271569726,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"24 Station Accueil Versailles"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5537369635610001,47.224524408815199,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"25 Station Abonnement Dalby"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.53010845738847,47.223612648875502,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"27 Station Accueil Guist'hau Nord"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.56926720618524,47.217940185225402,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"26 Station Abonnement et Bonus Guist'hau Sud"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.56702335731262,47.216839445305098,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"28 Station Accueil Place de l'Edit de Nantes"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.56761075012927,47.214459027951101,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"29 Station Accueil Duguay Trouin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5552885084063699,47.213461578790401,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"30 Station Abonnement Commerce"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5573807226382199,47.213145029425597,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"31 Station Accueil Bourse"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55910527758924,47.212094380848598,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"32 Station Accueil Place Foch"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55027785651826,47.219342309250997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"33 Station Accueil Racine"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.56319280951069,47.213546045638402,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"34 Station Abonnement Médiathèque"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5618418449525,47.2109126549257,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"35 Station Abonnement Jean V"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5655166609459099,47.212157257031002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"36 Station Accueil Alger"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5666743136651,47.210705238574,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"37 Station Accueil Feydeau"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55688248342545,47.211472898917599,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"38 Station Abonnement Place Ricordeau"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55313666650746,47.212090423456601,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"39 Station Accueil Quai Moncousu"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5552484142630001,47.209365456061903,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"40 Station Accueil Madeleine"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5504304749082001,47.208815874651997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"41 Station Accueil Chantiers Navals"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5697481026573099,47.2083082123361,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"42 Station Abonnement Gare Maritime"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.57262953237793,47.206609081175301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"43 Station Abonnement Machines de l'Ile"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5648258061509499,47.206930260547502,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"44 Station Accueil Palais de Justice"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.56124245373142,47.208363178205602,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"45 Station Accueil Prairie au Duc"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55888284017234,47.204784819206203,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"46 Station Accueil Place de la République"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5552068436339701,47.205338010494103,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"47 Station Abonnement Martyrs Nantais"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5481798505470601,47.207035364629,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"48 Station Abonnement Verdun"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55186817651381,47.217516769715999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"49 Station Accueil Duchesse Anne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5470772207902801,47.2165287485861,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"50 Station Abonnement Château"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55027600234498,47.215135932323598,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"52 Station Accueil Baco"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5487689375189799,47.2143388426474,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"53 Station Accueil Olivettes"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54995935107843,47.211749426576503,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"54 Station Abonnement Cité Internationale des Congrès"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54502748383111,47.213168554028499,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"55 Station Accueil Magellan"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5442482633924299,47.210683975483299,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"56 Station Accueil Vincent Gâche"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54181497476041,47.2068622585847,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"57 Station Abonnement Gaëtan Rondeau"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5376006539959499,47.205407014436602,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"58 Station Accueil Palais des Sports"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.53599916068622,47.2084771961567,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"59 Station Accueil Stade Saupin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5397482405407401,47.213923278665398,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"60 Station Abonnement Gare Sud"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54286596091712,47.2159307421474,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"61 Station Accueil LU Lieu Unique"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5459242111778499,47.215602785014198,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"62 Station Abonnement Gare Nord"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5422409684020899,47.218141404614201,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"63 Station Accueil Jardins des Plantes"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54475253537978,47.219865151415298,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"64 Station Abonnement et Bonus Saint Clément"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54717172480906,47.221798394807202,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"65 Station Accueil Cours Sully"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5516848391931,47.222598818465798,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"66 Station Accueil Chanzy"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54801802179078,47.2254413947716,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"67 Station Accueil Place Waldeck Rousseau"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5521661391296599,47.227786338160797,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"68 Station Accueil Livet"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5452163209585501,47.224095495505097,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"69 Station Accueil Manufacture"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5358653501978401,47.219227699299303,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"71 Station Abonnement et Bonus Marché de Talensac nord"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55906934287743,47.2219103419541,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"73 Station Accueil Sarradin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5705071778526301,47.220883766721201,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"74 Station Accueil Canclaux"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5750060819267799,47.214371684292502,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"75 Station Accueil Lamoricière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5713989984012799,47.212365614394997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"76 Station Accueil Place René Bouhier"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.57058928666779,47.209442040964099,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"77 Station Accueil Ecole d'Architecture"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5575512596696599,47.207616902001703,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"78 Station Accueil De Gaulle"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54056873329161,47.208460378395401,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"79 Station Accueil Malakoff"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5365201487772799,47.213203895146101,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R tramway Marcel Paul"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6180083496394599,47.245904569813497,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R tramway Grande Ouche"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.57947203525665,47.181994835047902,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R busway Bourdonnières 2"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.52298286719509,47.186401501745003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"87 Station Accueil Anatole-France"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.57139236049388,47.2236164437223,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"86 Station Accueil Hauts Pavés"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5675204718229101,47.225482261833797,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"88 Station Accueil Mellinet"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5771267654188601,47.211489622114001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"89 Station Accueil Saint-Aignan"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5787150966141701,47.207444063946603,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"80 Station Accueil Victor Hugo"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55156732506795,47.204014359992797,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"81 Station Abonnement Mangin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5454970266621799,47.200991774640599,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"82 Station Accueil Sébilleau"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.53313636292619,47.206768584698303,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"83 Station Abonnement Millerand"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5301614134947501,47.208217819463002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"84 Station Accueil Région"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5259512754811599,47.210753237185102,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Parking Courte Durée Gare Nord"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5434787508444301,47.217264732216897,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Parking Les Machines"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5627277923637199,47.205900622064497,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"85 Station Accueil et Bonus Bel Air"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5601556114894499,47.226531595571302,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"10 Station Accueil Picasso"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.53422912101255,47.216343586847699,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"51 Station Abonnement Tabarly"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.53007250061588,47.214391469976299,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Parking Gare Sud 4"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5379338952819499,47.215103366318303,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"92 Station Abonnement Rond Point de Rennes"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.56601698077602,47.233091703755903,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"91 Station Abonnement Rond Point de Vannes"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.57205389018402,47.229637540584697,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"90 Station Abonnement Procé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.57658356660229,47.224321586199899,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"102 Station Abonnement Gare de Pont Rousseau"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54900545446362,47.193149276695401,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"101 Station Abonnement Pirmil"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54145063364339,47.196629488228901,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"99 Station Accueil Saint-Jacques"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5365896288790599,47.195859160598502,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"100 Station Abonnement Gréneraie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5346071537874,47.1999707101929,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"96 Station Abonnement Tortière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54947343741177,47.235344800187598,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"95 Station Abonnement Michelet"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5563887020485501,47.235083706675503,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"94 Station Abonnement Petit Port"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5563809863550699,47.243262644076601,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"93 Station Abonnement Facultés"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5553383498054001,47.246323288345401,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"97 Station Accueil Saint-Donatien"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5404024174377999,47.229128762669099,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"98 Station Abonnement Huit Mai"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5509330648644399,47.189148532490499,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Aire de covoiturage Piano'cktail"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.60539271713277,47.174392110639502,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Aire de covoiturage Le Paradis"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.751615681513,47.205843305836801,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Aire de covoiturage Le Vélodrôme"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.73553587146421,47.211491147473602,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Aire de covoiturage Les Ormeaux"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6824712295212501,47.155885783979599,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Aire de covoiturage Georges Brassens"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6759732987008,47.183308256845898,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Aire de covoiturage La Herdrie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4545741556611,47.198136414852101,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Aire de covoiturage Pas Enchantés"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5039410584835,47.210388937340497,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Aire de covoiturage Les 3 Brasseurs"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4894498293360801,47.190931195993898,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Aire de covoiturage La Charmelière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4738172226667601,47.294827601066203,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Aire de covoiturage La Croix de Mauves"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.39840430261237,47.300226061437399,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Station Bretagne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5596335431814301,47.217489907388298,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Station 50 Otages"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5572278643058901,47.219405343852102,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Station Hôtel de Ville"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5540738335827899,47.2176490515034,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Station Aristide Briand"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.56254319041665,47.2172612842459,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Station Commerce"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5571650749703501,47.2118924383634,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Station Baco"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55242193688866,47.212132014548096,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Station CIO"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5462052128841499,47.212503005783702,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Station Cité des Congrès"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5445283160896299,47.213240934700003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Station Gare SNCF Sud"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54185994912442,47.214906933424402,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Station Manufacture"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.53624925513081,47.219032236242398,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Station Rond Point de Paris"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5352900931381299,47.234456154176698,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Station Ecole d'Architecture"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5566864713034201,47.206501348027402,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Station Mangin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5451806396332699,47.2012759690694,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Station Chantiers Navals"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5683301930205999,47.209131576299697,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Station Mairie de Chantenay"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5878712566764499,47.206516834052799,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Station Zola"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5873916558135299,47.214077429886999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Station Sainte Thérèse"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5772187064865499,47.232345438093098,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Station Duchesse Anne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54717075568781,47.216502449778702,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare Routière Baco Lila"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55276994885937,47.212675541777401,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare Routière Pirmil Lila"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54267335074876,47.196392343560802,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare Routière Beauséjour Lila"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5868606071557101,47.238079501607501,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare Routière Cardo Lila"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.58415510201614,47.2617996203739,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare Routière Haluchère Lila"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5214318859415501,47.248021162972897,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"103 Station Mobile"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.56886475459008,47.206117764978799,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Station Canclaux"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5748272514646,47.214171224129402,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Parking Chantiers Navals"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5689156095572701,47.208289319523303,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Parking Gloriette 2"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.56028436884679,47.210273687105399,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R tramway Santos Dumont"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.56822710791259,47.259323673024298,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"72 Station Accueil Félibien Gué-Moreau"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.56192014921017,47.228614123537596,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Aire de covoiturage La Métaierie Rouge"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5463839705034801,47.274442225944703,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Aire de covoiturage Norauto Atlantis"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.62624641113902,47.225723924891099,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Aire de covoiturage Carrefour Beaujoire"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5098321508064401,47.257877909845497,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R tramway Ranzay"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5331366541122899,47.254363274444401,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R tram-train Haluchère 1"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5228311737223501,47.248450344229099,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Parking Baco-LU 1 côté gare"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5489888284489699,47.214332421127601,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Station Quai de Versailles"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55558569228364,47.226783599264003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R TER / chronobus Gare de Chantenay"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5946348497279501,47.1975346063468,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R tramway Neustrie 3"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5916498733464299,47.177345253151799,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R chronobus Chantrerie - Grandes Ecoles"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5184745954479,47.2810941460666,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R chronobus Planchonnais"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.47497405146538,47.2531977445948,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R TER/chronobus La Noë"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4390200591526301,47.266120643512501,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R chronobus Pré Poulain"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4460446943901899,47.273294197164702,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Aire de covoiturage de la Mairie de Saint-Léger-Les-Vignes"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.7271012730315201,47.136702832751702,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Aire de covoiturage Frachon"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6215724055526399,47.218479715902703,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Aire de covoiturage de la Planchonnais"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4750740804873499,47.252980990253199,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Parking Les Fonderies"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54433295436521,47.204970464725797,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Parking Feydeau"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5525587835210399,47.2140752998708,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R tram-train Babinière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5462247687512201,47.259596557758599,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare tram-train Babinière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54559364953307,47.259555742936797,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R tram-train La Chapelle-sur-Erdre Centre Est"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54771562542556,47.297801541289203,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare tram-train La Chapelle-Centre"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5480802032686301,47.297486022649103,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R tram-train La Chapelle-Aulnay Est"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5410491905766399,47.308388800260403,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare tram-train La Chapelle-Aulnay"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5415112318920301,47.308681123116401,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R tram-train La Chapelle Erdre Active"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5443440981459999,47.283114749889897,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare tram-train Erdre-Active"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54452233078279,47.282849727096398,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R tram-train La Chapelle-sur-Erdre Centre Ouest"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54876772911246,47.296876197038799,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R tram-train La Chapelle-Aulnay Ouest"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5436774216499201,47.307930786102901,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R TER Gare de Basse-Indre Nord"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6605882938885601,47.204373631837399,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R chronobus Papillons"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5185723704904901,47.147016506233101,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"70 Station Accueil Gare Sud 2"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5429373019339501,47.215485208909897,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Station Saint-Donatien"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54052829088581,47.228935299112003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Station Tripode"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54017656001374,47.207440044976899,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Station Sourdille"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5712884213134799,47.224452563014303,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Station Rond-Point Rennes"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5663199130604499,47.232904736193198,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Pirmil (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5434648962261499,47.195798174605301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Pont Rousseau (collectif sécurisé)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5487523292488401,47.192545527788099,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"8 Mai (collectif abrité)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5518442081649499,47.189224966930901,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Trocardière (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.57029190539333,47.183377288903301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Grande ouche (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.57958857608825,47.181722373695401,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Neustrie (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.59310087276357,47.176812618867302,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gréneraie (collectif abrité)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5331075822223199,47.199672065098603,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gréneraie (collectif sécurisé)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5331726450449701,47.199740312897703,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Mauvoisins (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.52540142790408,47.190211357636898,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Bourdonnières (consignes)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.52140876908587,47.186547353291203,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Porte de Vertou (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5053047692691599,47.180631073283699,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Pas Enchantés (collectif abrité)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5112538842536001,47.206903018495296,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Pas enchantés abrité (collectif abrité)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.51055928386024,47.206644660038897,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Frêne Rond (collectif sécurisé)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4960398366032801,47.190304181426598,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Frêne Rond (collectif abrité)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4958874408862199,47.190364280659502,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare de Vertou (collectif abrité)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.47798363700849,47.186277564304397,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare de Vertou (collectif sécurisé)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.47801423897547,47.185848563300198,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare Sud (collectif abrité)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5418676200194501,47.2161546501301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare Sud (collectif sécurisé)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5416712699061601,47.216185034324297,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare nord (collectif abrité)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5434439666031901,47.2173064334307,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Beaujoire (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5256631791106401,47.259187277673,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare de Mauves (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.38964150683711,47.293009507513403,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Recteur Schmitt (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55248886690146,47.252061754362799,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Grand Val (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5920230802473001,47.261880870934299,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Morlière Paquelais (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6027890348548599,47.2477519931616,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Marcel Paul (collectif abrité)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6175805007514601,47.245695865038201,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Bignon (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5978903457391,47.248956095229403,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Plaisance (collectif abrité)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.59305566366749,47.240871198567298,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Neruda (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6142614951031,47.217939794327499,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Mitterrand (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6392459539576201,47.222004179606301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Place du vieux cimetiere (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4917513467782599,47.296766258261997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Hangar à bananes (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5728204352285899,47.199897656581498,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Pirmil (collectif sécurisé)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54289738351578,47.196434968989998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Pirmil (collectif abrité)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54258773105948,47.196591213775903,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Maraicher (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5106947981432,47.185049357792401,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Vertou gare routière (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.47124094524049,47.168887571531997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"3 Moulins (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5441475708527801,47.178261321472398,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Place de la Mairie (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5311924606849301,47.148577159753998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Diderot (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5626784033024399,47.184239422596299,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare de Thouaré (collectif abrité)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4407738737368001,47.265075184060997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Haluchère (collectif sécurisé)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5232949671231699,47.249930182166501,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Haluchère (collectif abrité)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5235173361721199,47.249323804320802,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Ranzay (collectif sécurisé)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.53010640990383,47.253022310153597,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Babinière (collectif sécurisé)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5457044367928601,47.259120956493298,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"René Cassin (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5752533489534299,47.264131047030901,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Bout des Pavés (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.57648890806529,47.253158840210297,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Pont du Cens (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.57694786773576,47.248748744274799,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Place Eglise (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6236261202879301,47.2709528330289,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Sautron terminus (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.67954132186688,47.264301304578296,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Rue du Grignon (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.46662847481612,47.216582608676397,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Le Pellerin terminus ligne express (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.7591476563066399,47.201690620431897,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Bois Raguenet (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6001928619692201,47.266684153785299,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Mairie Doulon (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5186464904927901,47.227262395996902,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Clos Toreau (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5288590080619899,47.194051616925798,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Landreau (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5156740661341901,47.231937178679701,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Santos Dumont (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.56817518277345,47.259340922309399,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Joliverie (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5171373123187299,47.189464007684798,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare de Chantenay (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5943206444437099,47.1974776824377,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Croix bonneau (sécurisé)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.59590574852204,47.209379306020701,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Egalité (sécurisé)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.58893567488989,47.209638893615796,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Grammoire (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.48057265753418,47.1648832031388,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Croix Jeannette (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6238173488341401,47.175388198894403,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Les Couets (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5861921703979101,47.181039862405697,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Durantière piscine (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.59874322411545,47.213069834031501,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"La Montagne Pompiers (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6892154448274099,47.188439420138899,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Route des Sorinières (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.48624898868314,47.1654311212652,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Zola (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.58630587536017,47.213967844989497,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Sainte Luce De Gaulle (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4849481562014699,47.2501416083484,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Neustrie (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5929976388712499,47.1768261386391,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Mitterrand (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.63953075892652,47.222000841541103,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare de Mauves (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.3896532743654899,47.293030201076903,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Chapeau vernis (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5112960626276299,47.189347335877002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Beausejour (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5875971384072001,47.238586568346101,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"St Félix (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5567462861965,47.230946259265799,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Michelet (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5567933114807699,47.234739677264997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Piscine (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4693748230813199,47.164771145228102,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Ragon (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5422205209320501,47.165370765273003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Papotière (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.47486330373227,47.2532938084695,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"La Minais (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.46604870833721,47.257046897160599,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Place du Vieux Doulon (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5029354693669099,47.235238561169503,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare de Chantenay (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5943298425406001,47.197676695081398,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Rue du Prieuré (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.7250565487023399,47.195661229456697,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Maillardière (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5229932279689899,47.157188381458297,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Papillon (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.51891022584835,47.1467213882786,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"La Chantrerie (abrité)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.51786707198478,47.282259066599501,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"La Chantrerie (sécurisé)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5176730479949401,47.282119642473397,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare Bouaye (abri plus sécurisé)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6813021065871401,47.138199822996299,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare de Basse Indre (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6601473188485401,47.204234900055901,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare maritime (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5727164645104199,47.206271975140403,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare nord parking (sécurisé)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54387627842632,47.217073557385298,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare nord parking (abrité)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54391839978149,47.217138519186399,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Saint Jean de Boiseau (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.7120707556171599,47.191334973315499,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Souillarderie (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5160908395955199,47.237987368893698,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Bout des Pavés (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.57599666234132,47.253182203824203,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Pont Rousseau (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54879737366258,47.193131524737197,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Durantière (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6002296182984601,47.2131821023372,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Coueron Even (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.72697210155762,47.212054989161103,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Trentmoult Roquios (collectif abrité)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5781126371669401,47.195258817761598,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Frachon (collectif abrité)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6202838660534999,47.218891627526098,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Neruda (collectif abrité)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.61402386984358,47.217858407968002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare de Basse Indre (collectif abrité)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6603354195329101,47.204288275378197,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare de Bouaye (collectif abrité)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.68120547935829,47.138189324215801,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare de Coueron (collectif abrité)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.72352737769722,47.221782603418703,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare de Thouaré (collectif abrité)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4411217755947401,47.264990123960999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare de Vertou (collectif abrité)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4780419508681599,47.185862956777001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Pas enchantés abrité (collectif abrité)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.51061578215125,47.206673126351902,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Goudy (collectif abrité)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54079167962344,47.1956815426243,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare de Chantenay (collectif abrité)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.59460859492635,47.197283304093602,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare sud 4 (collectif sécurisé)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.53799063632782,47.215096505351902,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Le Cardo (collectif sécurisé)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5844043709767901,47.262391454336502,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Mitterrand (collectif sécurisé)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.63953854745182,47.221943737126999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Cité des Congrès (collectif sécurisé)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54408370542533,47.213644636561497,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Commerce (collectif sécurisé)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55780980234499,47.213319496289699,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Decré / Bouffay (collectif sécurisé)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55423648573523,47.216666052728499,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Foch Cathédrale (collectif sécurisé)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5512637971487899,47.2210180982701,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Graslin (collectif sécurisé)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5622963433986301,47.214597030106198,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Machines (collectif sécurisé)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.56258620817132,47.205825791527303,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Médiathèque (collectif sécurisé)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5623075615220601,47.2108425003292,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Talensac (collectif sécurisé)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5576933168857701,47.219902739176099,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Bretagne (collectif sécurisé)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55831595116776,47.217804279512798,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Haluchère (collectif abrité)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5232502882801899,47.249899433892899,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Haluchère (collectif asécurisé)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.52349198770571,47.249293309856903,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Ranzay (collectif abrité)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.53019927103207,47.253066211511097,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Marcel Paul (collectif sécurisé)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6175244770896999,47.245770022602301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Neustrie (appui-vélo)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.59312665701531,47.177082943489602,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Beauséjour (appui-vélo)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5865089094778,47.238068049421599,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Corbinerie (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54191715193937,47.1617797634634,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Rouet (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.52097760737545,47.147780778229901,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Rue des prés (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.7229320838703499,47.169436637406399,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Saint Herblain (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6063661224747099,47.222206130227796,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Neptune (collectif sécurisé)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5526947054328,47.213890217221,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Locations vélos Commerce"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5579201758517001,47.213221375383903,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Locations vélos Gare Nord"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5441127818731499,47.216955172743702,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare tram-train Haluchère-Batignolles"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5225927294191699,47.249041136936803,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R tram-train Haluchère 2"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5249751956000299,47.250230059784499,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R chronobus Bois des Anses"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4949532756716399,47.246903862863,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Moulin Boiseau (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4838652986220799,47.288152863742802,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Rue de Chateaubriand (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.48519147433257,47.304086977793503,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Ecole centrale / Sup de co (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55141569040084,47.248322775578401,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Combattants d'Indochine (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.53388785803026,47.242540487466798,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Keren (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5328621185084299,47.244833679144499,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Embellie (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5163001846191699,47.267680958199598,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Le Cardo (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5842684367137601,47.262136317152802,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Chêne des Anglais (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5731298121641499,47.261591606489397,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Tertre  (abri collectif)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6079575144678699,47.214290387409697,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Viarme/Talensac (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5629941498756501,47.221443580743703,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Bd. Doulon (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.51990689935172,47.224035417842202,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare Maritime (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5725927184063799,47.207337459562503,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Terminus C5 (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.57105494638846,47.2030346687676,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Prairie au Duc (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5658569367441699,47.204061328910001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"République (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5543433441151999,47.205604497158902,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gustave Roch (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5536263768253999,47.204624798791698,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Conservatoire (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.53325746313532,47.206655717268099,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Pompidou (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.52705222903656,47.209569245857303,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare Erdre Active (abri collectif sécurisé)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5447910402459399,47.283316687389402,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare Chapelle Centre (abri collectif sécurisé)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5479966866331101,47.297276909085497,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Gare Chapelle Aulnay (abri collectif sécurisé)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5435850175265799,47.3061824898911,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Chat qui guette (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6967031767220999,47.191951994529397,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Station Ladmirault"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.56423877233188,47.213761403369702,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Station Viarme"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5614484361038601,47.220874295869201,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"P+R Chronobus Prairie de Mauves"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.51585135578417,47.220255844287799,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Station Sainte Anne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5808023319940401,47.203872934444803,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Station République"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55509166043531,47.205102588224101,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Station Talensac"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5567546855643499,47.221298345725302,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Station Saint Clement"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54723195160433,47.2212820798647,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Station Gigant"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.56923615633877,47.214286961904797,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Station Maille Brezé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.57193743729686,47.207489924407497,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Station Lamoricière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5715037062319599,47.212309733995099,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Station La Bourse"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5589445950040699,47.212187718469998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Aire de covoiturage Ile Chaland"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4521887535664899,47.220095373548197,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Aire de covoiturage Bois des Anses"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4950847486666301,47.247070076719801,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Prairie de Mauves (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.51637273497636,47.220141778650103,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Océan (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.7392289781163699,47.213534466628502,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Champ de Foire (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.61848016100407,47.124547436625903,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Hermeland (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6169500646653701,47.2305164911809,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Angevinière (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.60828187602942,47.245522980137899,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Chapelle des Anges (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6370783533675799,47.274982057690401,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Chapelle sur Erdre (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5602617434775701,47.3061939001201,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Quai Surcouf (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.57789557873385,47.194928880340598,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"François Mitterrand (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5595181922386301,47.184476852531603,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Piscine (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4722223131213601,47.189732556934203,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Grignon (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4755437753353999,47.215300484528797,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Métro (consigne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4955590932229601,47.246768003503902,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Aire de covoiturage La Ville au Denis"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6277954417451199,47.163078749061903,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Parking CHU 2"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5529138870413699,47.208890253019,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Station Calvaire"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.56111806795314,47.215764987415398,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Station Arche Sèche"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5584243306954899,47.2161075134917,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/themepark.png",
+  "description":"Aire de covoiturage Super U de Bouaye"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6798381159507501,47.143553658774699,0]}}
+]}

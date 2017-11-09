@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+	<link rel="stylesheet" type="text/css" href="style.css">	
+
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	
+	<script>
+	  // declaration des cartes
+      var map;
+
+	  // la fenetre qui s'ouvre quand on passe la souris sur un point
+	  var infowindow = new google.maps.InfoWindow();
+
+	  // fonction d'initialisation
+      function initialize() {
+        var mapOptions = {
+          zoom: 6,
+          center: {lat:  46.55, lng: 2.4},
+          mapTypeId: google.maps.MapTypeId.TERRAIN
+        };
+        map = new google.maps.Map(document.getElementById('map-categorie'),
+          mapOptions);
+	    // initialisation des cartes et chargement des donnees
+	            map.data.loadGeoJson('json/poisport.json');
+
+	    
+	    // fonction de style
+	    var setColorStyleFn = function(feature) {
+	      return {icon: feature.getProperty('icon')};
+	    };
+	    // style des cartes, et listener pour la fenetre qui s'ouvre quand on passe la souris sur un point
+	    map.data.setStyle(setColorStyleFn);
+	    map.data.addListener('mouseover', function(event) {
+          infowindow.setContent(event.feature.getProperty('description'));
+          infowindow.setPosition(event.latLng);
+          infowindow.setOptions({pixelOffset: new google.maps.Size(0,-34)});
+          infowindow.open(map);
+        });
+        google.maps.event.addListener(map, 'click', function() {
+          infowindow.close(); // un clic sur la carte ferme les infowindows
+        });
+	  } // end initialize
+
+      // appel de la fonction d'initialisation une fois la page chargee
+      google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+	<meta charset="UTF-8">
+  </head>
+
+  <body>
+    <h1>Lieux de sports et loisirs</h1>
+
+	<p><a href="./index.php">Page principale</a></p>
+	
+    <h2>Carte</h2>
+    <div id="map-categorie" class="map-canvas"></div>
+
+    <h2>Liste des points</h2>
+	<table>
+      <tr><td>-0.57251025091982799</td><td>44.835624713974298</td><td>Palais des sports                                                                                   </td></tr>
+      <tr><td>-0.56522884237530202</td><td>44.899148351620397</td><td>Vélodrome du Lac                                                                                   </td></tr>
+      <tr><td>-0.56421289048739898</td><td>44.849550943527703</td><td>Port Bastide                                                                                        </td></tr>
+      <tr><td>-0.57920783380752205</td><td>44.812643260910797</td><td>Stade Suzon                                                                                         </td></tr>
+      <tr><td>-0.61773304967776799</td><td>44.870573630213897</td><td>Stade Sainte Germaine                                                                               </td></tr>
+      <tr><td>-0.60499573190672795</td><td>44.840200675145297</td><td>Salle d'escrime Guy Laupies                                                                         </td></tr>
+      <tr><td>-0.55882538665838899</td><td>44.838133260176299</td><td>Ponton Benauge                                                                                      </td></tr>
+      <tr><td>-0.56288549441295199</td><td>44.827117024350002</td><td>Gymnase Barbey                                                                                      </td></tr>
+      <tr><td>-0.55051372469858695</td><td>44.873863210712102</td><td>Stade Charles Martin                                                                                </td></tr>
+      <tr><td>-0.58279547512430996</td><td>44.8574474888051</td><td>Stade Grand Parc III                                                                                </td></tr>
+      <tr><td>-0.57805082629759197</td><td>44.878268517984303</td><td>Plage du Lac                                                                                        </td></tr>
+      <tr><td>-0.57117915088106497</td><td>44.833094844554502</td><td>Gymnase Montaigne                                                                                   </td></tr>
+      <tr><td>-0.54513775845644497</td><td>44.842617172645703</td><td>Gymnase Jean Dauguet                                                                                </td></tr>
+      <tr><td>-0.61311575543365404</td><td>44.829313230855</td><td>Stade Maître Jean                                                                                  </td></tr>
+      <tr><td>-0.62223727641757198</td><td>44.857301886232698</td><td>Piscine Stéhélin                                                                                  </td></tr>
+      <tr><td>-0.58547251707472903</td><td>44.848925761050801</td><td>Gymnase Malleret                                                                                    </td></tr>
+      <tr><td>-0.54714699534271205</td><td>44.838925985543199</td><td>Stade Tregey                                                                                        </td></tr>
+      <tr><td>-0.57063670878920802</td><td>44.866750173157499</td><td>Stade Alfred Daney                                                                                  </td></tr>
+      <tr><td>-0.56921267797540598</td><td>44.873260086460903</td><td>City Stade Les Aubiers                                                                              </td></tr>
+      <tr><td>-0.56714587022541896</td><td>44.855600356210402</td><td>Gymnase des Chartrons                                                                               </td></tr>
+      <tr><td>-0.60650591085507699</td><td>44.8420442167075</td><td>Stade Bel Air                                                                                       </td></tr>
+      <tr><td>-0.59824301915683398</td><td>44.8292065328448</td><td>Stade Chaban Delmas                                                                                 </td></tr>
+      <tr><td>-0.59089350162530296</td><td>44.840135313164602</td><td>Piscine Judaïque                                                                                   </td></tr>
+      <tr><td>-0.56582173464135999</td><td>44.898956825058299</td><td>Stadium                                                                                             </td></tr>
+      <tr><td>-0.58125391742144905</td><td>44.880340674463397</td><td>Centre de Voile                                                                                     </td></tr>
+      <tr><td>-0.540232486079121</td><td>44.847782449250403</td><td>Stade Galin                                                                                         </td></tr>
+      <tr><td>-0.55279250232447896</td><td>44.902317706868502</td><td>Piste d'accélération moto                                                                         </td></tr>
+      <tr><td>-0.56110117574267304</td><td>44.847548922113504</td><td>City stade Reignier                                                                                 </td></tr>
+      <tr><td>-0.56615132354965003</td><td>44.830704143610497</td><td>Salle Envol d'Aquitaine                                                                             </td></tr>
+      <tr><td>-0.54947817489947504</td><td>44.818214974620702</td><td>City Stade Carle Vernet                                                                             </td></tr>
+      <tr><td>-0.56158557303099998</td><td>44.909225284427599</td><td>Golf de Bordeaux-Lac                                                                                </td></tr>
+      <tr><td>-0.66903244693494002</td><td>44.877523959802303</td><td>Centre international de football                                                                    </td></tr>
+      <tr><td>-0.56718402390262401</td><td>44.833916680482702</td><td>Gymnase de La flèche                                                                               </td></tr>
+      <tr><td>-0.54675395792430503</td><td>44.879026353481201</td><td>Piscine Georges Tissot                                                                              </td></tr>
+      <tr><td>-0.58039908665731998</td><td>44.8954535048303</td><td>Camping de Bordeaux-Lac                                                                             </td></tr>
+      <tr><td>-0.61110210983357705</td><td>44.831665757524803</td><td>Gymnase des Peupliers                                                                               </td></tr>
+      <tr><td>-0.62211000764895896</td><td>44.8563045479113</td><td>Stade Stéhélin                                                                                    </td></tr>
+      <tr><td>-0.56858406995939503</td><td>44.872002654773503</td><td>Terrain de bi-cross de Bordeaux-Lac                                                                 </td></tr>
+      <tr><td>-0.59858197664607005</td><td>44.827527209291198</td><td>Stade Municipal Chaban Delmas (annexe)                                                              </td></tr>
+      <tr><td>-0.57756587588283703</td><td>44.833763558707197</td><td>Gymnase Coqs Rouges                                                                                 </td></tr>
+      <tr><td>-0.58656974318250299</td><td>44.889904238183</td><td>Centre nautique de Bordeaux lac                                                                     </td></tr>
+      <tr><td>-0.58813777050946603</td><td>44.837161500804903</td><td>Bowling Mériadeck                                                                                  </td></tr>
+      <tr><td>-0.573530855404772</td><td>44.822852632986901</td><td>Gymnase Nelson Paillou                                                                              </td></tr>
+      <tr><td>-0.54115170049989003</td><td>44.878931691218703</td><td>City Stade Port de la Lune                                                                          </td></tr>
+      <tr><td>-0.579930826007511</td><td>44.8573587480223</td><td>Piscine du Grand Parc                                                                               </td></tr>
+      <tr><td>-0.56418379891419701</td><td>44.848453133378797</td><td>City Stade Parc des Angéliques                                                                     </td></tr>
+      <tr><td>-0.55142723074177002</td><td>44.8223353720552</td><td>City Stade Belcier                                                                                  </td></tr>
+      <tr><td>-0.59098291123787905</td><td>44.847237637417699</td><td>Gymnase Wustenberg                                                                                  </td></tr>
+      <tr><td>-0.60474172055419095</td><td>44.843205670457003</td><td>Villa Primrose                                                                                      </td></tr>
+      <tr><td>-0.58798959790901295</td><td>44.8350491760499</td><td>Patinoire                                                                                           </td></tr>
+      <tr><td>-0.54888710397774298</td><td>44.8704270510828</td><td>Gymnase Buscaillet                                                                                  </td></tr>
+      <tr><td>-0.54772694475541595</td><td>44.862843924748297</td><td>Halte Nautique                                                                                      </td></tr>
+      <tr><td>-0.62588225710587497</td><td>44.849574906666199</td><td>Gymnase ASPTT                                                                                       </td></tr>
+      <tr><td>-0.60184632511625202</td><td>44.820432270013498</td><td>City Stade Le Tauzin                                                                                </td></tr>
+      <tr><td>-0.61596541402642402</td><td>44.851176922124402</td><td>Gymnase La Pergola                                                                                  </td></tr>
+      <tr><td>-0.54572434740307596</td><td>44.845276853201398</td><td>City Stade Benauge                                                                                  </td></tr>
+      <tr><td>-0.57550276591959204</td><td>44.8172692202088</td><td>Stade Brun                                                                                          </td></tr>
+      <tr><td>-0.57168835743024404</td><td>44.898561972421199</td><td>Antennes Sportives                                                                                  </td></tr>
+      <tr><td>-0.59031268656870794</td><td>44.8393880489661</td><td>Stade Chauffour                                                                                     </td></tr>
+      <tr><td>-0.56686681722442001</td><td>44.839003172256398</td><td>Ponton d'honneur de Bordeaux                                                                        </td></tr>
+      <tr><td>-0.57199460377250499</td><td>44.855604602662297</td><td>Salle Gouffrand                                                                                     </td></tr>
+      <tr><td>-0.57840549644087202</td><td>44.858269545378597</td><td>Stade Grand Parc I                                                                                  </td></tr>
+      <tr><td>-0.56076811807500104</td><td>44.860351427824902</td><td>Gymnase Dupaty                                                                                      </td></tr>
+      <tr><td>-0.563280829939238</td><td>44.855265101369902</td><td>Ponton des Chartrons                                                                                </td></tr>
+      <tr><td>-0.58217223575171895</td><td>44.8617043140666</td><td>Stade Grand Parc II                                                                                 </td></tr>
+      <tr><td>-0.55275435861272204</td><td>44.839378062027301</td><td>Stade Promis                                                                                        </td></tr>
+      <tr><td>-0.54003116200804702</td><td>44.847129419608102</td><td>Piscine Galin                                                                                       </td></tr>
+      <tr><td>-0.571432406191968</td><td>44.852970353443503</td><td>Gymnase l'Aiglon                                                                                    </td></tr>
+      <tr><td>-0.55098452170675905</td><td>44.846199155735697</td><td>Gymnase Thiers                                                                                      </td></tr>
+      <tr><td>-0.56364609407448696</td><td>44.842199530605598</td><td>Ponton Yves Parlier                                                                                 </td></tr>
+      <tr><td>-0.62590451912131495</td><td>44.8430622460628</td><td>Stade André Maginot                                                                                </td></tr>
+      <tr><td>-0.57367577016540805</td><td>44.875155895962699</td><td>City Stade Le Lauzun                                                                                </td></tr>
+      <tr><td>-0.63226558607118499</td><td>44.8538392857537</td><td>Stade Monséjour                                                                                    </td></tr>
+      <tr><td>-0.56565680552763997</td><td>44.8539088788621</td><td>Skate Parc                                                                                          </td></tr>
+      <tr><td>-0.61077698809554404</td><td>44.831968560310003</td><td>Maison des 5 sens                                                                                   </td></tr>
+      <tr><td>-0.56567567972058697</td><td>44.845721564962297</td><td>Embarcadère Montesquieu                                                                            </td></tr>
+      <tr><td>-0.56246797026650397</td><td>44.841176668940498</td><td>Ponton Burdigala                                                                                    </td></tr>
+      <tr><td>-0.56519656046428701</td><td>44.853846257304802</td><td>Embarcadères Albert Londres, La Fayette et Thomas Jefferson                                        </td></tr>
+      <tr><td>-0.62672675061871397</td><td>44.848896565499501</td><td>Complexe sportif Virginia (gymnase Virginia et stade Henri Lequesne)                                </td></tr>
+      <tr><td>-0.57089273529316398</td><td>44.898205082231499</td><td>Plaine des sports Colette Besson                                                                    </td></tr>
+      <tr><td>-0.62328869691258604</td><td>44.857474152438201</td><td>Skatepark Caudéran                                                                                 </td></tr>
+      <tr><td>-0.56318448518398601</td><td>44.897665750363799</td><td>Nouveau Stade                                                                                       </td></tr>
+      <tr><td>-0.54926444200857605</td><td>44.861732829223399</td><td>PONTON DE LA CITE DU VIN                                                                            </td></tr>
+
+	</table>
+
+  </body>
+
+</html>

@@ -1,0 +1,28 @@
+nomComplet;identifiantVille;intitulé;date_de_publication;colX;colY;col_description;col_cle;icone
+airejeux;bord;Airesdejeux Bordeaux;01/01/2017;7;8;3;1;themepark.png
+parcjardin;bord;Parcs, jardins et squares;06/05/2015;7;8;2;1;tree.png
+poiculture;bord;Etablissements culturels;01/01/2017;9;10;3;5;theater.png
+poieducation;bord;Ecoles maternelles et primaires;01/01/2017;9;10;3;5;school.png
+poienfance;bord;Etablissements petite enfance;01/01/2017;9;10;3;5;daycare.png
+poiservices;bord;Etablissements et lieux de services;01/01/2017;9;10;3;5;townhouse.png
+poisocial;bord;Etablissements sociaux;01/01/2017;9;10;3;5;group-2.png
+poisport;bord;Lieux de sports et loisirs;01/01/2017;9;10;3;5;tennis.png
+sigaccesinternet;bord;Points d'accès à Internet;06/05/2017;12;13;2;1;radio-station-2.png
+sigparkpub;bord;Parkings publics;01/01/2017;7;8;5;1;parking.png
+sigsanitaire;bord;Toilettes publiques;01/01/2017;7;8;3;1;toilets.png
+sigstavelo;bord;Mobiliers urbains : Stationnement deux-roues;01/01/2017;10;11;4;1;parking_bicycle-2.png
+abris-velos-de-nantes-metropole;nant;Mobiliers urbain : Abris vélos;01/01/2017;17;16;13;1;parking_bicycle-2.png
+defibrillateurs-de-la-ville-de-nantes;nant;Equipements médicaux : Défibrilateurs;01/01/2017;12;11;2;1;daycare.png
+jardins-familiaux-de-la-ville-de-nantes;nant;jardins familiaux;01/01/2017;7;6;3;8;tree.png
+localisation-des-equipements-publics-relevant-du-theme-mobilite-de-nantes-metropole-1;nant;mobilité public;01/01/2017;16;15;2;1;themepark.png
+localisation-des-equipements-publics-relevant-du-theme-sports-loisirs-de-nantes-metropole;nant;public sport;01/01/2017;16;15;2;1;themepark.png
+localisation-et-caracteristiques-des-parcs-et-jardins-de-nantes;nant;les parcs et jardins;01/01/2017;5;4;2;1;tree.png
+toilettes-publiques-de-nantes-metropole;nant;les toilettes publiques;01/01/2017;11;10;2;1;toilets.png
+aires-de-jeux;toul;airesdejeux;01/01/2017;2;1;5;4;themepark.png
+bornes-wi-fi;toul;bornes wifi;01/01/2017;2;1;7;11;radio-station-2.png
+boulodromes;toul;boulodromes;01/01/2017;2;1;4;6;tennis.png
+defibrillateurs;toul;defibrillateurs;01/01/2017;2;1;8;4;daycare.png
+equipements-socioculturels-de-proximite;toul;les équipements socioculturels de proximité;01/01/2017;2;1;4;17;group-2.png
+sanisettes;toul;sanisettes;01/01/2017;2;1;5;10;toilets.png
+site-communal-dimplantation-de-fitness;toul;module de fitness;01/01/2017;2;1;6;8;tennis.png
+velo-toulouse;toul; stations vélos;01/01/2017;2;1;4;5;parking_bicycle-2.png

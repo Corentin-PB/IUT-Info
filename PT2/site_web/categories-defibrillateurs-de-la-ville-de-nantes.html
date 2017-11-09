@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+	<link rel="stylesheet" type="text/css" href="style.css">	
+
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	
+	<script>
+	  // declaration des cartes
+      var map;
+
+	  // la fenetre qui s'ouvre quand on passe la souris sur un point
+	  var infowindow = new google.maps.InfoWindow();
+
+	  // fonction d'initialisation
+      function initialize() {
+        var mapOptions = {
+          zoom: 6,
+          center: {lat:  46.55, lng: 2.4},
+          mapTypeId: google.maps.MapTypeId.TERRAIN
+        };
+        map = new google.maps.Map(document.getElementById('map-categorie'),
+          mapOptions);
+	    // initialisation des cartes et chargement des donnees
+	            map.data.loadGeoJson('json/defibrillateurs-de-la-ville-de-nantes.json');
+
+	    
+	    // fonction de style
+	    var setColorStyleFn = function(feature) {
+	      return {icon: feature.getProperty('icon')};
+	    };
+	    // style des cartes, et listener pour la fenetre qui s'ouvre quand on passe la souris sur un point
+	    map.data.setStyle(setColorStyleFn);
+	    map.data.addListener('mouseover', function(event) {
+          infowindow.setContent(event.feature.getProperty('description'));
+          infowindow.setPosition(event.latLng);
+          infowindow.setOptions({pixelOffset: new google.maps.Size(0,-34)});
+          infowindow.open(map);
+        });
+        google.maps.event.addListener(map, 'click', function() {
+          infowindow.close(); // un clic sur la carte ferme les infowindows
+        });
+	  } // end initialize
+
+      // appel de la fonction d'initialisation une fois la page chargee
+      google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+	<meta charset="UTF-8">
+  </head>
+
+  <body>
+    <h1>Equipements médicaux : Défibrilateurs</h1>
+
+	<p><a href="./index.php">Page principale</a></p>
+	
+    <h2>Carte</h2>
+    <div id="map-categorie" class="map-canvas"></div>
+
+    <h2>Liste des points</h2>
+	<table>
+      <tr><td>-1.5537421449558899</td><td>47.218703684205202</td><td>Mairie centrale                                                                                     </td></tr>
+      <tr><td>-1.5537421449558899</td><td>47.218703684205202</td><td>Mairie centrale                                                                                     </td></tr>
+      <tr><td>-1.56209573371648</td><td>47.211062858281302</td><td>Médiathèque Jacques Demy                                                                          </td></tr>
+      <tr><td>-1.56209573371648</td><td>47.211062858281302</td><td>Médiathèque Jacques Demy                                                                          </td></tr>
+      <tr><td>-1.56209573371648</td><td>47.211062858281302</td><td>Médiathèque Jacques Demy                                                                          </td></tr>
+      <tr><td>-1.55775173962693</td><td>47.214398135117101</td><td>Pharmacie de Paris                                                                                  </td></tr>
+      <tr><td>-1.5617985920906201</td><td>47.213153493873399</td><td>Pharmacie du Théâtre                                                                              </td></tr>
+      <tr><td>-1.5527864643127101</td><td>47.216286083685603</td><td>Pharmacie du Pilori                                                                                 </td></tr>
+      <tr><td>-1.56502534069262</td><td>47.212810135304998</td><td>Muséum d'Histoire Naturelle                                                                        </td></tr>
+      <tr><td>-1.55874650914908</td><td>47.2157155472174</td><td>Pharmacie Saint Nicolas,                                                                            </td></tr>
+      <tr><td>-1.55103216649778</td><td>47.218705042009603</td><td>Pharmacie de la Cathédrale                                                                         </td></tr>
+      <tr><td>-1.60604184098012</td><td>47.204001542737501</td><td>Pharmacie des Lauriers                                                                              </td></tr>
+      <tr><td>-1.5775241333385199</td><td>47.202244535687697</td><td>Le Planétarium                                                                                     </td></tr>
+      <tr><td>-1.5775241333385199</td><td>47.202244535687697</td><td>Le Planétarium                                                                                     </td></tr>
+      <tr><td>-1.5775241333385199</td><td>47.202244535687697</td><td>Le Planétarium                                                                                     </td></tr>
+      <tr><td>-1.6147541896194599</td><td>47.200991981780497</td><td>Plaine de jeux des Bernadières                                                                     </td></tr>
+      <tr><td>-1.61124986032484</td><td>47.201859686004703</td><td>Stade Espérance St Yves de Nantes                                                                  </td></tr>
+      <tr><td>-1.58517837696622</td><td>47.213999637932602</td><td>Pharmacie Zola                                                                                      </td></tr>
+      <tr><td>-1.60527130828514</td><td>47.213998763960198</td><td>Complexe sportif de la Durantière                                                                  </td></tr>
+      <tr><td>-1.59130209590487</td><td>47.225932550989398</td><td>Plaine de jeux des Dervallières                                                                    </td></tr>
+      <tr><td>-1.55797564403486</td><td>47.221289798427598</td><td>Marché de Talensac                                                                                 </td></tr>
+      <tr><td>-1.55797564403486</td><td>47.221289798427598</td><td>Marché de Talensac                                                                                 </td></tr>
+      <tr><td>-1.5542480383941399</td><td>47.226207282255999</td><td>Maison de l'Erdre                                                                                   </td></tr>
+      <tr><td>-1.52765381590718</td><td>47.214231201341804</td><td>Pharmacie Devenyns                                                                                  </td></tr>
+      <tr><td>-1.54858696084694</td><td>47.2190756970979</td><td>Chapelle de l'Oratoire                                                                              </td></tr>
+      <tr><td>-1.54236575181672</td><td>47.204559153868502</td><td>Complexe sportif Mangin Beaulieu                                                                    </td></tr>
+      <tr><td>-1.5367642481264301</td><td>47.209521126499503</td><td>Palais de sport de Beaulieu                                                                         </td></tr>
+      <tr><td>-1.5739597946388599</td><td>47.261819897705799</td><td>Médiathèque Luce Courville                                                                        </td></tr>
+      <tr><td>-1.5739597946388599</td><td>47.261819897705799</td><td>Médiathèque Luce Courville                                                                        </td></tr>
+      <tr><td>-1.5739597946388599</td><td>47.261819897705799</td><td>Médiathèque Luce Courville                                                                        </td></tr>
+      <tr><td>-1.5808427794845801</td><td>47.263666946704603</td><td>Salle festive Nantes Nord                                                                           </td></tr>
+      <tr><td>-1.5872746989609201</td><td>47.267654557145498</td><td>Plaine de jeux des Basses landes                                                                    </td></tr>
+      <tr><td>-1.57417999383924</td><td>47.262478935455398</td><td>Stade de l'Amande                                                                                   </td></tr>
+      <tr><td>-1.51680168082364</td><td>47.272065218179698</td><td>Complexe sportif Saint Joseph de Porterie                                                           </td></tr>
+      <tr><td>-1.53131689304087</td><td>47.254124840921897</td><td>Salle festive Nantes Erdre                                                                          </td></tr>
+      <tr><td>-1.5334198233718901</td><td>47.240409284067603</td><td>Stade Joseph Geoffroy le vivier                                                                     </td></tr>
+      <tr><td>-1.5353763760243799</td><td>47.247341762285899</td><td>Plaine de jeux de l'Eraudière                                                                      </td></tr>
+      <tr><td>-1.51276882457303</td><td>47.240866285387803</td><td>Médiathèque Floresca Guépin                                                                      </td></tr>
+      <tr><td>-1.51276882457303</td><td>47.240866285387803</td><td>Médiathèque Floresca Guépin                                                                      </td></tr>
+      <tr><td>-1.51276882457303</td><td>47.240866285387803</td><td>Médiathèque Floresca Guépin                                                                      </td></tr>
+      <tr><td>-1.51276882457303</td><td>47.240866285387803</td><td>Médiathèque Floresca Guépin                                                                      </td></tr>
+      <tr><td>-1.52286331267299</td><td>47.235052890124102</td><td>Centre  sportif du Croissant                                                                        </td></tr>
+      <tr><td>-1.5189299196532899</td><td>47.240291197727402</td><td>Pharmacie de la Bottière                                                                           </td></tr>
+      <tr><td>-1.5029633043519399</td><td>47.235257898934499</td><td>Pharmacie Boudrot                                                                                   </td></tr>
+      <tr><td>-1.52746369698488</td><td>47.2306386879226</td><td>Plaine de jeux de la Noè Lambert                                                                   </td></tr>
+      <tr><td>-1.50387300163076</td><td>47.239640783262203</td><td>Stade Jean-Jacques Audubon  Audubon                                                                 </td></tr>
+      <tr><td>-1.52005502790642</td><td>47.2419558163148</td><td>Stade Pin Sec                                                                                       </td></tr>
+      <tr><td>-1.5002614855129299</td><td>47.231880336792898</td><td>Stade du RACC                                                                                       </td></tr>
+      <tr><td>-1.5312448693956799</td><td>47.185091077842998</td><td>Plaine de jeux de Sèvres                                                                           </td></tr>
+      <tr><td>-1.5774115758882501</td><td>47.201608863647301</td><td>Musée Jules Verne                                                                                  </td></tr>
+      <tr><td>-1.5774115758882501</td><td>47.201608863647301</td><td>Musée Jules Verne                                                                                  </td></tr>
+      <tr><td>-1.5774115758882501</td><td>47.201608863647301</td><td>Musée Jules Verne                                                                                  </td></tr>
+      <tr><td>-1.5584579343929199</td><td>47.219742344323699</td><td>CCAS de Nantes                                                                                      </td></tr>
+      <tr><td>-1.5626991689799701</td><td>47.214447039865298</td><td>Espace Cosmopolis                                                                                   </td></tr>
+      <tr><td>-1.5626991689799701</td><td>47.214447039865298</td><td>Espace Cosmopolis                                                                                   </td></tr>
+      <tr><td>-1.5327556060154599</td><td>47.207458133614097</td><td>Conservatoire de Nantes                                                                             </td></tr>
+      <tr><td>-1.5327556060154599</td><td>47.207458133614097</td><td>Conservatoire de Nantes                                                                             </td></tr>
+      <tr><td>-1.5327556060154599</td><td>47.207458133614097</td><td>Conservatoire de Nantes                                                                             </td></tr>
+      <tr><td>-1.5327556060154599</td><td>47.207458133614097</td><td>Conservatoire de Nantes                                                                             </td></tr>
+      <tr><td>-1.58784444066793</td><td>47.228725369411102</td><td>pharmacie Quancard ( Breil )                                                                        </td></tr>
+      <tr><td>-1.5668478390367</td><td>47.259547876081299</td><td>pharmacie Santos Dumont (Petite Sensive )                                                           </td></tr>
+      <tr><td>-1.5440409981068399</td><td>47.220922090004599</td><td>Jardin des plantes                                                                                  </td></tr>
+      <tr><td>-1.5124113665574199</td><td>47.228178995650701</td><td>Parc du Grand Blottereau                                                                            </td></tr>
+      <tr><td>-1.53537753320436</td><td>47.219403053717002</td><td>Salles municipales La Manu                                                                          </td></tr>
+      <tr><td>-1.59742809004464</td><td>47.223471917919099</td><td>Mairie Annexe des Dervalières                                                                      </td></tr>
+      <tr><td>-1.59742809004464</td><td>47.223471917919099</td><td>Mairie Annexe des Dervalières                                                                      </td></tr>
+      <tr><td>-1.59742809004464</td><td>47.223471917919099</td><td>Mairie Annexe des Dervalières                                                                      </td></tr>
+      <tr><td>-1.6002959536833301</td><td>47.212493498205802</td><td>Plaine de Jeux Durantière                                                                          </td></tr>
+      <tr><td>-1.5728549657314199</td><td>47.201286167517303</td><td>LC CLUB Hangar à Banane                                                                            </td></tr>
+      <tr><td>-1.5600533398213801</td><td>47.209879972337198</td><td>Piscine Léo Lagrange                                                                               </td></tr>
+      <tr><td>-1.51745529394017</td><td>47.248275250488597</td><td>Piscine Jules Verne                                                                                 </td></tr>
+      <tr><td>-1.5920295018588499</td><td>47.227375903823997</td><td>Piscine Dervallières                                                                               </td></tr>
+      <tr><td>-1.5317220105222</td><td>47.216382445465797</td><td>Piscine Petite Amazonie                                                                             </td></tr>
+      <tr><td>-1.59874337804225</td><td>47.212771695217</td><td>Piscine Durantière                                                                                 </td></tr>
+
+	</table>
+
+  </body>
+
+</html>

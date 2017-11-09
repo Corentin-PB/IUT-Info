@@ -1,0 +1,561 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Annexe Caudéran"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.61516260813920198,44.852123266392397,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Office de tourisme - Quinconce"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57417606178287295,44.843723092834402,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Office de tourisme - Place de la Comédie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57426054240520197,44.843571582214899,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Hangar G2"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55527577983448895,44.863181331112798,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Alsace"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56911267037034197,44.838454308662001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Place Saint Michel"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.566015567785078,44.834298452383599,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Ibaia"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56945597398709003,44.850030462265103,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Patinoire Mériadeck"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58803797468641394,44.835180548989001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Jardin Botanique 1"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55827184189154999,44.844349909617598,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"ATHENEE MUNICIPAL"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57695896150001102,44.839843665107097,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Conservatoire"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56003661883248401,44.831252424283598,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Esplanade Sport1"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55947248382969095,44.832536275192098,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Bibliothèque Tauzin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.601869931416811,44.820489209845903,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Bibliothèque Mériadeck"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58667256654969002,44.835289403120399,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Mairie annexe Grand Parc"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58153343927373202,44.858943276318698,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Bibliothèque Lac"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57293800288890295,44.873735280852898,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Skate1"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56627701529781205,44.853527016502802,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Place Saint Projet"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57394947694555298,44.838985320368501,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"MEC Toit"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56704112697658604,44.838764139192598,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"H14Toit"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56504012553448302,44.8542727303211,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"MEC Parvis 1"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56751573672372901,44.8392620546689,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Skate2"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56603767224396795,44.853716622717002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Skate3"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.565794139097888,44.853903452105598,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Jardin Botanique 2"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55877795930833996,44.844569374164401,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"CCAS"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56898193867724001,44.858799622825401,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Mairie Annexe Bastide"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55285718526441197,44.841558792506902,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Bibliothèque Bacalan"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.54615346977220003,44.873080405925897,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Atelier du Pole Giono"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56294475647827202,44.845499864398903,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Bibliothèque Jardin Public"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58012286108146005,44.848026083312902,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Bibliothèque Grand Parc"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58362565153433699,44.856741114620597,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Bibliothèque Son Tay"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55166014576966305,44.824746442486401,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Mairie Annexe Bacalan"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.54596546203840601,44.873376737770599,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Bibliothèque Aubiers Est"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.572855794265409,44.873783180131802,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Bibliothèque Aubiers Ouest"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57321240003958795,44.873678947015001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Club senior A. Faulat"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.61475043514685501,44.846218919071802,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Club senior Manon Cormier"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.59046628628799402,44.831373511372597,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"MEC Ponton Honneur"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56699252270480804,44.839210540619497,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Mairie annexe Caudéran"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.61554088869735202,44.852199246270402,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Bibliothèque Grand Parc"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58425498426117695,44.8578601494929,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"11 Louis de Jabrun – Point info familles"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.576620048679785,44.839559106517299,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Place Victoire 2"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57286595629555404,44.830983085782201,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Mirroir Eau Sud 2"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56920024136426495,44.841014062027298,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Mirroir Eau Sud 1"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56920024136426495,44.841014062027298,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"MEC Parvis 2"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56751573672372901,44.8392620546689,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Martinique"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56743389686549495,44.852401689682303,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Mirroir Eau Nord 1"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56972177667686597,44.842221872953701,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Mirroir Eau Nord 2"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56972177667686597,44.842221872953701,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Place Camille Julian"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57190330582672899,44.839110367624301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Bibliothèque Bastide"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.54222009286700501,44.8440508455854,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Place Victoire 1"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57238998242305905,44.830798582833701,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Place Jean Moulin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57750349580370697,44.838632434936102,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Pey Berland Forges"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57614629380537996,44.837943025081302,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Pey Berland HDV1"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.578910265324865,44.837711742468002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"DGA"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57443245034508195,44.833643754787701,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Mission de l'europe"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57107243117207995,44.842804549053099,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Hotel de Ville"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57933452605233604,44.838175133415703,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Club Senior Magendie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57570028739131496,44.833218332478602,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Club Senior Billaudel"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56458748236789202,44.824042601313998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Club Senior Lumineuse"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.54612814234150997,44.8732525681827,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Atelier du Pole Brach"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.59461583192046097,44.839006308578398,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Bibliothèque St Michel"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56691164804483296,44.830840921451298,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Bibliothèque St Augustin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.61084617557337795,44.831766981959198,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Bibliothèque Bastide"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.54212232719891795,44.8441809608696,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Mairie annexe St Augustin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.61120345340139104,44.832961708013698,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Chartron Marche"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57260565917259398,44.852059406399498,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"EBA"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56080726768872102,44.830746514060202,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Chartron Halle"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57244697809330702,44.852414570599997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Grand Parc Centre Commercial"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58228804809935697,44.859939581208103,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"EBA Annexe"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56161787961001897,44.830680095787798,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/radio-station-2.png",
+  "description":"Quai Sport Maison Jardinier"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55841675069844499,44.832180832907902,0]}}
+]}

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+	<link rel="stylesheet" type="text/css" href="style.css">	
+
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	
+	<script>
+	  // declaration des cartes
+      var map;
+
+	  // la fenetre qui s'ouvre quand on passe la souris sur un point
+	  var infowindow = new google.maps.InfoWindow();
+
+	  // fonction d'initialisation
+      function initialize() {
+        var mapOptions = {
+          zoom: 6,
+          center: {lat:  46.55, lng: 2.4},
+          mapTypeId: google.maps.MapTypeId.TERRAIN
+        };
+        map = new google.maps.Map(document.getElementById('map-categorie'),
+          mapOptions);
+	    // initialisation des cartes et chargement des donnees
+	            map.data.loadGeoJson('json/poienfance.json');
+
+	    
+	    // fonction de style
+	    var setColorStyleFn = function(feature) {
+	      return {icon: feature.getProperty('icon')};
+	    };
+	    // style des cartes, et listener pour la fenetre qui s'ouvre quand on passe la souris sur un point
+	    map.data.setStyle(setColorStyleFn);
+	    map.data.addListener('mouseover', function(event) {
+          infowindow.setContent(event.feature.getProperty('description'));
+          infowindow.setPosition(event.latLng);
+          infowindow.setOptions({pixelOffset: new google.maps.Size(0,-34)});
+          infowindow.open(map);
+        });
+        google.maps.event.addListener(map, 'click', function() {
+          infowindow.close(); // un clic sur la carte ferme les infowindows
+        });
+	  } // end initialize
+
+      // appel de la fonction d'initialisation une fois la page chargee
+      google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+	<meta charset="UTF-8">
+  </head>
+
+  <body>
+    <h1>Etablissements petite enfance</h1>
+
+	<p><a href="./index.php">Page principale</a></p>
+	
+    <h2>Carte</h2>
+    <div id="map-categorie" class="map-canvas"></div>
+
+    <h2>Liste des points</h2>
+	<table>
+      <tr><td>-0.613455391671063</td><td>44.846333450757001</td><td>Multi accueil Armand Faulat 1                                                                       </td></tr>
+      <tr><td>-0.543447701590002</td><td>44.879522878187103</td><td>Multi accueil Claveau                                                                               </td></tr>
+      <tr><td>-0.56275703563449597</td><td>44.8310835971023</td><td>Le Jardin de l'Eau Vive                                                                             </td></tr>
+      <tr><td>-0.57518407999156396</td><td>44.8334543745651</td><td>Multi accueil Magendie                                                                              </td></tr>
+      <tr><td>-0.60918478902858897</td><td>44.823849637573602</td><td>Multi accueil Carreire                                                                              </td></tr>
+      <tr><td>-0.58135798996501398</td><td>44.841294766455299</td><td>Multi accueil Pitchoun Gambetta                                                                     </td></tr>
+      <tr><td>-0.60504410267777098</td><td>44.849978437058503</td><td>Multi accueil Pitchoun Caudéran                                                                    </td></tr>
+      <tr><td>-0.597625407422127</td><td>44.831527390843704</td><td>Multi accueil Ornano                                                                                </td></tr>
+      <tr><td>-0.57638218530736596</td><td>44.833118044376597</td><td>LAEP APEEF -  La Maison des enfants                                                                 </td></tr>
+      <tr><td>-0.57650620540645103</td><td>44.833128336748302</td><td>Multi accueil APEEF Maison des enfants                                                              </td></tr>
+      <tr><td>-0.55213432941527296</td><td>44.841542183620497</td><td>Multi accueil La maison soleil                                                                      </td></tr>
+      <tr><td>-0.56356881993701402</td><td>44.829910369122601</td><td>Multi accueil des Douves 2                                                                          </td></tr>
+      <tr><td>-0.58918325787119796</td><td>44.837403232916898</td><td>La parentèle                                                                                       </td></tr>
+      <tr><td>-0.58347780919691905</td><td>44.858926088698098</td><td>Multi accueil Grand Parc 2                                                                          </td></tr>
+      <tr><td>-0.58686745094825798</td><td>44.844415264864203</td><td>Relais Assistance Maternelle Bordeaux centre (RAM)                                                  </td></tr>
+      <tr><td>-0.57326356136284895</td><td>44.874761065911102</td><td>Multi accueil Arc en ciel                                                                           </td></tr>
+      <tr><td>-0.57348371778934104</td><td>44.864166372235502</td><td>Multi accueil Haussmann                                                                             </td></tr>
+      <tr><td>-0.566661075573347</td><td>44.833578636529303</td><td>Multi accueil Gaspard Philippe                                                                      </td></tr>
+      <tr><td>-0.56131739057073005</td><td>44.845013262143198</td><td>Relais Assistante Maternelle Bordeaux Bastide (RAM)                                                 </td></tr>
+      <tr><td>-0.60214131312921104</td><td>44.833510780042602</td><td>Multi accueil Coucou                                                                                </td></tr>
+      <tr><td>-0.59373848158173104</td><td>44.829969114840601</td><td>Multi accueil Manon Cormier                                                                         </td></tr>
+      <tr><td>-0.63551474295432198</td><td>44.860156458343603</td><td>Multi accueil La Coccinelle                                                                         </td></tr>
+      <tr><td>-0.58512711195757505</td><td>44.831069394189299</td><td>Multi accueil - L'escale des bambins                                                                </td></tr>
+      <tr><td>-0.56967733141213195</td><td>44.863971570801603</td><td>Multi accueil Nuage bleu                                                                            </td></tr>
+      <tr><td>-0.61346214076402295</td><td>44.846216218475597</td><td>Multi accueil Armand Faulat 2                                                                       </td></tr>
+      <tr><td>-0.57304509725074404</td><td>44.874442402217497</td><td>Crèche familiale Bordeaux Nord                                                                     </td></tr>
+      <tr><td>-0.57031176133268502</td><td>44.839564951280103</td><td>Multi accueil Argentiers                                                                            </td></tr>
+      <tr><td>-0.55366512247689403</td><td>44.8246116053298</td><td>Multi accueil Canaillous Lafitteau                                                                  </td></tr>
+      <tr><td>-0.61349966116373</td><td>44.846458386326802</td><td>Crèche familiale Caudéran                                                                         </td></tr>
+      <tr><td>-0.57158199366833695</td><td>44.8205514852391</td><td>Multi accueil Malbec-Nansouty                                                                       </td></tr>
+      <tr><td>-0.58681868333319398</td><td>44.844452515700702</td><td>Multi accueil Albert Barraud                                                                        </td></tr>
+      <tr><td>-0.54366657623349501</td><td>44.8461565181819</td><td>Multi accueil Benauge 1                                                                             </td></tr>
+      <tr><td>-0.55657859032093204</td><td>44.814948942518697</td><td>Multi accueil Canaillous-Brascassat                                                                 </td></tr>
+      <tr><td>-0.56696523646835395</td><td>44.821594998794403</td><td>Multi accueil Babilou Mirassou 1                                                                    </td></tr>
+      <tr><td>-0.60505545116118697</td><td>44.842648410066602</td><td>Multi accueil Cité administrative                                                                  </td></tr>
+      <tr><td>-0.58377401111376603</td><td>44.859026665156897</td><td>Multi accueil Grand Parc 1                                                                          </td></tr>
+      <tr><td>-0.56587375297224896</td><td>44.862367569083403</td><td>Multi accueil des Chartrons 1                                                                       </td></tr>
+      <tr><td>-0.57714670039857796</td><td>44.836918359005402</td><td>Multi accueil Les petits bouchons                                                                   </td></tr>
+      <tr><td>-0.58499065494986702</td><td>44.822788715151098</td><td>Multi accueil George V                                                                              </td></tr>
+      <tr><td>-0.57489232790794398</td><td>44.860603107660701</td><td>Relais Assistante Maternelle Bordeaux maritime (RAM)                                                </td></tr>
+      <tr><td>-0.57047429110838799</td><td>44.856345164569902</td><td>Multi accueil Barreyre 1                                                                            </td></tr>
+      <tr><td>-0.56275703563449597</td><td>44.8310835971023</td><td>Multi accueil - APEEF - le Jardin de l'eau vive                                                     </td></tr>
+      <tr><td>-0.59110007090730499</td><td>44.838698358292604</td><td>Multi accueil Bordeaux Saint Bruno                                                                  </td></tr>
+      <tr><td>-0.57218636371920695</td><td>44.8558969270766</td><td>Multi accueil La souris verte                                                                       </td></tr>
+      <tr><td>-0.608255136014903</td><td>44.832535813872703</td><td>Multi accueil Saint Augustin                                                                        </td></tr>
+      <tr><td>-0.55222970072113098</td><td>44.841935995146898</td><td>APEEF - Association petite Enfance, Enfance et Famille                                              </td></tr>
+      <tr><td>-0.58758870809742803</td><td>44.832249888676003</td><td>Crèche familiale Bordeaux centre                                                                   </td></tr>
+      <tr><td>-0.55391938051430101</td><td>44.842578111182902</td><td>Multi accueil Pitchoun Bastide - Centre petite enfance                                              </td></tr>
+      <tr><td>-0.58362272926673997</td><td>44.859039488556199</td><td>Crèche familiale Grand Parc                                                                        </td></tr>
+      <tr><td>-0.56325882565554197</td><td>44.829783076791301</td><td>Multi accueil des Douves 1                                                                          </td></tr>
+      <tr><td>-0.61365357319081404</td><td>44.846247353958802</td><td>Antenne du Relais Assistante Maternelle                                                             </td></tr>
+      <tr><td>-0.584749233548152</td><td>44.838118115887603</td><td>Multi accueil Babilou - ile aux oiseaux                                                             </td></tr>
+      <tr><td>-0.62858215686260799</td><td>44.8443527930635</td><td>Multi accueil Quai des Bambins                                                                      </td></tr>
+      <tr><td>-0.56696523646835395</td><td>44.821594998794403</td><td>Multi accueil Babilou Mirassou 2                                                                    </td></tr>
+      <tr><td>-0.55212080121517604</td><td>44.841524512723801</td><td>LAEP APEEF - La Maison Soleil                                                                       </td></tr>
+      <tr><td>-0.58895822426316702</td><td>44.846235338902403</td><td>Multi accueil Ptit Bout'chou                                                                        </td></tr>
+      <tr><td>-0.58308900307393197</td><td>44.825249985377503</td><td>Multi accueil Villa Pia                                                                             </td></tr>
+      <tr><td>-0.58681576766737198</td><td>44.8522504985567</td><td>Multi accueil Pitchoun les 4 saisons                                                                </td></tr>
+      <tr><td>-0.54367390751759304</td><td>44.846048283338703</td><td>Multi accueil Benauge 2                                                                             </td></tr>
+      <tr><td>-0.59439674249826002</td><td>44.850340239299697</td><td>Multi accueil les calins d'orme                                                                     </td></tr>
+      <tr><td>-0.593525160188627</td><td>44.842334939657597</td><td>Micro crèche Alema George Mendel                                                                   </td></tr>
+      <tr><td>-0.55636776680260902</td><td>44.846000297506698</td><td>Multi accueil Le jardin d'Hortense                                                                  </td></tr>
+      <tr><td>-0.56970355640765702</td><td>44.837512949179199</td><td>Multi accueil Sainte Colombe 1                                                                      </td></tr>
+      <tr><td>-0.55070032614895004</td><td>44.822509633973397</td><td>Multi accueil Canaillous Armagnac                                                                   </td></tr>
+      <tr><td>-0.57549931345359595</td><td>44.825867081804702</td><td>Multi accueil Alema les Sablières                                                                  </td></tr>
+      <tr><td>-0.56614823809125903</td><td>44.862163963569401</td><td>Multi accueil Les chartrons 2                                                                       </td></tr>
+      <tr><td>-0.54944324954026202</td><td>44.8180371550079</td><td>Multi accueil Carle Vernet 2                                                                        </td></tr>
+      <tr><td>-0.61606354436590505</td><td>44.8414222465629</td><td>Multi accueil Lucilann                                                                              </td></tr>
+      <tr><td>-0.59388993678325797</td><td>44.8231817773015</td><td>Multi accueil Pain d'épices                                                                        </td></tr>
+      <tr><td>-0.62882709446912399</td><td>44.864845675420298</td><td>Micro crèche Lucilann                                                                              </td></tr>
+      <tr><td>-0.55102424403059203</td><td>44.823304437522403</td><td>La maison de Nolan                                                                                  </td></tr>
+      <tr><td>-0.56102293212943199</td><td>44.844873604194902</td><td>Ludothèque Interlude Bastide                                                                       </td></tr>
+      <tr><td>-0.57412156573777695</td><td>44.848461127211699</td><td>Multi accueil MSA Brin d'éveil                                                                     </td></tr>
+      <tr><td>-0.57231197927042998</td><td>44.880698870154497</td><td>Multi accueil La Berge du lac 1                                                                     </td></tr>
+      <tr><td>-0.569920784601189</td><td>44.837522840522197</td><td>Multi accueil Sainte Colombe 2                                                                      </td></tr>
+      <tr><td>-0.57208809174904596</td><td>44.880631892571103</td><td>Multi accueil La berge du lac 2                                                                     </td></tr>
+      <tr><td>-0.57041503591071097</td><td>44.856301521406998</td><td>Multi accueil Barreyre 2                                                                            </td></tr>
+      <tr><td>-0.54958894799762403</td><td>44.818020088522701</td><td>Multi accueil Carle Vernet 1                                                                        </td></tr>
+      <tr><td>-0.57489260635752704</td><td>44.836688947101301</td><td>Multi accueil Bordeaux Alema Paul Bert                                                              </td></tr>
+      <tr><td>-0.57899617188796604</td><td>44.824103489235398</td><td>Multi accueil Jean Marquaux                                                                         </td></tr>
+      <tr><td>-0.60998653255945001</td><td>44.841200709943301</td><td>Multi accueil Détrois - D3 La maison bleue                                                         </td></tr>
+      <tr><td>-0.60118561737268805</td><td>44.822408373908097</td><td>Multi accueil Charles Perrens                                                                       </td></tr>
+      <tr><td>-0.57427308055696902</td><td>44.874546989757398</td><td>LAEP - L'Oasis                                                                                      </td></tr>
+      <tr><td>-0.57465205070423198</td><td>44.860626703946302</td><td>LAEP - A petit pas - APPE-AGEP                                                                      </td></tr>
+      <tr><td>-0.57515681263351504</td><td>44.860212463189299</td><td>Centre Papillon                                                                                     </td></tr>
+      <tr><td>-0.61515717738034903</td><td>44.855454125907102</td><td>LAEP APEEF                                                                                          </td></tr>
+      <tr><td>-0.56086179569844596</td><td>44.843760604162298</td><td>Multi accueil - Tourni'quai                                                                         </td></tr>
+      <tr><td>-0.58849176087899202</td><td>44.853807973266498</td><td>Micro creche Zazzen Rivière                                                                        </td></tr>
+      <tr><td>-0.56809984169365002</td><td>44.837131345375496</td><td>Multi accueil Cadet Rousselle                                                                       </td></tr>
+      <tr><td>-0.56086179569844596</td><td>44.843760604162298</td><td>La Bastide  Micro crèche Bilbo'Quai                                                                </td></tr>
+      <tr><td>-0.56271483941922795</td><td>44.862419480400099</td><td>Ludothèque Interlude Chantecrit                                                                    </td></tr>
+      <tr><td>-0.57092927194274601</td><td>44.879378634690802</td><td>Ludothèque Interlude du lac                                                                        </td></tr>
+      <tr><td>-0.59384544262892403</td><td>44.846203163880503</td><td>Les enfants d'Osiris                                                                                </td></tr>
+      <tr><td>-0.58953220155924002</td><td>44.846425019479</td><td>Multi accueil Mille couleurs                                                                        </td></tr>
+      <tr><td>-0.59700693780715997</td><td>44.828988760856099</td><td>Multi accueil Docteur Christiane Larralde                                                           </td></tr>
+      <tr><td>-0.58864322351167497</td><td>44.833331248627601</td><td>Multi accueil Éden Art                                                                             </td></tr>
+
+	</table>
+
+  </body>
+
+</html>

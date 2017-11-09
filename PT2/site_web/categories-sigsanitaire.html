@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+	<link rel="stylesheet" type="text/css" href="style.css">	
+
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	
+	<script>
+	  // declaration des cartes
+      var map;
+
+	  // la fenetre qui s'ouvre quand on passe la souris sur un point
+	  var infowindow = new google.maps.InfoWindow();
+
+	  // fonction d'initialisation
+      function initialize() {
+        var mapOptions = {
+          zoom: 6,
+          center: {lat:  46.55, lng: 2.4},
+          mapTypeId: google.maps.MapTypeId.TERRAIN
+        };
+        map = new google.maps.Map(document.getElementById('map-categorie'),
+          mapOptions);
+	    // initialisation des cartes et chargement des donnees
+	            map.data.loadGeoJson('json/sigsanitaire.json');
+
+	    
+	    // fonction de style
+	    var setColorStyleFn = function(feature) {
+	      return {icon: feature.getProperty('icon')};
+	    };
+	    // style des cartes, et listener pour la fenetre qui s'ouvre quand on passe la souris sur un point
+	    map.data.setStyle(setColorStyleFn);
+	    map.data.addListener('mouseover', function(event) {
+          infowindow.setContent(event.feature.getProperty('description'));
+          infowindow.setPosition(event.latLng);
+          infowindow.setOptions({pixelOffset: new google.maps.Size(0,-34)});
+          infowindow.open(map);
+        });
+        google.maps.event.addListener(map, 'click', function() {
+          infowindow.close(); // un clic sur la carte ferme les infowindows
+        });
+	  } // end initialize
+
+      // appel de la fonction d'initialisation une fois la page chargee
+      google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+	<meta charset="UTF-8">
+  </head>
+
+  <body>
+    <h1>Toilettes publiques</h1>
+
+	<p><a href="./index.php">Page principale</a></p>
+	
+    <h2>Carte</h2>
+    <div id="map-categorie" class="map-canvas"></div>
+
+    <h2>Liste des points</h2>
+	<table>
+      <tr><td>-0.57446731215166402</td><td>44.8438837199486</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.58457718330056596</td><td>44.861167459214201</td><td>Urinoir Pierre Trébod                                                                              </td></tr>
+      <tr><td>-0.57213874016928901</td><td>44.842371692267797</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.61288066516282502</td><td>44.8246288668863</td><td>Urinoir Alfred Smith                                                                                </td></tr>
+      <tr><td>-0.54677071004675704</td><td>44.8415949968253</td><td>Urinoir Benauge                                                                                     </td></tr>
+      <tr><td>-0.54966881758028496</td><td>44.870597726800597</td><td>Urinoir Buscaillet                                                                                  </td></tr>
+      <tr><td>-0.57857966786102599</td><td>44.834935491640699</td><td>Urinoir République                                                                                 </td></tr>
+      <tr><td>-0.572441821689467</td><td>44.847136163724002</td><td>CHALET DE NECESSITE AVEC DOUCHES                                                                    </td></tr>
+      <tr><td>-0.54821129970586602</td><td>44.876991090380002</td><td>Urinoir Philippe Lebon                                                                              </td></tr>
+      <tr><td>-0.58608783462006897</td><td>44.839194331074097</td><td>Urinoir Lateulade                                                                                   </td></tr>
+      <tr><td>-0.54574753189917302</td><td>44.849346248441002</td><td>Urinoir Avenue Thiers                                                                               </td></tr>
+      <tr><td>-0.54438084445224</td><td>44.875069564970097</td><td>Urinoir Albert Brandenburg                                                                          </td></tr>
+      <tr><td>-0.56348442807362598</td><td>44.813389192577702</td><td>Urinoir Boulevard Albert 1er                                                                        </td></tr>
+      <tr><td>-0.57189456974463104</td><td>44.831430107281598</td><td>Urinoir Paul Broca                                                                                  </td></tr>
+      <tr><td>-0.56432147067006599</td><td>44.826712901155403</td><td>Urinoir Dormoy                                                                                      </td></tr>
+      <tr><td>-0.57738397208009196</td><td>44.822989697855199</td><td>Urinoir Simiot                                                                                      </td></tr>
+      <tr><td>-0.55025996516131703</td><td>44.8430567057489</td><td>Urinoir Calixte Camelle                                                                             </td></tr>
+      <tr><td>-0.60144846033873101</td><td>44.831556377109997</td><td>Urinoir Edouard Laroque                                                                             </td></tr>
+      <tr><td>-0.56291732247959703</td><td>44.829530512184</td><td>Urinoir André Meunier                                                                              </td></tr>
+      <tr><td>-0.58836359818939798</td><td>44.830789557383</td><td>Urinoir Arlac                                                                                       </td></tr>
+      <tr><td>-0.60780628475028697</td><td>44.835185610133003</td><td>Urinoir Frantz Schrader                                                                             </td></tr>
+      <tr><td>-0.54519073408854501</td><td>44.842922003791401</td><td>Urinoir Ferdinand Palau                                                                             </td></tr>
+      <tr><td>-0.58256823788387802</td><td>44.838692825083399</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.56727848446676998</td><td>44.838791051714502</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.62146035661779997</td><td>44.857087102510903</td><td>Sanitaire automatique                                                                               </td></tr>
+      <tr><td>-0.59928729802279201</td><td>44.8535319679415</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.56594780098854003</td><td>44.904904108173</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.58229085748665699</td><td>44.860591714797799</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.616170914392001</td><td>44.851606181913802</td><td>SANITAIRE AUTOMATIQUE                                                                               </td></tr>
+      <tr><td>-0.61095142406631597</td><td>44.833140801569499</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.60333974270816004</td><td>44.829511797433803</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.59432815102575798</td><td>44.8330130187272</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.57331478976635297</td><td>44.844646322150702</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.572454186136095</td><td>44.835249494812402</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.57562356883446997</td><td>44.841142009567399</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.56701740658882205</td><td>44.852661830367602</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.56985394627798502</td><td>44.849049777370702</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.57404525869356804</td><td>44.851974299623201</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.57033289016277999</td><td>44.846846166257002</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.57496162573893195</td><td>44.846901020131199</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.55118585241093998</td><td>44.827701903259701</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.57710610267672902</td><td>44.8332744380251</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.580138546512449</td><td>44.8348205141139</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.57313161684366298</td><td>44.8312773849294</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.56681018677234296</td><td>44.8305549317135</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.56232965394905898</td><td>44.829687580905599</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.55056556966404302</td><td>44.827411659821301</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.55461510259123203</td><td>44.824339785015503</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.56316053249679299</td><td>44.8223735462417</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.572011114618454</td><td>44.820301760424201</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.57670720912651896</td><td>44.826504623969598</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.57536414897958199</td><td>44.832182913835602</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.56293034048621304</td><td>44.834891698211599</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.56500988641864103</td><td>44.834399583060097</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.56116664142018802</td><td>44.8336657953068</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.55853350930440304</td><td>44.832026662682303</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.55131530546696506</td><td>44.824164765561498</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.55766046302360395</td><td>44.826141760617801</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.55962940867625699</td><td>44.841048100570902</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.56000105892610896</td><td>44.839825802910603</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.54989805093163902</td><td>44.842811458471701</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.56507286926866496</td><td>44.845339445957002</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.56130163984137005</td><td>44.850048163492502</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.57825847768536298</td><td>44.847784423555098</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.58099881063037595</td><td>44.850002406000598</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.58532696735243095</td><td>44.843246818511801</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+      <tr><td>-0.59923833480837396</td><td>44.824272102141599</td><td>TOILETTES MIXTES PMR                                                                                </td></tr>
+
+	</table>
+
+  </body>
+
+</html>

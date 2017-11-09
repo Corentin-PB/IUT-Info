@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+	<link rel="stylesheet" type="text/css" href="style.css">	
+
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	
+	<script>
+	  // declaration des cartes
+      var map;
+
+	  // la fenetre qui s'ouvre quand on passe la souris sur un point
+	  var infowindow = new google.maps.InfoWindow();
+
+	  // fonction d'initialisation
+      function initialize() {
+        var mapOptions = {
+          zoom: 6,
+          center: {lat:  46.55, lng: 2.4},
+          mapTypeId: google.maps.MapTypeId.TERRAIN
+        };
+        map = new google.maps.Map(document.getElementById('map-categorie'),
+          mapOptions);
+	    // initialisation des cartes et chargement des donnees
+	            map.data.loadGeoJson('json/airejeux.json');
+
+	    
+	    // fonction de style
+	    var setColorStyleFn = function(feature) {
+	      return {icon: feature.getProperty('icon')};
+	    };
+	    // style des cartes, et listener pour la fenetre qui s'ouvre quand on passe la souris sur un point
+	    map.data.setStyle(setColorStyleFn);
+	    map.data.addListener('mouseover', function(event) {
+          infowindow.setContent(event.feature.getProperty('description'));
+          infowindow.setPosition(event.latLng);
+          infowindow.setOptions({pixelOffset: new google.maps.Size(0,-34)});
+          infowindow.open(map);
+        });
+        google.maps.event.addListener(map, 'click', function() {
+          infowindow.close(); // un clic sur la carte ferme les infowindows
+        });
+	  } // end initialize
+
+      // appel de la fonction d'initialisation une fois la page chargee
+      google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+	<meta charset="UTF-8">
+  </head>
+
+  <body>
+    <h1>Airesdejeux Bordeaux</h1>
+
+	<p><a href="./index.php">Page principale</a></p>
+	
+    <h2>Carte</h2>
+    <div id="map-categorie" class="map-canvas"></div>
+
+    <h2>Liste des points</h2>
+	<table>
+      <tr><td>-0.57893228504684702</td><td>44.8779825499956</td><td>Berges du Lac_Plage                                                                                 </td></tr>
+      <tr><td>-0.56429438231566698</td><td>44.845843033572002</td><td>Place des Droits de l'Enfant                                                                        </td></tr>
+      <tr><td>-0.59492846974701796</td><td>44.822850312768502</td><td>Place Valmy                                                                                         </td></tr>
+      <tr><td>-0.57530884656081704</td><td>44.832319088416497</td><td>Place Francis de Pressensé                                                                         </td></tr>
+      <tr><td>-0.57808470583775695</td><td>44.861313544310299</td><td>Parc de la Cité du Grand Parc_Maryse Bastié                                                       </td></tr>
+      <tr><td>-0.63152403604874496</td><td>44.8538518191816</td><td>Parc Monséjour                                                                                     </td></tr>
+      <tr><td>-0.54571289640888598</td><td>44.8463829625899</td><td>Square du Petit Cardinal                                                                            </td></tr>
+      <tr><td>-0.54446282049793504</td><td>44.8727664707991</td><td>Parc de Bacalan                                                                                     </td></tr>
+      <tr><td>-0.59476819777643797</td><td>44.848283959544503</td><td>Jardin de la Visitation                                                                             </td></tr>
+      <tr><td>-0.588817278555827</td><td>44.830685473849002</td><td>place d'Arlac_Aire de jeux                                                                          </td></tr>
+      <tr><td>-0.58046763537233703</td><td>44.838105357481602</td><td>Jardin de la Mairie                                                                                 </td></tr>
+      <tr><td>-0.58180957521100196</td><td>44.825063705195802</td><td>Jardin des Dames de la Foi                                                                          </td></tr>
+      <tr><td>-0.54246459307360395</td><td>44.876918069615698</td><td>Parc du Port de la Lune                                                                             </td></tr>
+      <tr><td>-0.56604798330667105</td><td>44.812756195873703</td><td>Jardin des Barrières                                                                               </td></tr>
+      <tr><td>-0.54982971933680902</td><td>44.843036980382799</td><td>Place Calixte Camelle                                                                               </td></tr>
+      <tr><td>-0.60772841924838605</td><td>44.836481558753498</td><td>Square Emile Combes-Jean Gautier                                                                    </td></tr>
+      <tr><td>-0.57750733295014001</td><td>44.822885979050099</td><td>Place Simiot                                                                                        </td></tr>
+      <tr><td>-0.60615352635813302</td><td>44.840218115423198</td><td>Jardin de Lussy                                                                                     </td></tr>
+      <tr><td>-0.59939908551808596</td><td>44.819642153465701</td><td>Jardin Saint Julien                                                                                 </td></tr>
+      <tr><td>-0.61227238043631205</td><td>44.824567933035702</td><td>Square Alfred Smith                                                                                 </td></tr>
+      <tr><td>-0.56030709501623099</td><td>44.833538600192803</td><td>Parc des Sports Saint Michel                                                                        </td></tr>
+      <tr><td>-0.56461226638512196</td><td>44.8154946799513</td><td>Place Renée Seilhan                                                                                </td></tr>
+      <tr><td>-0.57732799047374495</td><td>44.824871532085901</td><td>Square du professeur Jacques Lasserre                                                               </td></tr>
+      <tr><td>-0.62045544130150698</td><td>44.844380632783498</td><td>Square Raymond Poincaré                                                                            </td></tr>
+      <tr><td>-0.59363959917084796</td><td>44.842067691332304</td><td>Square Georges Mandel                                                                               </td></tr>
+      <tr><td>-0.57650803233951098</td><td>44.864199658072799</td><td>Square Charazac                                                                                     </td></tr>
+      <tr><td>-0.56962343067841903</td><td>44.849707244406702</td><td>quai des Chartrons-Arnozan_Aire de jeux                                                             </td></tr>
+      <tr><td>-0.56727878308203195</td><td>44.852533050651999</td><td>quai des Chartrons-Martinique_Aire de jeux                                                          </td></tr>
+      <tr><td>-0.564434590686411</td><td>44.826780025184597</td><td>Place Pierre Jacques Dormoy                                                                         </td></tr>
+      <tr><td>-0.54390577943541796</td><td>44.878986916607097</td><td>Square docteur Roger Hypoustéguy                                                                   </td></tr>
+      <tr><td>-0.58339936558541405</td><td>44.860135955829598</td><td>Parc de la Cité du Grand Parc_Grands                                                               </td></tr>
+      <tr><td>-0.57694510861876702</td><td>44.877745325551501</td><td>Berges du Lac_Forêt                                                                                </td></tr>
+      <tr><td>-0.569550040671983</td><td>44.836608009857102</td><td>Square Jean Bureau                                                                                  </td></tr>
+      <tr><td>-0.60416937758460298</td><td>44.855008324296499</td><td>Parc Bordelais_Petits                                                                               </td></tr>
+      <tr><td>-0.60391346009454405</td><td>44.8552821579487</td><td>Parc Bordelais_Grands                                                                               </td></tr>
+      <tr><td>-0.601930413206061</td><td>44.852085248004997</td><td>Parc Bordelais_Déversoir                                                                           </td></tr>
+      <tr><td>-0.56271380084684297</td><td>44.829609838289997</td><td>Jardin André Meunier                                                                               </td></tr>
+      <tr><td>-0.56057719375079096</td><td>44.859440422114503</td><td>Jardin de ta soeur                                                                                  </td></tr>
+      <tr><td>-0.61122648075549302</td><td>44.833068798286298</td><td>Jardin de Lili                                                                                      </td></tr>
+      <tr><td>-0.63703471503661302</td><td>44.860157989521902</td><td>Square Les Jasmins                                                                                  </td></tr>
+      <tr><td>-0.56335417671105803</td><td>44.863807271662097</td><td>Parc Chantecrit_Moyens                                                                              </td></tr>
+      <tr><td>-0.54544383849291</td><td>44.850878235317502</td><td>Square des Copains                                                                                  </td></tr>
+      <tr><td>-0.56055847497138001</td><td>44.847486526757997</td><td>Square Reignier                                                                                     </td></tr>
+      <tr><td>-0.59972101897151897</td><td>44.8265265956558</td><td>Jardin de la Béchade                                                                               </td></tr>
+      <tr><td>-0.58394827512605096</td><td>44.837204462934103</td><td>Esplanade Charles de Gaulle                                                                         </td></tr>
+      <tr><td>-0.57143649796960805</td><td>44.8394516858381</td><td>Square Vinet                                                                                        </td></tr>
+      <tr><td>-0.54989033718073899</td><td>44.870207529227102</td><td>Place Adolphe Buscaillet                                                                            </td></tr>
+      <tr><td>-0.61480510506707697</td><td>44.850915509691397</td><td>Square de l'église Saint Amand                                                                     </td></tr>
+      <tr><td>-0.56328728251267901</td><td>44.822261145479899</td><td>Place du Cardinal Donnet                                                                            </td></tr>
+      <tr><td>-0.577603926455313</td><td>44.8192915109707</td><td>Square Bertrand de Goth                                                                             </td></tr>
+      <tr><td>-0.55412097743344002</td><td>44.815506741710799</td><td>Jardin Brascassat                                                                                   </td></tr>
+      <tr><td>-0.58522002187560096</td><td>44.843000874943698</td><td>Place des Martyrs de la Résistance                                                                 </td></tr>
+      <tr><td>-0.60856942008715398</td><td>44.823651569192997</td><td>Parc de la Cité Carreire                                                                           </td></tr>
+      <tr><td>-0.58198718025154705</td><td>44.859167315628</td><td>Square de l'Europe                                                                                  </td></tr>
+      <tr><td>-0.54569269982854696</td><td>44.845146741555801</td><td>Parc Pinçon                                                                                        </td></tr>
+      <tr><td>-0.57102441616576205</td><td>44.8725407046512</td><td>Parc de la Cité des Aubiers_Bâtiment                                                              </td></tr>
+      <tr><td>-0.586390674070841</td><td>44.854413800745903</td><td>Parc Rivière                                                                                       </td></tr>
+      <tr><td>-0.57928048502450502</td><td>44.848336374825699</td><td>Jardin Public_Muséum                                                                               </td></tr>
+      <tr><td>-0.59356557212719896</td><td>44.833148648262799</td><td>Square Gaviniès                                                                                    </td></tr>
+      <tr><td>-0.60324213558359496</td><td>44.850457727835597</td><td>Parc Céré_Grands                                                                                  </td></tr>
+      <tr><td>-0.60380809231381805</td><td>44.850226875937302</td><td>Parc Céré_PMR                                                                                     </td></tr>
+      <tr><td>-0.56423882033695505</td><td>44.863420366899298</td><td>Parc Chantecrit_Petits                                                                              </td></tr>
+      <tr><td>-0.57404820738807505</td><td>44.817770822652498</td><td>Jardin de la Croix du Sud                                                                           </td></tr>
+      <tr><td>-0.57052326057703595</td><td>44.864110726502197</td><td>Square Etienne Morin                                                                                </td></tr>
+      <tr><td>-0.60374235963345602</td><td>44.850506784106699</td><td>Parc Céré_Petits                                                                                  </td></tr>
+      <tr><td>-0.56673458240258601</td><td>44.832443092350402</td><td>Place du Maucaillou                                                                                 </td></tr>
+      <tr><td>-0.58344689833957597</td><td>44.860229657559699</td><td>Parc de la Cité du Grand Parc_Petits                                                               </td></tr>
+      <tr><td>-0.583409410144762</td><td>44.860491485048598</td><td>Parc de la Cité du Grand Parc_Moyens                                                               </td></tr>
+      <tr><td>-0.57253287769680805</td><td>44.874993032533297</td><td>Aire de jeux du Lauzun                                                                              </td></tr>
+      <tr><td>-0.55105823426905298</td><td>44.8241092098202</td><td>Place Ferdinand Buisson                                                                             </td></tr>
+      <tr><td>-0.57715060049184197</td><td>44.849093300502503</td><td>Jardin Public_Ile aux enfants                                                                       </td></tr>
+      <tr><td>-0.572511935201098</td><td>44.877897564997298</td><td>Jardin du Petit Nicolas                                                                             </td></tr>
+
+	</table>
+
+  </body>
+
+</html>

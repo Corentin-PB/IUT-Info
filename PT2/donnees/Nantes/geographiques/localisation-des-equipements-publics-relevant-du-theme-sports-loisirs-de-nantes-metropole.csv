@@ -1,0 +1,503 @@
+_IDOBJ;NOM_COMPLET;THEME;LIBTHEME;CATEGORIE;LIBCATEGORIE;TYPE;LIBTYPE;STATUT;COMMUNE;ADRESSE;TELEPHONE;WEB;CODE_POSTAL;Y_LAT;X_LONG
+111;Piscine Durantière - Nantes;6;SPORTS;604;Piscine;;;Ville de Nantes;NANTES;11 Rue de la Durantière;02 40 58 24 90;;44100;47,212756571105;-1,59872468497865
+112;Piscine Dervallières - Nantes;6;SPORTS;604;Piscine;;;Ville de Nantes;NANTES;21 Rue Professeur Dubuisson;02 40 40 57 74;;44100;47,2275397157953;-1,59218618244518
+114;Piscine Léo Lagrange Ile Gloriette - Nantes;6;SPORTS;604;Piscine;;;Ville de Nantes;NANTES;Rue Deurbroucq;02 40 99 26 50;;44000;47,2098578332065;-1,56006613543103
+116;Club Léo Lagrange Nantes Aviron;6;SPORTS;601;Centre sportif;;;Ville de Nantes;NANTES;9 Chemin de Belle Ile;02 40 93 07 59;www.aviron-nantes-cll.com;44300;47,2457334512595;-1,54388993682305
+118;Golf Nantes Erdre;6;SPORTS;608;Autre équipement;;;Ville de Nantes;NANTES;90 Avenue du Bout des Landes;02 40 59 21 21;;44300;47,2692656930341;-1,57977559307076
+119;Base d'Aviron Universitaire;6;SPORTS;601;Centre sportif;;;Etat;NANTES;2 Chemin de la Houssinière;02 51 12 58 81;www.avironfrance.asso.fr;44300;47,2365563818049;-1,55129581053572
+692;Plaine de Jeux de la Beaujoire;6;SPORTS;605;Plaine de jeux;;;Ville de Nantes;NANTES;Route de Saint Joseph;02 40 30 30 85;;44300;47,2639930545289;-1,53365378581846
+694;Stade La Halvêque;6;SPORTS;606;Stade;;;Ville de Nantes;NANTES;23 Rue Léon Serpollet;;;44300;47,2538634556883;-1,51861361543117
+695;Stade Joseph Geoffroy La Saint-Pierre;6;SPORTS;606;Stade;;;Privé;NANTES;25 Rue du Port Boyer;;;44300;47,239734960728;-1,53284534905717
+696;Stade Batignolles;6;SPORTS;606;Stade;;;Privé;NANTES;20 Rue de Koufra;;;44300;47,2452728951847;-1,52669752937696
+703;Plateau Sportif du Port Boyer;6;SPORTS;605;Plaine de jeux;;;Ville de Nantes;NANTES;73 Rue du Port Boyer;;;44300;47,2396673832905;-1,5383314439884
+706;Espace de Proximité La Grande Noue;6;SPORTS;606;Stade;;;Ville de Nantes;NANTES;10 Rue de la Bottière;;;44300;47,2368726881607;-1,52203929092366
+721;Espace Sportif de Proximité du Clos Toreau;6;SPORTS;606;Stade;;;Ville de Nantes;NANTES;3 Rue d'Hasparren;;;44200;47,1959161944956;-1,52647122386286
+722;Stade de la Gilarderie;6;SPORTS;606;Stade;;;Ville de Nantes;NANTES;115 Rue de la Gilarderie;;;44200;47,1883832527323;-1,52082048184233
+723;Stade des Bourdonnières;6;SPORTS;606;Stade;;;Région;NANTES;6 Rue de la Perrière;02 40 34 02 60;bourdonnieres.paysdelaloire.e-lyco.fr;44200;47,1848018764143;-1,51960027094327
+732;Plaine de Jeux du Petit Port;6;SPORTS;605;Plaine de jeux;;;Ville de Nantes;NANTES;2 Boulevard des Tribunes;02 40 76 24 54;;44300;47,24833488268;-1,56372001054341
+733;Stade Launay Violette;6;SPORTS;606;Stade;;;Etat;NANTES;Impasse Charles Chassin;;;44300;47,2490898325466;-1,55734123748702
+737;Stade Procé;6;SPORTS;606;Stade;;;Ville de Nantes;NANTES;13 Boulevard Clovis Constant;02 40 76 85 58;;44000;47,2244928701333;-1,58037969838993
+738;Stade Annexe de Procé;6;SPORTS;606;Stade;;;Ville de Nantes;NANTES;Rue des Dervallières;;;44100;47,2219052569873;-1,5803084859143
+739;Plaine de Jeux Bernardière;6;SPORTS;605;Plaine de jeux;;;Ville de Nantes;NANTES;Rue de la Fontaine Salée;02 40 46 35 64;;44100;47,2022635523877;-1,61578032556758
+740;Stade Bois de la Musse Espérance St-Yves;6;SPORTS;606;Stade;;;Privé;NANTES;9 Rue Marange Sylvange;;;44100;47,2016418613322;-1,61194218184324
+741;Plaine de Jeux Lycée Albert Camus;6;SPORTS;605;Plaine de jeux;;;Ville de Nantes;NANTES;2 Rue du Bois de la Musse;;;44100;47,203030129374;-1,61000448546101
+743;Stade La Mellinet-Audrain;6;SPORTS;606;Stade;;;Privé;NANTES;57 Rue de la Marzelle de Grillaud;02 40 46 99 11;;44100;47,2200626895231;-1,59280872537732
+747;Stade Pascal-Laporte;6;SPORTS;606;Stade;;;Ville de Nantes;NANTES;74 Boulevard des Anglais;02 40 76 94 63;www.stadenantais-rugby.com;44100;47,2292210076335;-1,58210919594525
+840;Gymnase du Club Athlétic Nantais;6;SPORTS;603;Gymnase;;;Privé;NANTES;20 Rue Ampère;;;44100;47,2121674917616;-1,58463937662557
+841;Gymnase Agenêts;6;SPORTS;603;Gymnase;;;Ville de Nantes;NANTES;30 Rue du Casterneau;02 40 49 96 32;;44000;47,2272167095547;-1,53111131447497
+842;Gymnase Chantenay;6;SPORTS;603;Gymnase;;;Ville de Nantes;NANTES;7 Rue de la Croix;02 51 80 73 53;;44100;47,1986446498102;-1,59478761421589
+844;Piscine Jules Verne Haluchère - Nantes;6;SPORTS;604;Piscine;;;Ville de Nantes;NANTES;41 Rue Jules Grandjouan;02 51 89 16 20;www.nantes.fr;44300;47,2482513320381;-1,51748108230335
+846;Stade Jean Jacques Audubon;6;SPORTS;606;Stade;;;Ville de Nantes;NANTES;45 Rue Jean Jacques Audubon;02 40 52 24 94;;44300;47,2401710295351;-1,50438306254425
+848;Plaine de Jeux Jonelière;6;SPORTS;605;Plaine de jeux;;;;LA-CHAPELLE-SUR-ERDRE;Route de la Jonelière;02 40 29 01 60;www.lachapellesurerdre.fr;44240;47,2614441001634;-1,54361455419714
+849;Plaine de Jeux de la Mainguais;6;SPORTS;605;Plaine de jeux;;;;CARQUEFOU;Rue de la Mainguais;02 40 30 01 11;www.carquefou.fr;44470;47,2791655233678;-1,4909378276142
+850;Plaine de Jeux l'Eraudière;6;SPORTS;605;Plaine de jeux;;;Ville de Nantes;NANTES;11 Rue du Stade de la Noue;02 40 52 32 63;;44300;47,2479389858742;-1,53534434965587
+851;Equipement Sportif de Proximité La Halvêque;6;SPORTS;609;Espace Sportif de Proximité;;;Ville de Nantes;NANTES;23 Rue Léon Serpollet;;;44300;47,2541680513428;-1,51848979699111
+853;Plaine de Jeux Marrière;6;SPORTS;605;Plaine de jeux;;;Ville de Nantes;NANTES;95 Rue de la Marrière;02 40 49 98 61;;44300;47,2366966931512;-1,52871415356151
+855;Plaine de Jeux Sévres;6;SPORTS;605;Plaine de jeux;;;Ville de Nantes;NANTES;Rue de l'Olivraie;02 40 03 00 71;;44200;47,1846104468124;-1,53165351828126
+856;Plaine de jeux Gaston Turpin;6;SPORTS;605;Plaine de jeux;;;Ville de Nantes;NANTES;33 Rue Gaston Turpin;02 40 29 23 23;;44000;47,2243971830527;-1,54071562690763
+859;Stade Etoile du Cens;6;SPORTS;606;Stade;;;Privé;NANTES;24 Route de la Chapelle Sur Erdre;02 40 40 95 09;;44300;47,255501567701;-1,5747452777234
+860;Stade l'Amande;6;SPORTS;606;Stade;;;Ville de Nantes;NANTES;112 Route de la Chapelle Sur Erdre;02 40 40 46 27;;44300;47,2624908425566;-1,57333713309748
+863;Stade Michel Lecointre Beaulieu;6;SPORTS;606;Stade;;;Ville de Nantes;NANTES;2 Boulevard Alexandre Millerand;02 40 47 86 59;;44200;47,209675350334;-1,53281900853191
+864;Stade Pin Sec;6;SPORTS;606;Stade;;;Ville de Nantes;NANTES;19 Rue Pierre Bouguer;02 40 93 80 91;;44300;47,242648370723;-1,5201696337809
+865;Cercle d'Aviron de Nantes;6;SPORTS;601;Centre sportif;;;Ville de Nantes;NANTES;20 Rue d'Alsace;02 40 50 67 45;perso.wanadoo.fr/c.a.n.;44000;47,233981218756;-1,5472936544112
+866;Base Nautique de la Jonelière;6;SPORTS;608;Autre équipement;;;Ville de Nantes;LA-CHAPELLE-SUR-ERDRE;Route de la Jonelière;02 40 74 66 14;;44240;47,2579812899213;-1,53949512370314
+1061;Plaine de Jeux Grand Blottereau;6;SPORTS;605;Plaine de jeux;;;Ville de Nantes;NANTES;Boulevard Auguste Péneau;02 40 49 46 07;;44300;47,2254406712455;-1,50964696317175
+1072;Stade de la Roche;6;SPORTS;606;Stade;;;Ville de Nantes;NANTES;10 Rue de la Révolution des Oeillets;02 40 49 71 33;;44000;47,2192670171279;-1,51974622474479
+1073;Patinoire Olympique du Petit Port;6;SPORTS;608;Autre équipement;;;Ville de Nantes;NANTES;Boulevard du Petit Port;02 40 74 01 77;www.nge-nantes.fr;44300;47,2427860997913;-1,55555103389616
+1079;Plaine de Jeux Géraudière Santos Dumont;6;SPORTS;605;Plaine de jeux;;;Ville de Nantes;NANTES;Rue Santos Dumont;02 40 76 13 37;;44300;47,260411863375;-1,56825391542092
+1125;Hippodrome du Petit Port;6;SPORTS;608;Autre équipement;;;Ville de Nantes;NANTES;2 Boulevard des Tribunes;02 40 74 19 71;;44300;47,2462030149329;-1,56316761933513
+1233;Stade des Dervallières;6;SPORTS;606;Stade;;;Ville de Nantes;NANTES;19 Rue Jean Marc Nattier;02 40 46 13 04;;44100;47,2264093976016;-1,59259941569142
+1239;Stade Racing Athlétic Club Cheminots;6;SPORTS;606;Stade;;;Privé;NANTES;11 Rue de la Rivière;02 40 59 29 16;;44300;47,2328638801984;-1,49998703586133
+1240;Gymnase RACC;6;SPORTS;603;Gymnase;;;Privé;NANTES;11 Rue de la Rivière;02 40 59 29 16;;44300;47,2319442062122;-1,50037475669311
+1353;Stade Mangin Beaulieu;6;SPORTS;606;Stade;;;Ville de Nantes;NANTES;Rue des Boires;02 51 72 43 00;;44200;47,2050515534856;-1,54100881728214
+1439;Circuits Rustiques d'Activités Plein Air - Blottereau;6;SPORTS;602;Circuit de plein air;;;Ville de Nantes;NANTES;Boulevard Auguste Péneau;;;44300;47,2259382709138;-1,50893453793683
+1496;Terrain de tennis Bourgeonnière;6;SPORTS;607;Tennis;;;Ville de Nantes;NANTES;52 Rue de la Bourgeonnière;02-40-40-04-19;;44300;47,2532293711017;-1,55463899444773
+1503;Base Nautique Port Durand S.N.S.M.;6;SPORTS;601;Centre sportif;;;Privé;NANTES;65 Rue du Port Durand;02-40-50-66-02;;44300;47,2525033773486;-1,53821896419221
+1540;Centre Sportif José Arribas;6;SPORTS;601;Centre sportif;;;Ville de Nantes;LA-CHAPELLE-SUR-ERDRE;Route de la Jonelière;08 20 04 30 44;www.fcnantes.com;44240;47,2606723385847;-1,54147665589036
+1559;Gymnase Amicale Don Bosco;6;SPORTS;603;Gymnase;;;Privé;NANTES;Chemin de Bonneville;02 40 93 87 42;;44300;47,2460838309883;-1,53648614689791
+1830;Centre Sportif l'Angevinière;6;SPORTS;601;Centre sportif;;;Public;ST-HERBLAIN;6 Avenue de l'Angevinière;02 40 63 56 74;;44800;47,2471057935949;-1,60978483501323
+1831;Gymnase Le Hérault;6;SPORTS;603;Gymnase;;;Public;ST-HERBLAIN;Avenue Alain Gerbault;02 51 83 86 53;www.saint-herblain.fr;44800;47,2350579489681;-1,59992582425841
+1832;Gymnase Joli Mai;6;SPORTS;603;Gymnase;;;;ST-HERBLAIN;66 Avenue de Cheverny;;www.saint-herblain.fr;44800;47,242707413865;-1,6008832939483
+1835;Stade Calvaires;6;SPORTS;606;Stade;;;Public;ST-HERBLAIN;Rue des Calvaires;02 40 85 36 56;asso.wanadoo.fr/oms.saint.herblain;44800;47,2150249072251;-1,64989325221638
+1836;Gymnase Bernardière;6;SPORTS;603;Gymnase;;;Public;ST-HERBLAIN;Rue de Dijon;02 40 46 12 63;asso.wanadoo.fr/oms.saint.herblain;44800;47,2063233654695;-1,61601637936851
+1837;Espace Multisport Ernest Renan;6;SPORTS;605;Plaine de jeux;;;Public;ST-HERBLAIN;1 Rue de Saint Servan;02 40 58 17 12;www.saint-herblain.fr;44800;47,2150709214297;-1,61251401027904
+1838;Piscine Ernest Renan - St Herblain;6;SPORTS;604;Piscine;;;Public;ST-HERBLAIN;1 Rue de Saint Servan;02 40 58 17 12;www.saint-herblain.fr;44800;47,2154198758843;-1,61358066544455
+1840;Gymnase Sensive;6;SPORTS;603;Gymnase;;;Public;ST-HERBLAIN;21 Rue de Bordeaux;02 40 43 86 27;www.saint-herblain.fr;44800;47,2106536618271;-1,61225062129551
+1843;Centre Sportif du Vigneau;6;SPORTS;601;Centre sportif;;;Public;ST-HERBLAIN;Boulevard Salvador Allende;02 40 92 06 57;asso.wanadoo.fr/oms.saint.herblain;44800;47,2179570960269;-1,62222094024926
+1844;Gymnase du Bourg;6;SPORTS;603;Gymnase;;;Public;ST-HERBLAIN;1 Avenue des Sports;02 40 85 06 70;www.saint-herblain.fr;44800;47,210746403379;-1,65323604713288
+1846;Piscine Bourgonnière  - St Herblain;6;SPORTS;604;Piscine;;;Public;ST-HERBLAIN;34 Allée de la Bourgonnière;02 40 38 05 04;www.saint-herblain.fr;44800;47,2077852435338;-1,65677255323662
+1847;Gymnase Changetterie;6;SPORTS;603;Gymnase;;;Public;ST-HERBLAIN;15B Rue Théophile Guillou;02 40 86 78 07;www.saint-herblain.fr;44800;47,2151682764468;-1,65111526089458
+1965;Complexe Sportif Roger-Piccaud;6;SPORTS;601;Centre sportif;;;Public;ORVAULT;108B Avenue Claude Antoine Peccot;02 40 63 30 40;www.orvault.fr;44700;47,2518860610327;-1,61007776864608
+1966;Stade du Verger;6;SPORTS;606;Stade;;;Public;ORVAULT;5 Rue du Stade;02 40 76 01 50;www.orvault.fr;44700;47,2500435216439;-1,59134696816738
+1967;Gymnase Emile Gibier;6;SPORTS;603;Gymnase;;;Public;ORVAULT;8 Rue des Pins;02 40 63 18 85;;44700;47,2542766664819;-1,59552405590642
+1968;Complexe de la Ferrière;6;SPORTS;603;Gymnase;;;Public;ORVAULT;6 Avenue de la Jeunesse;02 40 76 15 06;www.orvault.fr;44700;47,246157821333;-1,59197970160573
+1969;Gymnase Le Bois Raguenet;6;SPORTS;603;Gymnase;;;Public;ORVAULT;10 Rue des Porteurs d'Eau;02 40 63 75 74;;44700;47,2703607676064;-1,5961971384645
+1970;Stade de la Bugallière;6;SPORTS;606;Stade;;;Public;ORVAULT;21 Avenue de la Bugallière;02 40 63 54 85;;44700;47,2600781293576;-1,63172618061595
+1971;Gymnase de La Bugallière;6;SPORTS;603;Gymnase;;;Public;ORVAULT;12 Rue du Pont Marchand;02 40 63 44 64;;44700;47,2621189108854;-1,63172494291619
+1973;Complexe Sportif de la Frebaudière;6;SPORTS;601;Centre sportif;;;Public;ORVAULT;22 Rue du Raffuneau;;www.orvault.fr;44700;47,2732098577681;-1,62565544930331
+1974;Stade de Gagné;6;SPORTS;606;Stade;;;Public;ORVAULT;Chemin de Bazoges;02 40 63 50 96;www.orvault.fr;44700;47,2831792345893;-1,62970765071141
+2026;Gymnase Ouche Quinet;6;SPORTS;603;Gymnase;;;Public;ST-SEBASTIEN;Rue de l'Ouche Quinet;02 40 03 40 26;;44230;47,1926587852741;-1,49992018806
+2037;Gymnase du Petit Anjou;6;SPORTS;603;Gymnase;;;Public;ST-SEBASTIEN;Rue du Petit Anjou;02 40 80 52 44;;44230;47,2067361689816;-1,5017449964624
+2038;Gymnase Profondine;6;SPORTS;603;Gymnase;;;Public;ST-SEBASTIEN;Rue de l'Allée Verte;02 40 03 40 22;;44230;47,19593068403;-1,4890329841085
+2039;Gymnase Savarières;6;SPORTS;603;Gymnase;;;Public;ST-SEBASTIEN;Avenue de Glinde;02 40 80 52 45;;44230;47,2094370352284;-1,48756395474289
+2040;Complexe Sportif de La Martellière;6;SPORTS;601;Centre sportif;;;Public;ST-SEBASTIEN;Avenue de la Martellière;02 40 33 20 55;;44230;47,198080590439;-1,52683675403684
+2041;Stade de la Profondine;6;SPORTS;606;Stade;;;Public;ST-SEBASTIEN;Rue des Gripôts;02 40 34 42 77;;44230;47,1947852992256;-1,48786168522172
+2042;Stade des Gripots;6;SPORTS;606;Stade;;;;ST-SEBASTIEN;Rue des Plantes;02 40 03 44 25;;44230;47,1945884331847;-1,48352237987671
+2045;Gymnase du Douet;6;SPORTS;603;Gymnase;;;Public;ST-SEBASTIEN;10 Rue Edouard Hervé;02 40 03 40 23;;44230;47,1914129715111;-1,52081100676749
+2069;Ensemble Sportif  de l'Orvasserie;6;SPORTS;605;Plaine de jeux;;;Public;ST-HERBLAIN;30 Rue Konrad Adenauer;02 40 46 77 79;www.saint-herblain.fr;44800;47,2054570138992;-1,63378543692181
+2086;Les Écuries du Clos - Village du cheval;6;SPORTS;601;Centre sportif;;;Privé;BOUGUENAIS;Rue des Champs de Bougon;02 40 32 09 27;www.ecuriesduclos.com/;44340;47,1670391904977;-1,62918182822166
+2087;Piscine municipale - Bouguenais;6;SPORTS;604;Piscine;;;Public;BOUGUENAIS;Rue Pablo Neruda;02 51 70 60 70;;44340;47,171742960848;-1,62129629865885
+2111;Stade Football Félix Guyot;6;SPORTS;606;Stade;;;Public;INDRE;Rue du Stade;02 40 86 73 18;;44610;47,2012865194815;-1,67079315636277
+2153;Practice de golf;6;SPORTS;608;Autre équipement;;;Public;ST-SEBASTIEN;Boulevard des Pas Enchantés;02 40 80 54 57;www.saintsebastien.fr;44230;47,2131721364892;-1,49257395344305
+2154;Centre Equestre Ile Pinette;6;SPORTS;601;Centre sportif;;;Public;ST-SEBASTIEN;Boulevard des Pas Enchantés;02 40 80 54 57;www.saintsebastien.fr;44230;47,2111885912061;-1,50685768063897
+2155;Stade René Massé;6;SPORTS;606;Stade;;;Public;ST-SEBASTIEN;Boulevard des Pas Enchantés;;;44230;47,2113704422294;-1,50056167624582
+2156;Stade Maurice Thollé;6;SPORTS;606;Stade;;;Public;ST-SEBASTIEN;Boulevard des Pas Enchantés;;;44230;47,2112714740649;-1,50375232534838
+2158;Circuits Rustiques d'Activites Plein Air des Gripots;6;SPORTS;602;Circuit de plein air;;;Public;ST-SEBASTIEN;Rue des Plantes;;;44230;47,1937733642716;-1,48516777776613
+2159;Circuits Rustiques d'Activites en Plein Air de l'Ile Forget;6;SPORTS;602;Circuit de plein air;;;Public;ST-SEBASTIEN;Boulevard des Pas Enchantés;;www.saintsebastien.fr;44230;47,2112280735376;-1,51241128658423
+2161;Stade de la Ligue Atlantique de Football;6;SPORTS;606;Stade;;;Public;ST-SEBASTIEN;Boulevard des Pas Enchantés;;;44230;47,2126800728297;-1,49576482435283
+2193;Stade de la Croix Jeannette;6;SPORTS;606;Stade;;;Public;BOUGUENAIS;Rue Pablo Neruda;;;44340;47,1724561976818;-1,62282816376482
+2200;Parcours sportif de la Ville-au-Denis;6;SPORTS;602;Circuit de plein air;;;Public;BOUGUENAIS;Allée des Soupirs;;;44340;47,1580198405419;-1,62397991744768
+2201;Salle du Fougan-de-Mer;6;SPORTS;603;Gymnase;;;Public;BOUGUENAIS;Rue du Commandant Charcot;02 40 65 10 65;www.ville-bouguenais.fr;44340;47,1832239739524;-1,57897799892288
+2202;Stade de Beauvoir;6;SPORTS;606;Stade;;;Public;BOUGUENAIS;Chemin du Halage;02 40 65 06 14;www.ville-bouguenais.fr;44340;47,1813384628233;-1,63094055940366
+2203;Stade des Landes;6;SPORTS;606;Stade;;;Public;BOUGUENAIS;Rue Jean Baptiste Clément;02 40 04 13 33;www.ville-bouguenais.fr;44340;47,1756170441002;-1,58662907238535
+2204;Plateau d'évolution Cité de Beauvoir;6;SPORTS;608;Autre équipement;;;Public;BOUGUENAIS;Rue Jacques Demy;;www.ville-bouguenais.fr;44340;47,1790041615066;-1,62828964796547
+2216;Centre Sportif du Val de Chézine;6;SPORTS;601;Centre sportif;;;Public;ST-HERBLAIN;Rue du Zambèze;;;44800;47,2409048062182;-1,61838202891687
+2222;Plaine de Jeux La Bergerie;6;SPORTS;605;Plaine de jeux;;;Public;ST-HERBLAIN;Chemin de la Vannerie;;;44800;47,238694249991;-1,63338638581862
+2243;Gymnase Haute-Indre;6;SPORTS;603;Gymnase;;;Public;INDRE;Rue Jean-Baptiste Rabillard;;;44610;47,1951295237465;-1,6478993182919
+2248;Golf Miniature;6;SPORTS;608;Autre équipement;;;Public;INDRE;Quai Victor Boquien;;;44610;47,1969507666815;-1,67143790880919
+2252;Gymnase Basse-Indre;6;SPORTS;603;Gymnase;;;Public;INDRE;7 Rue de la Gare;;;44610;47,2008208726484;-1,66931281917631
+2299;Gymnase Gigant;6;SPORTS;603;Gymnase;;;Ville de Nantes;NANTES;3 Place Beaumanoir;02 40 69 70 98;www.nantes.fr;44100;47,2130697383576;-1,5710414266968
+2316;Complexe Sportif de Saint Joseph de Porterie;6;SPORTS;601;Centre sportif;;;Ville de Nantes;NANTES;507 Route de Saint Joseph;02 40 25 12 50;;44300;47,2720906363171;-1,51830834178211
+2317;Gymnase Noë Lambert;6;SPORTS;603;Gymnase;;;Ville de Nantes;NANTES;42 Boulevard des Poilus;02 40 41 57 15;nantes.fr;44300;47,2308000633039;-1,52715800803948
+2339;Parc d'Attractions des Naudières;6;SPORTS;608;Autre équipement;;;;SAUTRON;Route des Naudières;02 40 63 21 05;;44880;47,2682760901519;-1,69670558494988
+2411;Stade Julien Micheau;6;SPORTS;606;Stade;;;;BRAINS;Rue du Bois Joli;;;44830;47,1728202523257;-1,7255254070564
+2414;Gymnase Brains;6;SPORTS;603;Gymnase;;;;BRAINS;Rue des Prés;;;44830;47,1683199340313;-1,72210655961521
+2426;Club nautique de Port Jean;6;SPORTS;601;Centre sportif;;;;CARQUEFOU;Route de Port Jean;02 40 50 85 29;www.carquefou.fr;44470;47,3031531081619;-1,52400721179044
+2431;Centre Sportif du Moulin Boiseau;6;SPORTS;601;Centre sportif;;;;CARQUEFOU;Rue du Moulin Boisseau;02 40 68 49 25;www.carquefou.fr;44470;47,2843363833325;-1,48185667004875
+2433;Centre sportif Jean Gauvrit;6;SPORTS;601;Centre sportif;;;;;;02 40 50 92 56;www.carquefou.fr;44470;47,295826083548;-1,4874311720501
+2434;Piscine Daniel Gilard - Carquefou;6;SPORTS;604;Piscine;;;;CARQUEFOU;10 Rue Pierre Mendes France;02 28 22 21 20;www.carquefou.fr;44470;47,3024911797028;-1,49260361219881
+2435;Complexe sportif de la Tournière;6;SPORTS;601;Centre sportif;;;;CARQUEFOU;Rue du Stade;02 40 93 74 36;www.carquefou.fr;44470;47,3185834225673;-1,46999264876481
+2442;Stade de la Frémondière;6;SPORTS;606;Stade;;;;COUERON;Rue de la Frémondière;02 40 85 46 60;www.ville-coueron.fr;44220;47,2104870142114;-1,71708554407837
+2443;Stade Donatien et Suzanne Hauray;6;SPORTS;606;Stade;;;;COUERON;Rue de la Frémondière;02 40 38 00 57;www.ville-coueron.fr;44220;47,2120419396265;-1,71946117169609
+2444;Centre Sportif Paul Langevin;6;SPORTS;601;Centre sportif;;;;COUERON;Boulevard Paul Langevin;02 40 85 46 60;www.ville-coueron.fr;44220;47,2144055961146;-1,72000040792451
+2445;Piscine Baptiste Lefèvre - Couëron;6;SPORTS;604;Piscine;;;;COUERON;Boulevard Paul Langevin;02 40 86 02 72;www.ville-coueron.fr;44220;47,2138643756754;-1,72039299775916
+2453;Complexe Sportif Léo-Lagrange;6;SPORTS;601;Centre sportif;;;;COUERON;Rue de la Noë Allais;02 40 85 46 60;www.mairie-coueron.fr;44220;47,2207410736832;-1,68423886292367
+2464;Bowling EuroBowl;6;SPORTS;608;Autre équipement;;;;ST-SEBASTIEN;27 Rue Marie Curie;02 51 71 23 00;www.eurobowl.fr/saint-sebastien/;44230;47,1895824580666;-1,48606376344073
+2465;Golf de l'Epinay;6;SPORTS;608;Autre équipement;;;;CARQUEFOU;Boulevard de l'Epinay;02 40 52 73 74;;44470;47,2877803426137;-1,48894815586082
+2466;Gymnase Pierre Moisan;6;SPORTS;603;Gymnase;;;;COUERON;Rue de la Corbardière;02 40 85 46 60;;44220;47,2163316906721;-1,68430936585207
+2468;Gymnase Jules Boullery;6;SPORTS;603;Gymnase;;;;COUERON;Boulevard Francois Blancho;02 40 85 46 60;;44220;47,2145372502315;-1,72758810210756
+2469;Patinoire Olympique Rezé;6;SPORTS;608;Autre équipement;;;;REZE;Rue de la Trocardière;02 40 75 58 46;;44400;47,1823718209336;-1,5729261472647
+2471;Centre Sportif René Gaudin;6;SPORTS;601;Centre sportif;;;;COUERON;Rue Marcel de la Provoté;02 40 86 46 60;;44220;47,2122651467985;-1,73884756734602
+2474;Vélodrome Marcel-de-la-Provôté;6;SPORTS;608;Autre équipement;;;;COUERON;30 Rue Marcel de la Provoté;02 40 38 06 18;;44220;47,2115055172575;-1,7368906288991
+2477;Centre Equestre de la Hillière;6;SPORTS;601;Centre sportif;;;;THOUARE-SUR-LOIRE;6 Rue de la Pamprie;02 40 77 32 49;;44470;47,2853531096737;-1,42255628400108
+2479;Centre Equestre Ferme de la Chauffetière;6;SPORTS;601;Centre sportif;;;;LE-PELLERIN;19 Route de la Chauffetière;02 40 05 66 98;;44640;47,2027334741685;-1,78016713157777
+2491;Salle omnisports - Gymnase intercommunal;6;SPORTS;603;Gymnase;;;;LE-PELLERIN;Rue de l'Hermitage;02 40 05 61 26;www.ville-lepellerin.fr;44640;47,1956959966305;-1,75867046958166
+2493;Stade Municipal Le Pellerin;6;SPORTS;606;Stade;;;;LE-PELLERIN;Rue de la Jouardais;02 40 04 56 00;www.ville-lepellerin.fr;44640;47,1961777320699;-1,76061423481004
+2501;Centre Equestre de la Pirouette;6;SPORTS;601;Centre sportif;;;;COUERON;VC 10;02 40 85 00 31;www.pirouetteequitation.ffe.com;44220;47,2437449092645;-1,70659505805765
+2505;Centre Equestre Poney Club;6;SPORTS;601;Centre sportif;;;;LES-SORINIERES;Chemin de la Garennerie;02 40 05 74 61;;44840;47,1498859375824;-1,51644264715241
+2511;Stade de Massigné;6;SPORTS;606;Stade;;;;LA-CHAPELLE-SUR-ERDRE;Rue Louis Maisonneuve;;;44240;47,2988927790405;-1,55725415859161
+2513;Stade de la Haute Gournière;6;SPORTS;606;Stade;;;;LA-CHAPELLE-SUR-ERDRE;Rue des Besneries;02 40 72 01 44;www.lachapellesurerdre.fr;44240;47,2680033465562;-1,54440193745847
+2514;Stade de rugby Robert Mesnard;6;SPORTS;606;Stade;;;;LA-CHAPELLE-SUR-ERDRE;Rue de Beausoleil;02 40 72 09 14;www.lachapellesurerdre.fr;44240;47,3036283754249;-1,55960525330873
+2516;Halle des sports Bernard Corneau;6;SPORTS;603;Gymnase;;;;LA-CHAPELLE-SUR-ERDRE;Boulevard Jacques Demy;02 40 37 73 50;www.lachapellesurerdre.fr;44240;47,2676571941241;-1,55084218661066
+2528;Stade de football municipal La Montagne;6;SPORTS;606;Stade;;;;LA-MONTAGNE;Allée du Château d'Aux;;;44620;47,1827452580804;-1,6745670922931
+2534;Complexe Sportif Les Genets;6;SPORTS;603;Gymnase;;;;SAINT-JEAN-DE-BOISEAU;Rue Pierre Mendès France;02 40 32 93 38;;44640;47,192082171731;-1,72513264303311
+2536;Stade Saint Jean de Boiseau;6;SPORTS;606;Stade;;;;SAINT-JEAN-DE-BOISEAU;Rue des Pierres Blanches;02 40 65 61 00;;44640;47,1877658275626;-1,71022499843855
+2539;Centre Sportif de Bellestre;6;SPORTS;601;Centre sportif;;;;BOUAYE;Rue du Stade;02 40 65 53 78;;44830;47,1496505324574;-1,69458100821657
+2540;Centre Sportif Les Ormeaux;6;SPORTS;601;Centre sportif;;;;BOUAYE;Esplanade de l'Edit de Nantes;02 40 65 56 83;;44830;47,1551489030202;-1,68226632310647
+2543;Salle Omnisports;6;SPORTS;603;Gymnase;;;;SAINT-LEGER-LES-VIGNES;Rue de la Rive;02 40 04 84 03;;44710;47,1340375737984;-1,73260456982872
+2544;Stade de Football Marcel Lejay;6;SPORTS;606;Stade;;;;LA-MONTAGNE;Allée du Château d'Aux;;www.ville-lamontagne.fr;44620;47,181166226703;-1,67548286181971
+2545;Halle de sport La Pavelle;6;SPORTS;603;Gymnase;;;;SAINT-AIGNAN-GRANDLIEU;Rue du Pressoir;02 40 26 42 21;;44860;47,124218701987;-1,6351141907511
+2546;Salle polyvalente;6;SPORTS;603;Gymnase;;;;SAINT-AIGNAN-GRANDLIEU;4 Rue des Frères Rousseau;02 40 26 44 44;;44860;47,1237730354818;-1,63258914886237
+2551;Stade Municipal des Loquets;6;SPORTS;606;Stade;;;;MAUVES-SUR-LOIRE;7 Rue de Thouaré;02 40 25 01 13;;44470;47,2928952007586;-1,39372197288169
+2554;Gymnase Armand Jolaine;6;SPORTS;603;Gymnase;;;;MAUVES-SUR-LOIRE;11 Rue des Saulzais;02 40 25 50 29;;44470;47,2933658841445;-1,39001752893399
+2562;Gymnase Marc Jaffret;6;SPORTS;603;Gymnase;;;;SAINTE-LUCE-SUR-LOIRE;9 Mail de l'Europe;02 40 25 97 09;;44980;47,2489007475172;-1,48292958826837
+2564;Hippodrome du Portillon;6;SPORTS;608;Autre équipement;;;;VERTOU;Allée de l'Hippodrome;02 40 34 57 99;;44120;47,1538072247004;-1,4702859062032
+2565;Complexe Sportif Sèvre et Maine;6;SPORTS;601;Centre sportif;;;;VERTOU;Allée de la Vigne de Pâques;;;44120;47,1648119268734;-1,4665017603452
+2566;Stade de Vertou Centre;6;SPORTS;606;Stade;;;;VERTOU;Avenue de Morges;02 40 34 32 58;;44120;47,1658084208778;-1,47239612768862
+2567;Piscine municipale - Vertou;6;SPORTS;604;Piscine;;;;VERTOU;Boulevard des Sports;02 40 34 41 28;www,vertou,fr;44120;47,164908839673;-1,46996117459646
+2571;Stade Vincent et Robert Girard;6;SPORTS;606;Stade;;;privé;VERTOU;Rue de la Maladrie;02 40 34 73 57;;44120;47,1847635199967;-1,49234523360176
+2573;Stade Loreau;6;SPORTS;606;Stade;;;Privé;VERTOU;Route du Drouillet;;;44120;47,1591236342807;-1,48558414099214
+2574;Gymnase  Eric Tabarly;6;SPORTS;603;Gymnase;;;;SAINTE-LUCE-SUR-LOIRE;53 Boulevard Louis Pasteur;02 51 85 01 55;;44980;47,2585382482751;-1,49047870675377
+2576;Centre Sportif Philippe Porcher;6;SPORTS;605;Plaine de jeux;;;;SAINTE-LUCE-SUR-LOIRE;Allée Robert Cheval;02 40 25 95 08;;44980;47,2451678793443;-1,46219113950204
+2580;Centre Equestre (CERVAL);6;SPORTS;601;Centre sportif;;;;SAINTE-LUCE-SUR-LOIRE;Route du Landreau du Pas;02 40 25 70 16;;44980;47,2557045303056;-1,45549029320852
+2581;Stade municipal;6;SPORTS;606;Stade;;;;SAINTE-LUCE-SUR-LOIRE;Rue du Stade;02 40 25 89 64;;44980;47,2536698421485;-1,48139885324741
+2596;Complexe sportif du Patisseau;6;SPORTS;601;Centre sportif;;;;SAINTE-LUCE-SUR-LOIRE;31 Rue du Patisseau;02 40 25 85 34;;44980;47,2453944638194;-1,47940132531115
+2602;Plateau sportif de la Reinetière;6;SPORTS;605;Plaine de jeux;;;;SAINTE-LUCE-SUR-LOIRE;Boulevard Louis Pasteur;02 40 25 71 27;;44980;47,2589533862309;-1,49054823768047
+2607;Base Nautique de Port Barbe;6;SPORTS;601;Centre sportif;;;;LA-CHAPELLE-SUR-ERDRE;Route de la Jonelière;;www.accoordnantes.info;44240;47,2646141078844;-1,54003681983312
+2608;Base nautique de l'ANCRE - La Grimaudière;6;SPORTS;601;Centre sportif;;;;LA-CHAPELLE-SUR-ERDRE;Chemin Port de la Grimaudière;02 40 29 71 62;www.lachapellesurerdre.fr;44240;47,2937603816921;-1,5370732372526
+2613;Centre Equestre de la Gascherie;6;SPORTS;601;Centre sportif;;;;LA-CHAPELLE-SUR-ERDRE;Rue de l'Erdre;02 40 29 75 13;www.a-gascherie.com;44240;47,2972906511825;-1,53828369820079
+2623;Centre Equestre de la Noue Verrière;6;SPORTS;601;Centre sportif;;;;LA-CHAPELLE-SUR-ERDRE;CR 6;02 40 76 14 32;lanoueverriere.monsite-orange.fr;44240;47,2768331381298;-1,57123346471296
+2624;Centre Equestre de la Vaillantière;6;SPORTS;601;Centre sportif;;;;LA-CHAPELLE-SUR-ERDRE;Rue Gulliver;02 40 76 14 32;;44240;47,3413445174179;-1,58079609859183
+2625;Site naturel de loisirs de la Roche Ballue;6;SPORTS;605;Plaine de jeux;;;;BOUGUENAIS;Rue de la Guérinière;02 40 32 29 41;www.ville-bouguenais.fr;44340;47,1839678788112;-1,65323044926348
+2633;Base Nautique Canöé Kayak Vertou;6;SPORTS;601;Centre sportif;;;;VERTOU;Boulevard Guichet Sérex;02 40 34 29 97;www.ck-vertou.fr;44120;47,1619242000662;-1,47786508318741
+2643;Gymnase de Goulaine;6;SPORTS;603;Gymnase;;;;BASSE-GOULAINE;Rue du Général Leclerc;;;44115;47,2179367333265;-1,46394887294369
+2644;Stade Henri Michel;6;SPORTS;606;Stade;;;;BASSE-GOULAINE;Rue de la Poste;;;44115;47,2178316177451;-1,46875691160205
+2645;Gymnase Henri Michel;6;SPORTS;603;Gymnase;;;;BASSE-GOULAINE;Rue de la Poste;;;44115;47,2169161908085;-1,46801264502142
+2647;Stade de Rugby des Rouleaux;6;SPORTS;606;Stade;;;;BASSE-GOULAINE;Rue Simone De Beauvoir;;;44115;47,2028562340209;-1,46796962085231
+2648;Gymnase Saint Exupéry;6;SPORTS;603;Gymnase;;;;LA-MONTAGNE;Rue Albert Camus;02 40 65 95 42;;44620;47,1839561684273;-1,68208699209713
+2649;Complexe ancien stade Les Sorinières;6;SPORTS;605;Plaine de jeux;;;;LES-SORINIERES;57 Rue des Sports;;;44840;47,1460980882278;-1,52204843919714
+2650;Club Nautique de la Martinière;6;SPORTS;601;Centre sportif;;;;LE-PELLERIN;Voie Non Dénommée 1201796;02 40 04 56 45;www.ville-lepellerin.fr;44640;47,2069828317016;-1,79331782394207
+2651;Parc des Sports;6;SPORTS;606;Stade;;;;THOUARE-SUR-LOIRE;2 Avenue du Parc des Sports;;;44470;47,2615705329282;-1,45369470250542
+2652;Stade Philippe Porcher;6;SPORTS;606;Stade;;;;SAINTE-LUCE-SUR-LOIRE;Allée Robert Cheval;;;44980;47,2458174722199;-1,46132231714737
+2653;Complexe sportif de la Robinière;6;SPORTS;609;Espace Sportif de Proximité;;;;REZE;Rue des Poyaux;;;44400;47,1636639470401;-1,53122003430701
+2654;Stade Léo Lagrange;6;SPORTS;606;Stade;;;;REZE;Avenue Léon Blum;;;44400;47,1818649955412;-1,56942931910424
+2655;Piscine municipale Victor-Jara - Rezé;6;SPORTS;604;Piscine;;;;REZE;Avenue Léon Blum;02 51 89 46 20;www.reze.fr;44400;47,1830205869091;-1,56875728473706
+2656;Gymnase Lysiane et Michel Liberge;6;SPORTS;603;Gymnase;;;;REZE;11 Rue de la Galarnière;;;44400;47,1781407722569;-1,55872927787927
+2657;Gymnase Cercle Saint Paul;6;SPORTS;603;Gymnase;;;;REZE;Rue Benoît Chupiet;;;44400;47,1856949495429;-1,54762429913796
+2658;Gymnase Château Nord;6;SPORTS;603;Gymnase;;;;REZE;Allée de Provence;;;44400;47,185424945757;-1,55761005300458
+2659;Gymnase Lucien Cavalin;6;SPORTS;603;Gymnase;;;;REZE;Rue des Frères Lumière;;;44400;47,1805107974701;-1,55943408915102
+2660;Gymnase Cités Unies COSEC;6;SPORTS;603;Gymnase;;;;REZE;Avenue Léon Blum;;;44400;47,183632569294;-1,56911450733204
+2661;Gymnase du Chêne Creux;6;SPORTS;603;Gymnase;;;;REZE;Rue des Landes Belleville;;;44400;47,1737926961696;-1,54665858864919
+2662;Gymnase E. Cretual;6;SPORTS;603;Gymnase;;;;REZE;30 Rue Augustin Mouillé;;;44400;47,1784225868172;-1,54863252978591
+2663;Gymnase Foyer AEPR;6;SPORTS;603;Gymnase;;;;REZE;19B Rue Pierre Brossolette;;;44400;47,1867459132979;-1,55069399007275
+2664;Gymnase Jean Perrin;6;SPORTS;603;Gymnase;;;;REZE;Allée de la Moine;;;44400;47,1832770053528;-1,56021694457925
+2665;Gymnase Julien Douillard;6;SPORTS;603;Gymnase;;;;REZE;11 Rue Julien Douillard;;;44400;47,1858505169181;-1,54307423533422
+2666;Gymnase Ouche Dinier;6;SPORTS;603;Gymnase;;;;REZE;Rue du Parc Ferrand;;;44400;47,1762262917148;-1,53696348110384
+2667;Gymnase Yvonne et Alexandre Plancher;6;SPORTS;603;Gymnase;;;;REZE;Rue Camille Jouis;;www.reze.fr;44400;47,190039740392;-1,57064522845569
+2668;Gymnase Roger Salengro;6;SPORTS;603;Gymnase;;;;REZE;Place Roger Salengro;02 40 04 07 47;;44400;47,1841109487559;-1,5495168410679
+2669;Gymnase Jean-Pierre Morel;6;SPORTS;603;Gymnase;;;;VERTOU;Allée de la Vigne de Pâques;;;44120;47,1649147456071;-1,46711916996356
+2670;Gymnase 2;6;SPORTS;603;Gymnase;;;;VERTOU;Allée de la Vigne de Pâques;;;44120;47,1643410306174;-1,46729103893042
+2671;Stade Sèvre et Maine;6;SPORTS;606;Stade;;;;VERTOU;Allée de la Vigne de Pâques;;;44120;47,1638293313631;-1,46555765365028
+2672;Roller-Skatepark - Les Sorinières;6;SPORTS;609;Espace Sportif de Proximité;;;municipal;LES-SORINIERES;Rue du Bocage;;;44840;47,1515913046786;-1,51806450579143
+2673;Gymnase Raymond Durand;6;SPORTS;603;Gymnase;;;;VERTOU;Impasse du Stade Raymond Durand;;;44120;47,1837025528381;-1,49772048555354
+2674;Stade Raymond Durand;6;SPORTS;606;Stade;;;;VERTOU;Impasse du Stade Raymond Durand;;;44120;47,1825752547099;-1,49883622580853
+2675;Piscine des Thébaudières - Vertou;6;SPORTS;604;Piscine;;;;VERTOU;Route de Saint-Fiacre;02 40 03 15 55;www,vertou,fr;44120;47,1563946320429;-1,44592048939953
+2676;Salle Sèvre et Maine;6;SPORTS;603;Gymnase;;;;VERTOU;Rue Sèvre et Maine;;;44120;47,1632873138492;-1,46722162122092
+2687;Complexe Sportif;6;SPORTS;601;Centre sportif;;;;SAUTRON;Rue de la Forêt;;;44880;47,265941420438;-1,67651649196514
+3087;Gymnase Joël Dubois;6;SPORTS;603;Gymnase;;;;BOUGUENAIS;Rue Pablo Neruda;02 40 65 06 75;www.ville-bouguenais.fr;44340;47,170732458997;-1,6220346010185
+3088;Gymnase Joachim Marnier;6;SPORTS;603;Gymnase;;;;LES-SORINIERES;Rue des Papillons;;;44840;47,1484770051065;-1,5231167400241
+3120;Mini Auto Club Nantais;6;SPORTS;608;Autre équipement;;;Ville de Nantes;LA-CHAPELLE-SUR-ERDRE;Route de la Jonelière;06 80 44 83 08;www.macn44.com/;44240;47,257656005473;-1,54281104096611
+3155;Skatepark Le Hangar - Nantes;6;SPORTS;609;Espace Sportif de Proximité;;;associatif;NANTES;9 Allée des Vinaigriers;02 51 13 26 80;www.lehangar-skatepark.com;44300;47,2196220557256;-1,51303380175172
+3165;Gymnase Sully;6;SPORTS;603;Gymnase;;;Ville de Nantes;NANTES;9 Rue Henri Cochard;;;44000;47,2231767322878;-1,54988607605579
+3239;Courts de Tennis Robinière;6;SPORTS;607;Tennis;;;;REZE;Rue des Poyaux;;;44400;47,1627492950353;-1,52966462186016
+3241;Boulodrome Robinière;6;SPORTS;608;Autre équipement;;;;REZE;Rue des Poyaux;;;44400;47,1651527054851;-1,53045499402347
+3260;Skatepark - Rezé;6;SPORTS;609;Espace Sportif de Proximité;;;municipal;REZE;Rue de la Trocardière;;;44400;47,1806455552376;-1,57189318372349
+3262;Rezé Tennis Club - Halles de la Trocardière;6;SPORTS;607;Tennis;;;;REZE;Rue des Champs Garnier;;;44400;47,1811938949034;-1,5679119813604
+3290;Espace Sport Canin Bouguenais;6;SPORTS;608;Autre équipement;;;;BOUGUENAIS;Rue des Drouards;;;44340;47,1602373880865;-1,56997068365413
+3298;Plateau sportif du Fougan-de-Mer;6;SPORTS;606;Stade;;;;BOUGUENAIS;Rue du Commandant Charcot;;www.ville-bouguenais.fr;44340;47,1832208384498;-1,57953925266013
+3305;Salle des Bélians;6;SPORTS;603;Gymnase;;;;BOUGUENAIS;Chemin des Bélians;02 40 78 52 93;www.ville-bouguenais.fr;44340;47,1729765475935;-1,60547145313346
+3306;Terrain stabilisé de la Croix Jeannette;6;SPORTS;606;Stade;;;;BOUGUENAIS;Chemin Albert Camus;;www.ville-bouguenais.fr;44340;47,1711869849478;-1,62049028927955
+3307;Terrains de Tennis de la Gagnerie;6;SPORTS;607;Tennis;;;;BOUGUENAIS;Rue de la Gagnerie;;;44340;47,1700686549648;-1,61889568219984
+3308;Terrain de tir à l'arc de la Gagnerie;6;SPORTS;608;Autre équipement;;;;BOUGUENAIS;Rue de la Gagnerie;;www.ville-bouguenais.fr;44340;47,1703680152882;-1,61804709117255
+3309;Centre de tennis Arthur Ashe;6;SPORTS;607;Tennis;;;;BOUGUENAIS;Chemin de la Neustrie;02 40 65 18 41;www.ville-bouguenais.fr;44340;47,1766393374081;-1,59180917746448
+3310;Gymnase de la Baronnais;6;SPORTS;603;Gymnase;;;;BOUGUENAIS;Chemin de la Neustrie;02 40 26 95 36;www.ville-bouguenais.fr;44340;47,1762295671634;-1,59302228346367
+3311;Gymnase de la Neustrie;6;SPORTS;603;Gymnase;;;;BOUGUENAIS;Chemin de la Neustrie;02 40 65 19 70;www.ville-bouguenais.fr;44340;47,175882322274;-1,59219906767451
+3312;Salle des Mousquetaires;6;SPORTS;607;Tennis;;;;BOUGUENAIS;Chemin de la Neustrie;;;44340;47,1757333241693;-1,5927673773589
+3313;Plateau d'évolution de la Neustrie;6;SPORTS;608;Autre équipement;;;;BOUGUENAIS;Chemin de la Neustrie;;;44340;47,1753910180697;-1,59112844820114
+3314;Stade Pierre de Coubertin;6;SPORTS;606;Stade;;;;BOUGUENAIS;Chemin de la Neustrie;;;44340;47,1749884728192;-1,59181038072302
+3330;Salle de Tennis de Table Vertou;6;SPORTS;607;Tennis;;;;VERTOU;Boulevard des Sports;;;44120;47,1652856313396;-1,47325814337337
+3331;Terrain de Pétanque du Parc de la Sèvre;6;SPORTS;608;Autre équipement;;;;VERTOU;Boulevard Guichet Sérex;02 40 34 76 09;;44120;47,1658302013054;-1,47981291545655
+3336;Terrain de Tir à l'Arc Vertou;6;SPORTS;608;Autre équipement;;;;VERTOU;Impasse du Stade Raymond Durand;;;44120;47,1833399515573;-1,49907317912865
+3361;Piste de Bi-cross Ile Forget;6;SPORTS;608;Autre équipement;;;;ST-SEBASTIEN;Boulevard des Pas Enchantés;;;44230;47,2093886560433;-1,51694761919064
+3362;Tennis de l'Ouche Catin;6;SPORTS;607;Tennis;;;;ST-SEBASTIEN;Rue de l'Ouche Catin;;;44230;47,1925737586485;-1,50199448455118
+3363;Complexe Sportif Saint Sébastien;6;SPORTS;603;Gymnase;;;;ST-SEBASTIEN;Rue de Chantepie;;;44230;47,209361707034;-1,49951203283728
+3371;Skatepark Jouandière - Carquefou;6;SPORTS;609;Espace Sportif de Proximité;;;municipal;CARQUEFOU;Voie Non Dénommée 0262675;;www.carquefou.fr;44470;47,2921609724699;-1,49016586168623
+3373;Gymnase Alella;6;SPORTS;603;Gymnase;;;;CARQUEFOU;Rue Victor Hugo;;www.carquefou.fr;44470;47,2834760541553;-1,48272657049156
+3374;Salle du Tremplin;6;SPORTS;603;Gymnase;;;;CARQUEFOU;Rue Victor Hugo;;www.carquefou.fr;44470;47,2816599536798;-1,4819778113677
+3379;Salle de Tennis;6;SPORTS;607;Tennis;;;;BASSE-GOULAINE;Rue du Général Leclerc;;;44115;47,2174956015047;-1,46414834529638
+3381;Gymnase La Herdrie;6;SPORTS;603;Gymnase;;;;BASSE-GOULAINE;81 Rue de la Basse Lande;;;44115;47,1981369987963;-1,45211641003807
+3382;Stade La Herdrie;6;SPORTS;606;Stade;;;;BASSE-GOULAINE;81 Rue de la Basse Lande;;;44115;47,1970606984537;-1,4518438765204
+3387;Gymnase de Mazaire;6;SPORTS;603;Gymnase;;;;LA-CHAPELLE-SUR-ERDRE;Rue de la Hautière;02 51 81 87 22;www.lachapellesurerdre.fr;44240;47,2969808407456;-1,55836528167593
+3391;Complexe sportif de La Coutancière;6;SPORTS;601;Centre sportif;;;;LA-CHAPELLE-SUR-ERDRE;Rue de l'Aven;02 40 72 05 70;www.lachapellesurerdre.fr;44240;47,3062805421427;-1,55849488739076
+3392;Complexe sportif Buisson de la Grolle;6;SPORTS;601;Centre sportif;;;;LA-CHAPELLE-SUR-ERDRE;Chemin de Kerbihan;02 40 72 65 43;www.lachapellesurerdre.fr;44240;47,2897153767933;-1,53853292487801
+3406;Piste d'athlétisme;6;SPORTS;606;Stade;;;;BOUAYE;Esplanade de l'Edit de Nantes;;;44830;47,1543009732966;-1,68227255927785
+3412;Salle Léo Lagrange;6;SPORTS;603;Gymnase;;;;COUERON;Rue de la Noë Allais;;www.ville-coueron.fr;44220;47,2195633834591;-1,68346552493436
+3414;Gymnase Paul Langevin;6;SPORTS;603;Gymnase;;;;COUERON;Boulevard Paul Langevin;02 40 85 46 60;;44220;47,2140301476733;-1,72127239006127
+3417;Piste Bi-cross Couëron;6;SPORTS;608;Autre équipement;;;;COUERON;Rue du Pont de Retz;;;44220;47,2123101868461;-1,70294117334378
+3423;Boulodrome Indre;6;SPORTS;608;Autre équipement;;;;INDRE;Quai Victor Boquien;;;44610;47,1973163153296;-1,67199390697825
+3427;Salle de sport;6;SPORTS;603;Gymnase;;;;MAUVES-SUR-LOIRE;11 Rue des Saulzais;;;44470;47,2935906250654;-1,39044844263005
+3435;Centre Stévin;6;SPORTS;601;Centre sportif;;;;ORVAULT;10 Rue Stevin;;www.orvault.fr;44700;47,2594508036441;-1,63451043548246
+3441;Tennis Orvault;6;SPORTS;607;Tennis;;;;ORVAULT;40 Rue de la Mulonnière;;;44700;47,2571645470284;-1,58156438456381
+3442;Plateau Multisports;6;SPORTS;606;Stade;;;;ORVAULT;22 Avenue du Petit Moulin;;www.orvault.fr;44700;47,2632318683259;-1,59694048733103
+3443;Tennis Roger Picaud;6;SPORTS;607;Tennis;;;;ORVAULT;112 Avenue Claude Antoine Peccot;;;44700;47,2529330508998;-1,61156164440896
+3444;Piscine Roger Picaud - Orvault;6;SPORTS;604;Piscine;;;;ORVAULT;108B Avenue Claude Antoine Peccot;02 40 63 30 40;www.orvault.fr;44700;47,251124918662;-1,61012134345654
+3449;Complexe Sports Loisirs Francis Lespinet;6;SPORTS;603;Gymnase;;;;LA-MONTAGNE;Allée du Château d'Aux;02 40 65 80 91;www.ville-lamontagne.fr;44620;47,1827492524075;-1,67655751897517
+3458;Courts de Tennis;6;SPORTS;607;Tennis;;;;LE-PELLERIN;Rue de la Jouardais;;www.ville-lepellerin.fr;44640;47,1961900301957;-1,76158045857492
+3459;Terrain de pétanque;6;SPORTS;608;Autre équipement;;;;LE-PELLERIN;Rue de la Jouardais;;www.ville-lepellerin.fr;44640;47,1960744912035;-1,75932744212281
+3461;Tennis Saint Aignan de Grand Lieu;6;SPORTS;607;Tennis;;;;SAINT-AIGNAN-GRANDLIEU;Place Saint Amani;;;44860;47,1207193963842;-1,63772247513102
+3465;Stade Jean Bertin;6;SPORTS;601;Centre sportif;;;;SAINT-AIGNAN-GRANDLIEU;4 Rue des Frères Rousseau;02 40 26 44 44;;44860;47,1242267697203;-1,63166120014361
+3482;Plaine de Jeux de la Rive;6;SPORTS;605;Plaine de jeux;;;;SAINT-LEGER-LES-VIGNES;Rue de la Rive;;;44710;47,1334304977231;-1,73297467088365
+3489;Gymnase Marcel Le Bonniec;6;SPORTS;603;Gymnase;;;;SAINTE-LUCE-SUR-LOIRE;53 Boulevard Louis Pasteur;;;44980;47,2582512018069;-1,49018590950255
+3495;Gymnase Jules Léauté;6;SPORTS;603;Gymnase;;;;LES-SORINIERES;Rue Hippolyte Derouet;02 40 04 46 72;;44840;47,1475885964023;-1,52505259448483
+3497;Salle de Judo Les Sorinières;6;SPORTS;608;Autre équipement;;;;LES-SORINIERES;Rue des Papillons;;;44840;47,1482185616221;-1,52296741885726
+3501;Complexe de loisirs Louis Barta;6;SPORTS;605;Plaine de jeux;;;;LES-SORINIERES;Rue de la Guindonnière;;;44840;47,1500101560296;-1,51904656373622
+3529;Motocross Christian Bageot;6;SPORTS;608;Autre équipement;;;;ST-HERBLAIN;Route Plessis Bouchet;;;44800;47,1980987641279;-1,64003404395561
+3531;Tir à l'Arc Saint Herblain;6;SPORTS;608;Autre équipement;;;;ST-HERBLAIN;Boulevard Salvador Allende;;;44800;47,2157731371012;-1,62048942265318
+3578;Salle de Tennis de Table du Haut Vigneau;6;SPORTS;608;Autre équipement;;;;LES-SORINIERES;61 Rue de la Maillardière;02 28 00 98 86;www.sorinieres-tt.eu;44840;47,1596886310787;-1,52154017923406
+3593;Stade Georges Tougeron;6;SPORTS;606;Stade;;;;BOUAYE;Rue du Stade;;;44830;47,1498081053604;-1,69313170407814
+3607;Espace Multisport Sillon;6;SPORTS;605;Plaine de jeux;;;;ST-HERBLAIN;Avenue de l'Angevinière;;www.saint-herblain.fr;44800;47,24636074149;-1,61054783037182
+3634;Piscine Petite Amazonie - Nantes;6;SPORTS;604;Piscine;;;Ville de Nantes;NANTES;15 Rue du Pont de l'Arche de Mauves;;;44000;47,2163926638424;-1,5317100587433
+3660;Skatepark Ricordeau - Nantes;6;SPORTS;609;Espace Sportif de Proximité;;;municipal;NANTES;Place Alexis Ricordeau;;;44000;47,2123074407887;-1,55351435609301
+3662;Terrain Multisport Monteil;6;SPORTS;609;Espace Sportif de Proximité;;;Ville de Nantes;NANTES;10 Rue Monteil;;;44000;47,213201100097;-1,54869427347157
+3683;Boulodrome Noë Lambert;6;SPORTS;608;Autre équipement;;;Ville de Nantes;NANTES;20 Rue de la Haute Mitrie;;;44300;47,2309716832261;-1,52528828389541
+3788;Complexe sportif des Echalonnières;6;SPORTS;606;Stade;;;;VERTOU;Rue du Bignonnet;;;44120;47,1762811485736;-1,46628233029004
+3789;Plateau sportif Les Echalonnières;6;SPORTS;608;Autre équipement;;;;VERTOU;Rue du Bignonnet;;;44120;47,1759243946878;-1,46967483894057
+3790;Salle omnisports des Echalonnières;6;SPORTS;603;Gymnase;;;;VERTOU;Rond-Point de la Grammoire;;;44120;47,1767514191249;-1,47063261253475
+3798;Centre Equestre La Gourmette;6;SPORTS;608;Autre équipement;;;;SAUTRON;RD 81;02 40 63 16 10;;44880;47,2775056951158;-1,71206542059429
+3818;Gymnase CEPA;6;SPORTS;603;Gymnase;;;Privé;NANTES;9 Rue Pélisson;;;44000;47,2122960037366;-1,55134942285908
+3897;Espace Spotif des Courtils;6;SPORTS;609;Espace Sportif de Proximité;;;Ville de Nantes;NANTES;Rue des Courtils;;;44100;47,2006448286548;-1,59266498071941
+3898;Espace Sportif des Martyrs Irlandais;6;SPORTS;609;Espace Sportif de Proximité;;;Ville de Nantes;NANTES;Rue de l'Adour;;;44100;47,2077181434763;-1,61048376514402
+3901;Espace Sportif Terrain A. Fournier;6;SPORTS;609;Espace Sportif de Proximité;;;Ville de Nantes;NANTES;87 Rue du Bois Hardy;;;44100;47,2046109159618;-1,60070048031775
+3902;Espace Sportif Terrain du Petit Verger;6;SPORTS;609;Espace Sportif de Proximité;;;Ville de Nantes;NANTES;Rue du Jamet;;;44100;47,2073848506105;-1,60361198834223
+3904;Espace Sportif ZAC Montplaisir;6;SPORTS;609;Espace Sportif de Proximité;;;Ville de Nantes;NANTES;Allée des Alizés;;;44100;47,1998915071053;-1,60892584696039
+3905;Stade Raymond Baumard - Centre Hebertiste;6;SPORTS;608;Autre équipement;;;Privé;NANTES;Rue des Bosquets;;;44100;47,2213069311405;-1,58227742124368
+3906;Espace Sportif Meissonier;6;SPORTS;609;Espace Sportif de Proximité;;;Ville de Nantes;NANTES;Rue Ernest Meissonnier;;;44100;47,2247463435712;-1,59247267037624
+3907;Salle de Musculation du Jamet - Bellevue;6;SPORTS;608;Autre équipement;;;Ville de Nantes;NANTES;61 Route de Saint Herblain;02 40 95 03 55;;44100;47,2103400239408;-1,60302864200755
+3910;Espace Sportif Malakoff;6;SPORTS;609;Espace Sportif de Proximité;;;Ville de Nantes;NANTES;Rue de Corse;;;44000;47,2162064931775;-1,52077937985436
+3911;Espace Sportif Noe Mitrie;6;SPORTS;609;Espace Sportif de Proximité;;;Ville de Nantes;NANTES;5 Boulevard Ernest Dalby;;;44000;47,2279541332966;-1,52634402218328
+3912;Espace Sportif Moutonnerie;6;SPORTS;609;Espace Sportif de Proximité;;;Ville de Nantes;NANTES;Rue Francisco Ferrer;;;44000;47,2209116115039;-1,53364946392769
+3917;Terrain multisports Sébilleau;6;SPORTS;609;Espace Sportif de Proximité;;;Ville de Nantes;NANTES;Rue Docteur Jules Sébilleau;;www.iledenantes.com;44200;47,2052549515569;-1,53163551400006
+27;Gymnase Bonne Garde;6;SPORTS;603;Gymnase;;;Privé;NANTES;30 Rue Frère Louis;02 51 11 03 44;;44200;47,1929657069178;-1,53691739665354
+28;Gymnase Emile Morice;6;SPORTS;603;Gymnase;;;Ville de Nantes;NANTES;8 Quai Hoche;02 40 89 30 79;;44200;47,2064593469832;-1,55149274758042
+29;Gymnase Gravaud;6;SPORTS;603;Gymnase;;;Ville de Nantes;NANTES;14 Rue de la Barbinais;02 40 73 86 86;;44100;47,2038636257076;-1,57752951962898
+30;Centre Sportif Mangin Beaulieu;6;SPORTS;601;Centre sportif;;;Ville de Nantes;NANTES;Rue des Boires;02 40 41 57 40;;44200;47,2048690280705;-1,54281139595074
+32;Gymnase Gobelets Ripossière;6;SPORTS;603;Gymnase;;;Ville de Nantes;NANTES;24 Rue des Gobelets;02 40 03 45 18;;44200;47,1910659920083;-1,52936590210597
+34;Gymnase Raphaël Lebel;6;SPORTS;603;Gymnase;;;Ville de Nantes;NANTES;16 Boulevard Auguste Péneau;02 40 49 46 07;;44300;47,2282590704611;-1,51222501260675
+36;Gymnase Doulon;6;SPORTS;603;Gymnase;;;Ville de Nantes;NANTES;1 Rue de la Basse Chénaie;02 40 50 39 16;;44300;47,2372383103632;-1,51029286158558
+37;Centre Sportif Croissant;6;SPORTS;601;Centre sportif;;;Ville de Nantes;NANTES;29 Rue du Croissant;02 40 52 09 21;;44300;47,2351002409264;-1,52250611892111
+41;Gymnase Malakoff 4;6;SPORTS;603;Gymnase;;;Ville de Nantes;NANTES;16 Rue d'Angleterre;02 40 47 41 82;;44000;47,2146953649976;-1,52857641995758
+42;Gymnase Albert Camus;6;SPORTS;603;Gymnase;;;Ville de Nantes;NANTES;2 Rue du Bois de la Musse;02 40 46 23 35;;44100;47,2035712201959;-1,61090292783313
+44;Gymnase La Halvêque;6;SPORTS;603;Gymnase;;;Ville de Nantes;NANTES;2 Rue du Moulin de la Halvêque;02 40 50 31 42;;44300;47,2537355401747;-1,51723434629303
+45;Gymnase Urbain Le Verrier;6;SPORTS;603;Gymnase;;;Ville de Nantes;NANTES;11 Rue Urbain Le Verrier;02 40 49 76 94;;44300;47,241523594468;-1,52150628321785
+46;Gymnase des Marsauderies;6;SPORTS;603;Gymnase;;;Ville de Nantes;NANTES;137 Boulevard Jules Verne;02 40 49 76 98;;44300;47,2425205913952;-1,52946788379463
+48;Gymnase Chantenaysienne;6;SPORTS;603;Gymnase;;;Ville de Nantes;NANTES;17 Rue du Quatre Septembre 1870;02 40 58 14 78;;44100;47,2069254452754;-1,59051123448175
+50;Gymnase Jean Zay Bellevue;6;SPORTS;603;Gymnase;;;Ville de Nantes;NANTES;15B Rue Yves Kartel;02 40 43 10 60;;44100;47,2082910721207;-1,60741124990384
+51;Gymnase Jamet;6;SPORTS;603;Gymnase;;;Ville de Nantes;NANTES;65 Route de Saint Herblain;02 40 46 79 59;;44100;47,2104278349921;-1,60388252601688
+52;Complexe Sportif de la Durantière;6;SPORTS;603;Gymnase;;;Ville de Nantes;NANTES;70 Rue de la Durantière;02 40 46 92 87;;44100;47,2141254689289;-1,60509557209857
+53;Gymnase Pierre de Coubertin;6;SPORTS;603;Gymnase;;;Ville de Nantes;NANTES;115 Boulevard du Massacre;02 40 94 29 50;;44100;47,2305298815958;-1,59366789931119
+56;Gymnase Jean Ogé;6;SPORTS;603;Gymnase;;;Ville de Nantes;NANTES;Allée Sonia Delaunay;02 40 46 13 04;www.nantes.fr/accueil/;44100;47,2261929641064;-1,59573765025371
+57;Complexe Sportif Dervallières;6;SPORTS;603;Gymnase;;;Ville de Nantes;NANTES;19 Rue Jean Marc Nattier;02 40 46 13 04;;44100;47,2259611738148;-1,59182606948918
+58;Gymnase Longchamp;6;SPORTS;603;Gymnase;;;Ville de Nantes;NANTES;Avenue Junon;02 40 40 79 97;;44300;47,2409417884044;-1,57776513067268
+60;Gymnase Bout des Landes;6;SPORTS;603;Gymnase;;;Ville de Nantes;NANTES;3 Boulevard René Cassin;02 40 40 64 04;;44300;47,2637856588362;-1,57642391541624
+61;Gymnase Géraudière;6;SPORTS;603;Gymnase;;;Ville de Nantes;NANTES;29 Rue Santos Dumont;02 40 76 13 37;;44300;47,2613899375134;-1,56758509177524
+62;Gymnase Le Baut;6;SPORTS;603;Gymnase;;;Ville de Nantes;NANTES;4B Rue des Renards;02 40 40 24 60;;44300;47,2546887975864;-1,56286476233857
+63;Gymnase  Barboire;6;SPORTS;603;Gymnase;;;Ville de Nantes;NANTES;49 Rue de la Bourgeonnière;02 40 59 49 50;;44300;47,2522657385138;-1,55512499401024
+64;Gymnase du Port Boyer;6;SPORTS;603;Gymnase;;;Ville de Nantes;NANTES;73 Rue du Port Boyer;02 40 49 75 79;;44300;47,2407760976174;-1,53826191612352
+65;Palais des Sports Beaulieu;6;SPORTS;601;Centre sportif;;;Ville de Nantes;NANTES;5 Rue André Tardieu;02 40 41 57 15;;44200;47,2095250968194;-1,53677206941937
+67;Gymnase Gaston Turpin;6;SPORTS;603;Gymnase;;;Ville de Nantes;NANTES;33 Rue Gaston Turpin;02 40 29 23 23;;44000;47,2236630243329;-1,54107241363304
+71;Gymnase du Coudray;6;SPORTS;603;Gymnase;;;Ville de Nantes;NANTES;20 Rue du Coudray;02 40 49 76 60;;44000;47,2327235683155;-1,54372092947929
+72;Gymnase Léo Lagrange;6;SPORTS;603;Gymnase;;;Ville de Nantes;NANTES;5 Rue Gaston Michel;02 40 41 64 77;;44000;47,20999754084;-1,55964752075255
+76;Gymnase Joêl Paon;6;SPORTS;603;Gymnase;;;Ville de Nantes;NANTES;42 Rue des Hauts Pavés;02 40 29 44 74;;44000;47,2243419211878;-1,56398900131605
+77;Gymnase La Similienne;6;SPORTS;603;Gymnase;;;Privé;NANTES;26B Rue des Hauts Pavés;02 40 12 42 26;;44000;47,2239660590438;-1,56288962195842
+79;Gymnase V. Hugo;6;SPORTS;603;Gymnase;;;Ville de Nantes;NANTES;29 Rue Paul Bellamy;02 40 20 25 20;;44000;47,223444046917;-1,55798634041585
+80;Gymnase Armand Coidelle;6;SPORTS;603;Gymnase;;;Ville de Nantes;NANTES;10 Rue la Fayette;02 40 48 72 61;;44000;47,2164042716215;-1,56139305853245
+83;Gymnase Sévigné;6;SPORTS;603;Gymnase;;;Privé;NANTES;10 Rue Sévigné;;;44000;47,2157271429871;-1,56706186061684
+84;Gymnase Leloup Bouhier;6;SPORTS;603;Gymnase;;;Région;NANTES;11 Boulevard de Launay;02 40 73 16 34;;44100;47,2100485073366;-1,5734859854521
+85;Gymnase Gaston Serpette;6;SPORTS;603;Gymnase;;;Ville de Nantes;NANTES;51 Boulevard Gaston Serpette;02 40 76 44 96;;44000;47,2272303205278;-1,57598246882318
+86;Gymnase du Breil Malville;6;SPORTS;603;Gymnase;;;Ville de Nantes;NANTES;34 Rue du Breil;02 40 59 32 24;;44100;47,2291425674547;-1,58358465931778
+88;Centre Sportif et Culturel La Laëtitia;6;SPORTS;601;Centre sportif;;;Privé;NANTES;49 Rue Chanoine Larose;02 40 40 76 30;;44100;47,2318280425404;-1,5800023215603
+92;Gymnase de la Mellinet;6;SPORTS;603;Gymnase;;;Privé;NANTES;3 Rue Sainte Marthe;02 40 73 50 29;;44100;47,202717675415;-1,58033399312007
+93;Gymnase ASPTT Appert;6;SPORTS;603;Gymnase;;;Ville de Nantes;NANTES;16 Rue des Carnavaliers;02 40 69 54 55;;44100;47,2140537074209;-1,579919327956
+94;Gymnase ASTA;6;SPORTS;603;Gymnase;;;Privé;NANTES;9 Rue des Epinettes;02 40 49 97 73;;44300;47,2282851429191;-1,52010465635145
+95;Gymnase ASPTT de Longchamp;6;SPORTS;603;Gymnase;;;Privé;;;02 40 76 54 59;;44300;47,235391342113;-1,57972152389204
+97;Salle Saint Donatien;6;SPORTS;603;Gymnase;;;Privé;NANTES;Avenue Camille Guérin;;;44000;47,230280169119;-1,54328640921046
+99;Stade Marcel Saupin;6;SPORTS;606;Stade;;;Ville de Nantes;NANTES;31 Quai Malakoff;02 40 47 69 68;;44000;47,2128111349278;-1,53864710450033
+104;Stade de la Beaujoire Louis Fonteneau;6;SPORTS;606;Stade;;;Ville de Nantes;NANTES;330 Route de Saint Joseph;02 40 30 11 22;;44300;47,2560188243375;-1,52470397906934
+106;Plaine de Jeux Colinière;6;SPORTS;605;Plaine de jeux;;;Ville de Nantes;NANTES;121 Rue du Landreau;02 40 50 02 62;;44300;47,2353670612924;-1,51004339094618
+107;Plaine de Jeux Basses Landes;6;SPORTS;605;Plaine de jeux;;;Ville de Nantes;NANTES;6 Chemin de la Justice;02 40 76 08 22;;44300;47,2691044373119;-1,58770491033286
+108;Vélodrome Stade Petit Breton;6;SPORTS;606;Stade;;;Ville de Nantes;NANTES;14 Rue de la Durantière;02 40 46 48 19;;44100;47,2138786486921;-1,60046869676866
+109;Plaine de Jeux Durantière;6;SPORTS;605;Plaine de jeux;;;Ville de Nantes;NANTES;11 Rue de la Durantière;02 40 46 92 87;;44100;47,2117738156213;-1,60037031182162
+110;Piscine Petit Port - Nantes;6;SPORTS;604;Piscine;;;Ville de Nantes;NANTES;Boulevard du Petit Port;02 51 84 94 50;www.nge-nantes.fr;44300;47,2428434218458;-1,55446089756306
+3918;Boulodrome du Breil;6;SPORTS;608;Autre équipement;;;Ville de Nantes;NANTES;Rue de Malville;;;44100;47,2314200917769;-1,58148771094116
+3920;Skatepark Schuman - Nantes;6;SPORTS;609;Espace Sportif de Proximité;;;municipal;NANTES;Boulevard Robert Schuman;;;44300;47,2416435521858;-1,5727031517998
+3921;Base Nautique de l'UNA;6;SPORTS;608;Autre équipement;;;Etat;NANTES;Chemin de la Houssinière;;;44300;47,2367088534381;-1,55129617973765
+3923;Stand de Tir des Jamonières;6;SPORTS;608;Autre équipement;;;Ville de Nantes;LA-CHAPELLE-SUR-ERDRE;Route de la Jonelière;;;44240;47,2570977823384;-1,540807058322
+3924;Plateau Sportif Winnipeg;6;SPORTS;609;Espace Sportif de Proximité;;;Ville de Nantes;NANTES;Rue de Vancouver;;;44300;47,2595297012164;-1,57826013212345
+3925;Plateau Sportif André Chénier;6;SPORTS;609;Espace Sportif de Proximité;;;Ville de Nantes;NANTES;Rue André Chénier;;;44300;47,2533733262975;-1,56724591076149
+3927;Plateau Sportif de la Géraudière;6;SPORTS;609;Espace Sportif de Proximité;;;Ville de Nantes;NANTES;Rue des Renards;;;44300;47,258481052182;-1,56767475232835
+3930;UFR STAPS;6;SPORTS;603;Gymnase;;;Etat;NANTES;25 Boulevard Guy Mollet;;;44300;47,2516895143255;-1,55531376070076
+3932;Equipement Sportif des Quatre Jeudis;6;SPORTS;609;Espace Sportif de Proximité;;;Ville de Nantes;NANTES;Passage des Tauzins;;;44300;47,2662235402302;-1,52053450198753
+3934;Espace Sportif Louis Pergaud;6;SPORTS;609;Espace Sportif de Proximité;;;Ville de Nantes;NANTES;Route de Saint Joseph;;;44300;47,2680687130896;-1,51982819492898
+3935;Espace Sportif Ecole du Linot;6;SPORTS;609;Espace Sportif de Proximité;;;Ville de Nantes;NANTES;43B Rue du Port des Charrettes;;;44300;47,2682287243193;-1,5285551638079
+3937;Plaine de Jeux du Lycée de la Colinière;6;SPORTS;605;Plaine de jeux;;;Région;NANTES;129 Rue du Landreau;;;44300;47,2354161995634;-1,51229825260666
+3938;Halle de Tennis de la Marrière;6;SPORTS;607;Tennis;;;Ville de Nantes;NANTES;95 Rue de la Marrière;;;44300;47,2368185757269;-1,52784818256959
+3939;Equipement Sportif Marché de la Marrière;6;SPORTS;609;Espace Sportif de Proximité;;;Ville de Nantes;NANTES;27 Rue de la Marrière;;;44300;47,2341578249064;-1,53252726238317
+3940;Stade René Chevalier;6;SPORTS;606;Stade;;;Privé;NANTES;72 Rue du Pontereau;;;44300;47,239935244659;-1,5051183545599
+3941;Equipement Sportif du Square A. Fresnel;6;SPORTS;609;Espace Sportif de Proximité;;;Ville de Nantes;NANTES;Rue Augustin Fresnel;;;44300;47,2426956453976;-1,52266565989614
+3942;Complexe sportif de la Noë Lambert;6;SPORTS;601;Centre sportif;;;Ville de Nantes;NANTES;21 Route de Sainte Luce;;;44300;47,2300547381758;-1,52586312329866
+3943;Salle de Boxe Bottière Nantes Est;6;SPORTS;608;Autre équipement;;;Ville de Nantes;NANTES;83 Rue Félix Ménétrier;;;44300;47,2406744968973;-1,52102580886387
+3944;Equipement Sportif de la Haluchère;6;SPORTS;609;Espace Sportif de Proximité;;;Ville de Nantes;NANTES;Rue Jules Grandjouan;;;44300;47,2474595193242;-1,51227991311785
+3953;Boulodrome du Bèle;6;SPORTS;608;Autre équipement;;;Ville de Nantes;NANTES;16 Boulevard de la Beaujoire;;;44300;47,2598818439842;-1,51301291030959
+3957;Bowling de l'Erdre;6;SPORTS;608;Autre équipement;;;;CARQUEFOU;24 Boulevard Ampère;02 40 52 79 12;www.bowling-erdre.fr;44470;47,3018248360051;-1,50361701293574
+3970;Terrain multisports Millerand;6;SPORTS;609;Espace Sportif de Proximité;;;Ville de Nantes;NANTES;Rue du Général de Bollardière;;www.iledenantes.com;44200;47,2091102616296;-1,53037444889631
+4039;Espace Sportif Le Souchais;6;SPORTS;601;Centre sportif;;;;CARQUEFOU;1 Avenue de la Loire;;www.carquefou.fr;44470;47,3039615378976;-1,50241580552544
+4044;Espace Sportif Louis Le Nain;6;SPORTS;609;Espace Sportif de Proximité;;;Public;NANTES;Rue Louis Le Nain;;www.nantes.fr;44100;47,2258162797341;-1,59817455093445
+4102;Gymnase Bottière Chênaie;6;SPORTS;603;Gymnase;;;;NANTES;Rue des Carnavaliers;02 40 50 40 38;;44300;47,237434063416;-1,51413692175225
+4113;Stadium Métropolitain Pierre Quinon;6;SPORTS;603;Gymnase;;;;NANTES;19 Boulevard Guy Mollet;;www.nantesmetropole.fr;44300;47,2488734221852;-1,55557682568905
+4114;Gymnase Port-au-Blé;6;SPORTS;603;Gymnase;;;;REZE;Avenue André Malraux;;www.reze.fr;44400;47,1902520445376;-1,55287080054853
+4132;Gymnase Arthur-Dugast;6;SPORTS;603;Gymnase;;;;REZE;22 Boulevard Jean Monnet;02 40 32 51 20;www.reze.fr;44400;47,1654797011878;-1,54438743967666
+4151;Espace Multisport Solvardière;6;SPORTS;605;Plaine de jeux;;;;ST-HERBLAIN;5 Chemin de la Solvardière;;;44800;47,2166995009956;-1,64176082507584
+4152;Espace Multisport Censive;6;SPORTS;605;Plaine de jeux;;;;ST-HERBLAIN;21 Rue de Bordeaux;;www.saint-herblain.fr;44800;47,2104096584847;-1,61158809549252
+4153;Espace Multisport Crémetterie;6;SPORTS;605;Plaine de jeux;;;;ST-HERBLAIN;15 Rue de l'Ecole;;www.saint-herblain.fr;44800;47,215451784303;-1,60905162935041
+4161;Tennis;6;SPORTS;607;Tennis;;;;SAINT-LEGER-LES-VIGNES;Rue de la Rive;;;44710;47,1345345540375;-1,73271134771113
+4166;Court de Tennis;6;SPORTS;607;Tennis;;;;INDRE;Rue de la Gare;;;44610;47,2009617615033;-1,66875796124264
+4168;Cercle Nautique d'Indre;6;SPORTS;601;Centre sportif;;;;INDRE;Quai Henri Brunais;02 40 85 05 37;;44610;47,1960700438542;-1,66910329129323
+4171;Skatepark - Brains;6;SPORTS;609;Espace Sportif de Proximité;;;municipal;BRAINS;Rond-Point de Bel Air;;;44830;47,1717279732956;-1,71740328001877
+4172;Aire de jeux multisports Brains;6;SPORTS;608;Autre équipement;;;;BRAINS;Rond-Point de Bel Air;;;44830;47,1715714181572;-1,71741348723713
+4176;Karaté;6;SPORTS;608;Autre équipement;;;;LES-SORINIERES;Rue des Papillons;;;44840;47,1480518339684;-1,52263459405555
+4179;Aire multisports;6;SPORTS;605;Plaine de jeux;;;;LES-SORINIERES;Rue de la Maillardière;;;44840;47,1574985364247;-1,52301319853266
+4180;Aire multisports;6;SPORTS;605;Plaine de jeux;;;;LES-SORINIERES;Impasse de la Forge;;;44840;47,1488585941618;-1,53387347807476
+4188;Centre equestre Poney Club;6;SPORTS;601;Centre sportif;;;;LES-SORINIERES;Rue de la Poste;;;44840;47,1448969479154;-1,54402353337293
+4192;Centre aquatique So.Pool;6;SPORTS;604;Piscine;;;;BASSE-GOULAINE;2 Rue de Tasmanie;;;44115;47,1895837223825;-1,47341691893707
+4193;Salle omnisport de Bellestre;6;SPORTS;603;Gymnase;;;;BOUAYE;Rue du Stade;;www.bouaye.fr;44830;47,1498408419618;-1,69634341849071
+4194;Court de Tennis;6;SPORTS;607;Tennis;;;;BOUAYE;Chemin de la Piogerie;;;44830;47,1506353405133;-1,69262060484085
+4196;Skatepark - Bouaye;6;SPORTS;609;Espace Sportif de Proximité;;;municipal;BOUAYE;Esplanade de l'Edit de Nantes;;;44830;47,1546780883818;-1,68029644310577
+4215;Salle de sport de la Belle Etoile;6;SPORTS;603;Gymnase;;;;THOUARE-SUR-LOIRE;Avenue du Parc des Sports;;;44470;47,260932282872;-1,45322268077049
+4216;Salle de Tennis du Guette Loup;6;SPORTS;607;Tennis;;;;THOUARE-SUR-LOIRE;Route de la Barre;;;44470;47,2625548892178;-1,45519991438981
+4217;Salle Omnisport;6;SPORTS;603;Gymnase;;;;THOUARE-SUR-LOIRE;Voie Non Dénommée 2041149;;;44470;47,2631952890256;-1,45608305074378
+4221;Court de Tennis;6;SPORTS;607;Tennis;;;;BASSE-GOULAINE;Rue de la Poste;;;44115;47,2185329342019;-1,46781574720677
+4222;Stades de Football;6;SPORTS;606;Stade;;;;BASSE-GOULAINE;Rue de la Poste;;;44115;47,218460390894;-1,46645497803417
+4223;Dojo Goulainais;6;SPORTS;608;Autre équipement;;;;BASSE-GOULAINE;Rue de la Poste;;;44115;47,2167943071233;-1,46748951112505
+4224;Boulodrome;6;SPORTS;608;Autre équipement;;;;BASSE-GOULAINE;Rue de la Poste;;;44115;47,2166199319565;-1,46807115962903
+4226;Skatepark - Basse-Goulaine;6;SPORTS;609;Espace Sportif de Proximité;;;municipal;BASSE-GOULAINE;Square de Theley;;;44115;47,2178756582812;-1,46573542845903
+4227;Terrain multisport;6;SPORTS;608;Autre équipement;;;;BASSE-GOULAINE;Square de Theley;;;44115;47,2176312634001;-1,46578072150551
+4230;Boulodrome;6;SPORTS;608;Autre équipement;;;;SAINT-AIGNAN-GRANDLIEU;Route du Lac;;;44860;47,1203301600343;-1,63771789549553
+4231;Skatepark - St-Aignan;6;SPORTS;609;Espace Sportif de Proximité;;;municipal;SAINT-AIGNAN-GRANDLIEU;Place Saint Amani;;;44860;47,1211603599007;-1,6372830000767
+4232;Terrain de Basket;6;SPORTS;608;Autre équipement;;;;SAINT-AIGNAN-GRANDLIEU;Place Saint Amani;;;44860;47,1210002452753;-1,63719841649588
+4233;Tir à l'Arc;6;SPORTS;608;Autre équipement;;;;SAINT-JEAN-DE-BOISEAU;Chemin de la Coulée;;lesarchersdupe.jimdo.com;44640;47,1862942742528;-1,70998017391629
+4239;Skatepark - La Montagne;6;SPORTS;609;Espace Sportif de Proximité;;;municipal;LA-MONTAGNE;153 Route de Bouguenais;;;44620;47,186997597229;-1,68685033383099
+4244;Skatepark - Vertou;6;SPORTS;609;Espace Sportif de Proximité;;;municipal;VERTOU;Allée de la Vigne de Pâques;;;44120;47,1632053229194;-1,46618353240723
+4245;Terrain de Tennis;6;SPORTS;607;Tennis;;;;VERTOU;Allée de la Vigne de Pâques;;;44120;47,1639364142099;-1,46673883456256
+4246;Terrain de Tennis;6;SPORTS;607;Tennis;;;;VERTOU;Impasse du Stade Raymond Durand;;;44120;47,1832575358085;-1,49828335754745
+4247;Entente Tennis Vertou;6;SPORTS;607;Tennis;;;;VERTOU;Impasse de la Foresterie;02 51 79 17 10;http://www.club.fft.fr/;44120;47,1785373270275;-1,46318253916213
+4249;Salle spécifique de gymnastique;6;SPORTS;603;Gymnase;;;;VERTOU;Allée de la Vigne de Pâques;;;44120;47,1652390708765;-1,46713546740473
+4252;Terrain de Pétanque des Reigners;6;SPORTS;608;Autre équipement;;;;VERTOU;Rue des Reigniers;;;44120;47,1376168981039;-1,46445035062312
+4253;Skatepark - Vertou;6;SPORTS;609;Espace Sportif de Proximité;;;municipal;VERTOU;Rue des Reigniers;;;44120;47,137740018999;-1,46506122696991
+4257;Salle Antarès;6;SPORTS;603;Gymnase;;;;SAUTRON;Rue de la Forêt;;www.sautron.fr;44880;47,2662087671741;-1,67944111191122
+4258;Salle de Tennis Centaure;6;SPORTS;607;Tennis;;;;SAUTRON;Rue de la Forêt;;;44880;47,2669270963193;-1,67886425849015
+4259;Salle de Pétanque Electra;6;SPORTS;608;Autre équipement;;;;SAUTRON;Rue de la Forêt;;;44880;47,2658821247271;-1,67811198422129
+4260;Salle de Tennis Cassiopée;6;SPORTS;607;Tennis;;;;SAUTRON;Rue de la Forêt;;;44880;47,2666474812869;-1,67923508048179
+4261;Salle Omnisport Delta;6;SPORTS;603;Gymnase;;;;SAUTRON;Rue de la Forêt;;;44880;47,266164291383;-1,67787222373831
+4262;Salle Omnisport Bellatrix;6;SPORTS;603;Gymnase;;;;SAUTRON;Rue de la Forêt;;;44880;47,2660375779804;-1,67874386609388
+4263;Terrains de tennis;6;SPORTS;607;Tennis;;;;SAUTRON;Rue de la Forêt;;;44880;47,2665123104871;-1,67841905846459
+4264;Terrains de pétanque;6;SPORTS;608;Autre équipement;;;;SAUTRON;Rue de la Forêt;;;44880;47,2670126159199;-1,67792360967436
+4265;Skatepark - Sautron;6;SPORTS;609;Espace Sportif de Proximité;;;municipal;SAUTRON;Rue de la Forêt;;;44880;47,2662524329902;-1,67980908258144
+4281;Tennis Country Club;6;SPORTS;607;Tennis;;;;COUERON;Voie Non Dénommée 0471861;02 40 86 40 90;cours-tennis-club.countryclubnantais.fr;44220;47,2445883438036;-1,70438066734281
+4282;Centre équestre Poney-Club;6;SPORTS;601;Centre sportif;;;;COUERON;RD 101;;;44220;47,2460107847443;-1,70455122124794
+4285;Boulodrome;6;SPORTS;608;Autre équipement;;;;COUERON;Rue de la Noë Allais;;www.ville-coueron.fr;44220;47,2193163005765;-1,68393059268241
+4286;Tennis;6;SPORTS;607;Tennis;;;;COUERON;Rue Marcel de la Provoté;;;44220;47,2117152639444;-1,73813547120881
+4287;Stade René Gaudin;6;SPORTS;606;Stade;;;;COUERON;Boulevard Francois Blancho;02 40 86 70 52;www.ville-coueron.fr;44220;47,2124692994787;-1,73688201873656
+4288;Skatepark Romain Douillard - Couëron;6;SPORTS;609;Espace Sportif de Proximité;;;municipal;COUERON;Rue Marcel de la Provoté;02 40 38 32 11;www.ville-coueron.fr;44220;47,212189124209;-1,73831246720018
+4289;City Stade;6;SPORTS;609;Espace Sportif de Proximité;;;;COUERON;Rue du Premier Mai;;www.ville-coueron.fr;44220;47,2140442390179;-1,68346476489689
+4291;Gymnase Eersel;6;SPORTS;603;Gymnase;;;;CARQUEFOU;Rue du Moulin Boisseau;;www.carquefou.fr;44470;47,2855739091227;-1,4830005017521
+4292;Piste de bicross;6;SPORTS;608;Autre équipement;;;;CARQUEFOU;Rue Victor Hugo;;www.carquefou.fr;44470;47,2814486517006;-1,48138210872558
+4293;Terrain de Pétanque;6;SPORTS;608;Autre équipement;;;;CARQUEFOU;Rue Victor Hugo;;www.carquefou.fr;44470;47,2822277108609;-1,48128079092291
+4294;Tennis;6;SPORTS;607;Tennis;;;;CARQUEFOU;Rue du Moulin Boisseau;;www.carquefou.fr;44470;47,2844351822684;-1,48341346932704
+4295;Stand de Tir;6;SPORTS;608;Autre équipement;;;;CARQUEFOU;Rue du Stade;;www.carquefou.fr;44470;47,3182432264806;-1,47070687781425
+4297;Sport Nautique de l'Ouest;6;SPORTS;601;Centre sportif;;;;CARQUEFOU;17 Chemin de Port Breton;02 40 50 81 51;www.snonantes.com;44470;47,3014057422845;-1,52641524899551
+4299;Color'ado;6;SPORTS;608;Autre équipement;;;;CARQUEFOU;Rue Pierre Mendes France;;www.carquefou.fr;44470;47,3029252594488;-1,49269654987027
+4307;Gymnase Pré-Gauchet;6;SPORTS;603;Gymnase;;;;NANTES;13 Rue Nina Simone;;www.nantes.fr;44000;47,2171288108494;-1,53530393844997
+4334;Boulodrome;6;SPORTS;608;Autre équipement;;;;ORVAULT;Chemin des Garettes;;;44700;47,27434615242;-1,62505307890939
+4335;Tennis Frébaudière;6;SPORTS;607;Tennis;;;;ORVAULT;Chemin des Garettes;;;44700;47,2744022434315;-1,62560460051723
+4336;Skatepark - Orvault;6;SPORTS;609;Espace Sportif de Proximité;;;municipal;ORVAULT;Chemin des Garettes;;;44700;47,2744176896823;-1,62611737840092
+4337;Bike-Park;6;SPORTS;608;Autre équipement;;;;ORVAULT;4 Chemin de Gagné;;www.orvault.fr;44700;47,2818757473023;-1,62959729620603
+4338;Boulodrome;6;SPORTS;608;Autre équipement;;;;ORVAULT;48 Avenue Alexandre Goupil;;;44700;47,2540770172418;-1,5983966005253
+4354;Skatepark - La Chapelle-sur-Erdre;6;SPORTS;609;Espace Sportif de Proximité;;;municipal;LA-CHAPELLE-SUR-ERDRE;Avenue de Beauregard;;www.lachapellesurerdre.fr;44240;47,2960789946463;-1,55578638712424
+4356;Piste d'athlétisme;6;SPORTS;606;Stade;;;;LA-CHAPELLE-SUR-ERDRE;Rue Louis Maisonneuve;;;44240;47,2981980314539;-1,55717877351555
+4357;Boulodrome de Massigné;6;SPORTS;608;Autre équipement;;;;LA-CHAPELLE-SUR-ERDRE;Rue Louis Maisonneuve;;;44240;47,2991404935532;-1,55900172096383
+4359;Courts de Tennis du Gesvres;6;SPORTS;607;Tennis;;;;LA-CHAPELLE-SUR-ERDRE;Boulevard du Gesvres;;www.lachapellesurerdre.fr;44240;47,2672520042777;-1,55164077434728
+4360;Terrain multisports de Gesvres;6;SPORTS;608;Autre équipement;;;;LA-CHAPELLE-SUR-ERDRE;Boulevard du Gesvres;;www.lachapellesurerdre.fr;44240;47,2669945793363;-1,55129377312182
+4361;Plateau sportif Gesvres;6;SPORTS;606;Stade;;;;LA-CHAPELLE-SUR-ERDRE;Boulevard du Gesvres;;www.lachapellesurerdre.fr;44240;47,2668362406531;-1,5510211970947
+4363;Poney-club de Port-Barbe;6;SPORTS;601;Centre sportif;;;;LA-CHAPELLE-SUR-ERDRE;Route de la Jonelière;02 40 72 89 32;www.accoordnantes.info;44240;47,2647855333542;-1,54243680963377
+4364;Swing-Golf de Port-Barbe;6;SPORTS;601;Centre sportif;;;;LA-CHAPELLE-SUR-ERDRE;Route de la Jonelière;;www.accoordnantes.info;44240;47,2635553088015;-1,54072241592381
+4370;Halle des Sports de Mazaire;6;SPORTS;603;Gymnase;;;;LA-CHAPELLE-SUR-ERDRE;Rue de la Hautière;02 51 81 87 22;www.lachapellesurerdre.fr;44240;47,2963662110068;-1,55784797877258
+4371;Salle de Gymnastique Jacques Canzillon;6;SPORTS;603;Gymnase;;;;LA-CHAPELLE-SUR-ERDRE;Rue de la Hautière;02 51 81 87 22;www.lachapellesurerdre.fr;44240;47,2966402742367;-1,55853957466216
+4379;Salles Duruy et Petipa;6;SPORTS;608;Autre équipement;;;;BOUGUENAIS;Square Pablo Neruda;02 40 26 95 34;www.ville-bouguenais.fr;44340;47,1710656961929;-1,62176824826453
+4380;Salle des Samouraïs;6;SPORTS;608;Autre équipement;;;;BOUGUENAIS;Square Pablo Neruda;02 40 26 95 34;www.ville-bouguenais.fr;44340;47,1713225991909;-1,62186477405135
+4382;Skatepark - Bouguenais;6;SPORTS;609;Espace Sportif de Proximité;;;municipal;BOUGUENAIS;Chemin de la Neustrie;;www.ville-bouguenais.fr;44340;47,174852247097;-1,59066517061956
+4384;Terrain de boules de Beauvoir;6;SPORTS;608;Autre équipement;;;;BOUGUENAIS;Rue de Beauvoir;;www.ville-bouguenais.fr;44340;47,1791113975866;-1,62643250012879
+4385;Terrain multisports de la Pierre Blanche;6;SPORTS;608;Autre équipement;;;;BOUGUENAIS;Rue du Carrousel;;www.ville-bouguenais.fr;44340;47,1667816209015;-1,62536528312159
+4392;Skatepark - Bouguenais;6;SPORTS;609;Espace Sportif de Proximité;;;municipal;BOUGUENAIS;Allée de la Communauté Rurale de Ballou;;www.ville-bouguenais.fr;44340;47,1778083499968;-1,6298593988431
+4393;Espace René Cassin - salle Gilles de la Bourdonnaye;6;SPORTS;603;Gymnase;;;;LE-PELLERIN;Rue de la Jouardais;;www.ville-lepellerin.fr;44640;47,1942539117923;-1,76211029913759
+4394;Espace René Cassin - salle Cécile Nowak;6;SPORTS;603;Gymnase;;;;LE-PELLERIN;Rue de la Jouardais;;www.ville-lepellerin.fr;44640;47,1941796772969;-1,76175348369782
+4395;Terrain de basket;6;SPORTS;608;Autre équipement;;;;LE-PELLERIN;Rue de la Jouardais;;www.ville-lepellerin.fr;44640;47,1959542284627;-1,75847864387058
+4396;Terrain Multisports;6;SPORTS;608;Autre équipement;;;;LE-PELLERIN;Rue de la Jouardais;;www.ville-lepellerin.fr;44640;47,1958049825886;-1,75819683229684
+4397;Amicale Laïque du Pellerin Tir Sportif;6;SPORTS;608;Autre équipement;;;;LE-PELLERIN;2 Rue de la Paix;;www.ville-lepellerin.fr;44640;47,200727477551;-1,75902876489526
+4398;Skatepark - Le Pellerin;6;SPORTS;609;Espace Sportif de Proximité;;;municipal;LE-PELLERIN;Quai du Docteur Provost;;www.ville-lepellerin.fr;44640;47,2019454287438;-1,75010863427358
+4471;Terrain multisports;6;SPORTS;609;Espace Sportif de Proximité;;;;ST-SEBASTIEN;Boulevard des Pas Enchantés;;;44230;47,2103948934432;-1,51306868442501
+4472;Courts de Tennis;6;SPORTS;607;Tennis;;;;MAUVES-SUR-LOIRE;Rue des Saulzais;;;44470;47,2934626531311;-1,39092544393487
+4494;Centre Sportif de la Bourgonnière;6;SPORTS;601;Centre sportif;;;;ST-HERBLAIN;34 Allée de la Bourgonnière;;;44800;47,2072019047294;-1,65639620862974
+4495;Tennis;6;SPORTS;607;Tennis;;;;NANTES;1 Rue Louis Delluc;;;44100;47,2301054930646;-1,58103296936768
+4505;City Stade;6;SPORTS;609;Espace Sportif de Proximité;;;;NANTES;Rue du Breil;;;44100;47,2304282772397;-1,58390074500619
+4517;Poney Club Salantine Houssay;6;SPORTS;601;Centre sportif;;;;ST-HERBLAIN;Rue Jean Jacques Rousseau;02 40 46 02 13;salantine.fr;44800;47,2296861899789;-1,5997194294491
+4519;Boulodrome du Tillay;6;SPORTS;608;Autre équipement;;;;ST-HERBLAIN;Allée des Droits de l'Homme;;;44800;47,2313320131578;-1,60556742386325
+4522;Tennis Club La Gagnerie;6;SPORTS;607;Tennis;;;;ST-HERBLAIN;Avenue Alain Gerbault;02 40 76 05 14;tc-gagnerie.fr;44800;47,235501355851;-1,60102340982181
+4538;City Stade;6;SPORTS;609;Espace Sportif de Proximité;;;;NANTES;Rue Gustave Eiffel;;;44300;47,2561017302004;-1,51933111538115
+4539;City Stade;6;SPORTS;609;Espace Sportif de Proximité;;;;NANTES;Rue de Suisse;;;44000;47,2170918722201;-1,52393174051278
+4602;City Stade;6;SPORTS;609;Espace Sportif de Proximité;;;;NANTES;Rue Louis Pergaud;;;44300;47,2686413253353;-1,51874002158811
+4778;Terrains de Tennis;6;SPORTS;607;Tennis;;;;LA-MONTAGNE;Allée du Château d'Aux;;;44620;47,1829183341098;-1,67626248447447
+4784;Plateau sportif de la Pelousière;6;SPORTS;609;Espace Sportif de Proximité;;;;ST-HERBLAIN;Rue du Docteur Alfred Corlay;;;44800;47,2075452017814;-1,6463037572667
+4841;Terrain Multisports;6;SPORTS;609;Espace Sportif de Proximité;;;;SAUTRON;Rue de la Forêt;;;44880;47,2667273761625;-1,6781403826469
+4842;Circuits Rustiques d'Activites en Plein Air de Sautron;6;SPORTS;602;Circuit de plein air;;;;SAUTRON;51 Rue de la Vallée;;;44880;47,2685005782232;-1,67138885832522
+4866;Stade de la Robinière;6;SPORTS;606;Stade;;;;REZE;Rue des Poyaux;;;44400;47,1646547117135;-1,53187121182908
+4867;Plateau multisports Château-Nord - City Stade;6;SPORTS;609;Espace Sportif de Proximité;;;;REZE;Allée de Provence;;;44400;47,1853567946203;-1,55836846869043
+4868;Plateau multisports Château-Sud - City Stade;6;SPORTS;609;Espace Sportif de Proximité;;;;REZE;Place Jean Perrin;;;44400;47,1815630236812;-1,55834625867828
+4869;Circuit d'orientation des îles de Loire;6;SPORTS;602;Circuit de plein air;;;;ST-SEBASTIEN;Boulevard des Pas Enchantés;;;44230;47,2117695662414;-1,49573346582352
+4870;SkateParc - St-Sébastien;6;SPORTS;609;Espace Sportif de Proximité;;;;ST-SEBASTIEN;Square Jean Moulin;;;44230;47,2072356911334;-1,48711816708137
+4872;Piste de bicross;6;SPORTS;609;Espace Sportif de Proximité;;;;LA-MONTAGNE;Rue de la Gaudinière;;;44620;47,1835328575081;-1,6777921490509
+4873;Terrain de pétanque;6;SPORTS;609;Espace Sportif de Proximité;;;;REZE;Place du Pays de Retz;;;44400;47,1846447570553;-1,56287465513668
+4876;Aire de jeux de l'Etier;6;SPORTS;605;Plaine de jeux;;;;BOUAYE;Rue du Port;;;44830;47,1348568930063;-1,67339596547012
+4887;Anneau de Patin;6;SPORTS;608;Autre équipement;;;;SAINT-JEAN-DE-BOISEAU;Rue des Bruyères;;;44640;47,1925774888357;-1,72662264628622
+4897;Salle de danse Les Sorinières;6;SPORTS;608;Autre équipement;;;;LES-SORINIERES;57 Rue des Sports;;;44840;47,1456016401181;-1,52259368869916
+4898;Stade Constant Pasquier;6;SPORTS;606;Stade;;;;ST-HERBLAIN;30 Rue Konrad Adenauer;;;44800;47,2051503697534;-1,63246080038716
+4904;DOJO Jean-Claude Le Quintrec;6;SPORTS;603;Gymnase;;;;COUERON;Boulevard Paul Langevin;;;44220;47,2136698307305;-1,72145169752496
+4905;ASC Bonne Garde - Salle Jean-Yves Leroy;6;SPORTS;603;Gymnase;;;;NANTES;15 Rue Gabriel Goudy;;;44200;47,1952812640352;-1,54009352643386
+4907;Salle sportive métropolitaine de Rezé;6;SPORTS;606;Stade;;;;REZE;91 Rue de la Trocardière;;;44400;47,1799156682239;-1,57176724499931
+4908;City stade;6;SPORTS;609;Espace Sportif de Proximité;;;;REZE;91 Rue de la Trocardière;;;44400;47,180452828575;-1,57055699634047
+4910;Gymnase du centre-ville;6;SPORTS;603;Gymnase;;;;ST-SEBASTIEN;6 Rue Annie Hure;;;44230;47,205190372709;-1,49913445923456
+4933;Piste de Bicross;6;SPORTS;608;Autre équipement;;;;SAINT-JEAN-DE-BOISEAU;Rue de la Cale;;;44640;47,1966702616341;-1,69835572298409
+4934;Plateau multisports Ouche-Dinier;6;SPORTS;609;Espace Sportif de Proximité;;;;REZE;Rue du Parc Ferrand;;;44400;47,175939771178;-1,53770571892471
+4935;Plateau multisports Port-au-Blé;6;SPORTS;609;Espace Sportif de Proximité;;;;REZE;Avenue André Malraux;;;44400;47,1904034053416;-1,55362978152897
+4936;Plateau multisports Rezé-centre;6;SPORTS;609;Espace Sportif de Proximité;;;;REZE;Rue Camille Jouis;;;44400;47,1899071178308;-1,5710394681802
+4937;Plateau multisports Julien Douillard;6;SPORTS;609;Espace Sportif de Proximité;;;;REZE;11 Rue Julien Douillard;;;44400;47,1857850930193;-1,5427302178965
+4938;Plateau multisports Petite-Lande;6;SPORTS;609;Espace Sportif de Proximité;;;;REZE;Rue Augustin Mouillé;;;44400;47,1793379437137;-1,55015206775593
+4939;Plateau multisports Roger Salengro;6;SPORTS;609;Espace Sportif de Proximité;;;;REZE;Rue Alexandre Huchon;;;44400;47,1840229062523;-1,54886930543818
+4940;Plateau multisports Chêne-Creux;6;SPORTS;609;Espace Sportif de Proximité;;;;REZE;Rue Jean-Baptiste et Henri Tendron;;;44400;47,173633354958;-1,54639170892458
+4941;Plateau multisports Square Beaumarchais;6;SPORTS;609;Espace Sportif de Proximité;;;;REZE;Allée Beaumarchais;;;44400;47,1844282076047;-1,55814660204147
+4942;Plateau multisports Ragon;6;SPORTS;609;Espace Sportif de Proximité;;;;REZE;Rue du Vivier;;;44400;47,1654416152378;-1,54171072417792
+4943;Plateau multisports Trentemoult;6;SPORTS;609;Espace Sportif de Proximité;;;;REZE;Place des Filets;;;44400;47,193981092214;-1,5841575079895
+4949;Dojo;6;SPORTS;608;Autre équipement;;;;VERTOU;Rond-Point de la Grammoire;;;44120;47,1769649348868;-1,46986490619792
+4950;SkatePark du Loiry;6;SPORTS;609;Espace Sportif de Proximité;;;;;;;;44120;47,1634959712178;-1,47675154133617
+4951;Skatepark Beautour;6;SPORTS;609;Espace Sportif de Proximité;;;;VERTOU;Boulevard Auguste Priou;;;44120;47,1806831058717;-1,50650983201743
+4967;Centre équestre du Bois Brûlé;6;SPORTS;608;Autre équipement;;;;BASSE-GOULAINE;152 Rue du Bois Brulé;;;44115;47,1873870640373;-1,44807956430045
+4986;Chemin du château de la Tour;6;SPORTS;602;Circuit de plein air;;;;ORVAULT;Chemin de Gagné;;;44700;47,2806176309888;-1,63060913019945

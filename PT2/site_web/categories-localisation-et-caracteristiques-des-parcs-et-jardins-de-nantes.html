@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+	<link rel="stylesheet" type="text/css" href="style.css">	
+
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	
+	<script>
+	  // declaration des cartes
+      var map;
+
+	  // la fenetre qui s'ouvre quand on passe la souris sur un point
+	  var infowindow = new google.maps.InfoWindow();
+
+	  // fonction d'initialisation
+      function initialize() {
+        var mapOptions = {
+          zoom: 6,
+          center: {lat:  46.55, lng: 2.4},
+          mapTypeId: google.maps.MapTypeId.TERRAIN
+        };
+        map = new google.maps.Map(document.getElementById('map-categorie'),
+          mapOptions);
+	    // initialisation des cartes et chargement des donnees
+	            map.data.loadGeoJson('json/localisation-et-caracteristiques-des-parcs-et-jardins-de-nantes.json');
+
+	    
+	    // fonction de style
+	    var setColorStyleFn = function(feature) {
+	      return {icon: feature.getProperty('icon')};
+	    };
+	    // style des cartes, et listener pour la fenetre qui s'ouvre quand on passe la souris sur un point
+	    map.data.setStyle(setColorStyleFn);
+	    map.data.addListener('mouseover', function(event) {
+          infowindow.setContent(event.feature.getProperty('description'));
+          infowindow.setPosition(event.latLng);
+          infowindow.setOptions({pixelOffset: new google.maps.Size(0,-34)});
+          infowindow.open(map);
+        });
+        google.maps.event.addListener(map, 'click', function() {
+          infowindow.close(); // un clic sur la carte ferme les infowindows
+        });
+	  } // end initialize
+
+      // appel de la fonction d'initialisation une fois la page chargee
+      google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+	<meta charset="UTF-8">
+  </head>
+
+  <body>
+    <h1>les parcs et jardins</h1>
+
+	<p><a href="./index.php">Page principale</a></p>
+	
+    <h2>Carte</h2>
+    <div id="map-categorie" class="map-canvas"></div>
+
+    <h2>Liste des points</h2>
+	<table>
+      <tr><td>-1.5093399999999999</td><td>47.227600000000002</td><td>Parc du grand-blottereau                                                                            </td></tr>
+      <tr><td>-1.55138</td><td>47.202300000000001</td><td>Square benoni goulin                                                                                </td></tr>
+      <tr><td>-1.5315300000000001</td><td>47.205300000000001</td><td>Square rue jules sebilleau                                                                          </td></tr>
+      <tr><td>-1.5685</td><td>47.212299999999999</td><td>Parc say                                                                                            </td></tr>
+      <tr><td>-1.59202</td><td>47.207799999999999</td><td>Square de la marseillaise                                                                           </td></tr>
+      <tr><td>-1.6098300000000001</td><td>47.208100000000002</td><td>Square des marthyrs irlandais                                                                       </td></tr>
+      <tr><td>-1.6102799999999999</td><td>47.204900000000002</td><td>Square du bois de la musse                                                                          </td></tr>
+      <tr><td>-1.5980099999999999</td><td>47.201500000000003</td><td>Parc de la boucardiere                                                                              </td></tr>
+      <tr><td>-1.57141</td><td>47.235100000000003</td><td>Square gaston michel                                                                                </td></tr>
+      <tr><td>-1.57074</td><td>47.2545</td><td>Jeux de boules proust bergson                                                                       </td></tr>
+      <tr><td>-1.5668800000000001</td><td>47.247599999999998</td><td>Parc du petit port                                                                                  </td></tr>
+      <tr><td>-1.5205299999999999</td><td>47.211399999999998</td><td>Parc de beaulieu                                                                                    </td></tr>
+      <tr><td>-1.5628200000000001</td><td>47.211100000000002</td><td>Square gabriel chéreau                                                                             </td></tr>
+      <tr><td>-1.59307</td><td>47.200800000000001</td><td>Square des courtils                                                                                 </td></tr>
+      <tr><td>-1.58538</td><td>47.270899999999997</td><td>Cimetiere paysager                                                                                  </td></tr>
+      <tr><td>-1.5451299999999999</td><td>47.218299999999999</td><td>Square saint françois                                                                              </td></tr>
+      <tr><td>-1.5197400000000001</td><td>47.265900000000002</td><td>Jardin des quatre jeudis                                                                            </td></tr>
+      <tr><td>-1.5189999999999999</td><td>47.267000000000003</td><td>Jardin du nadir                                                                                     </td></tr>
+      <tr><td>-1.51677</td><td>47.268900000000002</td><td>Jardin du zenith                                                                                    </td></tr>
+      <tr><td>-1.5212699999999999</td><td>47.2669</td><td>Jardin des farfadets                                                                                </td></tr>
+      <tr><td>-1.5244599999999999</td><td>47.287500000000001</td><td>Parc de la chantrerie                                                                               </td></tr>
+      <tr><td>-1.5331760000000001</td><td>47.221553999999998</td><td>Parc de la moutonnerie                                                                              </td></tr>
+      <tr><td>-1.52301</td><td>47.256900000000002</td><td>Abords du stade de la beaujoire                                                                     </td></tr>
+      <tr><td>-1.5196499999999999</td><td>47.182899999999997</td><td>Square du vieux parc de sèvre                                                                      </td></tr>
+      <tr><td>-1.56715</td><td>47.2059</td><td>Le parc des chantiers                                                                               </td></tr>
+      <tr><td>-1.57952</td><td>47.245199999999997</td><td>Parc de la gaudiniere                                                                               </td></tr>
+      <tr><td>-1.5200100000000001</td><td>47.254399999999997</td><td>Square de la halvèque                                                                              </td></tr>
+      <tr><td>-1.5446800000000001</td><td>47.215000000000003</td><td>Square jean heurtin                                                                                 </td></tr>
+      <tr><td>-1.53078</td><td>47.190899999999999</td><td>Parc potager de la crapaudine                                                                       </td></tr>
+      <tr><td>-1.5274000000000001</td><td>47.208599999999997</td><td>Place de la guirouée                                                                               </td></tr>
+      <tr><td>-1.5230399999999999</td><td>47.266199999999998</td><td>Square barbara                                                                                      </td></tr>
+      <tr><td>-1.54823</td><td>47.2121</td><td>Square du lait de mai                                                                               </td></tr>
+      <tr><td>-1.5160800000000001</td><td>47.246299999999998</td><td>Square des maraiches                                                                                </td></tr>
+      <tr><td>-1.58528</td><td>47.230600000000003</td><td>Square louis feuillade                                                                              </td></tr>
+      <tr><td>-1.5596399999999999</td><td>47.207700000000003</td><td>Jardin mabon                                                                                        </td></tr>
+      <tr><td>-1.5825499999999999</td><td>47.238100000000003</td><td>Jardin des nectars                                                                                  </td></tr>
+      <tr><td>-1.5448900000000001</td><td>47.2057</td><td>Le jardin des fonderies                                                                             </td></tr>
+      <tr><td>-1.5592299999999999</td><td>47.257800000000003</td><td>Aire de jeux des renards                                                                            </td></tr>
+      <tr><td>-1.54166</td><td>47.2453</td><td>Espace de jeux de belle ile                                                                         </td></tr>
+      <tr><td>-1.53688</td><td>47.2149</td><td>Parc pablo picasso                                                                                  </td></tr>
+      <tr><td>-1.55036</td><td>47.218000000000004</td><td>Square psalette                                                                                     </td></tr>
+      <tr><td>-1.5491600000000001</td><td>47.216299999999997</td><td>Douves du château des ducs                                                                         </td></tr>
+      <tr><td>-1.5660099999999999</td><td>47.2288</td><td>Square saint pasquier                                                                               </td></tr>
+      <tr><td>-1.5448</td><td>47.196899999999999</td><td>Jardin confluent                                                                                    </td></tr>
+      <tr><td>-1.55332</td><td>47.231099999999998</td><td>Square félix thomas                                                                                </td></tr>
+      <tr><td>-1.5254099999999999</td><td>47.235500000000002</td><td>Parc potager croissant                                                                              </td></tr>
+      <tr><td>-1.5479499999999999</td><td>47.203800000000001</td><td>Place wattignies                                                                                    </td></tr>
+      <tr><td>-1.52471</td><td>47.244999999999997</td><td>Square pilotière                                                                                   </td></tr>
+      <tr><td>-1.5709500000000001</td><td>47.263100000000001</td><td>Parc potager amande                                                                                 </td></tr>
+      <tr><td>-1.52407</td><td>47.2164</td><td>Square hongrie                                                                                      </td></tr>
+      <tr><td>-1.5905100000000001</td><td>47.212499999999999</td><td>Parc potager fournillère                                                                           </td></tr>
+      <tr><td>-1.5803799999999999</td><td>47.207799999999999</td><td>Square zac pilleux nord                                                                             </td></tr>
+      <tr><td>-1.5850374</td><td>47.200396499999997</td><td>Parc des oblates                                                                                    </td></tr>
+      <tr><td>-1.59412</td><td>47.224800000000002</td><td>Parc des dervallières                                                                              </td></tr>
+      <tr><td>-1.5815300000000001</td><td>47.222200000000001</td><td>Jardin d'enfants de procé                                                                          </td></tr>
+      <tr><td>-1.5815600000000001</td><td>47.224299999999999</td><td>Parc de proce                                                                                       </td></tr>
+      <tr><td>-1.55443</td><td>47.217500000000001</td><td>Square amiral halgand                                                                               </td></tr>
+      <tr><td>-1.5429200000000001</td><td>47.219799999999999</td><td>Jardin des plantes                                                                                  </td></tr>
+      <tr><td>-1.56308</td><td>47.212000000000003</td><td>Cours cambrone                                                                                      </td></tr>
+      <tr><td>-1.5648899999999999</td><td>47.212899999999998</td><td>Square louis bureau                                                                                 </td></tr>
+      <tr><td>-1.5543800000000001</td><td>47.225999999999999</td><td>Square ile de versailles                                                                            </td></tr>
+      <tr><td>-1.5518799999999999</td><td>47.222099999999998</td><td>Square maquis de saffré                                                                            </td></tr>
+      <tr><td>-1.55775</td><td>47.212000000000003</td><td>Square jean-batiste daviais                                                                         </td></tr>
+      <tr><td>-1.5336700000000001</td><td>47.207500000000003</td><td>Jardin des cinq sens                                                                                </td></tr>
+      <tr><td>-1.6083400000000001</td><td>47.2027</td><td>Square charles housset                                                                              </td></tr>
+      <tr><td>-1.5634699999999999</td><td>47.2179</td><td>Square faustin hélie                                                                               </td></tr>
+      <tr><td>-1.5324199999999999</td><td>47.262900000000002</td><td>Parc de la beaujoire                                                                                </td></tr>
+      <tr><td>-1.5360799999999999</td><td>47.234999999999999</td><td>Parc du plessis tison                                                                               </td></tr>
+      <tr><td>-1.5807199999999999</td><td>47.201099999999997</td><td>Square maurice schwob                                                                               </td></tr>
+      <tr><td>-1.55037</td><td>47.214199999999998</td><td>Square elisa mercoeur                                                                               </td></tr>
+      <tr><td>-1.53609</td><td>47.203899999999997</td><td>Square marcel launay                                                                                </td></tr>
+      <tr><td>-1.59294</td><td>47.2042</td><td>Square jean le gigant                                                                               </td></tr>
+      <tr><td>-1.6155900000000001</td><td>47.195</td><td>Square toussaint louverture                                                                         </td></tr>
+      <tr><td>-1.5627599999999999</td><td>47.225299999999997</td><td>Parc des capucins                                                                                   </td></tr>
+      <tr><td>-1.5267500000000001</td><td>47.227699999999999</td><td>Parc de la noe mitrie                                                                               </td></tr>
+      <tr><td>-1.5275300000000001</td><td>47.2226</td><td>Square jean-baptiste barre                                                                          </td></tr>
+      <tr><td>-1.5225900000000001</td><td>47.2254</td><td>Square jules bréchoir                                                                              </td></tr>
+      <tr><td>-1.51796</td><td>47.218200000000003</td><td>Parc de malakoff                                                                                    </td></tr>
+      <tr><td>-1.54996</td><td>47.205199999999998</td><td>Square gustave roch                                                                                 </td></tr>
+      <tr><td>-1.52521</td><td>47.208100000000002</td><td>Place basse mar                                                                                     </td></tr>
+      <tr><td>-1.5465899999999999</td><td>47.202399999999997</td><td>Square vertais                                                                                      </td></tr>
+      <tr><td>-1.58708</td><td>47.212200000000003</td><td>Square du prinquiau                                                                                 </td></tr>
+      <tr><td>-1.5744400000000001</td><td>47.214399999999998</td><td>Square canclaux                                                                                     </td></tr>
+      <tr><td>-1.5707500000000001</td><td>47.209299999999999</td><td>Square des combattants d'afrique du nord                                                            </td></tr>
+      <tr><td>-1.5676600000000001</td><td>47.214399999999998</td><td>Square de l'edit de nantes                                                                          </td></tr>
+      <tr><td>-1.5773200000000001</td><td>47.202199999999998</td><td>Square marcel moisan                                                                                </td></tr>
+      <tr><td>-1.56342</td><td>47.216200000000001</td><td>Square pascal lebee                                                                                 </td></tr>
+      <tr><td>-1.56382</td><td>47.219200000000001</td><td>Square etienne destranges                                                                           </td></tr>
+      <tr><td>-1.5240400000000001</td><td>47.245199999999997</td><td>Centre social de la pilotière                                                                      </td></tr>
+      <tr><td>-1.5229299999999999</td><td>47.243099999999998</td><td>Square augustin fresnel                                                                             </td></tr>
+      <tr><td>-1.5225500000000001</td><td>47.226799999999997</td><td>Parc de broussais                                                                                   </td></tr>
+
+	</table>
+
+  </body>
+
+</html>

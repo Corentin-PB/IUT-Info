@@ -1,0 +1,65 @@
+X_LONG;Y_LAT;Geo Shape;numero;type;PMR;ADRESSE;emplacement_valide;INSEE;ID
+43,5932565609;1,43491777442;"{""type"": ""Point"", ""coordinates"": [1.434917774417878, 43,59325656089595]}";27;Sanitaires tous publics;T;Cours Dillon;oui;31555;1
+43,608876893;1,453636584;"{""type"": ""Point"", ""coordinates"": [1.453636584004989, 43,60887689301044]}";28;Sanitaires tous publics;T;allée Jean Jaurès;oui;31555;2
+43,6065515081;1,45222039047;"{""type"": ""Point"", ""coordinates"": [1.452220390472296, 43,60655150806581]}";40;Sanitaires standarts;F;place Nicolas Bachelier;oui;31555;3
+43,6003009223;1,44390507998;"{""type"": ""Point"", ""coordinates"": [1.443905079980889, 43,600300922314574]}";2;Sanitaires colonnes;F;place Esquirol;oui;31555;4
+43,5923829592;1,45126574709;"{""type"": ""Point"", ""coordinates"": [1.451265747089746, 43,59238295917628]}";12;Sanitaires standarts;F;Jardin des plantes;oui;31555;5
+43,5794762154;1,45918784291;"{""type"": ""Point"", ""coordinates"": [1.459187842907443, 43,57947621539798]}";16;Sanitaires tous publics;T;avenue Albert Bedouce;oui;31555;6
+43,5785811088;1,44679778089;"{""type"": ""Point"", ""coordinates"": [1.446797780891051, 43,57858110883677]}";60;Sanitaires tous publics;T;80 Rue St Roch;oui;31555;7
+43,5916747299;1,41860397024;"{""type"": ""Point"", ""coordinates"": [1.418603970240554, 43,591674729855185]}";56;Sanitaires tous publics;T;5 Place Emile Male;oui;31555;8
+43,5899011172;1,37799627097;"{""type"": ""Point"", ""coordinates"": [1.377996270972669, 43,58990111716577]}";52;Sanitaires tous publics;T;7 Place Sauvegrain;oui;31555;9
+43,5817755341;1,3885879029;"{""type"": ""Point"", ""coordinates"": [1.38858790289651, 43,58177553412823]}";63;Sanitaires tous publics;T;Place des Pradettes;oui;31555;10
+43,6034825867;1,43610296592;"{""type"": ""Point"", ""coordinates"": [1.436102965924368, 43,603482586722464]}";64;Sanitaires tous publics;T;place Saint-Pierre;oui;31555;11
+43,6081275304;1,42795548941;"{""type"": ""Point"", ""coordinates"": [1.427955489410943, 43,60812753038538]}";37;Sanitaires tous publics;T;square Héraclès;oui;31555;12
+43,6116556231;1,43920999755;"{""type"": ""Point"", ""coordinates"": [1.439209997549729, 43,611655623106074]}";6;Sanitaires standarts;F;proche 54 bd d'Arcole;oui;31555;13
+43,6103064145;1,44351542192;"{""type"": ""Point"", ""coordinates"": [1.443515421923506, 43,61030641453203]}";7;Sanitaires standarts;F;proche 73 bd de Strasbourg;oui;31555;14
+43,6065485085;1,44756751242;"{""type"": ""Point"", ""coordinates"": [1.447567512418407, 43,606548508501675]}";8;Sanitaires tous publics;T;proche 9 bd de Strasbourg;oui;31555;15
+43,5964691362;1,4539684741;"{""type"": ""Point"", ""coordinates"": [1.453968474098027, 43,59646913618108]}";11;Sanitaires standarts;F;allée Paul Sabatier;oui;31555;16
+43,6269047419;1,43336912263;"{""type"": ""Point"", ""coordinates"": [1.433369122625372, 43,62690474191033]}";13;Sanitaires tous publics;T;Barrière de Paris;oui;31555;17
+43,5648307449;1,41017529634;"{""type"": ""Point"", ""coordinates"": [1.410175296335949, 43,56483074489307]}";30;Sanitaires tous publics;T;place des Glières;oui;31555;18
+43,5810433187;1,44927686176;"{""type"": ""Point"", ""coordinates"": [1.449276861755263, 43,581043318674844]}";32;Sanitaires standarts;F;avenue de l'URSS (proche IUFM);oui;31555;19
+43,6364587171;1,46404206283;"{""type"": ""Point"", ""coordinates"": [1.46404206282624, 43,63645871706779]}";45;Sanitaires tous publics;T;1 bis Rue F. Lopez;oui;31555;20
+43,6124464359;1,47789213612;"{""type"": ""Point"", ""coordinates"": [1.477892136122601, 43,6124464359379]}";59;Sanitaires tous publics;T;Place Soupetard;oui;31555;21
+43,5926796198;1,44477700088;"{""type"": ""Point"", ""coordinates"": [1.444777000879283, 43,5926796198248]}";42;Sanitaires tous publics;T;1 Allées Jules Guesde;oui;31555;22
+43,5706991754;1,40347194586;"{""type"": ""Point"", ""coordinates"": [1.403471945860339, 43,570699175448816]}";54;Sanitaires tous publics;T;3 Rue de Kiev;oui;31555;23
+43,5572580446;1,38052292356;"{""type"": ""Point"", ""coordinates"": [1.380522923560093, 43,557258044599095]}";48;Sanitaires tous publics;T;8 Rue du Cimetière St Simon;oui;31555;24
+43,6038196681;1,44823171001;"{""type"": ""Point"", ""coordinates"": [1.448231710005446, 43,603819668057305]}";58;Sanitaires intÃ©grables;T;13 Rue Paul Meriel;oui;31555;25
+43,5990107691;1,428381383;"{""type"": ""Point"", ""coordinates"": [1.428381382999387, 43,599010769101326]}";62;Sanitaires tous publics;T;Place du Ravelin;oui;31555;26
+43,6041521427;1,44482045556;"{""type"": ""Point"", ""coordinates"": [1.444820455560687, 43,604152142741306]}";61;Sanitaires tous publics;T;6 Rue du Poids de L Huile;oui;31555;27
+43,5976076265;1,43077005558;"{""type"": ""Point"", ""coordinates"": [1.430770055576139, 43,59760762646048]}";18;Sanitaires colonnes;F;place Roguet;oui;31555;28
+43,5990192767;1,43035277667;"{""type"": ""Point"", ""coordinates"": [1.430352776669641, 43,59901927672155]}";36;Sanitaires tous publics;T;rue Réclusane;oui;31555;29
+43,608317091;1,43715117305;"{""type"": ""Point"", ""coordinates"": [1.437151173053805, 43,608317090992706]}";22;Sanitaires tous publics;T;rue Cité Admnistrative;oui;31555;30
+43,6100113065;1,43323680667;"{""type"": ""Point"", ""coordinates"": [1.433236806665046, 43,61001130647463]}";5;Sanitaires tous publics;T;bd Lascrosses (entrée Jardin Compans Caffarelli);oui;31555;31
+43,6051035242;1,44788846851;"{""type"": ""Point"", ""coordinates"": [1.447888468505989, 43,60510352419224]}";4;Sanitaires colonnes;F;allée du Pdt Roosevelt;oui;31555;32
+43,6012405352;1,45215637239;"{""type"": ""Point"", ""coordinates"": [1.452156372393132, 43,601240535213314]}";10;Sanitaires standarts;F;proche 4 bd Lazare Carnot;oui;31555;33
+43,6027490803;1,44805647817;"{""type"": ""Point"", ""coordinates"": [1.448056478173508, 43,60274908031498]}";24;Sanitaires colonnes;F;rue P Vidal;oui;31555;34
+43,5995369369;1,45459492847;"{""type"": ""Point"", ""coordinates"": [1.454594928466259, 43,59953693694231]}";23;Sanitaires tous publics;T;place Dupuy;oui;31555;35
+43,5943470006;1,45586164937;"{""type"": ""Point"", ""coordinates"": [1.455861649365839, 43,59434700062394]}";25;Sanitaires tous publics;T;Port Saint-Sauveur;oui;31555;36
+43,6202873678;1,4352861402;"{""type"": ""Point"", ""coordinates"": [1.435286140204939, 43,62028736780973]}";33;Sanitaires tous publics;T;place du Marché aux cochons;oui;31555;37
+43,6067499548;1,45982608474;"{""type"": ""Point"", ""coordinates"": [1.459826084741674, 43,60674995477494]}";34;Sanitaires standarts;F;avenue du Cimetière;oui;31555;38
+43,6077622075;1,39702820319;"{""type"": ""Point"", ""coordinates"": [1.397028203194412, 43,607762207453945]}";53;Sanitaires tous publics;T;Carrefour Bayonne - Vedel;oui;31555;39
+43,6087273756;1,45045487595;"{""type"": ""Point"", ""coordinates"": [1.450454875949523, 43,608727375640385]}";39;Sanitaires tous publics;T;place de Belfort;oui;31555;40
+43,605788707;1,45223721801;"{""type"": ""Point"", ""coordinates"": [1.452237218014127, 43,605788707006425]}";21;Sanitaires tous publics;T;proche 30 rue Jean Palaprat;oui;31555;41
+43,5972647936;1,44421005367;"{""type"": ""Point"", ""coordinates"": [1.444210053667186, 43,59726479364514]}";3;Sanitaires tous publics;T;rue des Prêtres;oui;31555;42
+43,6185884693;1,45655512727;"{""type"": ""Point"", ""coordinates"": [1.456555127270529, 43,61858846927677]}";26;Sanitaires standarts;T;place Jean Bories;oui;31555;43
+43,6194733844;1,46902285782;"{""type"": ""Point"", ""coordinates"": [1.469022857822044, 43,61947338440088]}";35;Sanitaires tous publics;T;passage Louis Plana;oui;31555;44
+43,5772492236;1,43991338708;"{""type"": ""Point"", ""coordinates"": [1.439913387080878, 43,577249223577475]}";15;Sanitaires standarts;F;allée Henri Sellier;oui;31555;45
+43,584779276;1,42826369701;"{""type"": ""Point"", ""coordinates"": [1.428263697012497, 43,58477927598015]}";29;Sanitaires tous publics;T;rue de la Digue;oui;31555;46
+43,5787713295;1,41178584462;"{""type"": ""Point"", ""coordinates"": [1.411785844617362, 43,578771329451584]}";19;Sanitaires standarts;F;impasse Paul Lambert;oui;31555;47
+43,6403324879;1,45233593683;"{""type"": ""Point"", ""coordinates"": [1.452335936833076, 43,64033248785192]}";57;Sanitaires intÃ©grables;T;Boulevard Netwiller;oui;31555;48
+43,5857994948;1,44755952337;"{""type"": ""Point"", ""coordinates"": [1.447559523365967, 43,58579949482089]}";51;Sanitaires tous publics;T;25 Grande Rue St Michel;oui;31555;49
+43,5944845208;1,44934282056;"{""type"": ""Point"", ""coordinates"": [1.449342820555017, 43,59448452081031]}";43;Sanitaires tous publics;T;37 Allée J. Guesde;oui;31555;50
+43,5962675142;1,42328305068;"{""type"": ""Point"", ""coordinates"": [1.423283050682578, 43,59626751424765]}";50;Sanitaires tous publics;T;8 Place de la Patte d'Oie;oui;31555;51
+43,5983046506;1,43675616942;"{""type"": ""Point"", ""coordinates"": [1.436756169420138, 43,59830465057656]}";55;Sanitaires tous publics;T;18 Place Laganne;oui;31555;52
+43,6113553777;1,43856243302;"{""type"": ""Point"", ""coordinates"": [1.438562433019454, 43,61135537766346]}";44;Sanitaires tous publics;T;1 Bd Lascrosse;oui;31555;53
+43,5984202085;1,44091390977;"{""type"": ""Point"", ""coordinates"": [1.440913909770754, 43,59842020853266]}";49;Sanitaires tous publics;T;6 bis Descente de la Halle aux Poissons;oui;31555;54
+43,5993989304;1,45213516352;"{""type"": ""Point"", ""coordinates"": [1.45213516351753, 43,59939893039307]}";31;Sanitaires tous publics;T;Esplanade du 19 Août 1944;oui;31555;55
+43,6015525792;1,43846486506;"{""type"": ""Point"", ""coordinates"": [1.438464865060411, 43,60155257919394]}";1;Sanitaires intÃ©grables;F;place de la Daurade;oui;31555;56
+43,6060219509;1,4467358366;"{""type"": ""Point"", ""coordinates"": [1.446735836604275, 43,60602195089049]}";20;Sanitaires intÃ©grables;T;place Victor Hugo;oui;31555;57
+43,6053387345;1,44886838752;"{""type"": ""Point"", ""coordinates"": [1.448868387516534, 43,60533873453212]}";9;Sanitaires colonnes;F;proche 81 bd Lazare Carnot;oui;31555;58
+43,6032070242;1,45536590967;"{""type"": ""Point"", ""coordinates"": [1.455365909670454, 43,60320702422202]}";14;Sanitaires tous publics;T;bd Jules Michelet;oui;31555;59
+43,5792725227;1,48357725336;"{""type"": ""Point"", ""coordinates"": [1.483577253364938, 43,579272522737575]}";17;Sanitaires tous publics;T;place de l'Ormeau;oui;31555;60
+43,5744237229;1,46234064298;"{""type"": ""Point"", ""coordinates"": [1.462340642979787, 43,574423722858526]}";47;Sanitaires tous publics;T;Face à la Poste;oui;31555;61
+43,6169233555;1,40808622116;"{""type"": ""Point"", ""coordinates"": [1.408086221159957, 43,616923355515276]}";46;Sanitaires tous publics;T;6 Rue T. Holgado;oui;31555;62
+43,6132477492;1,43537733097;"{""type"": ""Point"", ""coordinates"": [1.435377330966334, 43,613247749179784]}";41;Sanitaires tous publics;T;Angle rue Laplace;oui;31555;63
+43,5814599471;1,41326082684;"{""type"": ""Point"", ""coordinates"": [1.413260826840502, 43,581459947115]}";38;Sanitaires tous publics;T;2 Rue de Saintonge;oui;31555;64

@@ -1,0 +1,133 @@
+ID;Nom;Adresse;Commune;Pôle;Type;Automatique;Acces_PMR;Infos_horaires;Y_LAT;X_LONG
+001;Cellier;rue du Cellier (parking face à l'école);Mauves-sur-Loire;Erdre et Loire;;;;;47,2967550262871;-1,39247410410928
+002;Vieux Doulon;rue de Rivière n°37  (place du Vieux Doulon);Nantes;Erdre et Loire;Mobilier;oui;oui;journée;47,2349401485852;-1,50276859414071
+033;Marrière;rue de la marrière n°27 - place du marché;Nantes;Erdre et Loire;Bâti;non;non;en journée;47,2343938752821;-1,53285244350403
+002;Grand Blottereau;parc du grand blottereau;Nantes;Erdre et Loire;Mobilier;oui;oui;restreints;47,2274986071001;-1,50877933912959
+001;Place du marché;Rue André Maurois (place du marché);Carquefou;Erdre et Loire;;;;restreints;47,2962282602878;-1,49139177009538
+001;Place Le Corvec;Place Le Corvec;Carquefou;Erdre et Loire;;oui;oui;restreints;47,2965300571601;-1,4934256482368
+003;Beaujoire (maison de la Rose);parc floral de la Beaujoire;Nantes;Erdre et Loire;Bâti;;oui;;47,2625645513395;-1,53076311416444
+004;Beaujoire (vallon);parc floral de la Beaujoire;Nantes;Erdre et Loire;Bâti;non;non;;47,2618953206344;-1,53460443859609
+005;Chantrerie;Parc de la Chantrerie;Nantes;Erdre et Loire;Bâti;non;;;47,2880421820774;-1,52274532606656
+006;Plessis Tison;Parc du Plessis Tison;Nantes;Erdre et Loire;Mobilier;oui;oui;;47,2353479918952;-1,53555299703359
+001;Eglise;Place de l'Eglise;La Chapelle-sur-Erdre;Erdre et Cens;Bâti;oui;oui;24/24;47,2992124794165;-1,55005782168864
+001;Gendarmerie;Place de la Gendarmerie;Sautron;Erdre et Cens;Mobilier;non;oui;24/24;47,2625792328604;-1,6727998481161
+001;Jeanne dArc;Place Jeanne d'Arc - Le Bourg;Orvault;Erdre et Cens;Bâti;non;oui;24/24;47,2705688535784;-1,62319175906487
+001;Bout des Pavés;Place Bout des Pavés;Orvault;Erdre et Cens;Mobilier;oui;oui;restreints;47,2532769221593;-1,57648352562549
+002;Petit Chantilly;rue Kindia - Le Petit Chantilly;Orvault;Erdre et Cens;Mobilier;non;non;24/24;47,2526364561662;-1,59631296898079
+007;Vallée du Cens (Grotte);vallée du cens;Nantes;Erdre et Cens;;;;;47,2434041846086;-1,56934660915782
+004;Bourgeonnière;rue d'assise;Nantes;Erdre et Cens;Mobilier;oui;oui;restreints;47,2535618522742;-1,56035224228016
+008;Vallée du Cens (camping);vallée du cens;Nantes;Erdre et Cens;;;;;47,2424383596741;-1,56701446155703
+001;Place des cités;Place des Cités;Couëron;Loire Chézine;Mobilier;;;;47,2143452022477;-1,68235350185828
+002;Epinettes;rue Alexandre Olivier - Epinettes;Couëron;Loire Chézine;Bâti;non;non;24/24;47,2156318890403;-1,72479448617054
+004;Charles De Gaulle;place Charles de Gaulle;Couëron;Loire Chézine;Bâti;non;non;24/24;47,2111589065519;-1,72749549896159
+001;Joseph Tahet;rue Joseph Tahet;Indre;Loire Chézine;Bâti;non;non;24/24;47,193248886718;-1,64709926489558
+001;Quai dIndre;quai d'Indre place J. Bordais marché le dim.;Indre;Loire Chézine;Mobilier;non;oui;journée;47,1977903497235;-1,67376706998005
+001;Marcel Paul;Tram ligne 3;Saint-Herblain;Loire Chézine;Mobilier;non;oui;journée;47,2219280219297;-1,63927863771579
+002;Lieutenant Mouillie;rue du lieutenant mouillie;Saint-Herblain;Loire Chézine;Bâti;non;non;24/24;47,2115704139931;-1,65359198849273
+002;Branchoire;avenue Branchoire;Saint-Herblain;Loire Chézine;Bâti;non;non;restreints;47,2183976427514;-1,60806749778069
+005;Zola;place Emile Zola;Nantes;Nantes Ouest;Bâti;non;oui;restreints;47,2135900046552;-1,58689325701635
+006;Mairie Chantenay;Place de la Liberté;Nantes;Nantes Ouest;Mobilier;non;non;journée;47,2067635604654;-1,58792608975112
+009;Civelles;rue des Civelles;Nantes;Nantes Ouest;Bâti;non;oui;24/24;47,1994734703664;-1,5927835731453
+007;Garennes;rue des Garennes;Nantes;Nantes Ouest;Bâti;non;non;24/24;47,2019266280916;-1,57892821431067
+008;René Bouhier;rue de la Brasserie;Nantes;Nantes Ouest;Mobilier;oui;oui;journée;47,2092763473293;-1,57123120436148
+009;Canclaux;place Canclaux;Nantes;Nantes Ouest;Mobilier;non;non;journée;47,2146595270628;-1,57477040504501
+010;Dervallières;place des Dervallières;Nantes;Nantes Ouest;Mobilier;oui;oui;restreints;47,2238186770592;-1,59808821663716
+011;Macé;Boulevard de la Liberté  Place Macé;Nantes;Nantes Ouest;Mobilier;oui;oui;restreints;47,1994883164344;-1,58917683647408
+010;Maurice Schwob;square Maurice Schwob;Nantes;Nantes Ouest;;non;;;47,2002988655197;-1,58176945128172
+029;Petite Hollande;quai de la Fosse;Nantes;Nantes Loire;Bâti;non;non;en journée;47,2110607447429;-1,56082664381794
+030;Square Lebé;Square Lebé - Place Newton;Nantes;Nantes Loire;Bâti;oui;oui;en journée;47,2160002423212;-1,56364515123737
+031;Cassegrain;rue Léopold Cassegrain;Nantes;Nantes Loire;Mobilier;oui;oui;journée;47,219262661263;-1,5587931829209
+032;Enfants Nantais;place des enfants nantais;Nantes;Nantes Loire;Mobilier;oui;non;journée;47,2287894722674;-1,54310426691244
+033;Gabriel Trarieux;place Gabriel Trarieux;Nantes;Nantes Loire;Mobilier;oui;non;journée;47,2258589857588;-1,52280834557691
+030;Baco;allée de la Maison Rouge BACO;Nantes;Nantes Loire;Mobilier;oui;oui;journée;47,2128175153783;-1,55254762147452
+031;Calvaire;rue du Calvaire n°11;Nantes;Nantes Loire;Mobilier;oui;oui;journée;47,2152499245917;-1,56133000110399
+032;Armand Brossard;rue Armand Brossard;Nantes;Nantes Loire;Mobilier;oui;oui;journée;47,2170975563696;-1,55622963364689
+033;Bretagne;place Bretagne;Nantes;Nantes Loire;Mobilier;oui;oui;journée;47,2172579438702;-1,55948009692146
+011;Jardin des plantes Nord;jardin des plantes;Nantes;Nantes Loire;Bâti;non;oui;en journée;47,2205170959908;-1,54456688020931
+012;Cambronne;cours Cambronne;Nantes;Nantes Loire;Bâti;non;oui;en journée;47,2110964960782;-1,56376366502621
+013;Louis Bureau;square Louis Bureau;Nantes;Nantes Loire;Bâti;non;;en journée;47,2127907688621;-1,5647992137733
+014;Noë Mitrie;parc de la Noë Mitrie;Nantes;Nantes Loire;Bâti;non;;en journée;47,2269939173847;-1,52710793103935
+015;Vertais;square Vertais;Nantes;Nantes Loire;Bâti;non;;en journée;47,2020491752722;-1,54655828098108
+016;Jardin des cinq sens;jardin des cinq sens;Nantes;Nantes Loire;Bâti;non;;en journée;47,2069237282868;-1,53311347965413
+016;Parc des chantiers- Bar de la Branche;Parc des chantiers- Bar de la Branche;Nantes;Nantes Loire;Bâti;non;oui;en journée;47,2062333816928;-1,56481030281344
+017;Parc des chantiers - Les Nefs;Parc des chantiers - Les Nefs;Nantes;Nantes Loire;Bâti;non;oui;en journée;47,2052746937977;-1,56466112957655
+018;Parc des chantiers - Station Prouvé;Parc des chantiers - Station Prouvé;Nantes;Nantes Loire;Bâti;non;oui;en journée;47,2051557694397;-1,56737509578747
+017;Jardin des plantes Sud;jardin des plantes;Nantes;Nantes Loire;Bâti;non;oui;en journée;47,2188274242079;-1,54098073924425
+019;Emile Fritsch;place Emile Fritsch;Nantes;Nantes Ouest;Mobilier;oui;oui;journée;47,2288298201608;-1,56619350364038
+020;Cimetière Pelleterie;rue de la Pelleterie;Nantes;Nantes Ouest;Bâti;oui;;24/24;47,224487913552;-1,57020023210618
+021;Louis Feuillade;square Louis Feuillade;Nantes;Nantes Ouest;Mobilier;oui;oui;journée;47,2303488158409;-1,58592716957707
+022;Capucins;rue Noire - square Capucins;Nantes;Nantes Ouest;Mobilier;oui;oui;journée;47,2251122614612;-1,56319871188901
+023;Piscine Dervallières;rue professeur Dubuisson;Nantes;Nantes Ouest;Mobilier;oui;oui;journée;47,2274787850822;-1,59138915917936
+024;Viarme;place Viarme  face n°3;Nantes;Nantes Ouest;Mobilier;oui;oui;restreints;47,2204112289093;-1,56185137461257
+025;Américains;Boulevard des Américains;Nantes;Nantes Ouest;Mobilier;oui;oui;journée;47,2327954941687;-1,57674424164196
+018;Jardin d'enfants de Procé;jardin d'enfants de Procé;Nantes;Nantes Ouest;Bâti;non;;;47,2224040424727;-1,58197343101717
+019;Procé Vallon;parc de Procé Vallon;Nantes;Nantes Ouest;;non;oui;;47,2235568442375;-1,58330065600502
+020;Procé Chateau;parc de Procé Château;Nantes;Nantes Ouest;Bâti;non;;;47,223136236766;-1,58136598775862
+021;Gaudinière Haut;parc de la Gaudinière haut;Nantes;Nantes Ouest;Mobilier;oui;oui;;47,2411686325569;-1,57710550365362
+022;Ile de Versailles;Ile de Versailles;Nantes;Nantes Ouest;Bâti;non;oui;;47,225270478295;-1,55371716601873
+026;La Halluchère;PEM La Haluchère;Nantes;Erdre et Loire;Mobilier;oui;non;journée;47,2486596406107;-1,52239020890825
+001;Eglise;Derrière l'église;Mauves-sur-Loire;Erdre et Loire;;;;;47,2951988547925;-1,39286533092106
+027;Tonelliers;Place des Tonelliers;Nantes;Erdre et Loire;Mobilier;non;non;;47,269500798695;-1,51780773830689
+029;Parking Tournefort;Rue Tournefort;Nantes;Nantes Ouest;Bâti;non;oui;en journée;47,2211674028578;-1,5514622432977
+023;Amiral Halgan;Square de l'Amiral Halgan;Nantes;Nantes Loire;Bâti;non;non;en journée;47,2171778591698;-1,55438473971654
+024;Crapa;Crapa Beaulieu Parking;Nantes;Nantes Loire;Bâti;oui;oui;24/24;47,2103577905182;-1,52336922882544
+025;Crapaudine;Parc potager de la Crapaudine;Nantes;Loire Sèvre Vignoble;Bâti;;oui;en journée;47,1908975024982;-1,5297221084211
+026;Faustin Helie;Square Faustin Hélie;Nantes;Nantes Loire;Bâti;non;oui;en journée;47,2177146718177;-1,56248778376616
+027;Gaudinière Bas;parc de la Gaudinière bas;Nantes;Nantes Ouest;Bâti;non;non;en journée;47,2465428179967;-1,57825267295222
+028;Potager tropical;parc du grand blottereau;Nantes;Erdre et Loire;Bâti;non;;en journée;47,2266524293868;-1,51227510942117
+029;Jean Baptiste Barre;square Jean Baptiste Barré;Nantes;Nantes Loire;Bâti;non;non;en journée;47,2226964729384;-1,52768342121573
+030;Jean Le Gigant;square Jean Le Gigant;Nantes;Nantes Ouest;Bâti;non;non;en journée;47,2043291674751;-1,59354973264737
+031;Oblates;parc des Oblates;Nantes;Nantes Ouest;Bâti;non;oui;en journée;47,2006574903376;-1,5839366442963
+032;Ile Versailles Capitainerie;Ile de Versailles;Nantes;Nantes Ouest;Bâti;non;oui;en journée;47,2252713684107;-1,55369078770185
+028;Pirmil;à côté du 11 rue Esnoult des Châtelets;Nantes;Loire Sèvre Vignoble;Bâti;non;non;;47,196458125064;-1,54114446382891
+003;Denis Forestier;place Denis Forestier;Saint-Herblain;Loire Chézine;à la turque/urinoirs;;non;Nantes Métropole;47,2094437080825;-1,61282701891088
+001;Marché;marché (dans bâtiment);Bouaye;Sud-Ouest;Bâti;non;oui;restreints;47,1413567879381;-1,68881374199635
+001;Eglise;rené Vinet (Eglise);Bouaye;Sud-Ouest;Bâti;non;non;24/24;47,1445322159992;-1,69329004055767
+001;Eglise;église;Saint-Léger-les-Vignes;Sud-Ouest;Bâti;non;non;restreints;47,1349131478556;-1,73293335372255
+001;Eglise;place de l'Eglise;La Montagne;Sud-Ouest;Mobilier;oui;oui;restreints;47,189950589369;-1,68370684991348
+002;Similien Guérin;Place Similien Guérin;La Montagne;Sud-Ouest;Mobilier;oui;oui;restreints;47,1878812533845;-1,68337966299872
+001;Mairie;local face à la mairie;Saint-Jean-de-Boiseau;Sud-Ouest;Bâti;non;oui;restreints;47,1957187825113;-1,72496219728354
+001;Canal;Route de la Chauffetière;Le Pellerin;Sud-Ouest;Mobilier;oui;oui;restreints;47,2061867666696;-1,78556903413688
+002;LHerminier;place du commandant l'Herminier;Le Pellerin;Sud-Ouest;Bâti;non;non;restreints;47,2030285566745;-1,7551368848215
+001;Halles;à l'arrière des halles (situées rue du Dr Sourdille);Le Pellerin;Sud-Ouest;Bâti;non;;;47,2012451258297;-1,75513273852254
+001;Mairie;mairie;Brains;Sud-Ouest;Bâti;non;;;47,169606662585;-1,72236087412763
+002;Eglise;Eglise;Brains;Sud-Ouest;Bâti;non;;;47,1686295224922;-1,72043759541334
+001;Freinet;Rue Célestin Freinet;Bouguenais;Sud-Ouest;Mobilier;oui;oui;restreints;47,1807661934522;-1,58854385914105
+002;Eglise;place de l'église au 7 bis;Bouguenais;Sud-Ouest;Bâti;non;non;24/24;47,1790655037078;-1,62375737387148
+003;Neustrie;Station Neustrie Tram;Bouguenais;Sud-Ouest;Bâti;non;;en journée;47,1769998188308;-1,59307617084829
+001;Roche Ballue;Roche Ballue;Bouguenais;Sud-Ouest;Mobilier;non;non;restreints;47,1842123665492;-1,65444662050528
+004;Leclerc;Les Couëts : rue Maréchal Leclerc;Bouguenais;Sud-Ouest;Bâti;non;non;24/24;47,1853105827462;-1,5870802206819
+003;Les jardins familiaux;Les jardins familiaux;Bouguenais;Sud-Ouest;Bâti;non;non;;47,1677644264054;-1,62288200246808
+002;Champ Toury;Champ Toury;Bouguenais;Sud-Ouest;Bâti;non;non;en journée;47,177349653857;-1,62937242933986
+001;Joliot curie;69 boulevard Joliot Curie;Nantes;Loire Sèvre Vignoble;Bâti;non;non;;47,1942159314792;-1,5287989913016
+001;Eglise;Place Roger Salengro  rue de Chupiet;Rezé;Loire Sèvre Vignoble;Bâti;non;non;24/24;47,1846939937215;-1,54759831529334
+002;Pays de Retz;place du Pays de Retz;Rezé;Loire Sèvre Vignoble;Bâti;non;non;en journée;47,1848696885941;-1,562394809477
+003;08-mai;place du 8 Mai 1945;Rezé;Loire Sèvre Vignoble;Bâti;oui;non;en journée;47,1891001039323;-1,55155146434883
+004;Balinière;Balinière;Rezé;Loire Sèvre Vignoble;;;;restreints;47,1835502124466;-1,55262697722405
+005;La Robinière;CLSH la Robinière;Rezé;Loire Sèvre Vignoble;Bâti;;;restreints;47,1636165228539;-1,53177824945554
+006;Cimetière St Pierre;Cimetière St Pierre;Rezé;Loire Sèvre Vignoble;;;;restreints;47,1905078077965;-1,5650322849317
+007;Cimetière St Paul;Cimetière St Paul;Rezé;Loire Sèvre Vignoble;;;;restreints;47,1847104484583;-1,54352670741723
+008;Parc de la Morinière;Parc de la Morinière;Rezé;Loire Sèvre Vignoble;;;;restreints;47,1830442310594;-1,53188936779172
+009;Hôtel de Ville;Hôtel de Ville  Grignon Dumoulin;Rezé;Loire Sèvre Vignoble;;;non;restreints;47,1915184921957;-1,56952629261983
+010;Parc Chêne Gala;Parc Chêne Gala;Rezé;Loire Sèvre Vignoble;Mobilier;;;24/24;47,1877183941908;-1,53754770038832
+011;Stade Robinière;Stade Robinière;Rezé;Loire Sèvre Vignoble;;;;restreints;47,1647178098502;-1,53204691980543
+012;Cimetière Classerie;Cimetière Classerie;Rezé;Loire Sèvre Vignoble;;;;restreints;47,1717283803808;-1,55831922900723
+013;Stade Léo lagrange;Trocardière, stade Léo Lagrange;Rezé;Loire Sèvre Vignoble;;;;restreints;47,1817949613664;-1,57022297073413
+001;Poste;place Cambronne;Saint-Sébastien-sur-Loire;Loire Sèvre Vignoble;Bâti;non;non;24/24;47,2074361214992;-1,50514404023303
+002;Eglise;place de l'Eglise;Saint-Sébastien-sur-Loire;Loire Sèvre Vignoble;Mobilier;oui;oui;journée;47,2084138753702;-1,50364140031247
+003;Liberté;place de la Liberté- Place Alfred Radigois;Saint-Sébastien-sur-Loire;Loire Sèvre Vignoble;Bâti;non;oui;restreints;47,1935509230788;-1,51773095275049
+001;Eglise;Place St Brice;Basse-Goulaine;Loire Sèvre Vignoble;Mobilier;oui;oui;journée;47,2150160899479;-1,46531932254415
+001;Salle Zodiaque;Rue de la Poste;Basse-Goulaine;Loire Sèvre Vignoble;;;oui;;47,2173721110801;-1,46597579162715
+001;Face Mairie;rue de l'Elan face à la mairie;Les Sorinières;Loire Sèvre Vignoble;;;oui;journée;47,148315904221;-1,53045143123094
+001;Garnier;Rte Sorinières/ A,garnier  le Chêne;Vertou;Loire Sèvre Vignoble;;;oui;;47,1652324526394;-1,4839848939869
+001;Pierre Percée;Rue Pierre Percée  chemin du champ de courses;Vertou;Loire Sèvre Vignoble;;;oui;24/24;47,1582216246082;-1,47240648550308
+002;Cale Beautour;Rue de la Cale de Beautour;Vertou;Loire Sèvre Vignoble;;;oui;journée;47,1709208087693;-1,51088513669327
+003;Capitainerie;Quai de Chaussée des Moines /Baillorges;Vertou;Loire Sèvre Vignoble;;;oui;24/24;47,1678551158433;-1,47992234389478
+002;Eglise;Impasse Gouin  St Martin;Vertou;Loire Sèvre Vignoble;;;oui;journée;47,1638439165467;-1,47206679265198
+003;Portillon;Lieu-dit Portillon;Vertou;Loire Sèvre Vignoble;Bâti;non;oui;24/24;47,1493884345102;-1,46825355710177
+001;11-nov;Place du 11 Novembre;Sainte-Luce-sur-Loire;Erdre et Loire;;;;;47,2492980554648;-1,48672336617472
+002;Marché;Place du Marché;Sainte-Luce-sur-Loire;Erdre et Loire;;;oui;;47,2498794405798;-1,48385499949354
+001;Ile Clémentine;Ile Clémentine (bord de Loire);Sainte-Luce-sur-Loire;Erdre et Loire;;;oui;;47,2443251085474;-1,46086918880616
+002;Plessis;Ch. des Claudix (plan d'eau du Plessis);Sainte-Luce-sur-Loire;Erdre et Loire;;;;;47,2445237680788;-1,47450553357271
+001;Eglise;Place de la République / place de l'église;Thouaré-sur-Loire;Erdre et Loire;Bâti;non;non;24/24;47,2673084420546;-1,44085570593544
+002;Cimetière communautaire;Cimetière communautaire;Thouaré-sur-Loire;Erdre et Loire;Bâti;non;non;restreints;47,2662951813781;-1,43824383903739

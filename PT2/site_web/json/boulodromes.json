@@ -1,0 +1,689 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Périole"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.46079600071,43.6236590022,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Bonnefoy"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.45589800362,43.615493997999998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Borderouge"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.44978499588,43.629288999000003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Jolimont"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4635139982300001,43.612621002399997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Rex"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4625930004900001,43.6176059979,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Soupetard (3)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.47940199857,43.610590998900001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Bourrassol"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4280820026200001,43.6010680013,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Papus"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4094120023700001,43.5752390026,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Ravelin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.42858900134,43.599021998399998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Rouault Georges"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4029309992500001,43.564781999600001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"De Naîd Jean"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4850919998500001,43.575694000200002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Empalot Mail"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4391290034399999,43.578818997799999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Rangueil"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.46560400331,43.574715999600002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Roux Etienne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4524260041599999,43.574731997000001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Sesquières"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4182740004000001,43.654328998099999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Amouroux"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4674817606799999,43.629095378899997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"François Carbonne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4600100041999999,43.608527002700001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Castillo Michel"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.46309999896,43.636217998200003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Héraclès"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.42775400073,43.607863000400002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Paul Riché"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4327219958399999,43.647725997099997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Salonique"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4682420013699999,43.607403998800002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Tracassin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4153064819900001,43.609226005499998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Jardin du Barry"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4010829964,43.598790997400002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Fontaine Lestang"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.42126099913,43.585222997599999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"La Boule Joyeuse"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4158779993399999,43.578801000799999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Roguet"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.42712298968,43.596478523999998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Recollets Daste"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4408337095899999,43.5828209079,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Grand Rond"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4526440034899999,43.594351001900002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Lafont Emile"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4777960032599999,43.583626999099998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Jean Daniel - Saint Simon"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.3820414968100001,43.556870696899999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Tintoret"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.3962099964100001,43.559833997799998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Cours Dillon"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.43713400315,43.597913996499997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Cazabonne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4356590008900001,43.594211999400002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Saouzelong (argent R3)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4632199990400001,43.578520001400001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Izards - Marius Hebra"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.44197099569,43.6389159991,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Rigal"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4415510013699999,43.642598998700002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Arnaune (Michel Rauzy)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.43438599583,43.625406001999998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Alembert"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.3847139958900001,43.588227998599997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Ancely"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.40054193849,43.619711342499997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Casselardit"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4095979995400001,43.604895001099997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"La Boule d'Or"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.41580000084,43.578639999499998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Pradettes"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.3844769961600001,43.578056997300003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"La Butte"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.46951682652,43.581113009399999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Pont des Demoiselles"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4630609999399999,43.587309000099999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Port Garaud Cité"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4420019959999999,43.594555998200001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"La Ramée"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.34033999841,43.567395997600002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Maison de la Pétanque Claudette Dumont"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4377460013700001,43.621212,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Saouzelong (Argent R1)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4619690029400001,43.580138999799999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Soupetard couvert"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4795320034399999,43.610859001000001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Paul Gauguin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.3987790009200001,43.562143002500001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Empalot"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.43824899827,43.576568001299997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Maurice Becanne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.42394199944,43.584374001699999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Jardin du Soleil d'Or"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4069069993500001,43.614503000699997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Booth William et Catherine"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4713190034500001,43.626804,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Boutrit Jacques - Negreneys"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4424890030999999,43.625987000999999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Croix Daurade"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4627982426799999,43.636073791100003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Duchein"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4279763671100001,43.626999947900003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Lalande Cimetière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4320070008600001,43.646233997400003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Le Cochonnet"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4347203209899999,43.620289962100003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Pinel"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4670110031900001,43.602534999500001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Bagatelle - Jo Bargas"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.40950500277,43.583502000999999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Fronde"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.3944399967200001,43.585360000900003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Victor Garcia"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4119919963400001,43.593046000199998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Gironis"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.41397299778,43.562647003199999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Lardenne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.3786729962299999,43.5897739973,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Lou Bosc"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4010859984099999,43.5801229976,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Emilien Colombies - La Terrasse"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4851569984099999,43.5831520029,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Port de la Daurade"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.43918300425,43.601235002099997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Léon Viala"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4549390028,43.5757350011,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Argoulets"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4770779992500001,43.621579001800001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Parc Merican"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4600740033999999,43.610823997899999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Complexe Montaudran"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.48296199644,43.570718001800003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Paleficat (×2)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4627323487099999,43.649338649800001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Bagatelle Parc"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.41063756477,43.579863475300002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Lapujade Bonnefoy"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4525236258700001,43.6182854105,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"René Canizzo - La Roseraie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4706649969200001,43.619837997499999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Bellefontaine"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.3965499989200001,43.562260842999997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Fontaine"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4119179987499999,43.605355998299999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"La Reynerie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.3990550040900001,43.569146003299998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Tabar"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4127136608699999,43.570572559399999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"La Digue Fer à Cheval"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.43618799997,43.595479002099999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Quêteurs"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.43778000184,43.609686997300003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Saint Aubin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4557550019200001,43.6034769985,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Bazacle"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.42476744661,43.605005138599999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Michel Sardaing"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.45391799695,43.549265996800003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Bouillières"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.3940448721800001,43.566420383199997,0]}}
+]}

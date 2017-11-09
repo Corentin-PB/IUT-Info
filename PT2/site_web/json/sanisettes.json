@@ -1,0 +1,513 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4349177744199999,43.593256560900002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4536365840000001,43.608876893000001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires standarts"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.45222039047,43.606551508099997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires colonnes"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.44390507998,43.600300922300001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires standarts"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4512657470899999,43.592382959200002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.45918784291,43.5794762154,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4467977808900001,43.578581108800002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.41860397024,43.591674729899999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.37799627097,43.5899011172,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.3885879028999999,43.581775534099997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.43610296592,43.603482586699997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4279554894099999,43.608127530399997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires standarts"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4392099975499999,43.611655623099999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires standarts"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4435154219199999,43.610306414500002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.44756751242,43.606548508499998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires standarts"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4539684741000001,43.5964691362,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.43336912263,43.626904741899999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4101752963400001,43.5648307449,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires standarts"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.44927686176,43.581043318699997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4640420628299999,43.636458717099998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4778921361199999,43.612446435899997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4447770008800001,43.592679619800002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.40347194586,43.570699175400001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.3805229235600001,43.557258044599998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires intÃ©grables"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.44823171001,43.603819668100002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4283813830000001,43.599010769099998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4448204555599999,43.604152142700002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires colonnes"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.43077005558,43.5976076265,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4303527766699999,43.599019276699998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.43715117305,43.608317091000004,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4332368066700001,43.610011306499999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires colonnes"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.44788846851,43.605103524199997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires standarts"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4521563723899999,43.601240535199999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires colonnes"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.44805647817,43.602749080300001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4545949284699999,43.599536936900002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4558616493700001,43.594347000600003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4352861401999999,43.620287367800003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires standarts"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.45982608474,43.606749954800001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.3970282031900001,43.607762207500002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.45045487595,43.608727375599997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4522372180100001,43.605788707000002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.44421005367,43.597264793599997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires standarts"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4565551272699999,43.618588469300001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.46902285782,43.619473384400003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires standarts"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4399133870800001,43.577249223599999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.42826369701,43.584779275999999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires standarts"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.41178584462,43.5787713295,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires intÃ©grables"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.45233593683,43.640332487899997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.44755952337,43.5857994948,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4493428205600001,43.594484520800002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4232830506800001,43.596267514200001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.43675616942,43.598304650599999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.43856243302,43.611355377700001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4409139097699999,43.598420208500002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4521351635199999,43.5993989304,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires intÃ©grables"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.43846486506,43.601552579200003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires intÃ©grables"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4467358366,43.606021950900001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires colonnes"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4488683875199999,43.605338734500002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.45536590967,43.603207024200003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.48357725336,43.579272522700002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.4623406429800001,43.574423722900001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.40808622116,43.616923355499999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.43537733097,43.613247749199999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Sanitaires tous publics"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[1.41326082684,43.581459947100001,0]}}
+]}

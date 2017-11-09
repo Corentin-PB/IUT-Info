@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+	<link rel="stylesheet" type="text/css" href="style.css">	
+
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	
+	<script>
+	  // declaration des cartes
+      var map;
+
+	  // la fenetre qui s'ouvre quand on passe la souris sur un point
+	  var infowindow = new google.maps.InfoWindow();
+
+	  // fonction d'initialisation
+      function initialize() {
+        var mapOptions = {
+          zoom: 6,
+          center: {lat:  46.55, lng: 2.4},
+          mapTypeId: google.maps.MapTypeId.TERRAIN
+        };
+        map = new google.maps.Map(document.getElementById('map-categorie'),
+          mapOptions);
+	    // initialisation des cartes et chargement des donnees
+	            map.data.loadGeoJson('json/sigparkpub.json');
+
+	    
+	    // fonction de style
+	    var setColorStyleFn = function(feature) {
+	      return {icon: feature.getProperty('icon')};
+	    };
+	    // style des cartes, et listener pour la fenetre qui s'ouvre quand on passe la souris sur un point
+	    map.data.setStyle(setColorStyleFn);
+	    map.data.addListener('mouseover', function(event) {
+          infowindow.setContent(event.feature.getProperty('description'));
+          infowindow.setPosition(event.latLng);
+          infowindow.setOptions({pixelOffset: new google.maps.Size(0,-34)});
+          infowindow.open(map);
+        });
+        google.maps.event.addListener(map, 'click', function() {
+          infowindow.close(); // un clic sur la carte ferme les infowindows
+        });
+	  } // end initialize
+
+      // appel de la fonction d'initialisation une fois la page chargee
+      google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+	<meta charset="UTF-8">
+  </head>
+
+  <body>
+    <h1>Parkings publics</h1>
+
+	<p><a href="./index.php">Page principale</a></p>
+	
+    <h2>Carte</h2>
+    <div id="map-categorie" class="map-canvas"></div>
+
+    <h2>Liste des points</h2>
+	<table>
+      <tr><td>-0.56925088147959402</td><td>44.855644895811899</td><td>vandebrande                                                                                         </td></tr>
+      <tr><td>-0.61485586875568898</td><td>44.854771012883297</td><td>masson                                                                                              </td></tr>
+      <tr><td>-0.55665309187766498</td><td>44.844278542726698</td><td>pugs bma                                                                                            </td></tr>
+      <tr><td>-0.59730439771409904</td><td>44.831972741530599</td><td>ornano                                                                                              </td></tr>
+      <tr><td>-0.55051277249308905</td><td>44.839863894540002</td><td>faure                                                                                               </td></tr>
+      <tr><td>-0.53944435337673202</td><td>44.853535116491301</td><td>pont st emilion bretelle                                                                            </td></tr>
+      <tr><td>-0.55364854689682996</td><td>44.829217613720601</td><td>Paludate                                                                                            </td></tr>
+      <tr><td>-0.56644932576398999</td><td>44.856692691188798</td><td>poyenne                                                                                             </td></tr>
+      <tr><td>-0.58262377339446603</td><td>44.859247143685302</td><td>cc europe                                                                                           </td></tr>
+      <tr><td>-0.55548844535375796</td><td>44.829914998080199</td><td>pont st jean                                                                                        </td></tr>
+      <tr><td>-0.55279520486059297</td><td>44.845190302814999</td><td>rff thiers                                                                                          </td></tr>
+      <tr><td>-0.54435316457713201</td><td>44.848913193371502</td><td>Galin                                                                                               </td></tr>
+      <tr><td>-0.56094226713075701</td><td>44.840221170097998</td><td>voie sur berge                                                                                      </td></tr>
+      <tr><td>-0.60191211592641203</td><td>44.8195276302054</td><td>Tauzin                                                                                              </td></tr>
+      <tr><td>-0.566667946114359</td><td>44.856143109903698</td><td>gymnase chartrons                                                                                   </td></tr>
+      <tr><td>-0.57550669756988304</td><td>44.828109493140197</td><td>Leberthon                                                                                           </td></tr>
+      <tr><td>-0.60193147322944096</td><td>44.833725734695001</td><td>daunes doumerc                                                                                      </td></tr>
+      <tr><td>-0.57179623568147997</td><td>44.851474421825202</td><td>Notre Dame                                                                                          </td></tr>
+      <tr><td>-0.54781504437967898</td><td>44.848486001119703</td><td>Euromaster                                                                                          </td></tr>
+      <tr><td>-0.594659546931392</td><td>44.846387301735199</td><td>Marc Nouaux                                                                                         </td></tr>
+      <tr><td>-0.56853735966782903</td><td>44.855246143647697</td><td>barreyre                                                                                            </td></tr>
+      <tr><td>-0.60319709334584704</td><td>44.848476117475499</td><td>grand lebrun                                                                                        </td></tr>
+      <tr><td>-0.59266197241469898</td><td>44.853820285148203</td><td>nicolas beaujon                                                                                     </td></tr>
+      <tr><td>-0.57510045478921301</td><td>44.856175836109202</td><td>counord                                                                                             </td></tr>
+      <tr><td>-0.55094552107026096</td><td>44.844865284685902</td><td>Bonnefin                                                                                            </td></tr>
+      <tr><td>-0.59978812843139495</td><td>44.819163547459397</td><td>medoquine                                                                                           </td></tr>
+      <tr><td>-0.54476498259828698</td><td>44.849177000143399</td><td>Galin                                                                                               </td></tr>
+      <tr><td>-0.54536763719196402</td><td>44.824919485943099</td><td>Brienne                                                                                             </td></tr>
+      <tr><td>-0.55899318643890095</td><td>44.838685212126599</td><td>voie sur berge                                                                                      </td></tr>
+      <tr><td>-0.54825382533932199</td><td>44.866406053627799</td><td>achard                                                                                              </td></tr>
+      <tr><td>-0.54857399231117898</td><td>44.849009300463301</td><td>mayaudon                                                                                            </td></tr>
+      <tr><td>-0.59837271110396295</td><td>44.848335347614501</td><td>charles de gaulle crama                                                                             </td></tr>
+      <tr><td>-0.57773438775391805</td><td>44.8251731812584</td><td>Hopital des Enfants                                                                                 </td></tr>
+      <tr><td>-0.57757524036358099</td><td>44.843112526532202</td><td>Grands Hommes                                                                                       </td></tr>
+      <tr><td>-0.55604325427054302</td><td>44.845508358510401</td><td>ex salle de la rotonde/hortense                                                                     </td></tr>
+      <tr><td>-0.53876056509757198</td><td>44.853552414132601</td><td>pont st emilion dessous                                                                             </td></tr>
+      <tr><td>-0.57990141293834796</td><td>44.842323683112198</td><td>Auditorium                                                                                          </td></tr>
+      <tr><td>-0.56774122296631901</td><td>44.830405393239701</td><td>Capucins                                                                                            </td></tr>
+      <tr><td>-0.57237252701738295</td><td>44.835261697199101</td><td>Victor Hugo                                                                                         </td></tr>
+      <tr><td>-0.568466956070667</td><td>44.8376611155064</td><td>Alsace-Lorraine                                                                                     </td></tr>
+      <tr><td>-0.57210050380241495</td><td>44.847047338459099</td><td>Allées de Chartres                                                                                 </td></tr>
+      <tr><td>-0.57468021842468797</td><td>44.827903146306298</td><td>argonne                                                                                             </td></tr>
+      <tr><td>-0.55550826607442805</td><td>44.8438362639098</td><td>abadie                                                                                              </td></tr>
+      <tr><td>-0.53871945501055696</td><td>44.852817390171097</td><td>pont st emilion sud                                                                                 </td></tr>
+
+	</table>
+
+  </body>
+
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+	<link rel="stylesheet" type="text/css" href="style.css">	
+
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	
+	<script>
+	  // declaration des cartes
+      var map;
+
+	  // la fenetre qui s'ouvre quand on passe la souris sur un point
+	  var infowindow = new google.maps.InfoWindow();
+
+	  // fonction d'initialisation
+      function initialize() {
+        var mapOptions = {
+          zoom: 6,
+          center: {lat:  46.55, lng: 2.4},
+          mapTypeId: google.maps.MapTypeId.TERRAIN
+        };
+        map = new google.maps.Map(document.getElementById('map-categorie'),
+          mapOptions);
+	    // initialisation des cartes et chargement des donnees
+	            map.data.loadGeoJson('json/poiservices.json');
+
+	    
+	    // fonction de style
+	    var setColorStyleFn = function(feature) {
+	      return {icon: feature.getProperty('icon')};
+	    };
+	    // style des cartes, et listener pour la fenetre qui s'ouvre quand on passe la souris sur un point
+	    map.data.setStyle(setColorStyleFn);
+	    map.data.addListener('mouseover', function(event) {
+          infowindow.setContent(event.feature.getProperty('description'));
+          infowindow.setPosition(event.latLng);
+          infowindow.setOptions({pixelOffset: new google.maps.Size(0,-34)});
+          infowindow.open(map);
+        });
+        google.maps.event.addListener(map, 'click', function() {
+          infowindow.close(); // un clic sur la carte ferme les infowindows
+        });
+	  } // end initialize
+
+      // appel de la fonction d'initialisation une fois la page chargee
+      google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+	<meta charset="UTF-8">
+  </head>
+
+  <body>
+    <h1>Etablissements et lieux de services</h1>
+
+	<p><a href="./index.php">Page principale</a></p>
+	
+    <h2>Carte</h2>
+    <div id="map-categorie" class="map-canvas"></div>
+
+    <h2>Liste des points</h2>
+	<table>
+      <tr><td>-0.58504969554140196</td><td>44.837158521876603</td><td>Boite à lire Charles de Gaulle                                                                     </td></tr>
+      <tr><td>-0.61515540011127401</td><td>44.8551956416444</td><td>Chartreuse Saint-André                                                                             </td></tr>
+      <tr><td>-0.57660785128312897</td><td>44.839433530784397</td><td>Direction de l'Education et de la Famille                                                           </td></tr>
+      <tr><td>-0.61043164895676405</td><td>44.832534389868002</td><td>Salle municipale Saint Augustin                                                                     </td></tr>
+      <tr><td>-0.57932808277759895</td><td>44.838401489458498</td><td>Salle du conseil municipal                                                                          </td></tr>
+      <tr><td>-0.57925900312156497</td><td>44.837268661441399</td><td>Direction du Developpement Economique                                                               </td></tr>
+      <tr><td>-0.61453032032472898</td><td>44.851727993071201</td><td>Marché biologique Saint Amand                                                                      </td></tr>
+      <tr><td>-0.54784441313547905</td><td>44.823316258783898</td><td>Marché d'Intérêt National de Brienne                                                             </td></tr>
+      <tr><td>-0.56901764859256299</td><td>44.8586238603121</td><td>Centre Communal d'Action Sociale                                                                    </td></tr>
+      <tr><td>-0.54425035861305004</td><td>44.8773058652869</td><td>Salle du Point du jour - Pierre Tachou                                                              </td></tr>
+      <tr><td>-0.55315420460540698</td><td>44.841969934439902</td><td>Mairie de quartier Bastide                                                                          </td></tr>
+      <tr><td>-0.54607247122448199</td><td>44.873163552253402</td><td>Mairie de quartier Bordeaux maritime                                                                </td></tr>
+      <tr><td>-0.57666747105026395</td><td>44.839359992823397</td><td>Pôle Senior                                                                                        </td></tr>
+      <tr><td>-0.58542737347983498</td><td>44.842777957176601</td><td>Marché de producteurs Saint Seurin                                                                 </td></tr>
+      <tr><td>-0.53856994586403895</td><td>44.853526617179597</td><td>Marché du pont Saint Emilion                                                                       </td></tr>
+      <tr><td>-0.62337265837037403</td><td>44.857723071084997</td><td>Marché des Pins Francs                                                                             </td></tr>
+      <tr><td>-0.578967101232711</td><td>44.838014392204698</td><td>Hôtel de Ville - Mairie de Bordeaux                                                                </td></tr>
+      <tr><td>-0.57906806623904294</td><td>44.837246462190997</td><td>Direction de l'hygiène et de la santé                                                             </td></tr>
+      <tr><td>-0.56603758844742103</td><td>44.834530755575202</td><td>Marché Grand déballage de brocante                                                                </td></tr>
+      <tr><td>-0.565859905629018</td><td>44.834265081106601</td><td>Marché Brocante                                                                                    </td></tr>
+      <tr><td>-0.58081703533729101</td><td>44.826631010017998</td><td>Boite à lire Dames de la foi                                                                       </td></tr>
+      <tr><td>-0.559684736921922</td><td>44.842713008421903</td><td>Marché du soir                                                                                     </td></tr>
+      <tr><td>-0.57158199366833695</td><td>44.8205514852391</td><td>Espace Malbec                                                                                       </td></tr>
+      <tr><td>-0.56926610253049903</td><td>44.850369567388903</td><td>Marché des Quais                                                                                   </td></tr>
+      <tr><td>-0.57372765408375204</td><td>44.832158371451001</td><td>La Maison du vélo                                                                                  </td></tr>
+      <tr><td>-0.57757463567246303</td><td>44.843092014400298</td><td>Marché des Grands Hommes                                                                           </td></tr>
+      <tr><td>-0.57605414814455502</td><td>44.8379707387084</td><td>Direction de la voie publique                                                                       </td></tr>
+      <tr><td>-0.58152340313514705</td><td>44.830395101126499</td><td>Salle Amédée Larrieu                                                                              </td></tr>
+      <tr><td>-0.55282629185679899</td><td>44.841522646294898</td><td>Maison cantonale                                                                                    </td></tr>
+      <tr><td>-0.56642806038134397</td><td>44.834493939903098</td><td>Marché Royal                                                                                       </td></tr>
+      <tr><td>-0.61553943730111305</td><td>44.852268348688902</td><td>Mairie de quartier Caudéran                                                                        </td></tr>
+      <tr><td>-0.58385027527752698</td><td>44.844572533384699</td><td>Objets trouvés                                                                                     </td></tr>
+      <tr><td>-0.58169528188348496</td><td>44.835874533453897</td><td>Médiateur municipal                                                                                </td></tr>
+      <tr><td>-0.58101850005990296</td><td>44.8595105258144</td><td>Marché du Grand-Parc                                                                               </td></tr>
+      <tr><td>-0.59486457362244205</td><td>44.848922219427799</td><td>Salle Bel Orme                                                                                      </td></tr>
+      <tr><td>-0.57670897149091505</td><td>44.839430983407098</td><td>Direction de la Jeunesse et des Sports                                                              </td></tr>
+      <tr><td>-0.59977677200347901</td><td>44.823862554988501</td><td>Salle Quintin Loucheur                                                                              </td></tr>
+      <tr><td>-0.57647396396217598</td><td>44.839172247516302</td><td>Mairie de quartier Centre                                                                           </td></tr>
+      <tr><td>-0.58166251227813903</td><td>44.8588278248397</td><td>Mairie de quartier Grand Parc - Paul Doumer / Salle du Grand Parc                                   </td></tr>
+      <tr><td>-0.55292283286594501</td><td>44.875518183374602</td><td>Point ambulant René Maran                                                                          </td></tr>
+      <tr><td>-0.58413550436304795</td><td>44.841918001066603</td><td>Boite à lire Martyrs de la Résistance                                                             </td></tr>
+      <tr><td>-0.61116565826688996</td><td>44.833037950525302</td><td>Mairie de quartier St Augustin - Tauzin - Alphonse Dupeux                                           </td></tr>
+      <tr><td>-0.57760192358226903</td><td>44.823047235866298</td><td>Boite à lire Simiot                                                                                </td></tr>
+      <tr><td>-0.57675570623922401</td><td>44.837827003261999</td><td>Marché Pey-Berland                                                                                 </td></tr>
+      <tr><td>-0.55371129243009398</td><td>44.847027799925499</td><td>Archives Bordeaux Métropole                                                                        </td></tr>
+      <tr><td>-0.55892899496487303</td><td>44.844577838957903</td><td>Boite à lire Linné                                                                                </td></tr>
+      <tr><td>-0.577537713666743</td><td>44.842858827816897</td><td>Marché des bouquinistes                                                                            </td></tr>
+      <tr><td>-0.55178599164853404</td><td>44.824991731711499</td><td>Salle Son Tay                                                                                       </td></tr>
+      <tr><td>-0.56942925444317805</td><td>44.850086330800501</td><td>Marché biologique des quais                                                                        </td></tr>
+      <tr><td>-0.59379765075942703</td><td>44.833048994599402</td><td>Marché Gaviniès                                                                                   </td></tr>
+      <tr><td>-0.55324315120658796</td><td>44.841442446370699</td><td>Boite à lire Maison cantonale                                                                      </td></tr>
+      <tr><td>-0.57238565244193595</td><td>44.852011002946199</td><td>Marché Chartrons                                                                                   </td></tr>
+      <tr><td>-0.54656776961061904</td><td>44.872570681682802</td><td>Marché de la Lumineuse                                                                             </td></tr>
+      <tr><td>-0.567228552086396</td><td>44.8300543896571</td><td>Marché des Capucins (plein air)                                                                    </td></tr>
+      <tr><td>-0.58841414837177497</td><td>44.830788277973397</td><td>Marché Saint Victor - Dupeux                                                                       </td></tr>
+      <tr><td>-0.55001003030707496</td><td>44.842864845342604</td><td>Marché Calixte Camelle                                                                             </td></tr>
+      <tr><td>-0.57706681357545297</td><td>44.839755134879603</td><td>Athénée Père Joseph Wresinski                                                                    </td></tr>
+      <tr><td>-0.57936146330449101</td><td>44.837293091434297</td><td>Direction des Achats et Marchés                                                                    </td></tr>
+      <tr><td>-0.56580874843282103</td><td>44.834509486202002</td><td>Marché Neuf                                                                                        </td></tr>
+      <tr><td>-0.57055440640770905</td><td>44.833237696898102</td><td>Atelier Informatique                                                                                </td></tr>
+      <tr><td>-0.57137735582291305</td><td>44.868078216479603</td><td>Pôle technique municipal                                                                           </td></tr>
+      <tr><td>-0.58133630912211598</td><td>44.847684700284297</td><td>Annexe mairie de quartier Grand Parc - Paul Doumer                                                  </td></tr>
+      <tr><td>-0.58194030249037498</td><td>44.8382546883646</td><td>Cité municipale                                                                                    </td></tr>
+      <tr><td>-0.57777271342540404</td><td>44.825083601173397</td><td>Marché Pouyanne                                                                                    </td></tr>
+      <tr><td>-0.61092108784546095</td><td>44.832775305603001</td><td>Marché Saint Augustin                                                                              </td></tr>
+      <tr><td>-0.56770920389538504</td><td>44.830518911576803</td><td>Marché des Capucins (couvert)                                                                      </td></tr>
+      <tr><td>-0.585719001589454</td><td>44.850057516341302</td><td>Marché Marie Brizard                                                                               </td></tr>
+      <tr><td>-0.56570573993669104</td><td>44.858885771284498</td><td>Marché Saint Martial                                                                               </td></tr>
+      <tr><td>-0.57246937748248705</td><td>44.852393022947403</td><td>Marché des bouquinistes                                                                            </td></tr>
+      <tr><td>-0.56710251852129101</td><td>44.8387480472717</td><td>Maison écocitoyenne                                                                                </td></tr>
+      <tr><td>-0.55820346310275004</td><td>44.827061271662501</td><td>Mairie de quartier Bordeaux Sud                                                                     </td></tr>
+      <tr><td>-0.565741241408244</td><td>44.833803838319497</td><td>Annexe de la mairie de quartier Bordeaux Sud                                                        </td></tr>
+
+	</table>
+
+  </body>
+
+</html>

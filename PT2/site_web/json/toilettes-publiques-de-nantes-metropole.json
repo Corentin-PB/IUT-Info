@@ -1,0 +1,1057 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Cellier"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.3924741041092801,47.296755026287101,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Vieux Doulon"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5027685941407101,47.234940148585203,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Marrière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.53285244350403,47.234393875282102,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Grand Blottereau"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5087793391295901,47.227498607100102,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Place du marché"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.49139177009538,47.296228260287798,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Place Le Corvec"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4934256482368,47.296530057160098,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Beaujoire (maison de la Rose)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.53076311416444,47.262564551339501,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Beaujoire (vallon)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.53460443859609,47.261895320634402,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Chantrerie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.52274532606656,47.288042182077398,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Plessis Tison"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5355529970335899,47.235347991895203,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Eglise"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55005782168864,47.299212479416497,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Gendarmerie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6727998481160999,47.262579232860404,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Jeanne dArc"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6231917590648699,47.270568853578403,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Bout des Pavés"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5764835256254901,47.253276922159301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Petit Chantilly"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.59631296898079,47.252636456166201,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Vallée du Cens (Grotte)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5693466091578201,47.2434041846086,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Bourgeonnière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5603522422801599,47.253561852274203,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Vallée du Cens (camping)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5670144615570301,47.242438359674097,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Place des cités"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.68235350185828,47.214345202247699,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Epinettes"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.72479448617054,47.215631889040303,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Charles De Gaulle"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.72749549896159,47.211158906551901,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Joseph Tahet"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.64709926489558,47.193248886718003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Quai dIndre"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.67376706998005,47.197790349723498,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Marcel Paul"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.63927863771579,47.221928021929699,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Lieutenant Mouillie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6535919884927299,47.211570413993101,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Branchoire"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6080674977806899,47.218397642751398,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Zola"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5868932570163501,47.213590004655202,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Mairie Chantenay"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.58792608975112,47.206763560465397,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Civelles"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5927835731452999,47.199473470366399,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Garennes"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.57892821431067,47.201926628091599,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"René Bouhier"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.57123120436148,47.2092763473293,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Canclaux"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.57477040504501,47.2146595270628,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Dervallières"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5980882166371599,47.223818677059199,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Macé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5891768364740799,47.199488316434397,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Maurice Schwob"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.58176945128172,47.200298865519699,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Petite Hollande"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5608266438179399,47.211060744742902,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Square Lebé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5636451512373699,47.216000242321201,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Cassegrain"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5587931829209001,47.219262661263002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Enfants Nantais"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54310426691244,47.228789472267401,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Gabriel Trarieux"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5228083455769099,47.225858985758798,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Baco"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55254762147452,47.212817515378298,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Calvaire"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5613300011039899,47.215249924591703,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Armand Brossard"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5562296336468899,47.217097556369602,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Bretagne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5594800969214599,47.217257943870202,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Jardin des plantes Nord"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54456688020931,47.2205170959908,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Cambronne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5637636650262099,47.211096496078198,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Louis Bureau"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5647992137733,47.212790768862099,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Noë Mitrie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5271079310393501,47.226993917384704,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Vertais"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5465582809810801,47.202049175272201,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Jardin des cinq sens"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5331134796541299,47.206923728286803,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Parc des chantiers- Bar de la Branche"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5648103028134399,47.206233381692797,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Parc des chantiers - Les Nefs"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.56466112957655,47.205274693797698,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Parc des chantiers - Station Prouvé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5673750957874699,47.205155769439699,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Jardin des plantes Sud"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5409807392442501,47.218827424207902,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Emile Fritsch"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.56619350364038,47.228829820160797,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Cimetière Pelleterie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5702002321061801,47.224487913551997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Louis Feuillade"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.58592716957707,47.230348815840898,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Capucins"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5631987118890101,47.225112261461199,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Piscine Dervallières"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5913891591793601,47.227478785082198,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Viarme"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.56185137461257,47.220411228909299,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Américains"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5767442416419599,47.232795494168698,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Jardin d'enfants de Procé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.58197343101717,47.222404042472697,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Procé Vallon"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.58330065600502,47.2235568442375,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Procé Chateau"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5813659877586199,47.223136236766003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Gaudinière Haut"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5771055036536199,47.241168632556899,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Ile de Versailles"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5537171660187299,47.225270478295002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"La Halluchère"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5223902089082499,47.248659640610697,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Eglise"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.3928653309210599,47.295198854792503,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Tonelliers"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.51780773830689,47.269500798694999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Parking Tournefort"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5514622432977001,47.221167402857802,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Amiral Halgan"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55438473971654,47.217177859169801,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Crapa"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5233692288254399,47.210357790518202,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Crapaudine"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5297221084210999,47.190897502498203,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Faustin Helie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5624877837661599,47.217714671817703,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Gaudinière Bas"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5782526729522199,47.246542817996698,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Potager tropical"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5122751094211699,47.226652429386803,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Jean Baptiste Barre"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.52768342121573,47.222696472938402,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Jean Le Gigant"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.59354973264737,47.204329167475102,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Oblates"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5839366442963001,47.200657490337598,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Ile Versailles Capitainerie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55369078770185,47.225271368410702,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Pirmil"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54114446382891,47.196458125063998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Denis Forestier"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.61282701891088,47.209443708082503,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Marché"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.68881374199635,47.141356787938101,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Eglise"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6932900405576701,47.144532215999199,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Eglise"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.73293335372255,47.134913147855599,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Eglise"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.68370684991348,47.189950589368998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Similien Guérin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6833796629987201,47.187881253384496,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Mairie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.7249621972835401,47.1957187825113,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Canal"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.78556903413688,47.206186766669603,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"LHerminier"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.7551368848215001,47.203028556674496,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Halles"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.7551327385225399,47.201245125829701,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Mairie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.7223608741276299,47.169606662584997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Eglise"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.72043759541334,47.168629522492203,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Freinet"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5885438591410499,47.1807661934522,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Eglise"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6237573738714799,47.179065503707797,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Neustrie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5930761708482899,47.176999818830801,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Roche Ballue"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6544466205052799,47.184212366549197,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Leclerc"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5870802206818999,47.185310582746197,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Les jardins familiaux"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6228820024680799,47.167764426405398,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Champ Toury"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6293724293398599,47.177349653857,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Joliot curie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5287989913016,47.194215931479199,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Eglise"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5475983152933399,47.184693993721503,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Pays de Retz"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5623948094769999,47.184869688594098,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"08-mai"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55155146434883,47.189100103932297,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Balinière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55262697722405,47.183550212446598,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"La Robinière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5317782494555401,47.1636165228539,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Cimetière St Pierre"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5650322849317,47.1905078077965,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Cimetière St Paul"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5435267074172301,47.184710448458297,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Parc de la Morinière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.53188936779172,47.183044231059398,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Hôtel de Ville"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5695262926198299,47.191518492195698,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Parc Chêne Gala"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.53754770038832,47.187718394190803,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Stade Robinière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5320469198054301,47.164717809850202,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Cimetière Classerie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5583192290072301,47.171728380380799,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Stade Léo lagrange"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.57022297073413,47.1817949613664,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Poste"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5051440402330301,47.2074361214992,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Eglise"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5036414003124701,47.208413875370198,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Liberté"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5177309527504901,47.193550923078803,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Eglise"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4653193225441501,47.215016089947902,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Salle Zodiaque"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4659757916271501,47.217372111080103,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Face Mairie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5304514312309401,47.148315904221,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Garnier"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4839848939869,47.165232452639401,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Pierre Percée"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4724064855030801,47.158221624608203,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Cale Beautour"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5108851366932701,47.170920808769303,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Capitainerie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4799223438947799,47.167855115843302,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Eglise"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4720667926519799,47.163843916546703,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Portillon"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4682535571017701,47.1493884345102,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"11-nov"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4867233661747199,47.249298055464799,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Marché"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4838549994935399,47.249879440579797,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Ile Clémentine"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.46086918880616,47.2443251085474,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Plessis"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.47450553357271,47.2445237680788,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Eglise"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4408557059354401,47.267308442054599,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/toilets.png",
+  "description":"Cimetière communautaire"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4382438390373899,47.266295181378098,0]}}
+]}

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+	<link rel="stylesheet" type="text/css" href="style.css">	
+
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	
+	<script>
+	  // declaration des cartes
+      var map;
+
+	  // la fenetre qui s'ouvre quand on passe la souris sur un point
+	  var infowindow = new google.maps.InfoWindow();
+
+	  // fonction d'initialisation
+      function initialize() {
+        var mapOptions = {
+          zoom: 6,
+          center: {lat:  46.55, lng: 2.4},
+          mapTypeId: google.maps.MapTypeId.TERRAIN
+        };
+        map = new google.maps.Map(document.getElementById('map-categorie'),
+          mapOptions);
+	    // initialisation des cartes et chargement des donnees
+	            map.data.loadGeoJson('json/abris-velos-de-nantes-metropole.json');
+
+	    
+	    // fonction de style
+	    var setColorStyleFn = function(feature) {
+	      return {icon: feature.getProperty('icon')};
+	    };
+	    // style des cartes, et listener pour la fenetre qui s'ouvre quand on passe la souris sur un point
+	    map.data.setStyle(setColorStyleFn);
+	    map.data.addListener('mouseover', function(event) {
+          infowindow.setContent(event.feature.getProperty('description'));
+          infowindow.setPosition(event.latLng);
+          infowindow.setOptions({pixelOffset: new google.maps.Size(0,-34)});
+          infowindow.open(map);
+        });
+        google.maps.event.addListener(map, 'click', function() {
+          infowindow.close(); // un clic sur la carte ferme les infowindows
+        });
+	  } // end initialize
+
+      // appel de la fonction d'initialisation une fois la page chargee
+      google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+	<meta charset="UTF-8">
+  </head>
+
+  <body>
+    <h1>Mobiliers urbain : Abris vélos</h1>
+
+	<p><a href="./index.php">Page principale</a></p>
+	
+    <h2>Carte</h2>
+    <div id="map-categorie" class="map-canvas"></div>
+
+    <h2>Liste des points</h2>
+	<table>
+      <tr><td>-1.5156741078425899</td><td>47.231937260431003</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5681751688749199</td><td>47.259340938531103</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.51713736252049</td><td>47.189464082282903</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.59432063221902</td><td>47.197477692845403</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.59590571933794</td><td>47.209379313211798</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.58893567189702</td><td>47.209638996921903</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.4805728072492499</td><td>47.164883228046797</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.6238174854810601</td><td>47.175388303041302</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5861921599345301</td><td>47.181039990182001</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5987433387711001</td><td>47.213069860042403</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.6892154700275299</td><td>47.1884394787049</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.58630574491059</td><td>47.2139678598976</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5931008293991</td><td>47.176812729130603</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.63953071741886</td><td>47.222000877579603</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.51129607032802</td><td>47.189347416377501</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5875971686371999</td><td>47.238586631854801</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5567463855788</td><td>47.230946376035703</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5567932890215801</td><td>47.234739790138299</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5422205035857599</td><td>47.165370879850798</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.4748634235678</td><td>47.253293842127498</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.50396829907476</td><td>47.235580394280397</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5943298347880399</td><td>47.1976767160305</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.69665947853245</td><td>47.191958494668803</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5229932268650399</td><td>47.157188441644202</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5209576749654901</td><td>47.147759425169603</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5178668774435999</td><td>47.282259130124402</td><td>Collectif abrité                                                                                   </td></tr>
+      <tr><td>-1.5176730653111199</td><td>47.28211961337</td><td>collectif sécurisé                                                                                </td></tr>
+      <tr><td>-1.68120557976484</td><td>47.138189364658899</td><td>collectif sécurisé                                                                                </td></tr>
+      <tr><td>-1.5727164186528599</td><td>47.206272003751799</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.54344400552645</td><td>47.217306493352901</td><td>collectif sécurisé                                                                                </td></tr>
+      <tr><td>-1.54344400552645</td><td>47.217306493352901</td><td>Collectif abrité                                                                                   </td></tr>
+      <tr><td>-1.71207078123501</td><td>47.191334941781797</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5160909225063599</td><td>47.237987357153202</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5759965808387699</td><td>47.253182229781203</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5487973546273099</td><td>47.193131645084499</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.60022968798057</td><td>47.213182142084399</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.72697212765254</td><td>47.212055096279897</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5781127127699801</td><td>47.195258832881301</td><td>Collectif abrité                                                                                   </td></tr>
+      <tr><td>-1.62147107652606</td><td>47.2188442339937</td><td>Collectif abrité                                                                                   </td></tr>
+      <tr><td>-1.6142616537043499</td><td>47.217939895325202</td><td>Collectif abrité                                                                                   </td></tr>
+      <tr><td>-1.68128801895795</td><td>47.138233013833997</td><td>Collectif abrité                                                                                   </td></tr>
+      <tr><td>-1.7235273520566201</td><td>47.221782654359203</td><td>Collectif abrité                                                                                   </td></tr>
+      <tr><td>-1.4407738945181701</td><td>47.265075239002499</td><td>collectif sécurisé                                                                                </td></tr>
+      <tr><td>-1.47804183990209</td><td>47.185863061367698</td><td>Collectif abrité                                                                                   </td></tr>
+      <tr><td>-1.51061580824369</td><td>47.206673236195101</td><td>Collectif abrité                                                                                   </td></tr>
+      <tr><td>-1.5407917232363799</td><td>47.195681559446399</td><td>Collectif abrité                                                                                   </td></tr>
+      <tr><td>-1.5946085999919899</td><td>47.197283373964801</td><td>Collectif abrité                                                                                   </td></tr>
+      <tr><td>-1.5379906824996199</td><td>47.215096551361803</td><td>Collectif sécurisé                                                                                </td></tr>
+      <tr><td>-1.5844044179262999</td><td>47.262391569105802</td><td>collectif sécurisé                                                                                </td></tr>
+      <tr><td>-1.6392458767542499</td><td>47.222004265975798</td><td>collectif sécurisé                                                                                </td></tr>
+      <tr><td>-1.5440837419981699</td><td>47.213644663644601</td><td>collectif sécurisé                                                                                </td></tr>
+      <tr><td>-1.55780982208116</td><td>47.213319560976998</td><td>collectif sécurisé                                                                                </td></tr>
+      <tr><td>-1.5542364945592499</td><td>47.216666083975298</td><td>collectif sécurisé                                                                                </td></tr>
+      <tr><td>-1.55126383584909</td><td>47.221018138610503</td><td>collectif sécurisé                                                                                </td></tr>
+      <tr><td>-1.56229636076085</td><td>47.214597024028201</td><td>collectif sécurisé                                                                                </td></tr>
+      <tr><td>-1.56258627690313</td><td>47.205825824592601</td><td>collectif sécurisé                                                                                </td></tr>
+      <tr><td>-1.56230757471655</td><td>47.210842488258699</td><td>collectif sécurisé                                                                                </td></tr>
+      <tr><td>-1.55769327865413</td><td>47.219902754366899</td><td>collectif sécurisé                                                                                </td></tr>
+      <tr><td>-1.55831606085806</td><td>47.217804341319301</td><td>collectif sécurisé                                                                                </td></tr>
+      <tr><td>-1.52325034035658</td><td>47.249899473061603</td><td>Collectif abrité                                                                                   </td></tr>
+      <tr><td>-1.5234920955679601</td><td>47.249293353142001</td><td>collectif sécurisé                                                                                </td></tr>
+      <tr><td>-1.5301992905856401</td><td>47.253066262605998</td><td>Collectif abrité                                                                                   </td></tr>
+      <tr><td>-1.6175245047983899</td><td>47.245770110518102</td><td>collectif sécurisé                                                                                </td></tr>
+      <tr><td>-1.5419171681706501</td><td>47.1617798231931</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5189350325333499</td><td>47.1467359959817</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.72293193757284</td><td>47.169436722474799</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.55260876888063</td><td>47.214073497402403</td><td>collectif sécurisé                                                                                </td></tr>
+      <tr><td>-1.51652046932564</td><td>47.2677968258863</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5846089152502101</td><td>47.261840429648203</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.57362164399881</td><td>47.2616163779118</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.6079599299735801</td><td>47.214316930441001</td><td>Collectif abrité                                                                                   </td></tr>
+      <tr><td>-1.5632150840633601</td><td>47.221618552186101</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5201173738848699</td><td>47.223976455061702</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5722923739754899</td><td>47.207427079126496</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.57106210055004</td><td>47.203074964879598</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5661689319569601</td><td>47.204196958656503</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5540251848339699</td><td>47.205487023554802</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5534780669327799</td><td>47.204651865479299</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5333010069994299</td><td>47.206715402730602</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.52688306609604</td><td>47.209698908944397</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5451011886178401</td><td>47.283199236422597</td><td>collectif sécurisé                                                                                </td></tr>
+      <tr><td>-1.5464443035197699</td><td>47.296708699423199</td><td>collectif sécurisé                                                                                </td></tr>
+      <tr><td>-1.5405734809282801</td><td>47.308156276978998</td><td>collectif sécurisé                                                                                </td></tr>
+      <tr><td>-1.6967085323800899</td><td>47.1918930115432</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.53400727373513</td><td>47.242448477600298</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5329214524985399</td><td>47.2448567083933</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5513382255464601</td><td>47.248300791819801</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.4838041440643801</td><td>47.288326230436702</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.48525929968038</td><td>47.304065209194199</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.54346490376234</td><td>47.195798198163402</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5487522662881199</td><td>47.192545551058103</td><td>collectif sécurisé                                                                                </td></tr>
+      <tr><td>-1.5518442182848</td><td>47.189225088926001</td><td>Collectif abrité                                                                                   </td></tr>
+      <tr><td>-1.5702919185161099</td><td>47.183377414339098</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5795886228898499</td><td>47.1817224604807</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5931266865882301</td><td>47.1770829665086</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5331727242153601</td><td>47.199740352297901</td><td>Collectif abrité                                                                                   </td></tr>
+      <tr><td>-1.53310743182552</td><td>47.199672121565698</td><td>collectif sécurisé                                                                                </td></tr>
+      <tr><td>-1.52540149554347</td><td>47.190211366214299</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5213478255786099</td><td>47.186546564479698</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5053047999381399</td><td>47.180631093480798</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.51061580824369</td><td>47.206673236195101</td><td>Collectif abrité                                                                                   </td></tr>
+      <tr><td>-1.51125384645695</td><td>47.206903112728497</td><td>Collectif abrité                                                                                   </td></tr>
+      <tr><td>-1.4960398854874699</td><td>47.190304179214102</td><td>collectif sécurisé                                                                                </td></tr>
+      <tr><td>-1.49588749652743</td><td>47.190364294955003</td><td>Collectif abrité                                                                                   </td></tr>
+      <tr><td>-1.47805848962049</td><td>47.187176417910898</td><td>Collectif abrité                                                                                   </td></tr>
+      <tr><td>-1.47801431544503</td><td>47.1858486168993</td><td>collectif sécurisé                                                                                </td></tr>
+      <tr><td>-1.5416712655606599</td><td>47.2161850979805</td><td>Collectif abrité                                                                                   </td></tr>
+      <tr><td>-1.54186774795315</td><td>47.216154665001604</td><td>collectif sécurisé                                                                                </td></tr>
+      <tr><td>-1.54344400552645</td><td>47.217306493352901</td><td>Collectif abrité                                                                                   </td></tr>
+      <tr><td>-1.5256630828159099</td><td>47.259187359876798</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.3896534288817699</td><td>47.293030264263599</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5524888134171999</td><td>47.252061800619998</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5920231076968301</td><td>47.2618809236725</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.60278901987683</td><td>47.2477520504792</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.61758063248526</td><td>47.245695909162002</td><td>Collectif abrité                                                                                   </td></tr>
+      <tr><td>-1.59789049093617</td><td>47.248956151940597</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5844044179262999</td><td>47.262391569105802</td><td>Collectif abrité                                                                                   </td></tr>
+      <tr><td>-1.6142616537043499</td><td>47.217939895325202</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.6395386324253201</td><td>47.2219438356381</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.49175142200904</td><td>47.296766333990703</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5728204188363899</td><td>47.199897675832602</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5425876908371099</td><td>47.196591294790998</td><td>collectif sécurisé                                                                                </td></tr>
+      <tr><td>-1.5428974354599601</td><td>47.196435032783697</td><td>Collectif abrité                                                                                   </td></tr>
+      <tr><td>-1.51069490053269</td><td>47.185049482710802</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.4712409196510401</td><td>47.1688875533168</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5441476006064301</td><td>47.178261394923403</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5311923911134</td><td>47.148577148242602</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.56267848853425</td><td>47.184239469388601</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.4411217252156201</td><td>47.264990225091303</td><td>Collectif abrité                                                                                   </td></tr>
+      <tr><td>-1.5232950480688201</td><td>47.249930280035699</td><td>collectif sécurisé                                                                                </td></tr>
+      <tr><td>-1.5235173162818501</td><td>47.249323929081299</td><td>Collectif abrité                                                                                   </td></tr>
+      <tr><td>-1.5301064563153299</td><td>47.2530223711641</td><td>collectif sécurisé                                                                                </td></tr>
+      <tr><td>-1.5457045715797699</td><td>47.259121006298301</td><td>collectif sécurisé                                                                                </td></tr>
+      <tr><td>-1.5752534298218901</td><td>47.264131095329198</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5772820030771399</td><td>47.262464224453304</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5769478174493401</td><td>47.2487488717167</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.6236261220139701</td><td>47.270952878516098</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.6795413754363699</td><td>47.264301372774298</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.4666284404280401</td><td>47.216582643985802</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.75914777165346</td><td>47.2016906522285</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.60019286945204</td><td>47.266684193605499</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.51864645980369</td><td>47.227262469857102</td><td>Consigne                                                                                            </td></tr>
+      <tr><td>-1.5288590518637499</td><td>47.194051682023499</td><td>Consigne                                                                                            </td></tr>
+
+	</table>
+
+  </body>
+
+</html>

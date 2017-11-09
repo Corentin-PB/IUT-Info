@@ -1,0 +1,1145 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5156741078425899,47.231937260431003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5681751688749199,47.259340938531103,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.51713736252049,47.189464082282903,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.59432063221902,47.197477692845403,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.59590571933794,47.209379313211798,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.58893567189702,47.209638996921903,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4805728072492499,47.164883228046797,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6238174854810601,47.175388303041302,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5861921599345301,47.181039990182001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5987433387711001,47.213069860042403,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6892154700275299,47.1884394787049,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.58630574491059,47.2139678598976,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5931008293991,47.176812729130603,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.63953071741886,47.222000877579603,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.51129607032802,47.189347416377501,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5875971686371999,47.238586631854801,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5567463855788,47.230946376035703,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5567932890215801,47.234739790138299,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5422205035857599,47.165370879850798,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4748634235678,47.253293842127498,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.50396829907476,47.235580394280397,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5943298347880399,47.1976767160305,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.69665947853245,47.191958494668803,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5229932268650399,47.157188441644202,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5209576749654901,47.147759425169603,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Collectif abrité"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5178668774435999,47.282259130124402,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"collectif sécurisé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5176730653111199,47.28211961337,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"collectif sécurisé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.68120557976484,47.138189364658899,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5727164186528599,47.206272003751799,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"collectif sécurisé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54344400552645,47.217306493352901,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Collectif abrité"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54344400552645,47.217306493352901,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.71207078123501,47.191334941781797,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5160909225063599,47.237987357153202,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5759965808387699,47.253182229781203,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5487973546273099,47.193131645084499,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.60022968798057,47.213182142084399,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.72697212765254,47.212055096279897,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Collectif abrité"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5781127127699801,47.195258832881301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Collectif abrité"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.62147107652606,47.2188442339937,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Collectif abrité"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6142616537043499,47.217939895325202,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Collectif abrité"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.68128801895795,47.138233013833997,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Collectif abrité"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.7235273520566201,47.221782654359203,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"collectif sécurisé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4407738945181701,47.265075239002499,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Collectif abrité"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.47804183990209,47.185863061367698,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Collectif abrité"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.51061580824369,47.206673236195101,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Collectif abrité"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5407917232363799,47.195681559446399,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Collectif abrité"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5946085999919899,47.197283373964801,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Collectif sécurisé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5379906824996199,47.215096551361803,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"collectif sécurisé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5844044179262999,47.262391569105802,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"collectif sécurisé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6392458767542499,47.222004265975798,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"collectif sécurisé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5440837419981699,47.213644663644601,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"collectif sécurisé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55780982208116,47.213319560976998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"collectif sécurisé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5542364945592499,47.216666083975298,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"collectif sécurisé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55126383584909,47.221018138610503,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"collectif sécurisé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.56229636076085,47.214597024028201,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"collectif sécurisé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.56258627690313,47.205825824592601,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"collectif sécurisé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.56230757471655,47.210842488258699,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"collectif sécurisé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55769327865413,47.219902754366899,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"collectif sécurisé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55831606085806,47.217804341319301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Collectif abrité"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.52325034035658,47.249899473061603,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"collectif sécurisé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5234920955679601,47.249293353142001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Collectif abrité"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5301992905856401,47.253066262605998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"collectif sécurisé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6175245047983899,47.245770110518102,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5419171681706501,47.1617798231931,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5189350325333499,47.1467359959817,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.72293193757284,47.169436722474799,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"collectif sécurisé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.55260876888063,47.214073497402403,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.51652046932564,47.2677968258863,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5846089152502101,47.261840429648203,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.57362164399881,47.2616163779118,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Collectif abrité"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6079599299735801,47.214316930441001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5632150840633601,47.221618552186101,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5201173738848699,47.223976455061702,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5722923739754899,47.207427079126496,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.57106210055004,47.203074964879598,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5661689319569601,47.204196958656503,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5540251848339699,47.205487023554802,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5534780669327799,47.204651865479299,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5333010069994299,47.206715402730602,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.52688306609604,47.209698908944397,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"collectif sécurisé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5451011886178401,47.283199236422597,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"collectif sécurisé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5464443035197699,47.296708699423199,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"collectif sécurisé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5405734809282801,47.308156276978998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6967085323800899,47.1918930115432,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.53400727373513,47.242448477600298,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5329214524985399,47.2448567083933,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5513382255464601,47.248300791819801,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4838041440643801,47.288326230436702,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.48525929968038,47.304065209194199,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54346490376234,47.195798198163402,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"collectif sécurisé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5487522662881199,47.192545551058103,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Collectif abrité"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5518442182848,47.189225088926001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5702919185161099,47.183377414339098,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5795886228898499,47.1817224604807,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5931266865882301,47.1770829665086,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Collectif abrité"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5331727242153601,47.199740352297901,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"collectif sécurisé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.53310743182552,47.199672121565698,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.52540149554347,47.190211366214299,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5213478255786099,47.186546564479698,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5053047999381399,47.180631093480798,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Collectif abrité"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.51061580824369,47.206673236195101,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Collectif abrité"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.51125384645695,47.206903112728497,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"collectif sécurisé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4960398854874699,47.190304179214102,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Collectif abrité"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.49588749652743,47.190364294955003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Collectif abrité"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.47805848962049,47.187176417910898,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"collectif sécurisé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.47801431544503,47.1858486168993,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Collectif abrité"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5416712655606599,47.2161850979805,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"collectif sécurisé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54186774795315,47.216154665001604,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Collectif abrité"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.54344400552645,47.217306493352901,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5256630828159099,47.259187359876798,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.3896534288817699,47.293030264263599,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5524888134171999,47.252061800619998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5920231076968301,47.2618809236725,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.60278901987683,47.2477520504792,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Collectif abrité"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.61758063248526,47.245695909162002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.59789049093617,47.248956151940597,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Collectif abrité"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5844044179262999,47.262391569105802,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6142616537043499,47.217939895325202,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6395386324253201,47.2219438356381,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.49175142200904,47.296766333990703,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5728204188363899,47.199897675832602,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"collectif sécurisé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5425876908371099,47.196591294790998,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Collectif abrité"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5428974354599601,47.196435032783697,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.51069490053269,47.185049482710802,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4712409196510401,47.1688875533168,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5441476006064301,47.178261394923403,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5311923911134,47.148577148242602,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.56267848853425,47.184239469388601,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Collectif abrité"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4411217252156201,47.264990225091303,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"collectif sécurisé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5232950480688201,47.249930280035699,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Collectif abrité"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5235173162818501,47.249323929081299,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"collectif sécurisé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5301064563153299,47.2530223711641,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"collectif sécurisé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5457045715797699,47.259121006298301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5752534298218901,47.264131095329198,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5772820030771399,47.262464224453304,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5769478174493401,47.2487488717167,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6236261220139701,47.270952878516098,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.6795413754363699,47.264301372774298,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.4666284404280401,47.216582643985802,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.75914777165346,47.2016906522285,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.60019286945204,47.266684193605499,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.51864645980369,47.227262469857102,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/parking_bicycle-2.png",
+  "description":"Consigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-1.5288590518637499,47.194051682023499,0]}}
+]}

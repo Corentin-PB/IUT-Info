@@ -1,0 +1,593 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Parc de la Béchade"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.59848036133239002,44.826462894014803,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Parc aux Angéliques séquence 1"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56363500914886999,44.849086037179497,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Jardin de la Mairie"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58046157669910003,44.837815642756198,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Parc Chantecrit"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56352782729974005,44.863438452456101,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Parc des Berges de Garonne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.53980293808487001,44.885633378934898,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Square Bertrand de Goth"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.5775805296348,44.819232245081402,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Parc Monséjour"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.63152446326111,44.854166632058501,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Parc des Berges de Queyries"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56497155934069998,44.846350104922799,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Aire de jeux du Parc du Port de la Lune"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.54285074157770996,44.876988454236397,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Parc de la Cité des Aubiers"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57124378012407995,44.872849410881003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Jardin André Meunier"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56241149721864003,44.829197521750302,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Berges du lac"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57635112519141996,44.888374391124202,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Terrasse des Quinconces"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57027209701738002,44.846346095224,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Parc du Port de la Lune"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.54152067753822997,44.877254095961497,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"La Maison aux personnages des Kabakov"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.60335594695550998,44.8303537416189,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Place Gambetta"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58058202793964997,44.841141272573502,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Jardin des Lumières"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56897029888860995,44.841691680061103,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Parc de la piscine Stéhélin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.62224804013048995,44.857587687170501,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Square Armand Faulat"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.61458668909202996,44.845821811913602,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Square Haussmann"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57036997812599999,44.864280568537801,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Square des Tilleuls"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.59238201224352005,44.826318463785199,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Square Vinet"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57144978236587995,44.839433258841801,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Jardin Brascassat"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55440958300831,44.815513461362798,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Square Joséphine"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56025882919704995,44.861122272183898,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Square Souriaux"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.54551958250027999,44.850840058958497,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Parc Pinçon"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.54539587286896996,44.844235173647398,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Parc Bordelais"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.60242645385582005,44.852914331995102,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Square des Martyrs de la Résistance"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58533428258488995,44.842710472420201,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Jardin d'Ars"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57244915044475997,44.814292952949899,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Square Dom Bedos"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56041431503594996,44.831099282645198,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Aire de jeux place d'Arlac"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58881728045945003,44.830685497609402,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Square Saint John Perse"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58177285253129996,44.837130785745401,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Square André Lhôte"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58206181056095996,44.837829181485702,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Square Jean Bureau"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56961128095367997,44.836638871798499,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Jardin Public"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57836299172279004,44.848959124091202,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Square de l'Europe"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58198719193786996,44.859167320975097,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Square Valmy"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.59492906425748004,44.822849969016502,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Eglise Sainte Geneviève"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57613254506874001,44.818547720928301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Bois de Bordeaux"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57312247181060005,44.903403991351297,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Parc de Bacalan"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.54402749865432998,44.874119968985298,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Parc Floral"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56165587940918005,44.904143067951203,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Jardin de Lussy"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.60694555876733003,44.840274852742702,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Parc Rivière"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58682066323660997,44.855129394060398,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Square Honoré d'Estienne d'Orves"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.61485387468070996,44.855122426865897,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Jardin des Dames de la foi"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58203835007395999,44.825017299018,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Jardin de Lili"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.61122843553523998,44.8330696740192,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Square de l'église Saint Amand"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.61461002009680998,44.851258946427897,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Berges du lac_Nord"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58735051211612999,44.891597100738302,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Square Emile Combes"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.60800164142515001,44.836562204070901,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Parc Stéhélin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.62363828085609996,44.856784424720097,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Place des Droits de l'Enfant"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56416506274888001,44.845788329716797,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Square Paul Antin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57024382926164996,44.819492312066899,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Square Jean Mermoz"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57389228082191002,44.817848320541501,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Square Reignier"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56080700911914005,44.8474737240455,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Place Francis de Pressensé"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57535658264158995,44.8322299683336,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Jardin des Remparts"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56523831759998999,44.830736346607203,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Jardin de ta soeur"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56077049435908999,44.859299184951901,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Square Argonne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57713029127432003,44.824748280750903,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Square Les Jasmins"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.63714861733249994,44.860164156420097,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Jardin Georges Mandel"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.59328791291831995,44.841999065107402,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Jardin de la Visitation"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.59507875635848995,44.848312039327901,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Square Hortense Schneider"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.61703113819879996,44.860619757365001,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Parc de la Cité Carreire"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.60859796110472997,44.8236473227632,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Square docteur Roger Hypoustéguy"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.54415427932710003,44.879305325166101,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Berges du lac"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57978118078901997,44.882741426828801,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Parc aux Angéliques séquence 2"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56042830514039998,44.8511076592916,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Square Gaviniès"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.59364380670928996,44.833145170263499,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Square Charazac"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57666592556123997,44.864338687451799,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Square Saint Julien"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.59906513926497995,44.819819911396202,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Jardin des Cèdres"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56394836801075998,44.830691565306999,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Parc de la Cité du Grand Parc"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58170859217270998,44.860633388468301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Square Alfred Smith"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.61259594932300998,44.824649965427596,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Parc des Sports Saint Michel"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56091738189361995,44.8337029237602,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tree.png",
+  "description":"Square Liotard"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56631019968645002,44.813142488176297,0]}}
+]}

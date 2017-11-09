@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+	<link rel="stylesheet" type="text/css" href="style.css">	
+
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	
+	<script>
+	  // declaration des cartes
+      var map;
+
+	  // la fenetre qui s'ouvre quand on passe la souris sur un point
+	  var infowindow = new google.maps.InfoWindow();
+
+	  // fonction d'initialisation
+      function initialize() {
+        var mapOptions = {
+          zoom: 6,
+          center: {lat:  46.55, lng: 2.4},
+          mapTypeId: google.maps.MapTypeId.TERRAIN
+        };
+
+	    // initialisation des cartes et chargement des donnees
+	    [[CHARGER_JSON_VILLES_CATEGORIES]]
+	    
+	    // fonction de style
+	    var setColorStyleFn = function(feature) {
+	      return {icon: feature.getProperty('icon')};
+	    };
+	    // style des cartes, et listener pour la fenetre qui s'ouvre quand on passe la souris sur un point
+	    [[SETSTYLE_MAPS_VILLES]]
+	  } // end initialize
+
+      // appel de la fonction d'initialisation une fois la page chargee
+      google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+	<meta charset="UTF-8">
+  </head>
+
+  <body>
+    <h1>[[NOM_VILLE]]</h1>
+
+	<p><a href="./index.html">Page principale</a></p>
+	
+    [[SECTIONS_VILLES]]
+
+    <h2>Catégories de [[NOM_VILLE]]</h2>
+	<ul>
+	  [[LISTE_PAGES_CATEGORIES_VILLES]]
+	</ul>
+
+  </body>
+
+</html>

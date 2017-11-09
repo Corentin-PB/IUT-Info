@@ -1,0 +1,665 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Palais des sports"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57251025091982799,44.835624713974298,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Vélodrome du Lac"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56522884237530202,44.899148351620397,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Port Bastide"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56421289048739898,44.849550943527703,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Stade Suzon"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57920783380752205,44.812643260910797,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Stade Sainte Germaine"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.61773304967776799,44.870573630213897,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Salle d'escrime Guy Laupies"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.60499573190672795,44.840200675145297,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Ponton Benauge"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55882538665838899,44.838133260176299,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Gymnase Barbey"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56288549441295199,44.827117024350002,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Stade Charles Martin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55051372469858695,44.873863210712102,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Stade Grand Parc III"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58279547512430996,44.8574474888051,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Plage du Lac"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57805082629759197,44.878268517984303,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Gymnase Montaigne"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57117915088106497,44.833094844554502,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Gymnase Jean Dauguet"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.54513775845644497,44.842617172645703,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Stade Maître Jean"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.61311575543365404,44.829313230855,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Piscine Stéhélin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.62223727641757198,44.857301886232698,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Gymnase Malleret"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58547251707472903,44.848925761050801,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Stade Tregey"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.54714699534271205,44.838925985543199,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Stade Alfred Daney"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57063670878920802,44.866750173157499,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"City Stade Les Aubiers"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56921267797540598,44.873260086460903,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Gymnase des Chartrons"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56714587022541896,44.855600356210402,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Stade Bel Air"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.60650591085507699,44.8420442167075,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Stade Chaban Delmas"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.59824301915683398,44.8292065328448,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Piscine Judaïque"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.59089350162530296,44.840135313164602,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Stadium"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56582173464135999,44.898956825058299,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Centre de Voile"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58125391742144905,44.880340674463397,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Stade Galin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.540232486079121,44.847782449250403,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Piste d'accélération moto"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55279250232447896,44.902317706868502,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"City stade Reignier"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56110117574267304,44.847548922113504,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Salle Envol d'Aquitaine"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56615132354965003,44.830704143610497,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"City Stade Carle Vernet"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.54947817489947504,44.818214974620702,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Golf de Bordeaux-Lac"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56158557303099998,44.909225284427599,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Centre international de football"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.66903244693494002,44.877523959802303,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Gymnase de La flèche"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56718402390262401,44.833916680482702,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Piscine Georges Tissot"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.54675395792430503,44.879026353481201,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Camping de Bordeaux-Lac"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58039908665731998,44.8954535048303,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Gymnase des Peupliers"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.61110210983357705,44.831665757524803,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Stade Stéhélin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.62211000764895896,44.8563045479113,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Terrain de bi-cross de Bordeaux-Lac"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56858406995939503,44.872002654773503,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Stade Municipal Chaban Delmas (annexe)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.59858197664607005,44.827527209291198,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Gymnase Coqs Rouges"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57756587588283703,44.833763558707197,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Centre nautique de Bordeaux lac"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58656974318250299,44.889904238183,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Bowling Mériadeck"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58813777050946603,44.837161500804903,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Gymnase Nelson Paillou"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.573530855404772,44.822852632986901,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"City Stade Port de la Lune"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.54115170049989003,44.878931691218703,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Piscine du Grand Parc"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.579930826007511,44.8573587480223,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"City Stade Parc des Angéliques"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56418379891419701,44.848453133378797,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"City Stade Belcier"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55142723074177002,44.8223353720552,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Gymnase Wustenberg"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.59098291123787905,44.847237637417699,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Villa Primrose"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.60474172055419095,44.843205670457003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Patinoire"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58798959790901295,44.8350491760499,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Gymnase Buscaillet"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.54888710397774298,44.8704270510828,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Halte Nautique"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.54772694475541595,44.862843924748297,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Gymnase ASPTT"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.62588225710587497,44.849574906666199,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"City Stade Le Tauzin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.60184632511625202,44.820432270013498,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Gymnase La Pergola"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.61596541402642402,44.851176922124402,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"City Stade Benauge"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.54572434740307596,44.845276853201398,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Stade Brun"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57550276591959204,44.8172692202088,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Antennes Sportives"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57168835743024404,44.898561972421199,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Stade Chauffour"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.59031268656870794,44.8393880489661,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Ponton d'honneur de Bordeaux"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56686681722442001,44.839003172256398,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Salle Gouffrand"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57199460377250499,44.855604602662297,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Stade Grand Parc I"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57840549644087202,44.858269545378597,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Gymnase Dupaty"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56076811807500104,44.860351427824902,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Ponton des Chartrons"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.563280829939238,44.855265101369902,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Stade Grand Parc II"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.58217223575171895,44.8617043140666,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Stade Promis"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55275435861272204,44.839378062027301,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Piscine Galin"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.54003116200804702,44.847129419608102,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Gymnase l'Aiglon"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.571432406191968,44.852970353443503,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Gymnase Thiers"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.55098452170675905,44.846199155735697,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Ponton Yves Parlier"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56364609407448696,44.842199530605598,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Stade André Maginot"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.62590451912131495,44.8430622460628,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"City Stade Le Lauzun"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57367577016540805,44.875155895962699,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Stade Monséjour"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.63226558607118499,44.8538392857537,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Skate Parc"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56565680552763997,44.8539088788621,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Maison des 5 sens"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.61077698809554404,44.831968560310003,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Embarcadère Montesquieu"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56567567972058697,44.845721564962297,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Ponton Burdigala"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56246797026650397,44.841176668940498,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Embarcadères Albert Londres, La Fayette et Thomas Jefferson"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56519656046428701,44.853846257304802,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Complexe sportif Virginia (gymnase Virginia et stade Henri Lequesne)"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.62672675061871397,44.848896565499501,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Plaine des sports Colette Besson"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.57089273529316398,44.898205082231499,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Skatepark Caudéran"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.62328869691258604,44.857474152438201,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"Nouveau Stade"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.56318448518398601,44.897665750363799,0]}}
+,
+{"type":"Feature",
+ "properties":
+ {"icon":"images/icones/tennis.png",
+  "description":"PONTON DE LA CITE DU VIN"},
+ "geometry":
+ {"type":"Point",
+  "coordinates":[-0.54926444200857605,44.861732829223399,0]}}
+]}

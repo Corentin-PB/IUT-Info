@@ -1,0 +1,75 @@
+ID;Designation;Nature_site;Position_precise;Jours_ouverture;Heure_ouverture;Heure_fermeture;Adresse;Commune;Quartier;Y_LAT;X_LONG
+1;Mairie centrale;PUBLIC; Dans le hall d'accueil;Lundi , Mardi , Mercredi , Jeudi , Vendredi;08:00;18:00;29 rue de Strasbourg;Nantes;1;47,2187036842052;-1,55374214495589
+1;Mairie centrale;PUBLIC; Dans le hall d'accueil;Samedi;09:00;12:00;29 rue de Strasbourg;Nantes;1;47,2187036842052;-1,55374214495589
+2;Médiathèque Jacques Demy;PUBLIC; P.C Sécurité;Lundi , Mardi , Jeudi , Vendredi;12:00;19:00;24 quai de la Fosse;Nantes;1;47,2110628582813;-1,56209573371648
+2;Médiathèque Jacques Demy;PUBLIC;: P.C Sécurité;Mercredi;10:00;19:00;24 quai de la Fosse;Nantes;1;47,2110628582813;-1,56209573371648
+2;Médiathèque Jacques Demy;PUBLIC; P.C Sécurité - niveau 6;Samedi;10:00;18:00;24 quai de la Fosse;Nantes;1;47,2110628582813;-1,56209573371648
+3;Pharmacie de Paris;PRIVÉ;INTÉRIEUR:;;;;17 rue d'Orléans;Nantes;1;47,2143981351171;-1,55775173962693
+4;Pharmacie du Théâtre;PRIVÉ;INTÉRIEUR:;;;;1 place Graslin;Nantes;1;47,2131534938734;-1,56179859209062
+5;Pharmacie du Pilori;PRIVÉ;INTÉRIEUR:;;;;1 place du Pilori;Nantes;1;47,2162860836856;-1,55278646431271
+6;Muséum d'Histoire Naturelle;PUBLIC;Accueil du Muséum - coté du square Louis Bureau et des toilettes publiques;Lundi, Mercredi, Jeudi, Vendredi;10:00;18:00;12 rue Voltaire;Nantes;1;47,212810135305;-1,56502534069262
+7;Pharmacie Saint Nicolas,;PRIVÉ;INTÉRIEUR:;;;;9 rue de Feltre;Nantes;1;47,2157155472174;-1,55874650914908
+8;Pharmacie de la Cathédrale;PRIVÉ;INTÉRIEUR:;;;;2 rue du Roi Albert;Nantes;1;47,2187050420096;-1,55103216649778
+9;Pharmacie des Lauriers;PRIVÉ;INTÉRIEUR:;;;;10 rue du Doubs;Nantes;2;47,2040015427375;-1,60604184098012
+10;Le Planétarium;PUBLIC;Hall d'accueil à gauche  en entrant;Lundi , Mardi , Mercredi , Jeudi , Vendredi;09:00;12:30;8 rue des Acadiens;Nantes;2;47,2022445356877;-1,57752413333852
+10;Le Planétarium;PUBLIC;Hall d'accueil à gauche  en entrant;Lundi , Mardi , Mercredi , Jeudi , Vendredi;13:30;18:00;8 rue des Acadiens;Nantes;2;47,2022445356877;-1,57752413333852
+10;Le Planétarium;PUBLIC;Hall d'accueil à gauche  en entrant;Dimanche;14:00;18:00;8 rue des Acadiens;Nantes;2;47,2022445356877;-1,57752413333852
+11;Plaine de jeux des Bernadières;PUBLIC;Local médical;VARIABLE SUIVANT L'ACTIVITÉ;;;rue de la fontaine salée;Nantes;2;47,2009919817805;-1,61475418961946
+12;Stade Espérance St Yves de Nantes;PRIVÉ;Local d'accueil;;;;15 rue Marange Sylvange;Nantes;2;47,2018596860047;-1,61124986032484
+13;Pharmacie Zola;PRIVÉ;INTÉRIEUR :;;;;62 boulevard Pasteur;Nantes;3;47,2139996379326;-1,58517837696622
+14;Complexe sportif de la Durantière;PUBLIC;Dans le couloir à gauche de l'entrée del'équipement;VARIABLE SUIVANT L'ACTIVITÉ;;;70 rue de la Durantière;Nantes;3;47,2139987639602;-1,60527130828514
+15;Plaine de jeux des Dervallières;PUBLIC;Dans le couloir d'accès au stade;VARIABLE SUIVANT L'ACTIVITÉ;;;;Nantes;3;47,2259325509894;-1,59130209590487
+17;Marché de Talensac;PUBLIC; contre un mur- partie centrale du bâtiment .;Lundi au Samedi;06:00;14:00;Rue de Talensac;Nantes;4;47,2212897984276;-1,55797564403486
+17;Marché de Talensac;PUBLIC; contre un mur- partie centrale du bâtiment .;Dimanche;07:00;14:00;Rue de Talensac;Nantes;4;47,2212897984276;-1,55797564403486
+18;Maison de l'Erdre;PUBLIC;Sur la gauche - dans le couloir prolongeant le hall d'accueil;;;;Quai Henri Barbusse;Nantes;4;47,226207282256;-1,55424803839414
+19;Pharmacie Devenyns;PRIVÉ;INTÉRIEUR :;;;;Boulevard de Sarrebruck;Nantes;5;47,2142312013418;-1,52765381590718
+20;Chapelle de l'Oratoire;PUBLIC;Au bureau d'accueil sur la gauche en entrant;;;;13 place de l'oratoire;Nantes;5;47,2190756970979;-1,54858696084694
+21;Complexe sportif Mangin Beaulieu;PUBLIC;Couloir central entre le vestiaire 3 et les toilettes femmes;VARIABLE SUIVANT L'ACTIVITÉ;;;10 rue Louis Joxe;Nantes;6;47,2045591538685;-1,54236575181672
+22;Palais de sport de Beaulieu;PUBLIC;Couloir d'accès aux salles sportives , face au hall d'entrée;VARIABLE SUIVANT L'ACTIVITÉ;;;5 rue André Tardieu;Nantes;6;47,2095211264995;-1,53676424812643
+23;Médiathèque Luce Courville;PUBLIC;Dans le hall d'accueil , face à la banque de prêt;Mardi et Jeudi;13:30;18:00;1 rue Eugène Thomas;Nantes;8;47,2618198977058;-1,57395979463886
+23;Médiathèque Luce Courville;PUBLIC;Dans le hall d'accueil , face à la banque de prêt;Mercredi;10:00;18:00;1 rue Eugène Thomas;Nantes;8;47,2618198977058;-1,57395979463886
+23;Médiathèque Luce Courville;PUBLIC;Dans le hall d'accueil , face à la banque de prêt;Vendredi;13:30;19:00;1 rue Eugène Thomas;Nantes;8;47,2618198977058;-1,57395979463886
+24;Salle festive Nantes Nord;PUBLIC;A l'entrée principale - sur la droite .;HORAIRES VARIABLES ( SUR RÉSERVATION );;;73 avenue du Bout des Landes;Nantes;8;47,2636669467046;-1,58084277948458
+25;Plaine de jeux des Basses landes;PUBLIC;Dans le local gardien à coté de l'entrée;VARIABLE SUIVANT L'ACTIVITÉ;;;6 chemin de la Justice;Nantes;8;47,2676545571455;-1,58727469896092
+26;Stade de l'Amande;PUBLIC;Après l'entrée , à droite dans le couloir;VARIABLE SUIVANT L'ACTIVITÉ;;;112 route de la Chapelle sur Erdre;Nantes;8;47,2624789354554;-1,57417999383924
+27;Complexe sportif Saint Joseph de Porterie;PUBLIC;Dans le couloir à gauche de l'entrée del'équipement;VARIABLE SUIVANT L'ACTIVITÉ;;;507 route de Saint Joseph;Nantes;9;47,2720652181797;-1,51680168082364
+28;Salle festive Nantes Erdre;PUBLIC;Dans le couloir menant aux toilettes sur la droite;HORAIRES VARIABLES ( SUR RÉSERVATION );;;251 route de Saint Joseph;Nantes;9;47,2541248409219;-1,53131689304087
+29;Stade Joseph Geoffroy le vivier;PRIVÉ;Dans le local d'accueil;;;;25 Rue du Port Boyer;Nantes;9;47,2404092840676;-1,53341982337189
+30;Plaine de jeux de l'Eraudière;PUBLIC;Dans le local du gardien;VARIABLE SUIVANT L'ACTIVITÉ;;;11 Rue du Stade de la Noue;Nantes;9;47,2473417622859;-1,53537637602438
+31;Médiathèque Floresca Guépin;PUBLIC;Devant la banque de prêts et à coté de l'armoire électrique;Mardi;13:30;19:00;15 rue de la Haluchère;Nantes;10;47,2408662853878;-1,51276882457303
+31;Médiathèque Floresca Guépin;PUBLIC;Devant la banque de prêts et à coté de l'armoire électrique;Mercredi;10:00;18:00;15 rue de la Haluchère;Nantes;10;47,2408662853878;-1,51276882457303
+31;Médiathèque Floresca Guépin;PUBLIC;Devant la banque de prêts et à coté de l'armoire électrique;Jeudi et Vendredi;13:30;18:00;15 rue de la Haluchère;Nantes;10;47,2408662853878;-1,51276882457303
+31;Médiathèque Floresca Guépin;PUBLIC;Devant la banque de prêts et à coté de l'armoire électrique;Samedi;10:00;17:00;15 rue de la Haluchère;Nantes;10;47,2408662853878;-1,51276882457303
+32;Centre  sportif du Croissant;PUBLIC;Hall d'entrée à droite;;;;29 rue du Croissant;Nantes;10;47,2350528901241;-1,52286331267299
+33;Pharmacie de la Bottière;PRIVÉ;INTÉRIEUR :;;;;63 rue de Bottière;Nantes;10;47,2402911977274;-1,51892991965329
+34;Pharmacie Boudrot;PRIVÉ;INTÉRIEUR :;;;;2 place du Vieux Doulon;Nantes;10;47,2352578989345;-1,50296330435194
+35;Plaine de jeux de la Noè Lambert;PUBLIC;dans le couloir sur la gauche de l'entrée principale;VARIABLE SUIVANT L'ACTIVITÉ;;;21 route de Sainte Luce;Nantes;10;47,2306386879226;-1,52746369698488
+36;Stade Jean-Jacques Audubon  Audubon;PUBLIC;EXTÉRIEUR  contre le mur du bâtiment;VARIABLE SUIVANT L'ACTIVITÉ;;;45 rue Jean-Jacques Audubon;Nantes;10;47,2396407832622;-1,50387300163076
+37;Stade Pin Sec;PUBLIC;Dans le local du gardein;VARIABLE SUIVANT L'ACTIVITÉ;;;19 rue pierre bouguer;Nantes;10;47,2419558163148;-1,52005502790642
+38;Stade du RACC;PRIVÉ;Dans le local d'accueil;;;;11 rue de la Rivière;Nantes;10;47,2318803367929;-1,50026148551293
+39;Plaine de jeux de Sèvres;PUBLIC;Dans le local du gardein;VARIABLE SUIVANT L'ACTIVITÉ;;;Rue de l' Olivraie;Nantes;11;47,185091077843;-1,53124486939568
+40;Musée Jules Verne;PUBLIC;Dans le hall d'accueil;Lundi, Mercredi , Jeudi, Vendredi , Samedi, Dimanche après midi .;10:00;12:00;3 rue de l'Hermitage;Nantes;2;47,2016088636473;-1,57741157588825
+40;Musée Jules Verne;PUBLIC;Dans le hall d'accueil;Lundi, Mercredi , Jeudi, Vendredi , Samedi, Dimanche après midi .;14:00;18:00;3 rue de l'Hermitage;Nantes;2;47,2016088636473;-1,57741157588825
+40;Musée Jules Verne;PUBLIC;Dans le hall d'accueil;Tous les jours en juillet et août;10:00;19:00;3 rue de l'Hermitage;Nantes;2;47,2016088636473;-1,57741157588825
+41;CCAS de Nantes;PUBLIC;Dans un local derrière l'accueil;Lundi au Vendredi;08:30;17:30;Place Saint Similien;Nantes;1;47,2197423443237;-1,55845793439292
+42;Espace Cosmopolis;PUBLIC;Dans le hall d'entrée à gauche;Lundi au Vendredi;13:30;18:00;6 rue lekain;Nantes;1;47,2144470398653;-1,56269916897997
+42;Espace Cosmopolis;PUBLIC;Dans le hall d'entrée à gauche;Samedi, Dimanche;14:00;18:00;6 rue lekain;Nantes;1;47,2144470398653;-1,56269916897997
+43;Conservatoire de Nantes;PUBLIC;Dans le hall d'entrée - contre un poteau;Lundi au Vendredi;08:30;22:00;4 rue Gaétan Rondeau;Nantes;6;47,2074581336141;-1,53275560601546
+43;Conservatoire de Nantes;PUBLIC;Dans le hall d'entrée - contre un poteau;Samedi;08:30;20:00;4 rue Gaétan Rondeau;Nantes;6;47,2074581336141;-1,53275560601546
+43;Conservatoire de Nantes;PUBLIC;Dans le hall d'entrée - contre un poteau;Dimanche;09:00;12:00;4 rue Gaétan Rondeau;Nantes;6;47,2074581336141;-1,53275560601546
+43;Conservatoire de Nantes;PUBLIC;Dans le hall d'entrée - contre un poteau;Dimanche;13:30;17:30;4 rue Gaétan Rondeau;Nantes;6;47,2074581336141;-1,53275560601546
+44;pharmacie Quancard ( Breil );PRIVÉ;INTÉRIEUR :;;;;59 boulevard Pierre De Coubertin;Nantes;7;47,2287253694111;-1,58784444066793
+45;pharmacie Santos Dumont (Petite Sensive );PRIVÉ;INTÉRIEUR :;;;;3 rue Santos Dumont;Nantes;8;47,2595478760813;-1,5668478390367
+46;Jardin des plantes;PUBLIC;EXTÉRIEUR , sur le mur pignon du bâtiment d'accueil -;Tous les jours de la semaine;08:30;Variable suivant les saisons;Rue Stanislas Baudry;Nantes;5;47,2209220900046;-1,54404099810684
+47;Parc du Grand Blottereau;PUBLIC;EXTÉRIEUR , sur le mur pignon du Gymnase;Tous les jours de la semaine;08:45;Variable suivant les saisons; Boulevard Auguste Péneau;Nantes;10;47,2281789956507;-1,51241136655742
+48;Salles municipales La Manu;PUBLIC;Hall d'accueil à droite en entrant;Lundi au Vendredi;09:00;18:00;10 bis Boulevard de Stalingrad;Nantes;5;47,219403053717;-1,53537753320436
+49;Mairie Annexe des Dervalières;PUBLIC; contre le mur - face à l'entrée;Lundi au Vendredi;08:30;12:45;1 place des Dervallières;Nantes;3;47,2234719179191;-1,59742809004464
+49;Mairie Annexe des Dervalières;PUBLIC; contre le mur - face à l'entrée;Lundi au Vendredi;14:00;17:30;1 place des Dervallières;Nantes;3;47,2234719179191;-1,59742809004464
+49;Mairie Annexe des Dervalières;PUBLIC; contre le mur - face à l'entrée;Samedi;09:00;12:00;1 place des Dervallières;Nantes;3;47,2234719179191;-1,59742809004464
+50;Plaine de Jeux Durantière;PUBLIC;Dans le local du gardien;VARIABLE SUIVANT L'ACTIVITÉ;;;11 rue de la Durantière;Nantes;3;47,2124934982058;-1,60029595368333
+51;LC CLUB Hangar à Banane;PRIVÉ;Dans un local de service sur la droite en entrant;;;;21 quai des Antilles;Nantes;6;47,2012861675173;-1,57285496573142
+52;Piscine Léo Lagrange;PUBLIC;Infirmerie;;;;rue deurbroucq;Nantes;1;47,2098799723372;-1,56005333982138
+53;Piscine Jules Verne;PUBLIC;Infirmerie;;;;41 rue Jules Grangjouan;Nantes;10;47,2482752504886;-1,51745529394017
+54;Piscine Dervallières;PUBLIC;Infirmerie;;;;21 rue Professeur Dubuisson;Nantes;7;47,227375903824;-1,59202950185885
+55;Piscine Petite Amazonie;PUBLIC;Infirmerie;;;;15 rue du Pont de l'Arche de Mauves;Nantes;5;47,2163824454658;-1,5317220105222
+56;Piscine Durantière;PUBLIC;Infirmerie;;;;11 rue de la Durantière;Nantes;3;47,212771695217;-1,59874337804225
